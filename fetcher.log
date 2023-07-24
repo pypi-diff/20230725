@@ -1228,3 +1228,42 @@
 [2023-07-25 01:19:49] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-25 01:19:49] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-25 01:19:49] INFO root fetch - main [MainThread]: Store serial: [19019992]
+[2023-07-25 01:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019992]
+[2023-07-25 01:24:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-25 01:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cudagrad
+[2023-07-25 01:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klongpy
+[2023-07-25 01:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-07-25 01:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wandb
+[2023-07-25 01:24:59] INFO root fetch - processPackages [klongpy]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-25 01:24:59] INFO root fetch - processPackages [cudagrad]: New version: [0.0.22] Old Version: [0.0.20]
+[2023-07-25 01:24:59] INFO root fetch - processPackages [wandb]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-25 01:24:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-25 01:24:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-25 01:24:59] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/9e/0f/9ab350c28d02cc2ad12de38d0a0a053e8c9a041e2848a5555295a9e8ab39/cudagrad-0.0.20.tar.gz
+[2023-07-25 01:24:59] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/69/2d/072ab603601ace1f41c8fd23cd224bb3f451a751d159f1fa44ce810a85ca/klongpy-0.4.0.tar.gz
+[2023-07-25 01:24:59] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/b8/65/eea41233f1a2097ce378afaa8043bfae4e0eb30d7325a44aeb093fd18c15/wandb-0.9.6.tar.gz
+[2023-07-25 01:25:00] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/3a/43/74f7b6fdf7673bccabee3b74f077c4a249b831a3763e1abf60774d7bee6f/cudagrad-0.0.22.tar.gz
+[2023-07-25 01:25:00] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/b9/05/3ba7c6dfddd8819e2a5a4954f4063bac6401c756b37baf2fc507ee776b20/klongpy-0.4.1.tar.gz
+[2023-07-25 01:25:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-25 01:25:00] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-25 01:25:00] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.20.tar.gz tmp/cudagrad-0.0.22.tar.gz --markdown 20230725/c/cudagrad/0.0.20-0.0.22/diff.md --exclude *.pyd
+[2023-07-25 01:25:00] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-07-25 01:25:00] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.4.0.tar.gz tmp/klongpy-0.4.1.tar.gz --markdown 20230725/k/klongpy/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-25 01:25:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-25 01:25:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230725/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-25 01:25:01] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.0.tar.gz]
+[2023-07-25 01:25:01] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.1.tar.gz]
+[2023-07-25 01:25:01] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-07-25 01:25:01] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.20.tar.gz]
+[2023-07-25 01:25:01] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.22.tar.gz]
+[2023-07-25 01:25:01] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-25 01:25:03] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/98/14/b78c9c56d13fa52f303561ca749be7e35da9d96acf1471594d2068a52324/wandb-0.9.7.tar.gz
+[2023-07-25 01:25:05] INFO root fetch - processPackages [wandb]: executing diffoscope
+[2023-07-25 01:25:05] INFO root fetch - processPackages [wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb-0.9.6.tar.gz tmp/wandb-0.9.7.tar.gz --markdown 20230725/w/wandb/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-25 01:25:09] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.6.tar.gz]
+[2023-07-25 01:25:09] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.7.tar.gz]
+[2023-07-25 01:25:09] INFO root fetch - main [MainThread]: End processing [wandb]: success
+[2023-07-25 01:25:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-25 01:25:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-25 01:25:16] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-25 01:25:16] INFO root fetch - main [MainThread]: Store serial: [19020005]
