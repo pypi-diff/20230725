@@ -1437,3 +1437,95 @@
 [2023-07-25 01:35:42] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
 [2023-07-25 01:35:42] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-07-25 01:35:42] INFO root fetch - main [MainThread]: Store serial: [19020080]
+[2023-07-25 01:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020080]
+[2023-07-25 01:40:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adt-decorators
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lexset
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sddp-discovery-protocol
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtrain-superclient
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-organization-python
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-id-python
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adt-decorators
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepbookpy
+[2023-07-25 01:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adt-decorators
+[2023-07-25 01:40:53] INFO root fetch - processPackages [lexset]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [sddp-discovery-protocol]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [deepbookpy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 01:40:53] INFO root fetch - processPackages [sddp-discovery-protocol]: Downloading https://files.pythonhosted.org/packages/6c/ee/2240f62cc3e376c1cf19162e07f7e6422f4551205fba1b7306d8f3bb7149/sddp_discovery_protocol-1.1.0.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/44/ce/4411a3b4635e24240c7dd533716f4080150f374fdca61a884c2aeb349367/mtrain-superclient-0.3.6.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/7b/7f/875cfc3fabf7a257916e3f24af0de6bcf590ff82e43562138c0abc7c6f8e/lexset-4.0.8.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/db/5c/9d764e57af4359fa0beedae901f37b2a5f4a78a22d24b0058919bcd4a76f/adt-decorators-0.2.7.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/db/5c/9d764e57af4359fa0beedae901f37b2a5f4a78a22d24b0058919bcd4a76f/adt-decorators-0.2.7.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/db/5c/9d764e57af4359fa0beedae901f37b2a5f4a78a22d24b0058919bcd4a76f/adt-decorators-0.2.7.tar.gz
+[2023-07-25 01:40:53] INFO root fetch - processPackages [deepbookpy]: Downloading https://files.pythonhosted.org/packages/02/d3/145b46b2eb7551a0eea32a35e7fd8b51612545918022220e3faa91367671/deepbookpy-0.2.0.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/c6/29/dea7d1ba279a190d8ebd742117654319e99da0998259b8dcec31656f6ca3/mtrain-superclient-0.4.0.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/22/11/0c591b710489f238eae3376da3ac94d8eb5f6f26b0bf29293b612db70c3e/adt-decorators-0.2.8.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/22/11/0c591b710489f238eae3376da3ac94d8eb5f6f26b0bf29293b612db70c3e/adt-decorators-0.2.8.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [sddp-discovery-protocol]: Downloading https://files.pythonhosted.org/packages/45/04/c801892ac865356b2a4d1ec7cc5021bf2640b421a2ddbe86756ea5b0dc67/sddp_discovery_protocol-1.2.0.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/e3/c8/ced6015645630bc010c0d894c0a7d87cec0609382092c66144b5b7baf143/lexset-4.0.9.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/22/11/0c591b710489f238eae3376da3ac94d8eb5f6f26b0bf29293b612db70c3e/adt-decorators-0.2.8.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [deepbookpy]: Downloading https://files.pythonhosted.org/packages/f2/8a/c8a3e36a59f6398367791e3b6bd859cc4116f783c3fa4403c7f99bdc4995/deepbookpy-0.3.0.tar.gz
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230725/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230725/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.3.6.tar.gz tmp/mtrain-superclient-0.4.0.tar.gz --markdown 20230725/m/mtrain-superclient/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.8.tar.gz tmp/lexset-4.0.9.tar.gz --markdown 20230725/l/lexset/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [sddp-discovery-protocol]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [sddp-discovery-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddp_discovery_protocol-1.1.0.tar.gz tmp/sddp_discovery_protocol-1.2.0.tar.gz --markdown 20230725/s/sddp-discovery-protocol/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.7.tar.gz tmp/adt-decorators-0.2.8.tar.gz --markdown 20230725/a/adt-decorators/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.7.tar.gz tmp/adt-decorators-0.2.8.tar.gz --markdown 20230725/a/adt-decorators/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.7.tar.gz tmp/adt-decorators-0.2.8.tar.gz --markdown 20230725/a/adt-decorators/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [deepbookpy]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [deepbookpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepbookpy-0.2.0.tar.gz tmp/deepbookpy-0.3.0.tar.gz --markdown 20230725/d/deepbookpy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-25 01:40:54] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230725/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 01:40:56] INFO root fetch - processPackages [lexset]: Remove: archive file [/home/abi/fetcher/tmp/lexset-4.0.8.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [lexset]: Remove: archive file [/home/abi/fetcher/tmp/lexset-4.0.9.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [lexset]: Start processing: gpt-automation
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-07-25 01:40:56] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.6.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.4.0.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-25 01:40:56] WARNING root fetch - processPackages [gpt-automation]: Skipping, unable to determine old version
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [gpt-automation] error
+[2023-07-25 01:40:56] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.7.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.8.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:40:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:40:56] INFO root fetch - processPackages [deepbookpy]: Remove: archive file [/home/abi/fetcher/tmp/deepbookpy-0.2.0.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [deepbookpy]: Remove: archive file [/home/abi/fetcher/tmp/deepbookpy-0.3.0.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [deepbookpy]: success
+[2023-07-25 01:40:56] INFO root fetch - processPackages [sddp-discovery-protocol]: Remove: archive file [/home/abi/fetcher/tmp/sddp_discovery_protocol-1.1.0.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [sddp-discovery-protocol]: Remove: archive file [/home/abi/fetcher/tmp/sddp_discovery_protocol-1.2.0.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [sddp-discovery-protocol]: success
+[2023-07-25 01:40:56] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-25 01:40:56] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-25 01:40:57] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-25 01:40:57] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-25 01:40:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-25 01:40:57] INFO root fetch - main [MainThread]: Store serial: [19020113]
