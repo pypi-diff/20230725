@@ -836,3 +836,108 @@
 [2023-07-25 00:48:17] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
 [2023-07-25 00:48:17] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-07-25 00:48:17] INFO root fetch - main [MainThread]: Store serial: [19019830]
+[2023-07-25 00:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019830]
+[2023-07-25 00:53:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-capability
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etawatch
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrahouse-toolkit
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgeiq
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mio-cli
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicodebot
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discovery-capability
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrunch
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpamaker
+[2023-07-25 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: marvin
+[2023-07-25 00:53:25] INFO root fetch - processPackages [mio-cli]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [discovery-capability]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [scrunch]: New version: [6.5.2007.post1690238344] Old Version: [6.5.2006.post1690223540]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [discovery-capability]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [marvin]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [etawatch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [edgeiq]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-25 00:53:25] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-25 00:53:26] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/43/77/f20ef367a98f85b36fc80fb0ecde8c9da00cf0a904291ee29ecae559ef20/mio-cli-1.3.2.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/48/df/5e4a58cd533b8db9f1f4adf995ed665dce7cbcab920c02746c5ce3b3b065/infrahouse-toolkit-1.6.0.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/82/2b/2c75179b04890649ea49139937853df38f77ba8249b1818abfde11008610/scrunch-6.5.2006.post1690223540.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/80/c4/d3aa130997bd1cc05394f3f8af28e7aaa939ef4062698c028df0a8ddda0b/discovery-capability-0.4.3.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [edgeiq]: Downloading https://files.pythonhosted.org/packages/a9/11/3969abc5b250988661f9fa3499ce23b1bced1844882e71d0f9b1324722f1/edgeiq-2.1.0-cp38-none-win_amd64.whl
+[2023-07-25 00:53:26] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/80/c4/d3aa130997bd1cc05394f3f8af28e7aaa939ef4062698c028df0a8ddda0b/discovery-capability-0.4.3.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [etawatch]: Downloading https://files.pythonhosted.org/packages/dd/8e/71520fe36e02efe591ae4f7ab1d1f9b757212e8f9f543862ff1582000e90/etawatch-1.0.0.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [marvin]: Downloading https://files.pythonhosted.org/packages/61/d9/094c73bc3dfc202f2b7900c5ae911f0e5d745d7f0f6d6a6ef35647098b7a/marvin-1.1.0.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-25 00:53:26] WARNING root fetch - processPackages [marvin]: Skipping package: exceeds size limit 17615706>=10485760
+[2023-07-25 00:53:26] INFO root fetch - processPackages [marvin]: Start processing: sparse-dot-topn
+[2023-07-25 00:53:26] INFO root fetch - main [MainThread]: End processing [marvin] error
+[2023-07-25 00:53:26] INFO root fetch - processPackages [sparse-dot-topn]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-25 00:53:26] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/fb/f1/2bbec1ceed03551bad796cf5ecff50ae34ea053ee968d19387f961bbd5ad/scrunch-6.5.2007.post1690238344.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/47/50/69ef2d39feb454b0540e3dcdd0ea607c86a2c82d1941c83324d5971376bc/infrahouse-toolkit-1.7.0.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [etawatch]: Downloading https://files.pythonhosted.org/packages/34/2a/19e0125b524570609a072b8e486700f65d7d448b240056c11694c06f6c97/etawatch-1.0.1.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [sparse-dot-topn]: Downloading https://files.pythonhosted.org/packages/43/6e/d44d51a9b2e021b3452fe77ee76bd14962cfdb2b84c6ce2db47a24c471e4/sparse_dot_topn-0.3.4-cp39-cp39-win_amd64.whl
+[2023-07-25 00:53:26] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/a9/f2/b352aac2f6fa6f39f23d8b1b542ac4c1ba42ae7b97658de44c7ccbadf59b/mio-cli-1.3.3.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-25 00:53:26] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-25 00:53:26] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2006.post1690223540.tar.gz tmp/scrunch-6.5.2007.post1690238344.tar.gz --markdown 20230725/s/scrunch/6.5.2006.post1690223540-6.5.2007.post1690238344/diff.md --exclude *.pyd
+[2023-07-25 00:53:26] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-25 00:53:26] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-1.6.0.tar.gz tmp/infrahouse-toolkit-1.7.0.tar.gz --markdown 20230725/i/infrahouse-toolkit/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-25 00:53:26] INFO root fetch - processPackages [edgeiq]: Downloading https://files.pythonhosted.org/packages/22/bc/21a4b4bd788d089daeea46d3e393c328043eb4a88e1466ad66ea33522873/edgeiq-2.1.1-cp38-none-win_amd64.whl
+[2023-07-25 00:53:26] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-25 00:53:26] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230725/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 00:53:27] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-25 00:53:27] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230725/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-25 00:53:27] INFO root fetch - processPackages [etawatch]: executing diffoscope
+[2023-07-25 00:53:27] INFO root fetch - processPackages [etawatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etawatch-1.0.0.tar.gz tmp/etawatch-1.0.1.tar.gz --markdown 20230725/e/etawatch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-25 00:53:27] INFO root fetch - processPackages [sparse-dot-topn]: Downloading https://files.pythonhosted.org/packages/25/2b/6d47ecfbe230ba3d3a943fd59d186444499dddba80281fe3011aef9a2a86/sparse_dot_topn-0.3.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-25 00:53:27] INFO root fetch - processPackages [edgeiq]: executing diffoscope
+[2023-07-25 00:53:27] INFO root fetch - processPackages [edgeiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeiq-2.1.0-cp38-none-win_amd64.whl.zip tmp/edgeiq-2.1.1-cp38-none-win_amd64.whl.zip --markdown 20230725/e/edgeiq/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-25 00:53:27] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.8.tar.gz]
+[2023-07-25 00:53:27] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.9.tar.gz]
+[2023-07-25 00:53:27] INFO root fetch - processPackages [rpamaker]: Start processing: landingai
+[2023-07-25 00:53:27] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-25 00:53:28] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/9c/f3/5adb40930fb33651a1d027dac7db2cb46772fb725a8daabca9af82d68ca8/discovery-capability-0.4.4.tar.gz
+[2023-07-25 00:53:28] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/9c/f3/5adb40930fb33651a1d027dac7db2cb46772fb725a8daabca9af82d68ca8/discovery-capability-0.4.4.tar.gz
+[2023-07-25 00:53:28] INFO root fetch - processPackages [landingai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-25 00:53:28] INFO root fetch - processPackages [etawatch]: Remove: archive file [/home/abi/fetcher/tmp/etawatch-1.0.0.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - processPackages [etawatch]: Remove: archive file [/home/abi/fetcher/tmp/etawatch-1.0.1.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - main [MainThread]: End processing [etawatch]: success
+[2023-07-25 00:53:28] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-25 00:53:28] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.6.0.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.7.0.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-25 00:53:28] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2006.post1690223540.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2007.post1690238344.tar.gz]
+[2023-07-25 00:53:28] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-25 00:53:28] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/bc/c0/71eef7e0f41b4a8a1e9500693e4380635b9d17e959fbda8bd8ff906c519e/landingai-0.2.8.tar.gz
+[2023-07-25 00:53:28] INFO root fetch - processPackages [mio-cli]: executing diffoscope
+[2023-07-25 00:53:28] INFO root fetch - processPackages [mio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mio-cli-1.3.2.tar.gz tmp/mio-cli-1.3.3.tar.gz --markdown 20230725/m/mio-cli/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-25 00:53:28] INFO root fetch - processPackages [sparse-dot-topn]: executing diffoscope
+[2023-07-25 00:53:28] INFO root fetch - processPackages [sparse-dot-topn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dot_topn-0.3.4-cp39-cp39-win_amd64.whl.zip tmp/sparse_dot_topn-0.3.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230725/s/sparse-dot-topn/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-25 00:53:28] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/ea/3f/715b25bf04d5b0a3ce1ac88585fd0936b894706f86e810287e4d079fab4d/landingai-0.2.9.tar.gz
+[2023-07-25 00:53:28] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-25 00:53:28] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.8.tar.gz tmp/landingai-0.2.9.tar.gz --markdown 20230725/l/landingai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-25 00:53:29] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-07-25 00:53:29] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.4.3.tar.gz tmp/discovery-capability-0.4.4.tar.gz --markdown 20230725/d/discovery-capability/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-25 00:53:29] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-07-25 00:53:29] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.4.3.tar.gz tmp/discovery-capability-0.4.4.tar.gz --markdown 20230725/d/discovery-capability/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-25 00:53:29] INFO root fetch - processPackages [sparse-dot-topn]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dot_topn-0.3.4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 00:53:29] INFO root fetch - processPackages [sparse-dot-topn]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dot_topn-0.3.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-25 00:53:29] INFO root fetch - main [MainThread]: End processing [sparse-dot-topn]: success
+[2023-07-25 00:53:30] INFO root fetch - processPackages [edgeiq]: Remove: archive file [/home/abi/fetcher/tmp/edgeiq-2.1.0-cp38-none-win_amd64.whl.zip]
+[2023-07-25 00:53:30] INFO root fetch - processPackages [edgeiq]: Remove: archive file [/home/abi/fetcher/tmp/edgeiq-2.1.1-cp38-none-win_amd64.whl.zip]
+[2023-07-25 00:53:30] INFO root fetch - main [MainThread]: End processing [edgeiq]: success
+[2023-07-25 00:53:30] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.8.tar.gz]
+[2023-07-25 00:53:30] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.9.tar.gz]
+[2023-07-25 00:53:30] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-25 00:53:30] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.3.2.tar.gz]
+[2023-07-25 00:53:30] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.3.3.tar.gz]
+[2023-07-25 00:53:30] INFO root fetch - main [MainThread]: End processing [mio-cli]: success
+[2023-07-25 00:53:32] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.3.tar.gz]
+[2023-07-25 00:53:32] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.4.tar.gz]
+[2023-07-25 00:53:32] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-07-25 00:53:32] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-07-25 00:53:32] INFO root fetch - main [MainThread]: Store serial: [19019885]
