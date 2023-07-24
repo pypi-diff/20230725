@@ -1152,3 +1152,33 @@
 [2023-07-25 01:09:23] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.7.tar.gz]
 [2023-07-25 01:09:23] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-07-25 01:09:23] INFO root fetch - main [MainThread]: Store serial: [19019970]
+[2023-07-25 01:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019970]
+[2023-07-25 01:14:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-25 01:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidwright
+[2023-07-25 01:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lp-ap-tools
+[2023-07-25 01:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudmesh-rivanna
+[2023-07-25 01:14:33] INFO root fetch - processPackages [rapidwright]: New version: [2023.1.2] Old Version: [2023.1.1]
+[2023-07-25 01:14:33] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 01:14:33] INFO root fetch - processPackages [cloudmesh-rivanna]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-07-25 01:14:33] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/73/9c/dc88916ee5b63cb4403294eabeffbebed461d4133bf28b8fb0172544c60d/lp_ap_tools-0.1.8.tar.gz
+[2023-07-25 01:14:33] INFO root fetch - processPackages [rapidwright]: Downloading https://files.pythonhosted.org/packages/34/65/af75b207bf4d6a927e6f656c242ea9ccba6853720bb2a469870c207073de/rapidwright-2023.1.1.tar.gz
+[2023-07-25 01:14:33] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/a9/7d/4898565493eb4682f3efd3ebf4ef1fac7d2d238b44e3347de7adb2abf3f5/cloudmesh-rivanna-4.3.7.tar.gz
+[2023-07-25 01:14:34] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/60/30/9436ae88f7049a647af3550f22b83b9037d28005443edf88187b4b1d6e2d/lp_ap_tools-0.1.9.tar.gz
+[2023-07-25 01:14:34] INFO root fetch - processPackages [rapidwright]: Downloading https://files.pythonhosted.org/packages/f9/df/bf673fdc791e9535ab07ae6d8e278701814d03cca7636c4855754b059937/rapidwright-2023.1.2.tar.gz
+[2023-07-25 01:14:34] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/8e/b7/af580f77c415e3f230c8dd6478393df55e1cfef04b4cb397ab8a9312d846/cloudmesh-rivanna-4.3.8.tar.gz
+[2023-07-25 01:14:34] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-07-25 01:14:34] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.8.tar.gz tmp/lp_ap_tools-0.1.9.tar.gz --markdown 20230725/l/lp-ap-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 01:14:34] INFO root fetch - processPackages [rapidwright]: executing diffoscope
+[2023-07-25 01:14:34] INFO root fetch - processPackages [rapidwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidwright-2023.1.1.tar.gz tmp/rapidwright-2023.1.2.tar.gz --markdown 20230725/r/rapidwright/2023.1.1-2023.1.2/diff.md --exclude *.pyd
+[2023-07-25 01:14:34] INFO root fetch - processPackages [cloudmesh-rivanna]: executing diffoscope
+[2023-07-25 01:14:34] INFO root fetch - processPackages [cloudmesh-rivanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-rivanna-4.3.7.tar.gz tmp/cloudmesh-rivanna-4.3.8.tar.gz --markdown 20230725/c/cloudmesh-rivanna/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-07-25 01:14:35] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.8.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.9.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-07-25 01:14:35] INFO root fetch - processPackages [rapidwright]: Remove: archive file [/home/abi/fetcher/tmp/rapidwright-2023.1.1.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - processPackages [rapidwright]: Remove: archive file [/home/abi/fetcher/tmp/rapidwright-2023.1.2.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - main [MainThread]: End processing [rapidwright]: success
+[2023-07-25 01:14:35] INFO root fetch - processPackages [cloudmesh-rivanna]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-rivanna-4.3.7.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - processPackages [cloudmesh-rivanna]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-rivanna-4.3.8.tar.gz]
+[2023-07-25 01:14:35] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
+[2023-07-25 01:14:35] INFO root fetch - main [MainThread]: Store serial: [19019978]
