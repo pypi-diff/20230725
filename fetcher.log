@@ -786,3 +786,53 @@
 [2023-07-25 00:43:05] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-25 00:43:05] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-25 00:43:05] INFO root fetch - main [MainThread]: Store serial: [19019797]
+[2023-07-25 00:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019797]
+[2023-07-25 00:48:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsl
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coastseg
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coastseg
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oai-utils
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ag-llama-api
+[2023-07-25 00:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ag-llama-api
+[2023-07-25 00:48:13] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:48:14] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:48:14] INFO root fetch - processPackages [parsl]: New version: [2023.7.3] Old Version: [2023.7.24]
+[2023-07-25 00:48:14] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-07-25 00:48:14] WARNING root fetch - processPackages [oai-utils]: Skipping, unable to determine old version
+[2023-07-25 00:48:14] INFO root fetch - main [MainThread]: End processing [oai-utils] error
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:48:14] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.406] Old Version: [0.3.405]
+[2023-07-25 00:48:14] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-07-25 00:48:14] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-07-25 00:48:14] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-07-25 00:48:14] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-07-25 00:48:14] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/d0/c8/6ce4b9d446c5d6240a6974c9f634320bd4784f14b6aa2149398ac6929fd4/parsl-2023.7.24.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/34/42453aff7992c490c0384c417d5f4ead2b7f31e91e997a0c23dea141f716/pepperize.cdk-ses-smtp-credentials-0.3.405.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/26/09e9b5612f75ad60b2daad9b8b512ece02113a169a8e4cbbd4a346c02af2/parsl-2023.7.3.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/cc/90/7e4ec56dd4393d2b4f13770b24a19f189bc0dba3228d0b0765c249acb34f/pepperize.cdk-ses-smtp-credentials-0.3.406.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-25 00:48:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-25 00:48:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.405.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.406.tar.gz --markdown 20230725/p/pepperize.cdk-ses-smtp-credentials/0.3.405-0.3.406/diff.md --exclude *.pyd
+[2023-07-25 00:48:14] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-07-25 00:48:14] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.7.24.tar.gz tmp/parsl-2023.7.3.tar.gz --markdown 20230725/p/parsl/2023.7.24-2023.7.3/diff.md --exclude *.pyd
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230725/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 00:48:14] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230725/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 00:48:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.405.tar.gz]
+[2023-07-25 00:48:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.406.tar.gz]
+[2023-07-25 00:48:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-25 00:48:15] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-25 00:48:15] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-25 00:48:15] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-25 00:48:15] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-25 00:48:17] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.24.tar.gz]
+[2023-07-25 00:48:17] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
+[2023-07-25 00:48:17] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-07-25 00:48:17] INFO root fetch - main [MainThread]: Store serial: [19019830]
