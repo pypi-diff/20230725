@@ -197,3 +197,54 @@
 [2023-07-25 00:11:37] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-0.9.2.tar.gz]
 [2023-07-25 00:11:37] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
 [2023-07-25 00:11:37] INFO root fetch - main [MainThread]: Store serial: [19019588]
+[2023-07-25 00:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019588]
+[2023-07-25 00:16:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marginaleffects
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-rich-presence
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file-qt
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axe-playwright-python
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tincheck
+[2023-07-25 00:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camera-stage-mapping
+[2023-07-25 00:16:46] WARNING root fetch - processPackages [tincheck]: Skipping, unable to determine old version
+[2023-07-25 00:16:46] INFO root fetch - main [MainThread]: End processing [tincheck] error
+[2023-07-25 00:16:46] INFO root fetch - processPackages [faker-file-qt]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-25 00:16:46] INFO root fetch - processPackages [camera-stage-mapping]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 00:16:46] INFO root fetch - processPackages [discord-rich-presence]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-25 00:16:46] INFO root fetch - processPackages [marginaleffects]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 00:16:46] INFO root fetch - processPackages [axe-playwright-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 00:16:46] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/08/d5/b4770146ee5ca2d34e34157ff6c13edb18a78a48a6dabf7e351c48695f16/faker-file-qt-0.1.tar.gz
+[2023-07-25 00:16:46] INFO root fetch - processPackages [discord-rich-presence]: Downloading https://files.pythonhosted.org/packages/65/ac/211f8a3d52e8b3807e6072c5b13ee46a24a83bb895355a638e48be569908/discord-rich-presence-1.0.3.tar.gz
+[2023-07-25 00:16:46] INFO root fetch - processPackages [camera-stage-mapping]: Downloading https://files.pythonhosted.org/packages/fc/d2/a1f53f63f60dad96440791a28821ae118e9a526942479ae0e056c446a6f5/camera-stage-mapping-0.1.4.tar.gz
+[2023-07-25 00:16:46] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/3d/98/71acb6aba3c620b4ac27abbafa7ab212f49246c86ed90fc48c37283b59ea/marginaleffects-0.0.2.tar.gz
+[2023-07-25 00:16:46] INFO root fetch - processPackages [axe-playwright-python]: Downloading https://files.pythonhosted.org/packages/cd/99/5bc8c52fbdd1a23781e1162e0a56302f3131e04e5cf7b73ebe7608decf84/axe_playwright_python-0.1.1.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [discord-rich-presence]: Downloading https://files.pythonhosted.org/packages/99/5c/476e00d8fa145c29db353c3d6c9d936c146b4461c12310154420d3ca4211/discord-rich-presence-1.1.0.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [faker-file-qt]: Downloading https://files.pythonhosted.org/packages/fc/40/d7fc540d2f7254ce6380322ce73c993753db8eec6c93de7d60c385e824b9/faker-file-qt-0.1.1.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [camera-stage-mapping]: Downloading https://files.pythonhosted.org/packages/72/15/c35a07babd071d72bcd08f3b05125eb83313f33cfa4c5fba378ed7f74e36/camera_stage_mapping-0.1.5.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/8e/20/c2a7931299a1cd78815770ea7722d1e39bd0b366bab7e6898e0e67520153/marginaleffects-0.0.3.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [axe-playwright-python]: Downloading https://files.pythonhosted.org/packages/19/10/111ed0fd7b9be02da51da0dd2514077d1aedbda1bddcd36cdb1f4504e08e/axe_playwright_python-0.1.2.tar.gz
+[2023-07-25 00:16:47] INFO root fetch - processPackages [camera-stage-mapping]: executing diffoscope
+[2023-07-25 00:16:47] INFO root fetch - processPackages [camera-stage-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-stage-mapping-0.1.4.tar.gz tmp/camera_stage_mapping-0.1.5.tar.gz --markdown 20230725/c/camera-stage-mapping/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 00:16:47] INFO root fetch - processPackages [discord-rich-presence]: executing diffoscope
+[2023-07-25 00:16:47] INFO root fetch - processPackages [discord-rich-presence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-rich-presence-1.0.3.tar.gz tmp/discord-rich-presence-1.1.0.tar.gz --markdown 20230725/d/discord-rich-presence/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 00:16:47] INFO root fetch - processPackages [faker-file-qt]: executing diffoscope
+[2023-07-25 00:16:47] INFO root fetch - processPackages [faker-file-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-qt-0.1.tar.gz tmp/faker-file-qt-0.1.1.tar.gz --markdown 20230725/f/faker-file-qt/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 00:16:47] INFO root fetch - processPackages [marginaleffects]: executing diffoscope
+[2023-07-25 00:16:47] INFO root fetch - processPackages [marginaleffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marginaleffects-0.0.2.tar.gz tmp/marginaleffects-0.0.3.tar.gz --markdown 20230725/m/marginaleffects/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 00:16:47] INFO root fetch - processPackages [axe-playwright-python]: executing diffoscope
+[2023-07-25 00:16:47] INFO root fetch - processPackages [axe-playwright-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axe_playwright_python-0.1.1.tar.gz tmp/axe_playwright_python-0.1.2.tar.gz --markdown 20230725/a/axe-playwright-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 00:16:48] INFO root fetch - processPackages [discord-rich-presence]: Remove: archive file [/home/abi/fetcher/tmp/discord-rich-presence-1.0.3.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - processPackages [discord-rich-presence]: Remove: archive file [/home/abi/fetcher/tmp/discord-rich-presence-1.1.0.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: End processing [discord-rich-presence]: success
+[2023-07-25 00:16:48] INFO root fetch - processPackages [axe-playwright-python]: Remove: archive file [/home/abi/fetcher/tmp/axe_playwright_python-0.1.1.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - processPackages [axe-playwright-python]: Remove: archive file [/home/abi/fetcher/tmp/axe_playwright_python-0.1.2.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: End processing [axe-playwright-python]: success
+[2023-07-25 00:16:48] INFO root fetch - processPackages [camera-stage-mapping]: Remove: archive file [/home/abi/fetcher/tmp/camera-stage-mapping-0.1.4.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - processPackages [camera-stage-mapping]: Remove: archive file [/home/abi/fetcher/tmp/camera_stage_mapping-0.1.5.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: End processing [camera-stage-mapping]: success
+[2023-07-25 00:16:48] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - processPackages [faker-file-qt]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-qt-0.1.1.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: End processing [faker-file-qt]: success
+[2023-07-25 00:16:48] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.2.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.3.tar.gz]
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: End processing [marginaleffects]: success
+[2023-07-25 00:16:48] INFO root fetch - main [MainThread]: Store serial: [19019610]
