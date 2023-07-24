@@ -433,3 +433,110 @@
 [2023-07-25 00:27:14] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.0.tar.gz]
 [2023-07-25 00:27:14] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-07-25 00:27:14] INFO root fetch - main [MainThread]: Store serial: [19019678]
+[2023-07-25 00:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019678]
+[2023-07-25 00:32:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asana-preview
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellworld
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adt-decorators
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GPT4Readability
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libensemble
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aries-cloudagent
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gimera
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prefect-lakefs
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Kerko
+[2023-07-25 00:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adt-decorators
+[2023-07-25 00:32:22] INFO root fetch - processPackages [libensemble]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [GPT4Readability]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [asana-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [prefect-lakefs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [aries-cloudagent]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [gimera]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [Kerko]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/78/a5/90c57eda98216bf6643136fa62539c8283eb5d49a0defcc7bb25637d8a63/adt-decorators-0.2.0.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/1a/ba/adbc28719e3ac8cc41566922843964568bc78663043113182819dbdc9960/GPT4Readability-0.0.6.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/78/a5/90c57eda98216bf6643136fa62539c8283eb5d49a0defcc7bb25637d8a63/adt-decorators-0.2.0.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [libensemble]: Downloading https://files.pythonhosted.org/packages/4b/2f/e2be1f732a5ceff2e56c7738f437dd0b4d0bbd9f6d026e40756b6f96e4a6/libensemble-0.9.2.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b9/86/1b93b637d5dcdc9700b98ae5e9170ce0e1051294484dc2282d7a5469485b/gimera-0.7.2.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [prefect-lakefs]: Downloading https://files.pythonhosted.org/packages/12/40/190418bae5050d35f0afcfb06e142849be66baf2129206369f95abce3f7e/prefect-lakefs-0.1.0.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/93/05/659ccc126e716daebe92215caaf65fba86b46c515a3e36abbae43be11e95/aries_cloudagent-1.0.0rc2.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [Kerko]: Downloading https://files.pythonhosted.org/packages/03/5e/fec11daf8faae0eeab664be70561e67e7be447cbd9cc3e5e6281b6cd946e/Kerko-1.0.0a1.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/c9/dd/f7c87cc39921c4c4acbc9d7e1ac10e96b6576bedc387c7875ba1c0dc8652/GPT4Readability-0.0.7.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/6f/9a/26bb75ede45b05381f62408312bcc992526b5c41de417b65ad09c92b1fed/adt-decorators-0.2.1.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/6f/9a/26bb75ede45b05381f62408312bcc992526b5c41de417b65ad09c92b1fed/adt-decorators-0.2.1.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana_preview-1.0.8.tar.gz tmp/asana_preview-1.0.9.tar.gz --markdown 20230725/a/asana-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 00:32:23] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/58/69/f5e01a892f258c608c4423e67da32d0a18e630bcf12d9e9c50e6d061b527/gimera-0.7.3.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.0.tar.gz tmp/adt-decorators-0.2.1.tar.gz --markdown 20230725/a/adt-decorators/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 00:32:23] INFO root fetch - processPackages [GPT4Readability]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [GPT4Readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPT4Readability-0.0.6.tar.gz tmp/GPT4Readability-0.0.7.tar.gz --markdown 20230725/G/GPT4Readability/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-25 00:32:23] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230725/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.0.tar.gz tmp/adt-decorators-0.2.1.tar.gz --markdown 20230725/a/adt-decorators/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 00:32:23] INFO root fetch - processPackages [prefect-lakefs]: Downloading https://files.pythonhosted.org/packages/d5/6c/bc1c4c11d6bf641cac8788a8c30b0722ae0d33ddf993d1089277ece2bb2d/prefect-lakefs-0.2.0.tar.gz
+[2023-07-25 00:32:23] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-07-25 00:32:23] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.2.tar.gz tmp/gimera-0.7.3.tar.gz --markdown 20230725/g/gimera/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-25 00:32:24] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/df/e6/2f8ad139caaeabc991da062211cd01e4413b670530de558c0984561c2ff5/aries_cloudagent-1.0.0rc3.tar.gz
+[2023-07-25 00:32:24] INFO root fetch - processPackages [prefect-lakefs]: executing diffoscope
+[2023-07-25 00:32:24] INFO root fetch - processPackages [prefect-lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-lakefs-0.1.0.tar.gz tmp/prefect-lakefs-0.2.0.tar.gz --markdown 20230725/p/prefect-lakefs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 00:32:24] INFO root fetch - processPackages [aries-cloudagent]: executing diffoscope
+[2023-07-25 00:32:24] INFO root fetch - processPackages [aries-cloudagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudagent-1.0.0rc2.tar.gz tmp/aries_cloudagent-1.0.0rc3.tar.gz --markdown 20230725/a/aries-cloudagent/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-07-25 00:32:24] INFO root fetch - processPackages [Kerko]: Downloading https://files.pythonhosted.org/packages/c2/30/6737184da6123ced6bf5e8d2a4f96531663e7be15ebb300b474b6aa62a1a/Kerko-1.0.0a2.tar.gz
+[2023-07-25 00:32:24] INFO root fetch - processPackages [Kerko]: executing diffoscope
+[2023-07-25 00:32:24] INFO root fetch - processPackages [Kerko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kerko-1.0.0a1.tar.gz tmp/Kerko-1.0.0a2.tar.gz --markdown 20230725/K/Kerko/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-25 00:32:24] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.8.tar.gz]
+[2023-07-25 00:32:24] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.9.tar.gz]
+[2023-07-25 00:32:24] INFO root fetch - processPackages [asana-preview]: Start processing: FastMBAR
+[2023-07-25 00:32:24] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-07-25 00:32:24] INFO root fetch - processPackages [FastMBAR]: New version: [1.3] Old Version: [1.2]
+[2023-07-25 00:32:24] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-25 00:32:24] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-25 00:32:24] INFO root fetch - processPackages [cellworld]: Start processing: eArsivPortal
+[2023-07-25 00:32:24] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-25 00:32:25] INFO root fetch - processPackages [eArsivPortal]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-25 00:32:25] INFO root fetch - processPackages [eArsivPortal]: Downloading https://files.pythonhosted.org/packages/41/44/ada6455414dbb0480364700f23c58ff7d1de2095ae37be19b85433efb4c9/eArsivPortal-1.0.1.tar.gz
+[2023-07-25 00:32:25] INFO root fetch - processPackages [FastMBAR]: Downloading https://files.pythonhosted.org/packages/ec/8a/453e263d4c8592b5791394cd6975507e46a2e9fae37046e5ee8ea915e5e7/fastmbar-1.2.tar.gz
+[2023-07-25 00:32:25] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.6.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.7.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - main [MainThread]: End processing [GPT4Readability]: success
+[2023-07-25 00:32:25] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.0.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.1.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 00:32:25] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 00:32:25] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.2.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.3.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-07-25 00:32:25] INFO root fetch - processPackages [eArsivPortal]: Downloading https://files.pythonhosted.org/packages/46/73/d228b0c9d51736f7e6c8588e02781487bcf861c21932443a1cd39fcb99d8/eArsivPortal-1.0.3.tar.gz
+[2023-07-25 00:32:25] INFO root fetch - processPackages [prefect-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/prefect-lakefs-0.1.0.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - processPackages [prefect-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/prefect-lakefs-0.2.0.tar.gz]
+[2023-07-25 00:32:25] INFO root fetch - main [MainThread]: End processing [prefect-lakefs]: success
+[2023-07-25 00:32:25] INFO root fetch - processPackages [eArsivPortal]: executing diffoscope
+[2023-07-25 00:32:25] INFO root fetch - processPackages [eArsivPortal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eArsivPortal-1.0.1.tar.gz tmp/eArsivPortal-1.0.3.tar.gz --markdown 20230725/e/eArsivPortal/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-25 00:32:26] INFO root fetch - processPackages [FastMBAR]: Downloading https://files.pythonhosted.org/packages/b3/10/839297ca18b9e0f49faab31902ac7eb1fe898015c3062b7543727604d424/fastmbar-1.3.tar.gz
+[2023-07-25 00:32:26] INFO root fetch - processPackages [eArsivPortal]: Remove: archive file [/home/abi/fetcher/tmp/eArsivPortal-1.0.1.tar.gz]
+[2023-07-25 00:32:26] INFO root fetch - processPackages [eArsivPortal]: Remove: archive file [/home/abi/fetcher/tmp/eArsivPortal-1.0.3.tar.gz]
+[2023-07-25 00:32:26] INFO root fetch - main [MainThread]: End processing [eArsivPortal]: success
+[2023-07-25 00:32:26] INFO root fetch - processPackages [Kerko]: Remove: archive file [/home/abi/fetcher/tmp/Kerko-1.0.0a1.tar.gz]
+[2023-07-25 00:32:26] INFO root fetch - processPackages [Kerko]: Remove: archive file [/home/abi/fetcher/tmp/Kerko-1.0.0a2.tar.gz]
+[2023-07-25 00:32:26] INFO root fetch - main [MainThread]: End processing [Kerko]: success
+[2023-07-25 00:32:26] INFO root fetch - processPackages [libensemble]: Downloading https://files.pythonhosted.org/packages/55/fe/9cef349389c8756a02aaa213400de71160af282dddabc562b4583cb1155c/libensemble-0.9.3.tar.gz
+[2023-07-25 00:32:27] INFO root fetch - processPackages [libensemble]: executing diffoscope
+[2023-07-25 00:32:27] INFO root fetch - processPackages [libensemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libensemble-0.9.2.tar.gz tmp/libensemble-0.9.3.tar.gz --markdown 20230725/l/libensemble/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-25 00:32:27] INFO root fetch - processPackages [FastMBAR]: executing diffoscope
+[2023-07-25 00:32:27] INFO root fetch - processPackages [FastMBAR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmbar-1.2.tar.gz tmp/fastmbar-1.3.tar.gz --markdown 20230725/F/FastMBAR/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-25 00:32:30] INFO root fetch - processPackages [FastMBAR]: Remove: archive file [/home/abi/fetcher/tmp/fastmbar-1.2.tar.gz]
+[2023-07-25 00:32:30] INFO root fetch - processPackages [FastMBAR]: Remove: archive file [/home/abi/fetcher/tmp/fastmbar-1.3.tar.gz]
+[2023-07-25 00:32:30] INFO root fetch - main [MainThread]: End processing [FastMBAR]: success
+[2023-07-25 00:32:32] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc2.tar.gz]
+[2023-07-25 00:32:32] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc3.tar.gz]
+[2023-07-25 00:32:32] INFO root fetch - main [MainThread]: End processing [aries-cloudagent]: success
+[2023-07-25 00:32:32] INFO root fetch - processPackages [libensemble]: Remove: archive file [/home/abi/fetcher/tmp/libensemble-0.9.2.tar.gz]
+[2023-07-25 00:32:32] INFO root fetch - processPackages [libensemble]: Remove: archive file [/home/abi/fetcher/tmp/libensemble-0.9.3.tar.gz]
+[2023-07-25 00:32:32] INFO root fetch - main [MainThread]: End processing [libensemble]: success
+[2023-07-25 00:32:32] INFO root fetch - main [MainThread]: Store serial: [19019714]
