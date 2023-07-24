@@ -1747,3 +1747,60 @@
 [2023-07-25 01:51:24] INFO root fetch - processPackages [ark-analysis]: Remove: archive file [/home/abi/fetcher/tmp/ark-analysis-0.6.4.tar.gz]
 [2023-07-25 01:51:24] INFO root fetch - main [MainThread]: End processing [ark-analysis]: success
 [2023-07-25 01:51:24] INFO root fetch - main [MainThread]: Store serial: [19020231]
+[2023-07-25 01:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020231]
+[2023-07-25 01:56:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glypniro
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testflows.github.runners
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adt-decorators
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dicomset
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycde
+[2023-07-25 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atzlib
+[2023-07-25 01:56:35] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.1.230724.1235202] Old Version: [1.1.230724.1224132]
+[2023-07-25 01:56:35] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-25 01:56:35] INFO root fetch - processPackages [glypniro]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 01:56:35] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 01:56:35] INFO root fetch - processPackages [hyfi]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-25 01:56:35] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev988] Old Version: [0.2.1.dev961]
+[2023-07-25 01:56:35] WARNING root fetch - processPackages [atzlib]: Skipping, unable to determine old version
+[2023-07-25 01:56:35] INFO root fetch - main [MainThread]: End processing [atzlib] error
+[2023-07-25 01:56:35] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/22/11/0c591b710489f238eae3376da3ac94d8eb5f6f26b0bf29293b612db70c3e/adt-decorators-0.2.8.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/27/59/e2e0755043db6e3ed8bc1d559c49564b4cbf25dba98dc81066f3f66bb984/hyfi-1.9.2.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/ec/0c/3d352abe00221d6b2d6638852f25742561ed3beb2b82ce2732cf9108de91/testflows.github.runners-1.1.230724.1224132.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/bc/1d/9895b05883e130660c3aab10f553dda9b76e19303cee60ec2fc10052212c/glypniro-0.1.0.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b7/ed/804e0141dfcd66f1160e48bcb2d0162bfe55d21ef588a6e07e0806b0a859/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl
+[2023-07-25 01:56:35] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/be/22/68e5033c3333162d751d79ef0b31980db24fdff175766bc55dfbc1eff7ee/adt-decorators-0.2.9.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/76/8e/84129bdc63531be639f050c2d3521e016d5abe99d926edbfa682c0b2799b/testflows.github.runners-1.1.230724.1235202.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:56:35] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.8.tar.gz tmp/adt-decorators-0.2.9.tar.gz --markdown 20230725/a/adt-decorators/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-25 01:56:35] INFO root fetch - processPackages [glypniro]: Downloading https://files.pythonhosted.org/packages/45/55/0917ce139bf0856574b921b5bf5760773117db443cf24cb668be981892f6/glypniro-0.1.1.tar.gz
+[2023-07-25 01:56:35] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-25 01:56:35] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230725/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:56:35] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-25 01:56:35] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.1.230724.1224132.tar.gz tmp/testflows.github.runners-1.1.230724.1235202.tar.gz --markdown 20230725/t/testflows.github.runners/1.1.230724.1224132-1.1.230724.1235202/diff.md --exclude *.pyd
+[2023-07-25 01:56:35] INFO root fetch - processPackages [glypniro]: executing diffoscope
+[2023-07-25 01:56:35] INFO root fetch - processPackages [glypniro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glypniro-0.1.0.tar.gz tmp/glypniro-0.1.1.tar.gz --markdown 20230725/g/glypniro/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 01:56:35] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-25 01:56:35] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.2.tar.gz tmp/hyfi-1.9.3.tar.gz --markdown 20230725/h/hyfi/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-25 01:56:36] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/bb/b5/108b5aacf4568b09688bdb2f077b15fd59148078435385b109c3c7de10b2/pycde-0.2.1.dev988-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 01:56:36] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.8.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.9.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:56:36] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.1.230724.1224132.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.1.230724.1235202.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-25 01:56:36] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.0.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - processPackages [glypniro]: Remove: archive file [/home/abi/fetcher/tmp/glypniro-0.1.1.tar.gz]
+[2023-07-25 01:56:36] INFO root fetch - main [MainThread]: End processing [glypniro]: success
+[2023-07-25 01:56:37] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-25 01:56:37] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-25 01:56:37] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-25 01:56:37] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.2.tar.gz]
+[2023-07-25 01:56:37] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-25 01:56:37] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-25 01:56:37] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13701206>=10485760
+[2023-07-25 01:56:37] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-25 01:56:37] INFO root fetch - main [MainThread]: Store serial: [19020253]
