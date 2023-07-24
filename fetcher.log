@@ -1365,3 +1365,75 @@
 [2023-07-25 01:30:28] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1621.tar.gz]
 [2023-07-25 01:30:28] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-07-25 01:30:28] INFO root fetch - main [MainThread]: Store serial: [19020051]
+[2023-07-25 01:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020051]
+[2023-07-25 01:35:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-botmailnotice
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-server-test
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moptipy
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akari-dl
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adt-decorators
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exotic
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winter
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeprintformat
+[2023-07-25 01:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysndlib
+[2023-07-25 01:35:38] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [akari-dl]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [exotic]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-07-25 01:35:38] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.87]
+[2023-07-25 01:35:39] WARNING root fetch - processPackages [pysndlib]: Skipping, unable to determine old version
+[2023-07-25 01:35:39] INFO root fetch - main [MainThread]: End processing [pysndlib] error
+[2023-07-25 01:35:39] WARNING root fetch - processPackages [timeprintformat]: Skipping, unable to determine old version
+[2023-07-25 01:35:39] INFO root fetch - main [MainThread]: End processing [timeprintformat] error
+[2023-07-25 01:35:39] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: Downloading https://files.pythonhosted.org/packages/8f/96/5e20587185f1e6862f8a85f93c7a1dceeeea2b32debdc7385e19f3894f75/nonebot-plugin-BotMailNotice-0.0.2.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/24/37/4a7ea1dafd11868078d3e8d481a6dc0fa2ef7f5f7c8adaac4eaf9e511ab0/adt-decorators-0.2.4.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [akari-dl]: Downloading https://files.pythonhosted.org/packages/9c/fe/e3f4f4bba5dba7d3f986e916e9536355e87a8f87eddca6314cb4f05a7389/akari-dl-1.1.0.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/1d/3e/f8be7400b0fca3db1a55a11336cb06700fa349a72f6f676537e5df59b62a/openapi_server_test-1.0.8.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/c4/c7/307ea3437851a05ec69f69be27160217a92a6e81b87099a50119a71adadf/exotic-3.0.2.zip
+[2023-07-25 01:35:39] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/a2/d7/a6ef38708e08e69912a2363e7bc9c5f2c4d580a32ae8243c583198e98c58/moptipy-0.9.87.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: Downloading https://files.pythonhosted.org/packages/34/83/33546932f5dd474adfa2c60e7f567dbcd6c27eb7f69aa21ee7e375410118/nonebot-plugin-BotMailNotice-0.0.3.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/9e/b7/f2a9f659cec05f0251af4370a85fcae87f7c388ba6de1db829ff6471337d/adt-decorators-0.2.5.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [akari-dl]: Downloading https://files.pythonhosted.org/packages/8a/ca/a2d65dcca8e42145a59b02fecc03526037b7d2ca12a885b10630df671d09/akari-dl-1.2.0.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: executing diffoscope
+[2023-07-25 01:35:39] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-BotMailNotice-0.0.2.tar.gz tmp/nonebot-plugin-BotMailNotice-0.0.3.tar.gz --markdown 20230725/n/nonebot-plugin-botmailnotice/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 01:35:39] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/a0/6a/801c3b66ab78fb685d9a54c1ed31d204dfdcae6ac877eefc570a3ec08bc3/openapi_server_test-1.0.9.tar.gz
+[2023-07-25 01:35:39] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-07-25 01:35:39] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230725/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-07-25 01:35:39] INFO root fetch - processPackages [akari-dl]: executing diffoscope
+[2023-07-25 01:35:39] INFO root fetch - processPackages [akari-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akari-dl-1.1.0.tar.gz tmp/akari-dl-1.2.0.tar.gz --markdown 20230725/a/akari-dl/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-25 01:35:39] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:35:39] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.4.tar.gz tmp/adt-decorators-0.2.5.tar.gz --markdown 20230725/a/adt-decorators/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-25 01:35:39] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-25 01:35:39] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.8.tar.gz tmp/openapi_server_test-1.0.9.tar.gz --markdown 20230725/o/openapi-server-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:35:39] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/ca/46/d03c7ed623255d2947cf0fba337a16b5586483abb0ba26895eeacd2765eb/exotic-3.1.0.zip
+[2023-07-25 01:35:39] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-25 01:35:40] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-25 01:35:40] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.87.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230725/m/moptipy/0.9.87-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 01:35:40] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-BotMailNotice-0.0.2.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-BotMailNotice-0.0.3.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-botmailnotice]: success
+[2023-07-25 01:35:40] INFO root fetch - processPackages [akari-dl]: Remove: archive file [/home/abi/fetcher/tmp/akari-dl-1.1.0.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - processPackages [akari-dl]: Remove: archive file [/home/abi/fetcher/tmp/akari-dl-1.2.0.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - main [MainThread]: End processing [akari-dl]: success
+[2023-07-25 01:35:40] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.4.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.5.tar.gz]
+[2023-07-25 01:35:40] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:35:40] INFO root fetch - processPackages [exotic]: executing diffoscope
+[2023-07-25 01:35:40] INFO root fetch - processPackages [exotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotic-3.0.2.zip tmp/exotic-3.1.0.zip --markdown 20230725/e/exotic/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-07-25 01:35:41] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-07-25 01:35:41] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-07-25 01:35:41] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-07-25 01:35:41] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.8.tar.gz]
+[2023-07-25 01:35:41] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.9.tar.gz]
+[2023-07-25 01:35:41] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-25 01:35:42] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.0.2.zip]
+[2023-07-25 01:35:42] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.1.0.zip]
+[2023-07-25 01:35:42] INFO root fetch - main [MainThread]: End processing [exotic]: success
+[2023-07-25 01:35:42] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.87.tar.gz]
+[2023-07-25 01:35:42] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-25 01:35:42] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-25 01:35:42] INFO root fetch - main [MainThread]: Store serial: [19020080]
