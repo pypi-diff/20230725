@@ -1182,3 +1182,49 @@
 [2023-07-25 01:14:35] INFO root fetch - processPackages [cloudmesh-rivanna]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-rivanna-4.3.8.tar.gz]
 [2023-07-25 01:14:35] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
 [2023-07-25 01:14:35] INFO root fetch - main [MainThread]: Store serial: [19019978]
+[2023-07-25 01:19:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019978]
+[2023-07-25 01:19:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adt-decorators
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formal-datahub
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adt-decorators
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkfdb
+[2023-07-25 01:19:43] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-25 01:19:43] INFO root fetch - processPackages [hkfdb]: New version: [3.7.6] Old Version: [3.7.5]
+[2023-07-25 01:19:43] INFO root fetch - processPackages [formal-datahub]: New version: [1.0.1] Old Version: [0.1.0]
+[2023-07-25 01:19:43] INFO root fetch - processPackages [adt-decorators]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-25 01:19:43] INFO root fetch - processPackages [formal-datahub]: Downloading https://files.pythonhosted.org/packages/42/0f/a9e13b1dbb520a7f10feb369cf096b50b94b325ce2052295aa30733394a3/formal-datahub-0.1.0.tar.gz
+[2023-07-25 01:19:43] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-25 01:19:43] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/68/fc/55b0c18f56605543e0a63f44dab96cbbcb5cb72599aa4ef849cf4e744dc3/adt-decorators-0.2.3.tar.gz
+[2023-07-25 01:19:43] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/68/fc/55b0c18f56605543e0a63f44dab96cbbcb5cb72599aa4ef849cf4e744dc3/adt-decorators-0.2.3.tar.gz
+[2023-07-25 01:19:43] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/2b/b9/96878de283d5f02db84c4f00d86253339ea3cf14a5a8f177657b6807539e/hkfdb-3.7.5.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [formal-datahub]: Downloading https://files.pythonhosted.org/packages/77/fb/feb5ae3e79d8d9a4adcdc54774c26c8ed0f49071dfec63d022c8d8a64791/formal-datahub-1.0.1.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [formal-datahub]: executing diffoscope
+[2023-07-25 01:19:44] INFO root fetch - processPackages [formal-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-datahub-0.1.0.tar.gz tmp/formal-datahub-1.0.1.tar.gz --markdown 20230725/f/formal-datahub/0.1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/24/37/4a7ea1dafd11868078d3e8d481a6dc0fa2ef7f5f7c8adaac4eaf9e511ab0/adt-decorators-0.2.4.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/24/37/4a7ea1dafd11868078d3e8d481a6dc0fa2ef7f5f7c8adaac4eaf9e511ab0/adt-decorators-0.2.4.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/f0/2d/43614fb3728b870cbd7ba58e6a10a6558c96a6c226644c7c5fed27d08dd6/hkfdb-3.7.6.tar.gz
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.3.tar.gz tmp/adt-decorators-0.2.4.tar.gz --markdown 20230725/a/adt-decorators/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-25 01:19:44] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-25 01:19:44] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.7.5.tar.gz tmp/hkfdb-3.7.6.tar.gz --markdown 20230725/h/hkfdb/3.7.5-3.7.6/diff.md --exclude *.pyd
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-25 01:19:44] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.2.3.tar.gz tmp/adt-decorators-0.2.4.tar.gz --markdown 20230725/a/adt-decorators/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-25 01:19:44] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-25 01:19:44] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230725/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:19:45] INFO root fetch - processPackages [formal-datahub]: Remove: archive file [/home/abi/fetcher/tmp/formal-datahub-0.1.0.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - processPackages [formal-datahub]: Remove: archive file [/home/abi/fetcher/tmp/formal-datahub-1.0.1.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - main [MainThread]: End processing [formal-datahub]: success
+[2023-07-25 01:19:45] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.5.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.6.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-25 01:19:45] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.3.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.2.4.tar.gz]
+[2023-07-25 01:19:45] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:19:45] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-25 01:19:49] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-25 01:19:49] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-25 01:19:49] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-25 01:19:49] INFO root fetch - main [MainThread]: Store serial: [19019992]
