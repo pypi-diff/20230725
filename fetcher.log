@@ -1029,3 +1029,69 @@
 [2023-07-25 00:58:55] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4675.tar.gz]
 [2023-07-25 00:58:55] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-07-25 00:58:55] INFO root fetch - main [MainThread]: Store serial: [19019931]
+[2023-07-25 01:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019931]
+[2023-07-25 01:04:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-capability
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retakesearch
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danielutils
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtailvideos
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicodebot
+[2023-07-25 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-07-25 01:04:04] INFO root fetch - processPackages [danielutils]: New version: [0.9.5] Old Version: [0.9.0]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [discovery-capability]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [retakesearch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [wagtailvideos]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230724] Old Version: [0.7.0b20230723]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230723] Old Version: [0.7.0b20230722]
+[2023-07-25 01:04:04] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/57/a0/4ee03820701cd9adb2a377852a45e1b1e01bb2f76a815f3eb4f303a8d370/discovery-capability-0.4.5.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/53/0a/2af6cf0317ae1cea38ad973d226ac142a6f821e56bcb332e84b45305ce13/tmnt-cu101-0.7.0b20230723.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/15/ef/aae748f0b8fd6d5bfb710dbd383b176dc367f5cf5805fc53ab05b8ab1dd6/tmnt-0.7.0b20230722.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/c6/e0/70ea8fab8a3369d0fc72175462819d4a758b819529b5a69967f13b693687/retakesearch-0.0.8.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/96/99/078f699f1edbc15e85977801c88787479af31c5ea25e7e0fc35a5803d886/danielutils-0.9.0.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/19/7c/692c1d17449657c476a7f62dfbe7ca3be91fa495a4ebec8130535e017630/wagtailvideos-4.2.1.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/a1/6b/72809542a6987c8c85e356f24b41cdac6b9506cda7e94548b960cfa434b0/retakesearch-0.0.9.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/be/f6/b1507187d986cfca2da53a0722250c5d84f1db0da18904982a38d589a7a9/tmnt-0.7.0b20230723.tar.gz
+[2023-07-25 01:04:04] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-25 01:04:05] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.0.8.tar.gz tmp/retakesearch-0.0.9.tar.gz --markdown 20230725/r/retakesearch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a4/44/2abbd2ba9b990389b60f691f167b1288d710eed8ffe913f3b564b476aeb6/tmnt-cu101-0.7.0b20230724.tar.gz
+[2023-07-25 01:04:05] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/2e/80/56e26084cdeea6c7c2d1e6211778dd3710348bc1837989efb956507e1c01/danielutils-0.9.5.tar.gz
+[2023-07-25 01:04:05] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230725/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/ba/42/7df2ee24e109ce19523c09cc6c08613e2e422d08c43092768bd73bd8f5e1/wagtailvideos-4.2.2.tar.gz
+[2023-07-25 01:04:05] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230722.tar.gz tmp/tmnt-0.7.0b20230723.tar.gz --markdown 20230725/t/tmnt/0.7.0b20230722-0.7.0b20230723/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.9.0.tar.gz tmp/danielutils-0.9.5.tar.gz --markdown 20230725/d/danielutils/0.9.0-0.9.5/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230723.tar.gz tmp/tmnt-cu101-0.7.0b20230724.tar.gz --markdown 20230725/t/tmnt-cu101/0.7.0b20230723-0.7.0b20230724/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/af/95/772f19a594e8e9aedfa0e29f8a2a5c987a4b6745f15e02eec63acbe744d1/discovery-capability-0.4.6.tar.gz
+[2023-07-25 01:04:05] INFO root fetch - processPackages [wagtailvideos]: executing diffoscope
+[2023-07-25 01:04:05] INFO root fetch - processPackages [wagtailvideos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailvideos-4.2.1.tar.gz tmp/wagtailvideos-4.2.2.tar.gz --markdown 20230725/w/wagtailvideos/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-07-25 01:04:05] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.0.8.tar.gz]
+[2023-07-25 01:04:05] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.0.9.tar.gz]
+[2023-07-25 01:04:05] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-07-25 01:04:06] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-25 01:04:06] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230722.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230723.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230723.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230724.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-25 01:04:06] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-25 01:04:06] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-07-25 01:04:06] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.4.5.tar.gz tmp/discovery-capability-0.4.6.tar.gz --markdown 20230725/d/discovery-capability/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-25 01:04:06] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-4.2.1.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-4.2.2.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - main [MainThread]: End processing [wagtailvideos]: success
+[2023-07-25 01:04:06] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.0.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.5.tar.gz]
+[2023-07-25 01:04:06] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2023-07-25 01:04:09] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.5.tar.gz]
+[2023-07-25 01:04:09] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.6.tar.gz]
+[2023-07-25 01:04:09] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-07-25 01:04:09] INFO root fetch - main [MainThread]: Store serial: [19019951]
