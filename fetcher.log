@@ -1529,3 +1529,106 @@
 [2023-07-25 01:40:57] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-07-25 01:40:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-07-25 01:40:57] INFO root fetch - main [MainThread]: Store serial: [19020113]
+[2023-07-25 01:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020113]
+[2023-07-25 01:46:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmaps-coembedding
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akari-dl
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexset
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellmaps-pipeline
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydise
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydise
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mtrain-superclient
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stim
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-07-25 01:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langdash
+[2023-07-25 01:46:06] INFO root fetch - processPackages [cellmaps-coembedding]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [lexset]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230723] Old Version: [0.3.2.dev20230722]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: New version: [2023.7.24.23.43.42] Old Version: [2023.7.24.23.43.33]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [langdash]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [akari-dl]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: New version: [2023.7.24.23.43.42] Old Version: [2023.7.24.23.43.33]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [cellmaps-pipeline]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: Downloading https://files.pythonhosted.org/packages/c0/b5/025ca85d30568005476518b28243c66e792c888d02d13f9962868c67f2ac/pydise-2023.7.24.23.43.33.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/7b/7f/875cfc3fabf7a257916e3f24af0de6bcf590ff82e43562138c0abc7c6f8e/lexset-4.0.8.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: Downloading https://files.pythonhosted.org/packages/c0/b5/025ca85d30568005476518b28243c66e792c888d02d13f9962868c67f2ac/pydise-2023.7.24.23.43.33.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/c6/29/dea7d1ba279a190d8ebd742117654319e99da0998259b8dcec31656f6ca3/mtrain-superclient-0.4.0.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [cellmaps-coembedding]: Downloading https://files.pythonhosted.org/packages/bf/8f/e9f48a6b531599b4f3e834c5445008207c4a1dec593acb176c519581ab74/cellmaps_coembedding-0.1.0a3.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [akari-dl]: Downloading https://files.pythonhosted.org/packages/8a/ca/a2d65dcca8e42145a59b02fecc03526037b7d2ca12a885b10630df671d09/akari-dl-1.2.0.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/ac/19/dd62beac8063426dbadb0aa252845e931a212455db4e6b1f1ec501f42d9a/skyplane_nightly-0.3.2.dev20230722.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/50/56/6512ac70dca162293a9ed6edc5116c04c24ee419f0ba6bdda01f173a27fc/cellmaps_pipeline-0.1.0a4.tar.gz
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: Downloading https://files.pythonhosted.org/packages/20/48/7ccca8f697a89a5dbe5e9151f98da219ac69ef9157c3afccbd35c83dbeb8/pydise-2023.7.24.23.43.42-py3-none-any.whl
+[2023-07-25 01:46:06] INFO root fetch - processPackages [pydise]: Downloading https://files.pythonhosted.org/packages/20/48/7ccca8f697a89a5dbe5e9151f98da219ac69ef9157c3afccbd35c83dbeb8/pydise-2023.7.24.23.43.42-py3-none-any.whl
+[2023-07-25 01:46:07] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/e3/c8/ced6015645630bc010c0d894c0a7d87cec0609382092c66144b5b7baf143/lexset-4.0.9.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/f5/b8/ac86b52ee7d63d636112c7d0765c935863a23da4ab38346189305f749819/mtrain-superclient-0.4.1.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/6a/14/28a67c60ba9a1e7944d1898a3fccd002d56dfb3bfdf0b00e2b47bf98195d/langdash-1.9.2.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230725/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [akari-dl]: Downloading https://files.pythonhosted.org/packages/60/d2/b2f33385567e6725d51424063bf1184b37e8b6b5d9a3d0a286e216fc9d88/akari-dl-1.2.1.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-coembedding]: Downloading https://files.pythonhosted.org/packages/11/7b/a5303f6c6a0db1cbc6425992ea02e701f3537d0a506e7f9669826d4dc7d5/cellmaps_coembedding-0.1.0a4.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/b8/39/60f1ab9cd4e2d2633e79051bb2f84856f24cc7cbb0353180c04134a61b97/cellmaps_pipeline-0.1.0a5.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [pydise]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [pydise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydise-2023.7.24.23.43.33.tar.gz tmp/pydise-2023.7.24.23.43.42-py3-none-any.whl.zip --markdown 20230725/p/pydise/2023.7.24.23.43.33-2023.7.24.23.43.42/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [pydise]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [pydise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydise-2023.7.24.23.43.33.tar.gz tmp/pydise-2023.7.24.23.43.42-py3-none-any.whl.zip --markdown 20230725/p/pydise/2023.7.24.23.43.33-2023.7.24.23.43.42/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/95/44/b5aa50801448ca2298311a0d1bb04b3fd13650026c5202b0ef82d90d7c2d/skyplane_nightly-0.3.2.dev20230723.tar.gz
+[2023-07-25 01:46:07] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.8.tar.gz tmp/lexset-4.0.9.tar.gz --markdown 20230725/l/lexset/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.4.0.tar.gz tmp/mtrain-superclient-0.4.1.tar.gz --markdown 20230725/m/mtrain-superclient/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.1.tar.gz tmp/langdash-1.9.2.tar.gz --markdown 20230725/l/langdash/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [akari-dl]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [akari-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akari-dl-1.2.0.tar.gz tmp/akari-dl-1.2.1.tar.gz --markdown 20230725/a/akari-dl/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-coembedding]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-coembedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_coembedding-0.1.0a3.tar.gz tmp/cellmaps_coembedding-0.1.0a4.tar.gz --markdown 20230725/c/cellmaps-coembedding/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-pipeline]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [cellmaps-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_pipeline-0.1.0a4.tar.gz tmp/cellmaps_pipeline-0.1.0a5.tar.gz --markdown 20230725/c/cellmaps-pipeline/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-25 01:46:07] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-25 01:46:07] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230722.tar.gz tmp/skyplane_nightly-0.3.2.dev20230723.tar.gz --markdown 20230725/s/skyplane-nightly/0.3.2.dev20230722-0.3.2.dev20230723/diff.md --exclude *.pyd
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stim]: Start processing: stimcirq
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [pydise]: Remove: archive file [/home/abi/fetcher/tmp/pydise-2023.7.24.23.43.33.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [pydise]: Remove: archive file [/home/abi/fetcher/tmp/pydise-2023.7.24.23.43.42-py3-none-any.whl.zip]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [pydise]: Start processing: sinter
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [pydise]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [pydise]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [lexset]: Remove: archive file [/home/abi/fetcher/tmp/lexset-4.0.8.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [lexset]: Remove: archive file [/home/abi/fetcher/tmp/lexset-4.0.9.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.4.0.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.4.1.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [akari-dl]: Remove: archive file [/home/abi/fetcher/tmp/akari-dl-1.2.0.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [akari-dl]: Remove: archive file [/home/abi/fetcher/tmp/akari-dl-1.2.1.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [akari-dl]: success
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-07-25 01:46:08] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230725/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-25 01:46:08] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a4.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a5.tar.gz]
+[2023-07-25 01:46:08] INFO root fetch - main [MainThread]: End processing [cellmaps-pipeline]: success
+[2023-07-25 01:46:09] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-07-25 01:46:09] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230725/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-25 01:46:09] INFO root fetch - processPackages [cellmaps-coembedding]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_coembedding-0.1.0a3.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - processPackages [cellmaps-coembedding]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_coembedding-0.1.0a4.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: End processing [cellmaps-coembedding]: success
+[2023-07-25 01:46:09] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.2.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-25 01:46:09] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230722.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230723.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-25 01:46:09] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-07-25 01:46:09] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-07-25 01:46:09] INFO root fetch - main [MainThread]: Store serial: [19020170]
