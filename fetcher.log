@@ -1267,3 +1267,101 @@
 [2023-07-25 01:25:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-25 01:25:16] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-25 01:25:16] INFO root fetch - main [MainThread]: Store serial: [19020005]
+[2023-07-25 01:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020005]
+[2023-07-25 01:30:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openllm
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dclient
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedhtml
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-runtime
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet-embed
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salesforce-tools
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sddp-discovery-protocol
+[2023-07-25 01:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet-pyodide
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [salesforce-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [openllm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [typedhtml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [dclient]: New version: [0.2] Old Version: [0.1a2]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [sddp-discovery-protocol]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/22/c2/27e6c64f21ab451251ee6d4cf22c9222ce4797a667a0597743badcc3c8d9/flet_pyodide-0.9.0.dev1620.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/9c/9b/494cea0f7be384c1c9e00eb42b969e48bf1411b1ccca4d358b45553eae33/flet-0.9.0.dev1620.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/a8/20/104642b5d72a045430e52e7af96489ed005394dab69051eeaebc577d6384/flet_runtime-0.9.0.dev1620.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/14/98/c956bb11235bbb877a0b90e63487515d9b2c6129bc2283f352784e792fcb/flet_core-0.9.0.dev1620.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [dclient]: Downloading https://files.pythonhosted.org/packages/48/50/84bec5bbfd298302064c7298f86194b9505f0596bb99319404042e779fe1/dclient-0.1a2.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/41/14/02326f091fc55f57ea30dc6e617388b0e81b9401e6bbdc0b46f2deccc9e1/flet_embed-0.9.0.dev1620.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [salesforce-tools]: Downloading https://files.pythonhosted.org/packages/a7/6f/40f114442e27421ab62d7f42b97e7bcb6e6e8835c099db0dd8bb61d3e184/salesforce_tools-0.2.0.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/27/2b/ed3ffae21d77ed89079f47e2fe2393ec44984370420855383049649df8d0/openllm-0.2.8.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/80/1f/08e5642553949886d5f64a1bfc1cc68c6b4e7fdcbfbb00eff26a600b72ff/typedhtml-0.1.0.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [sddp-discovery-protocol]: Downloading https://files.pythonhosted.org/packages/ee/d5/6ed481767f844b894e84009d46eef3236c0597908e3717205fe952c3a2e2/sddp_discovery_protocol-1.0.0.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f4/ff/e38b962d1ab8b325828feb0d77b067ff422b770fbfe511a7424e743c38d2/flet_pyodide-0.9.0.dev1621.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/17/0b/86bf96dd2a5d8e23c6bb0e8c937c11b117d1740583bd834a4a496d728d91/flet_runtime-0.9.0.dev1621.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [salesforce-tools]: Downloading https://files.pythonhosted.org/packages/ce/03/7c1f000f53f3a522bda98731798b3be5d99fa56805f79d314bf5a8f77805/salesforce_tools-0.2.1.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [dclient]: Downloading https://files.pythonhosted.org/packages/66/c6/27daa1f97ae833fa03a35339b9f123004e75544d612cec8c93e3809ec518/dclient-0.2.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/d3/c5/8c92779e6bf903753ecd59a71184437c447e801c7d9bf1a97d3c39c7212a/flet_core-0.9.0.dev1621.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/4d/e9/5e13b73cda4c209c3054b818ee754ca5c119462af4cafb86e2a29bebaf49/flet_embed-0.9.0.dev1621.tar.gz
+[2023-07-25 01:30:25] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/98/f2/69a32c5942ad1129fcfb76a36387dcc633b9ed99c9dfe82516730dacc46a/openllm-0.2.9.tar.gz
+[2023-07-25 01:30:26] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/e4/ac/f4f5d1e4b90ffd07a0ea3437f4907f3e129192348fab4e9f5c607e100980/typedhtml-0.1.1.tar.gz
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1620.tar.gz tmp/flet_pyodide-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-pyodide/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [salesforce-tools]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [salesforce-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce_tools-0.2.0.tar.gz tmp/salesforce_tools-0.2.1.tar.gz --markdown 20230725/s/salesforce-tools/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [dclient]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [dclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclient-0.1a2.tar.gz tmp/dclient-0.2.tar.gz --markdown 20230725/d/dclient/0.1a2-0.2/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [sddp-discovery-protocol]: Downloading https://files.pythonhosted.org/packages/6c/ee/2240f62cc3e376c1cf19162e07f7e6422f4551205fba1b7306d8f3bb7149/sddp_discovery_protocol-1.1.0.tar.gz
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ca/0d/18af0cd72e9bdb33ab15796b1a68f15014807754d0f9f503c6c8225c4a31/flet-0.9.0.dev1621.tar.gz
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1620.tar.gz tmp/flet_runtime-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-runtime/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.8.tar.gz tmp/openllm-0.2.9.tar.gz --markdown 20230725/o/openllm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.1.0.tar.gz tmp/typedhtml-0.1.1.tar.gz --markdown 20230725/t/typedhtml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1620.tar.gz tmp/flet_core-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-core/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1620.tar.gz tmp/flet_embed-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-embed/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [sddp-discovery-protocol]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [sddp-discovery-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddp_discovery_protocol-1.0.0.tar.gz tmp/sddp_discovery_protocol-1.1.0.tar.gz --markdown 20230725/s/sddp-discovery-protocol/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-25 01:30:26] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1620.tar.gz tmp/flet-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 01:30:27] INFO root fetch - processPackages [dclient]: Remove: archive file [/home/abi/fetcher/tmp/dclient-0.1a2.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [dclient]: Remove: archive file [/home/abi/fetcher/tmp/dclient-0.2.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [dclient]: Start processing: PyGameLab
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [dclient]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1620.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1621.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [PyGameLab]: New version: [3.2.7] Old Version: [1.3.1]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1620.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1621.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [salesforce-tools]: Remove: archive file [/home/abi/fetcher/tmp/salesforce_tools-0.2.0.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [salesforce-tools]: Remove: archive file [/home/abi/fetcher/tmp/salesforce_tools-0.2.1.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [salesforce-tools]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [PyGameLab]: Downloading https://files.pythonhosted.org/packages/f6/93/9d858cf6572000a009c54fcd21fe5b22cbf719f12bf8781998a17837693b/PyGameLab-1.3.1.tar.gz
+[2023-07-25 01:30:27] INFO root fetch - processPackages [sddp-discovery-protocol]: Remove: archive file [/home/abi/fetcher/tmp/sddp_discovery_protocol-1.0.0.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [sddp-discovery-protocol]: Remove: archive file [/home/abi/fetcher/tmp/sddp_discovery_protocol-1.1.0.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [sddp-discovery-protocol]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1620.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1621.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-25 01:30:27] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.0.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.1.tar.gz]
+[2023-07-25 01:30:27] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-07-25 01:30:28] ERROR root fetch - processPackages [PyGameLab]: Unable to fetch info: No such project/version 'PyGameLab' 3.2.7
+[2023-07-25 01:30:28] INFO root fetch - main [MainThread]: End processing [PyGameLab] error
+[2023-07-25 01:30:28] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.8.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.9.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-25 01:30:28] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1620.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1621.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-25 01:30:28] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1620.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1621.tar.gz]
+[2023-07-25 01:30:28] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-25 01:30:28] INFO root fetch - main [MainThread]: Store serial: [19020051]
