@@ -326,3 +326,110 @@
 [2023-07-25 00:22:00] INFO root fetch - processPackages [pydsge]: Remove: archive file [/home/abi/fetcher/tmp/pydsge-0.2.4.tar.gz]
 [2023-07-25 00:22:00] INFO root fetch - main [MainThread]: End processing [pydsge]: success
 [2023-07-25 00:22:00] INFO root fetch - main [MainThread]: Store serial: [19019638]
+[2023-07-25 00:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019638]
+[2023-07-25 00:27:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flardl
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logassistant
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cachier-client
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellworld
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cachier-client
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tincheck
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-superset
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-capability
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphscope
+[2023-07-25 00:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphscope-client
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [logassistant]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [apache-superset]: New version: [3.0.0rc1] Old Version: [2.1.1rc2]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [tincheck]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [flardl]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [discovery-capability]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope-client]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [logassistant]: Downloading https://files.pythonhosted.org/packages/8a/0f/118f2a320715efb0c355efb7abd76bcfff394b9bf5da9a246ffd724e3872/logassistant-0.1.1.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [tincheck]: Downloading https://files.pythonhosted.org/packages/a3/2a/40c795d590df75d781a8ff4d67ccac2f2c636138f34f32eff604208c8bca/tincheck-0.1.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: Downloading https://files.pythonhosted.org/packages/9e/88/1d07d3b72323b755623d6ae4f18f969ee9510fa53c6b44224773f1028fda/cachier-client-0.2.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: Downloading https://files.pythonhosted.org/packages/9e/88/1d07d3b72323b755623d6ae4f18f969ee9510fa53c6b44224773f1028fda/cachier-client-0.2.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [flardl]: Downloading https://files.pythonhosted.org/packages/a3/e1/b4202353e7360ede3051b2f62fe957fde991879fd1bdc314462303e179ce/flardl-0.0.4.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/96/a6/3e9da677d14d063e6e6835191d8ee555dd26f5addebb18911ed1b1902670/discovery-capability-0.3.9.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/fc/8f/8735b9000b3ea36bdd76c6ba49d0b4e9edb4e6a7ff5df47abaf7acba9187/graphscope-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [apache-superset]: Downloading https://files.pythonhosted.org/packages/54/a1/8c35eb8c61a32552deffef3c2dc2e189ecb833f12f846ef32018419da1e7/apache-superset-2.1.1rc2.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/57/51/901b70ab0962841b35032db8362c87cedb1d6d7b8f5b74aa275042271232/graphscope_client-0.24.0a20230723-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:09] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 185731183>=10485760
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope]: Start processing: gs-apps
+[2023-07-25 00:27:09] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-25 00:27:09] WARNING root fetch - processPackages [apache-superset]: Skipping package: exceeds size limit 46894900>=10485760
+[2023-07-25 00:27:09] INFO root fetch - processPackages [apache-superset]: Start processing: gs-coordinator
+[2023-07-25 00:27:09] INFO root fetch - main [MainThread]: End processing [apache-superset] error
+[2023-07-25 00:27:09] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 23812258>=10485760
+[2023-07-25 00:27:09] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-engine
+[2023-07-25 00:27:09] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-25 00:27:09] INFO root fetch - processPackages [gs-apps]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: Downloading https://files.pythonhosted.org/packages/bf/e3/5a692185a994d60cd6a3341e91df4d146f5bd1eec2358051cfdca77fcf6c/cachier-client-0.3.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:09] INFO root fetch - processPackages [cachier-client]: Downloading https://files.pythonhosted.org/packages/bf/e3/5a692185a994d60cd6a3341e91df4d146f5bd1eec2358051cfdca77fcf6c/cachier-client-0.3.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [tincheck]: Downloading https://files.pythonhosted.org/packages/af/b8/fbf8495429d12e471ec40b881373c78e8b8b380e6f6366b10602a11e6b77/tincheck-0.2.0.tar.gz
+[2023-07-25 00:27:09] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:10] INFO root fetch - processPackages [logassistant]: Downloading https://files.pythonhosted.org/packages/f9/5f/2e93055712bdd250bf5761dab52b7d550f1488f746479b1143357834f985/logassistant-0.1.2.tar.gz
+[2023-07-25 00:27:10] INFO root fetch - processPackages [flardl]: Downloading https://files.pythonhosted.org/packages/61/ff/e58c043c01cbbdc82be53b70718c09050ab7b3dd8dc71f9b4ffbf61e7d82/flardl-0.0.5.tar.gz
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-25 00:27:10] INFO root fetch - processPackages [tincheck]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [tincheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tincheck-0.1.0.tar.gz tmp/tincheck-0.2.0.tar.gz --markdown 20230725/t/tincheck/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cachier-client]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cachier-client]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cachier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachier-client-0.2.0.tar.gz tmp/cachier-client-0.3.0.tar.gz --markdown 20230725/c/cachier-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cachier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachier-client-0.2.0.tar.gz tmp/cachier-client-0.3.0.tar.gz --markdown 20230725/c/cachier-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [flardl]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/87/c0/bc692e3669a9ded7eb4dbd3e925e3c0d4e4f6d46c6d75895d74c2c6b3cd0/gs_apps-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] INFO root fetch - processPackages [flardl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flardl-0.0.4.tar.gz tmp/flardl-0.0.5.tar.gz --markdown 20230725/f/flardl/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [logassistant]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [logassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logassistant-0.1.1.tar.gz tmp/logassistant-0.1.2.tar.gz --markdown 20230725/l/logassistant/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/6f/48/6b445d7c18d35378d78d82308587f79c43662d6795fc6b4e9594e8734c36/gs_coordinator-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/00/02/5ad0e0a98d1e804932c4206face980497959c07b0b279b0a5e4f353c7c22/gs_engine-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 45384423>=10485760
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-apps]: Start processing: gs-include
+[2023-07-25 00:27:10] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230725/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230724] Old Version: [0.24.0a20230723]
+[2023-07-25 00:27:10] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/a1/13/e446801764a40a266afbcbf0672374d11e75ae01a9f6d2ca72d838a8e62a/discovery-capability-0.4.0.tar.gz
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/ce/1b/c12e2a1863450556d91c52693fad5a6707f1609172d4ae73318a21de71eb/gs_engine-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/bb/34/e3176038067e57e887df5c49642ae3dae085043b1b1ae6356686240a0562/gs_coordinator-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/eb/f3/5fe61283f34e02331bd14c8fbf059a2afc260d53b75b082fd1238efda3f4/gs_include-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230725/g/gs-engine/0.24.0a20230723-0.24.0a20230724/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32290627>=10485760
+[2023-07-25 00:27:10] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230725/g/gs-coordinator/0.24.0a20230723-0.24.0a20230724/diff.md --exclude *.pyd
+[2023-07-25 00:27:10] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-07-25 00:27:10] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.3.9.tar.gz tmp/discovery-capability-0.4.0.tar.gz --markdown 20230725/d/discovery-capability/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-25 00:27:11] INFO root fetch - processPackages [tincheck]: Remove: archive file [/home/abi/fetcher/tmp/tincheck-0.1.0.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [tincheck]: Remove: archive file [/home/abi/fetcher/tmp/tincheck-0.2.0.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [tincheck]: success
+[2023-07-25 00:27:11] INFO root fetch - processPackages [logassistant]: Remove: archive file [/home/abi/fetcher/tmp/logassistant-0.1.1.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [logassistant]: Remove: archive file [/home/abi/fetcher/tmp/logassistant-0.1.2.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [logassistant]: success
+[2023-07-25 00:27:11] INFO root fetch - processPackages [cachier-client]: Remove: archive file [/home/abi/fetcher/tmp/cachier-client-0.2.0.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [cachier-client]: Remove: archive file [/home/abi/fetcher/tmp/cachier-client-0.3.0.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [cachier-client]: success
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [cachier-client]: success
+[2023-07-25 00:27:11] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-25 00:27:11] INFO root fetch - processPackages [flardl]: Remove: archive file [/home/abi/fetcher/tmp/flardl-0.0.4.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [flardl]: Remove: archive file [/home/abi/fetcher/tmp/flardl-0.0.5.tar.gz]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [flardl]: success
+[2023-07-25 00:27:11] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-25 00:27:11] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-25 00:27:11] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-25 00:27:12] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230723-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-25 00:27:12] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230724-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-25 00:27:12] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-07-25 00:27:14] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.3.9.tar.gz]
+[2023-07-25 00:27:14] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.4.0.tar.gz]
+[2023-07-25 00:27:14] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-07-25 00:27:14] INFO root fetch - main [MainThread]: Store serial: [19019678]
