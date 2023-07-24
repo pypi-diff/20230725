@@ -75,3 +75,36 @@
 [2023-07-25 00:01:00] INFO root fetch - processPackages [pulumi-policy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_policy-1.7.0a1690233383-py2.py3-none-any.whl.zip]
 [2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [pulumi-policy]: success
 [2023-07-25 00:01:00] INFO root fetch - main [MainThread]: Store serial: [19019543]
+[2023-07-25 00:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019543]
+[2023-07-25 00:06:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-25 00:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potassium
+[2023-07-25 00:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: league-client
+[2023-07-25 00:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-args
+[2023-07-25 00:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djtools
+[2023-07-25 00:06:10] INFO root fetch - processPackages [potassium]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 00:06:10] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 00:06:10] INFO root fetch - processPackages [pipen-args]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 00:06:11] WARNING root fetch - processPackages [djtools]: Skipping, unable to determine old version
+[2023-07-25 00:06:11] INFO root fetch - main [MainThread]: End processing [djtools] error
+[2023-07-25 00:06:11] INFO root fetch - processPackages [potassium]: Downloading https://files.pythonhosted.org/packages/c1/c2/7f1a6b70d6d30e2f5ecb594c82fee237a9b8be13b4fd93e67d1eac9a4a38/potassium-0.1.1.tar.gz
+[2023-07-25 00:06:11] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-25 00:06:11] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/bc/98/c19ed462010e382c2a8b78873ec82c7b8a89cc9f2f4c819c3ca5d764fcea/pipen_args-0.9.8.tar.gz
+[2023-07-25 00:06:11] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-25 00:06:11] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-25 00:06:11] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230725/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 00:06:11] INFO root fetch - processPackages [potassium]: Downloading https://files.pythonhosted.org/packages/5a/db/47adfaa0983d67b08e3734878562c79c11910e8eeee7a0b9fc7ae10bc4dc/potassium-0.1.2.tar.gz
+[2023-07-25 00:06:11] INFO root fetch - processPackages [potassium]: executing diffoscope
+[2023-07-25 00:06:11] INFO root fetch - processPackages [potassium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potassium-0.1.1.tar.gz tmp/potassium-0.1.2.tar.gz --markdown 20230725/p/potassium/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 00:06:11] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/7d/c7/c59d3e8b1e0e76f8a3b2d312da8f37c080b3c0f5b584e0e5baa9955ebdc7/pipen_args-0.9.9.tar.gz
+[2023-07-25 00:06:11] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-07-25 00:06:11] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.8.tar.gz tmp/pipen_args-0.9.9.tar.gz --markdown 20230725/p/pipen-args/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 00:06:12] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-25 00:06:12] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-25 00:06:12] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-25 00:06:12] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.8.tar.gz]
+[2023-07-25 00:06:12] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.9.tar.gz]
+[2023-07-25 00:06:12] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-07-25 00:06:12] INFO root fetch - processPackages [potassium]: Remove: archive file [/home/abi/fetcher/tmp/potassium-0.1.1.tar.gz]
+[2023-07-25 00:06:12] INFO root fetch - processPackages [potassium]: Remove: archive file [/home/abi/fetcher/tmp/potassium-0.1.2.tar.gz]
+[2023-07-25 00:06:12] INFO root fetch - main [MainThread]: End processing [potassium]: success
+[2023-07-25 00:06:12] INFO root fetch - main [MainThread]: Store serial: [19019561]
