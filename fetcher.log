@@ -1,0 +1,77 @@
+[2023-07-25 00:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19019508]
+[2023-07-25 00:00:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-docker-harness
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-log2file
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdm-build-locked
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coastseg
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPT4Readability
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logassistant
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hlsvdpropy
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-policy
+[2023-07-25 00:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ellipticbn
+[2023-07-25 00:00:56] INFO root fetch - processPackages [pulumi-policy]: New version: [1.7.0a1690233383] Old Version: [1.6.0a1687891551]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pipen-log2file]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [GPT4Readability]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [redis-docker-harness]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [ellipticbn]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-25 00:00:57] WARNING root fetch - processPackages [logassistant]: Skipping, unable to determine old version
+[2023-07-25 00:00:57] INFO root fetch - main [MainThread]: End processing [logassistant] error
+[2023-07-25 00:00:57] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 00:00:57] INFO root fetch - processPackages [hlsvdpropy]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-25 00:00:57] WARNING root fetch - processPackages [pdm-build-locked]: Skipping, unable to determine old version
+[2023-07-25 00:00:57] INFO root fetch - main [MainThread]: End processing [pdm-build-locked] error
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pulumi-policy]: Downloading https://files.pythonhosted.org/packages/4e/77/6fc4cfdce9c6b681a25b4f5f7aab27b184b7390104b69408ea6c7d74e336/pulumi_policy-1.6.0a1687891551-py2.py3-none-any.whl
+[2023-07-25 00:00:57] INFO root fetch - processPackages [ellipticbn]: Downloading https://files.pythonhosted.org/packages/7f/36/bf58b5486b485766bde02ca6425730661c48a0dc656e080d1b3637aba9d1/ElliptiCBn-1.0.9.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/1d/9c/4ef6cd128fe02caecaaefbacc560c38546e64562f92c94a0d7362c865c41/pipen_log2file-0.3.2.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/02/50/e8c8ea6b615bab094537f19d229ce2e5eac9b77a9802beef2048b9f62f11/GPT4Readability-0.0.5.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [redis-docker-harness]: Downloading https://files.pythonhosted.org/packages/d0/db/cbdaf7841b226a5bd335a1c0a9889d587be2e073647af4fb6bf6f7e456fd/redis-docker-harness-0.0.3.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [hlsvdpropy]: Downloading https://files.pythonhosted.org/packages/3b/55/f53d1007bca6ffed7de51e3c2c6c0525f354589f0a46bdf333b614b24c3c/hlsvdpropy-2.0.1-py3-none-any.whl
+[2023-07-25 00:00:57] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pulumi-policy]: Downloading https://files.pythonhosted.org/packages/a6/64/52a30c5a29186bfbc02961e18a2e5960fb4a5dcf59cf064a1bb64cd1c7d1/pulumi_policy-1.7.0a1690233383-py2.py3-none-any.whl
+[2023-07-25 00:00:57] INFO root fetch - processPackages [ellipticbn]: Downloading https://files.pythonhosted.org/packages/0f/a2/40ae0f578d5a4fe1b36a05c5ef8519c1e0ca3ae24674c04c477dfc1566f1/ellipticbn-1.1.0.tar.gz
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/c1/77/213840cce683c25862e6651d1bf5132f0011335a7405dda22fcfe3378529/pipen_log2file-0.3.3.tar.gz
+[2023-07-25 00:00:57] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-07-25 00:00:57] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pulumi-policy]: executing diffoscope
+[2023-07-25 00:00:57] INFO root fetch - processPackages [pulumi-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_policy-1.6.0a1687891551-py2.py3-none-any.whl.zip tmp/pulumi_policy-1.7.0a1690233383-py2.py3-none-any.whl.zip --markdown 20230725/p/pulumi-policy/1.6.0a1687891551-1.7.0a1690233383/diff.md --exclude *.pyd
+[2023-07-25 00:00:57] INFO root fetch - processPackages [ellipticbn]: executing diffoscope
+[2023-07-25 00:00:57] INFO root fetch - processPackages [ellipticbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElliptiCBn-1.0.9.tar.gz tmp/ellipticbn-1.1.0.tar.gz --markdown 20230725/e/ellipticbn/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 00:00:58] INFO root fetch - processPackages [pipen-log2file]: executing diffoscope
+[2023-07-25 00:00:58] INFO root fetch - processPackages [pipen-log2file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_log2file-0.3.2.tar.gz tmp/pipen_log2file-0.3.3.tar.gz --markdown 20230725/p/pipen-log2file/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-25 00:00:58] INFO root fetch - processPackages [hlsvdpropy]: Downloading https://files.pythonhosted.org/packages/42/73/f8d3e0961e3df970c552a0b3d3687a4ec4f6cf642ec715cd2ee80145ccd7/hlsvdpropy-2.0.2-py3-none-any.whl
+[2023-07-25 00:00:58] INFO root fetch - processPackages [redis-docker-harness]: Downloading https://files.pythonhosted.org/packages/43/55/6bb5c10a8a1803a0ac06925f231ba02f5344ac645b97420ea578f3cbddef/redis-docker-harness-0.0.4.tar.gz
+[2023-07-25 00:00:58] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-25 00:00:58] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/1a/ba/adbc28719e3ac8cc41566922843964568bc78663043113182819dbdc9960/GPT4Readability-0.0.6.tar.gz
+[2023-07-25 00:00:58] INFO root fetch - processPackages [redis-docker-harness]: executing diffoscope
+[2023-07-25 00:00:58] INFO root fetch - processPackages [redis-docker-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-docker-harness-0.0.3.tar.gz tmp/redis-docker-harness-0.0.4.tar.gz --markdown 20230725/r/redis-docker-harness/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 00:00:58] INFO root fetch - processPackages [GPT4Readability]: executing diffoscope
+[2023-07-25 00:00:58] INFO root fetch - processPackages [GPT4Readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPT4Readability-0.0.5.tar.gz tmp/GPT4Readability-0.0.6.tar.gz --markdown 20230725/G/GPT4Readability/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 00:00:58] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-25 00:00:58] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230725/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-25 00:00:58] INFO root fetch - processPackages [hlsvdpropy]: executing diffoscope
+[2023-07-25 00:00:58] INFO root fetch - processPackages [hlsvdpropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hlsvdpropy-2.0.1-py3-none-any.whl.zip tmp/hlsvdpropy-2.0.2-py3-none-any.whl.zip --markdown 20230725/h/hlsvdpropy/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-25 00:01:00] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.3.2.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.3.3.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [pipen-log2file]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [hlsvdpropy]: Remove: archive file [/home/abi/fetcher/tmp/hlsvdpropy-2.0.1-py3-none-any.whl.zip]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [hlsvdpropy]: Remove: archive file [/home/abi/fetcher/tmp/hlsvdpropy-2.0.2-py3-none-any.whl.zip]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [hlsvdpropy]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [redis-docker-harness]: Remove: archive file [/home/abi/fetcher/tmp/redis-docker-harness-0.0.3.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [redis-docker-harness]: Remove: archive file [/home/abi/fetcher/tmp/redis-docker-harness-0.0.4.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [redis-docker-harness]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [ellipticbn]: Remove: archive file [/home/abi/fetcher/tmp/ElliptiCBn-1.0.9.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [ellipticbn]: Remove: archive file [/home/abi/fetcher/tmp/ellipticbn-1.1.0.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [ellipticbn]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.5.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.6.tar.gz]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [GPT4Readability]: success
+[2023-07-25 00:01:00] INFO root fetch - processPackages [pulumi-policy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_policy-1.6.0a1687891551-py2.py3-none-any.whl.zip]
+[2023-07-25 00:01:00] INFO root fetch - processPackages [pulumi-policy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_policy-1.7.0a1690233383-py2.py3-none-any.whl.zip]
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: End processing [pulumi-policy]: success
+[2023-07-25 00:01:00] INFO root fetch - main [MainThread]: Store serial: [19019543]
