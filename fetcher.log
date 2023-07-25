@@ -19543,3 +19543,146 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:05:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-25 11:05:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-25 11:05:53] INFO root fetch - main [MainThread]: Store serial: [19026570]
+[2023-07-25 11:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026570]
+[2023-07-25 11:11:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypowsybl
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thor-requests
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-assets
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: understar
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DGet
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: design.plone.contenttypes
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-subadmin
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ensmallen
+[2023-07-25 11:11:02] INFO root fetch - processPackages [thor-requests]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [invenio-assets]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [pypowsybl]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202307250906] Old Version: [99.0.202307250903]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [kfish]: New version: [99.0.202307250906] Old Version: [99.0.202307250905]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [django-subadmin]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-07-25 11:11:02] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-25 11:11:03] INFO root fetch - processPackages [understar]: New version: [2.44] Old Version: [2.43]
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/00/a2/79e41d9516b7274744315d3b1a3da84ab1841bdd8676b7f7f29a4139dd97/kcli-99.0.202307250903-py3-none-any.whl
+[2023-07-25 11:11:03] INFO root fetch - processPackages [invenio-assets]: Downloading https://files.pythonhosted.org/packages/e0/bd/d5aa76848c6202cb24a0088ea39a7d53bc044d9524c8a6a82d519a49185c/invenio-assets-2.0.0.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-25 11:11:03] INFO root fetch - processPackages [thor-requests]: Downloading https://files.pythonhosted.org/packages/f1/fd/3c2f060aa3e011f2b9044ae28c8e6dd86857ab105ae852d5040f11603a94/thor-requests-1.2.4.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/2a/b0/c4f3f508660819f48cf8a29747c587c6f71575b17f4d551a86092dd7d1a1/pypowsybl-0.8.0.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/94/2c/3149e1229dccb921b595fa3da5150f903b85de270e94b9a7de0b071b4425/kfish-99.0.202307250905-py3-none-any.whl
+[2023-07-25 11:11:03] INFO root fetch - processPackages [django-subadmin]: Downloading https://files.pythonhosted.org/packages/72/e4/eda27ea1b5abdc75ea162b71f9b997e7dcd45ec36bd8296172fe21d0bbc6/django-subadmin-3.2.2.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-25 11:11:03] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-07-25 11:11:03] INFO root fetch - processPackages [ensmallen]: Start processing: je-api-testka
+[2023-07-25 11:11:03] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-07-25 11:11:03] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/e5/4c/9ea03f8ec45fd462b3c4f5c2805ed5f942bc2c0e02386343ec4ce1ae3ba4/understar-2.43.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 11:11:03] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [thor-requests]: Downloading https://files.pythonhosted.org/packages/aa/d1/57945cf4730e52acd1af787dd0cc8f421e2c2ec59678399748d5cf30f187/thor-requests-1.2.5.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [invenio-assets]: Downloading https://files.pythonhosted.org/packages/cb/0e/cd1f9cd0600154db1f5e007e2167fdc9756907bc5b157db7793baa50148e/invenio-assets-3.0.0.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/51/eb/54822bde0ef7156f5f29f765bb2d94ced348c03e8dd5a8716698fbb0442b/kcli-99.0.202307250906-py3-none-any.whl
+[2023-07-25 11:11:03] INFO root fetch - processPackages [django-subadmin]: Downloading https://files.pythonhosted.org/packages/85/2f/6a659ef307555806b31b8d224454b726dbfa763f7a52d927957690766b15/django-subadmin-3.2.3.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b4/d4/ba361dd58d7c7f3ddc89cb9ae0ed61942a19d0270a914835dfa70f092a5b/kfish-99.0.202307250906-py3-none-any.whl
+[2023-07-25 11:11:03] INFO root fetch - processPackages [invenio-assets]: executing diffoscope
+[2023-07-25 11:11:03] INFO root fetch - processPackages [invenio-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-assets-2.0.0.tar.gz tmp/invenio-assets-3.0.0.tar.gz --markdown 20230725/i/invenio-assets/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-25 11:11:03] INFO root fetch - processPackages [thor-requests]: executing diffoscope
+[2023-07-25 11:11:03] INFO root fetch - processPackages [thor-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-requests-1.2.4.tar.gz tmp/thor-requests-1.2.5.tar.gz --markdown 20230725/t/thor-requests/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-25 11:11:03] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/a5/f4/720f84933cd528eba6f941247847123d7042313e2680105b4b9d800fcca1/understar-2.44.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/9f/88/d96179dec7f6dbd82e03fb281663d7d50450a76d75a7cc231970d67429e7/pypowsybl-0.9.0.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 11:11:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250905-py3-none-any.whl.zip tmp/kfish-99.0.202307250906-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250905-99.0.202307250906/diff.md --exclude *.pyd
+[2023-07-25 11:11:03] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-25 11:11:03] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-25 11:11:04] INFO root fetch - processPackages [django-subadmin]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [django-subadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-subadmin-3.2.2.tar.gz tmp/django-subadmin-3.2.3.tar.gz --markdown 20230725/d/django-subadmin/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-07-25 11:11:04] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230725/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230725/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307250903-py3-none-any.whl.zip tmp/kcli-99.0.202307250906-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307250903-99.0.202307250906/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.43.tar.gz tmp/understar-2.44.tar.gz --markdown 20230725/u/understar/2.43-2.44/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230725/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 11:11:04] INFO root fetch - processPackages [pypowsybl]: executing diffoscope
+[2023-07-25 11:11:04] INFO root fetch - processPackages [pypowsybl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowsybl-0.8.0.tar.gz tmp/pypowsybl-0.9.0.tar.gz --markdown 20230725/p/pypowsybl/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 11:11:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250905-py3-none-any.whl.zip]
+[2023-07-25 11:11:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250906-py3-none-any.whl.zip]
+[2023-07-25 11:11:05] INFO root fetch - processPackages [kfish]: Start processing: cognite-neat
+[2023-07-25 11:11:05] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [cognite-neat]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [thor-requests]: Remove: archive file [/home/abi/fetcher/tmp/thor-requests-1.2.4.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [thor-requests]: Remove: archive file [/home/abi/fetcher/tmp/thor-requests-1.2.5.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [thor-requests]: Start processing: bagbag
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [thor-requests]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [bagbag]: New version: [0.61.8] Old Version: [0.61.7]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [django-subadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-subadmin-3.2.2.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [django-subadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-subadmin-3.2.3.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [django-subadmin]: Start processing: ign-gpao-utils
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [django-subadmin]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f1/9e/672da4a4169c006bde3d2267bcab24a67d20ccbd9498abdc34ca4050da33/cognite_neat-0.17.2.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/8b/d986feba3ad0a9e7ef0b79e995f5add3ba2694853a73da5afcb45440e413/bagbag-0.61.7.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.43.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.44.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [understar]: Start processing: kfish
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [ign-gpao-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202307250909] Old Version: [99.0.202307250906]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [DGet]: Start processing: dingodb
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [dingodb]: New version: [0.0.2rc1] Old Version: [0.0.2]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b4/d4/ba361dd58d7c7f3ddc89cb9ae0ed61942a19d0270a914835dfa70f092a5b/kfish-99.0.202307250906-py3-none-any.whl
+[2023-07-25 11:11:06] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/43/d2/58aed5cfb0ed06724f7e8b7c93af65af85220057c7e9adf1927019a889c1/ign-gpao-utils-0.0.5.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/8c/a1/dd10447ef6b81174128e9516b62f431c6451b042548d159ee5bbdf80298d/dingodb-0.0.2.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [invenio-assets]: Remove: archive file [/home/abi/fetcher/tmp/invenio-assets-2.0.0.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - processPackages [invenio-assets]: Remove: archive file [/home/abi/fetcher/tmp/invenio-assets-3.0.0.tar.gz]
+[2023-07-25 11:11:06] INFO root fetch - main [MainThread]: End processing [invenio-assets]: success
+[2023-07-25 11:11:06] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 11:11:06] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.7.tar.gz tmp/bagbag-0.61.8.tar.gz --markdown 20230725/b/bagbag/0.61.7-0.61.8/diff.md --exclude *.pyd
+[2023-07-25 11:11:06] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/a5/96/6aed8dd1db33855d12b144143e910e5d70b99dfc6f30055ab0f989f553c8/dingodb-0.0.2rc1.tar.gz
+[2023-07-25 11:11:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bd/47/07dce5c74836984cdb1d3fab484c892edcdc57d8dbaf51fa16e2e2d2ebf6/kfish-99.0.202307250909-py3-none-any.whl
+[2023-07-25 11:11:06] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/8e/d7/44cd3f888a8d1709522c62fc7ced9df267d4be11f0a5f5cb95ac2b5c0c8f/ign-gpao-utils-0.0.6.tar.gz
+[2023-07-25 11:11:07] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2023-07-25 11:11:07] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.2.tar.gz tmp/dingodb-0.0.2rc1.tar.gz --markdown 20230725/d/dingodb/0.0.2-0.0.2rc1/diff.md --exclude *.pyd
+[2023-07-25 11:11:07] INFO root fetch - processPackages [pypowsybl]: Remove: archive file [/home/abi/fetcher/tmp/pypowsybl-0.8.0.tar.gz]
+[2023-07-25 11:11:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 11:11:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250906-py3-none-any.whl.zip tmp/kfish-99.0.202307250909-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250906-99.0.202307250909/diff.md --exclude *.pyd
+[2023-07-25 11:11:07] INFO root fetch - processPackages [pypowsybl]: Remove: archive file [/home/abi/fetcher/tmp/pypowsybl-0.9.0.tar.gz]
+[2023-07-25 11:11:07] INFO root fetch - main [MainThread]: End processing [pypowsybl]: success
+[2023-07-25 11:11:07] INFO root fetch - processPackages [ign-gpao-utils]: executing diffoscope
+[2023-07-25 11:11:07] INFO root fetch - processPackages [ign-gpao-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-utils-0.0.5.tar.gz tmp/ign-gpao-utils-0.0.6.tar.gz --markdown 20230725/i/ign-gpao-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 11:11:07] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8e/10/a7c21d02bfc617fd27775ed7868e89641778a5f13ca7310d6c6a832702e3/cognite_neat-0.17.3.tar.gz
+[2023-07-25 11:11:07] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-25 11:11:07] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.17.2.tar.gz tmp/cognite_neat-0.17.3.tar.gz --markdown 20230725/c/cognite-neat/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-07-25 11:11:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250906-py3-none-any.whl.zip]
+[2023-07-25 11:11:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250909-py3-none-any.whl.zip]
+[2023-07-25 11:11:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 11:11:08] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-25 11:11:08] INFO root fetch - processPackages [ign-gpao-utils]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-utils-0.0.5.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - processPackages [ign-gpao-utils]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-utils-0.0.6.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - main [MainThread]: End processing [ign-gpao-utils]: success
+[2023-07-25 11:11:08] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.2.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.2rc1.tar.gz]
+[2023-07-25 11:11:08] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2023-07-25 11:11:09] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.7.tar.gz]
+[2023-07-25 11:11:09] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-25 11:11:09] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 11:11:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250903-py3-none-any.whl.zip]
+[2023-07-25 11:11:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250906-py3-none-any.whl.zip]
+[2023-07-25 11:11:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 11:13:17] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.2.tar.gz]
+[2023-07-25 11:13:17] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.3.tar.gz]
+[2023-07-25 11:13:17] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-25 11:13:17] INFO root fetch - main [MainThread]: Store serial: [19026626]
