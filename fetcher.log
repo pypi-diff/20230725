@@ -16244,3 +16244,133 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:18:59] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-25 09:18:59] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-25 09:18:59] INFO root fetch - main [MainThread]: Store serial: [19025374]
+[2023-07-25 09:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025374]
+[2023-07-25 09:24:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-oos
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwj-apitest
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-clickhouse
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proctracer
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proctracer
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-ots
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-maxcompute
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsface-python
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-lindorm
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickemail
+[2023-07-25 09:24:08] INFO root fetch - processPackages [mwj-apitest]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [nsface-python]: New version: [1.1.75] Old Version: [1.1.74]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-maxcompute]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-lindorm]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:24:08] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-25 09:24:08] INFO root fetch - processPackages [proctracer]: Start processing: ros-cdk-ehpc
+[2023-07-25 09:24:08] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-25 09:24:08] INFO root fetch - processPackages [quickemail]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-oos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:08] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-25 09:24:08] INFO root fetch - processPackages [proctracer]: Start processing: nsface-cpu-python
+[2023-07-25 09:24:08] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-clickhouse]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-ehpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/84/52/5e919f4b71801786ed470426979aec63929e755529be161b44ae66eaece8/mwj-apitest-1.2.0.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.74] Old Version: [1.1.73]
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/ab/ad/d2d4070a3a94ffaab2da200a16208b1b9822409a5e12289df240025ba00c/ros-cdk-oos-1.0.8.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/0d/3e/a96452ad0ee73e0b528eca8cd86da79b276a42312a08dea30fb69f8dfccd/nsface_python-1.1.74-py3-none-any.whl
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/b2/bc/4a7b7fc2a1b0e702023e28c4af25ff30d9a517221ca40daca96f5ddb2582/ros-cdk-maxcompute-1.0.8.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/3a/c3/0cd65cc5a4896204b3b216a5f8cced189b45aa0b4967e7238da60285daf8/ros-cdk-lindorm-1.0.16.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/29/d0/e998c769e72a1d6732cc557bc5feedc6cde2f67c29b2c7f2443bae1b3e07/ros-cdk-clickhouse-1.0.8.tar.gz
+[2023-07-25 09:24:08] INFO root fetch - processPackages [quickemail]: Downloading https://files.pythonhosted.org/packages/d8/86/af626d92b2b66f8e6fcfc84983db2e34c91394e4952246f7fe2b80f012a8/quickemail-0.2.4-py3-none-any.whl
+[2023-07-25 09:24:08] WARNING root fetch - processPackages [nsface-python]: Skipping package: exceeds size limit 45102172>=10485760
+[2023-07-25 09:24:08] INFO root fetch - processPackages [nsface-python]: Start processing: xmindtotestcase
+[2023-07-25 09:24:08] INFO root fetch - main [MainThread]: End processing [nsface-python] error
+[2023-07-25 09:24:08] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/5f/fb/da450a6f4356330477bdd5c858b95f464547b579cbe4a5f9ec7d42ef528c/ros-cdk-ehpc-1.0.8.tar.gz
+[2023-07-25 09:24:09] WARNING root fetch - processPackages [xmindtotestcase]: Skipping, unable to determine old version
+[2023-07-25 09:24:09] INFO root fetch - processPackages [xmindtotestcase]: Start processing: casdoor
+[2023-07-25 09:24:09] INFO root fetch - main [MainThread]: End processing [xmindtotestcase] error
+[2023-07-25 09:24:09] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/4b/e8/1ef35050ff9594260663ad8df120394df9a756dd807ca2747273cef053fb/mwj-apitest-1.2.1.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [casdoor]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 09:24:09] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.2.0.tar.gz tmp/mwj-apitest-1.2.1.tar.gz --markdown 20230725/m/mwj-apitest/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/13/eb/43259df82c572a36bf02bb57b84906dcbce68cb095b37743193188afc3b3/ros-cdk-oos-1.0.9.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/cc/dd/145ae019f7f98b8eaabce1508ab7e3d354cdcc03ab1db2a07da4d1b9088b/nsface_cpu_python-1.1.74-py3-none-any.whl
+[2023-07-25 09:24:09] INFO root fetch - processPackages [quickemail]: Downloading https://files.pythonhosted.org/packages/69/74/23df7fbcf28005935d14c15970ba531f12ba9dc1a52a63ec47f09d6fc95c/quickemail-0.2.5-py3-none-any.whl
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/2a/fd/4cfa04a9f0fb4a0bd2b34c4ebfa785f9056a2935ceb0b1b3df935147ec43/ros-cdk-lindorm-1.0.17.tar.gz
+[2023-07-25 09:24:09] WARNING root fetch - processPackages [nsface-cpu-python]: Skipping package: exceeds size limit 41438492>=10485760
+[2023-07-25 09:24:09] INFO root fetch - processPackages [nsface-cpu-python]: Start processing: ros-cdk-rds
+[2023-07-25 09:24:09] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python] error
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/05/ae/310bd3d73330d696cfd3d882d051313fd79700685ed0f35d51606dd5402b/ros-cdk-clickhouse-1.0.9.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/95/74/ef0ec11d36690065c29a58d9f825e84280097ee058c6ea482be4acad5fc9/ros-cdk-ehpc-1.0.9.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-oos]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oos-1.0.8.tar.gz tmp/ros-cdk-oos-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-oos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/cc/2c/bf8279ef66988d3e374281ed6efe68f210443379e9c02aaa15b0f74951ad/ros-cdk-maxcompute-1.0.9.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [quickemail]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [quickemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickemail-0.2.4-py3-none-any.whl.zip tmp/quickemail-0.2.5-py3-none-any.whl.zip --markdown 20230725/q/quickemail/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-rds]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-clickhouse]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-clickhouse-1.0.8.tar.gz tmp/ros-cdk-clickhouse-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-clickhouse/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-lindorm]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-lindorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-lindorm-1.0.16.tar.gz tmp/ros-cdk-lindorm-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-lindorm/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ehpc]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ehpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ehpc-1.0.8.tar.gz tmp/ros-cdk-ehpc-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ehpc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/b5/0d/ea0d365eef0e2cb9337578d932d25f5442b13bff76e2ce2f56d63355a341/casdoor-1.8.0.tar.gz
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-maxcompute]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-maxcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-maxcompute-1.0.8.tar.gz tmp/ros-cdk-maxcompute-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-maxcompute/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:09] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/4d/b9/54939a4be8c7f3fc90857a78705be2ea6ff1efdc2577ae9c348c1fc306fa/ros-cdk-rds-1.0.8.tar.gz
+[2023-07-25 09:24:10] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/40/23/ec811b0c57811259c23a5c1705697b64f4fe5a0a20fe40a04adbf8e1ab18/casdoor-1.9.0.tar.gz
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/a7/73/941d30ecd6a2e656e2bbafa58831a40dd39d1fad6b10b9a3c25f6c6dda65/ros-cdk-rds-1.0.9.tar.gz
+[2023-07-25 09:24:10] INFO root fetch - processPackages [casdoor]: executing diffoscope
+[2023-07-25 09:24:10] INFO root fetch - processPackages [casdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casdoor-1.8.0.tar.gz tmp/casdoor-1.9.0.tar.gz --markdown 20230725/c/casdoor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-rds]: executing diffoscope
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rds-1.0.8.tar.gz tmp/ros-cdk-rds-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-rds/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:24:10] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.0.tar.gz]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.1.tar.gz]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [mwj-apitest]: Start processing: ros-cdk-polardbx
+[2023-07-25 09:24:10] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-polardbx]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.8.tar.gz]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.9.tar.gz]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [ros-cdk-oos]: Start processing: pulumi-opnsense
+[2023-07-25 09:24:10] INFO root fetch - main [MainThread]: End processing [ros-cdk-oos]: success
+[2023-07-25 09:24:10] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [quickemail]: Remove: archive file [/home/abi/fetcher/tmp/quickemail-0.2.4-py3-none-any.whl.zip]
+[2023-07-25 09:24:10] INFO root fetch - processPackages [quickemail]: Remove: archive file [/home/abi/fetcher/tmp/quickemail-0.2.5-py3-none-any.whl.zip]
+[2023-07-25 09:24:10] INFO root fetch - main [MainThread]: End processing [quickemail]: success
+[2023-07-25 09:24:10] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/51/c1/5b6904d35dc81688df48e281f3a373dab2176c528df0cf87f559765d7b07/pulumi_opnsense-0.0.79.tar.gz
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/08/f2/9cdcec604d5a4ff6c7ca2902d5f73e477f08c61d88b43063257dfc96ce62/ros-cdk-polardbx-1.0.16.tar.gz
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.16.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.17.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-lindorm]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.8.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.9.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-clickhouse]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/87/4c/b7dcfb67106a2986ebf5a1ac5ba60d93372fd9773894ba0ec8d615f101f6/pulumi_opnsense-0.0.80.tar.gz
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.8.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.9.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-maxcompute]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/ea/7a/668947dc802947c326ae017ccc6fd98d93ec406db04163879782b71a36a1/ros-cdk-polardbx-1.0.17.tar.gz
+[2023-07-25 09:24:11] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 09:24:11] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.79.tar.gz tmp/pulumi_opnsense-0.0.80.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.8.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.9.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-ehpc]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-polardbx]: executing diffoscope
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-polardbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardbx-1.0.16.tar.gz tmp/ros-cdk-polardbx-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-polardbx/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:24:11] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.8.0.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [casdoor]: success
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.8.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.9.tar.gz]
+[2023-07-25 09:24:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-rds]: success
+[2023-07-25 09:24:12] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.79.tar.gz]
+[2023-07-25 09:24:12] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.80.tar.gz]
+[2023-07-25 09:24:12] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 09:24:12] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.16.tar.gz]
+[2023-07-25 09:24:12] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.17.tar.gz]
+[2023-07-25 09:24:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
+[2023-07-25 09:24:12] INFO root fetch - main [MainThread]: Store serial: [19025414]
