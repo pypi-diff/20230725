@@ -9148,3 +9148,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:52:49] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.5.tar.gz]
 [2023-07-25 05:52:49] INFO root fetch - main [MainThread]: End processing [metaphor-python]: success
 [2023-07-25 05:52:49] INFO root fetch - main [MainThread]: Store serial: [19022951]
+[2023-07-25 05:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022951]
+[2023-07-25 05:57:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-account-stamp
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-sdi-channel
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymarkdownlnt
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: animdl
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mystbin-py
+[2023-07-25 05:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bokeh-resources
+[2023-07-25 05:57:58] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [pymarkdownlnt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [bokeh-resources]: New version: [0.4] Old Version: [0.3]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [mystbin-py]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [animdl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-25 05:57:58] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/d5/87/bc94a216e17ed60ad18db20c5fd75acfa4b236270c7a1111f6992d19e567/animdl-1.7.8.tar.gz
+[2023-07-25 05:57:58] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/89/2d/357410a53a6f6b7a828bde92bafdaef4847e5c6c141fe0e32cad1cd35055/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-25 05:57:58] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/98/1e/1646390dc91f820a7eb5f202cfa0ae9a2b341de877e363eea0d186d8f170/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-25 05:57:58] INFO root fetch - processPackages [bokeh-resources]: Downloading https://files.pythonhosted.org/packages/8a/d0/94cdeca4118bb963f6a1ef127d00ed7fd2067f4986e6bc606d2832b3a43d/bokeh-resources-0.3.tar.gz
+[2023-07-25 05:57:58] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/99/ae/26782efb2debac898d9da909def1d47e493b8082ccee739ace898905aeaa/mystbin_py-6.0.0.tar.gz
+[2023-07-25 05:57:58] INFO root fetch - processPackages [pymarkdownlnt]: Downloading https://files.pythonhosted.org/packages/a3/94/6adcb1867afbe385082c2f2689db8f40cba7af716d2105651a23f845bbe4/pymarkdownlnt-0.9.8.tar.gz
+[2023-07-25 05:57:58] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/0e/37/d4eb2ed02f62b54d44d74ec067b7cc440fdc4cab9f8404d07181c1f95463/animdl-1.7.9.tar.gz
+[2023-07-25 05:57:59] INFO root fetch - processPackages [animdl]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [animdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animdl-1.7.8.tar.gz tmp/animdl-1.7.9.tar.gz --markdown 20230725/a/animdl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/c1/f2/ddddd0da1821d6fc9b93505ccd6bf40b3ecdacb2ff03df78c7488a4a2c6b/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-25 05:57:59] INFO root fetch - processPackages [bokeh-resources]: Downloading https://files.pythonhosted.org/packages/0f/65/ade79c25766d4ea914d2cc9762b10fb1ce8f03d0d9f84302e8eec7318b09/bokeh-resources-0.4.tar.gz
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/d0/29/035b5f26968d67a08a52a0cd84fe5141d008258d9e727322375e026089dc/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.2-py3-none-any.whl
+[2023-07-25 05:57:59] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/42/34/6d6acb7575be978b148bb3e5fbf3cbf4138f9b9d0cc861f2abbd11a402e3/mystbin_py-6.0.1.tar.gz
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-l10n-it-sdi-channel/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-25 05:57:59] INFO root fetch - processPackages [bokeh-resources]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [bokeh-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-resources-0.3.tar.gz tmp/bokeh-resources-0.4.tar.gz --markdown 20230725/b/bokeh-resources/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-25 05:57:59] INFO root fetch - processPackages [pymarkdownlnt]: Downloading https://files.pythonhosted.org/packages/8f/76/a53b85aa14a0478296d962d41d6a138019a37a47c6b213567ef63c0154dc/pymarkdownlnt-0.9.9.tar.gz
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-l10n-it-account-stamp/16.0.1.0.1.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-07-25 05:57:59] INFO root fetch - processPackages [mystbin-py]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [mystbin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystbin_py-6.0.0.tar.gz tmp/mystbin_py-6.0.1.tar.gz --markdown 20230725/m/mystbin-py/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-25 05:57:59] INFO root fetch - processPackages [pymarkdownlnt]: executing diffoscope
+[2023-07-25 05:57:59] INFO root fetch - processPackages [pymarkdownlnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymarkdownlnt-0.9.8.tar.gz tmp/pymarkdownlnt-0.9.9.tar.gz --markdown 20230725/p/pymarkdownlnt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 05:58:00] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-6.0.0.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-6.0.1.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - main [MainThread]: End processing [mystbin-py]: success
+[2023-07-25 05:58:00] INFO root fetch - processPackages [bokeh-resources]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-resources-0.3.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - processPackages [bokeh-resources]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-resources-0.4.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - main [MainThread]: End processing [bokeh-resources]: success
+[2023-07-25 05:58:00] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-25 05:58:00] INFO root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_sdi_channel-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-25 05:58:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-sdi-channel]: success
+[2023-07-25 05:58:00] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-25 05:58:00] INFO root fetch - processPackages [odoo-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_account_stamp-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-07-25 05:58:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-account-stamp]: success
+[2023-07-25 05:58:00] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.8.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.9.tar.gz]
+[2023-07-25 05:58:00] INFO root fetch - main [MainThread]: End processing [animdl]: success
+[2023-07-25 05:58:01] INFO root fetch - processPackages [pymarkdownlnt]: Remove: archive file [/home/abi/fetcher/tmp/pymarkdownlnt-0.9.8.tar.gz]
+[2023-07-25 05:58:01] INFO root fetch - processPackages [pymarkdownlnt]: Remove: archive file [/home/abi/fetcher/tmp/pymarkdownlnt-0.9.9.tar.gz]
+[2023-07-25 05:58:01] INFO root fetch - main [MainThread]: End processing [pymarkdownlnt]: success
+[2023-07-25 05:58:01] INFO root fetch - main [MainThread]: Store serial: [19022967]
