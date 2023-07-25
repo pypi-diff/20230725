@@ -15499,3 +15499,194 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:00:00] INFO root fetch - processPackages [shakenfist-client]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-client-0.7.0.0rc6.tar.gz]
 [2023-07-25 09:00:00] INFO root fetch - main [MainThread]: End processing [shakenfist-client]: success
 [2023-07-25 09:00:00] INFO root fetch - main [MainThread]: Store serial: [19025100]
+[2023-07-25 09:05:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025100]
+[2023-07-25 09:05:08] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DDesignerAPI
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tritonv2
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tess-atl
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-core
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readDataFile
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-cloudfw
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autocut-fix
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-paidswapi
+[2023-07-25 09:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uagents-twilio
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-cloudfw]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [tritonv2]: New version: [1.0.0] Old Version: [0.9.9.3]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [readDataFile]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [uagents-twilio]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-paidswapi]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [tess-atl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.3.4] Old Version: [0.0.3.2]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-25 09:05:09] WARNING root fetch - processPackages [autocut-fix]: Skipping, unable to determine old version
+[2023-07-25 09:05:09] INFO root fetch - processPackages [autocut-fix]: Start processing: seqio-nightly
+[2023-07-25 09:05:09] INFO root fetch - main [MainThread]: End processing [autocut-fix] error
+[2023-07-25 09:05:09] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/47/d4/27b281cb4aab431844a3cabac7ad852c042830bde4bfb1efc6ce33b6186f/readDataFile-0.0.5.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/9f/2e/90746b9aac214f468e9137704d8d47af9c91c4cf5eaf11145c42fe705baf/ros-cdk-cloudfw-1.0.8.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [tess-atl]: Downloading https://files.pythonhosted.org/packages/6c/e6/0561f0fe93cca0130af2a848ae839ce28667fe46440fdfc018e33beede6c/tess-atl-0.0.1.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/0f/bb/06bc8b12efbf4f0d880443e267b8f17b1854bb68b30eddabf157040dd6e0/uagents_twilio-1.0.6.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-25 09:05:09] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/9a/74/619d3d8264c7ab64f1c277f5f0dc0e0233ed92cdab25527613ea7cf4e245/DDesignerAPI-0.0.3.2-py3-none-any.whl
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-paidswapi]: Downloading https://files.pythonhosted.org/packages/8c/59/de41965be6b6fe32ef50a870935d176b3b3f2ef8c88bb203c2af0507ca15/ros-cdk-paidswapi-1.0.16.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/8e/b2/5b8e95b2e309ee94dc0d4001ae038e4d33f467a99ee7cd5607248d0f7b9e/ros-cdk-core-1.0.8.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/3a/c6/38d0977681cca0b31ef2c3a86a918001a83e3a7766dd29b20601a301dd04/tritonv2-0.9.9.3.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/99/52/9f35ae8821d417d3c2d477d2e9d26424b8f6bfd5b2db9b5f2df1688a5527/readDataFile-0.0.6.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/19/eb/a34104217a88f66f5a1d5cdbb62114a2509a24b14b2556469495e476dfa3/uagents_twilio-1.0.7.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [tess-atl]: Downloading https://files.pythonhosted.org/packages/5f/10/d44ec4e1b25b7670b0463284f9d7cc87dfb4e03c9e31d260b86dbca89766/tess-atl-0.0.2.tar.gz
+[2023-07-25 09:05:09] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-25 09:05:09] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230725/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/ec/de/03d62a383672a8f124474065aa0e7e1024d83dbeedb571a7bee44ce2bbfb/DDesignerAPI-0.0.3.4-py3-none-any.whl
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-paidswapi]: Downloading https://files.pythonhosted.org/packages/2e/7e/613f39fc49e76c4f0620e19341a3334bb6a2fc4ac37e83f0b3b37a48a928/ros-cdk-paidswapi-1.0.17.tar.gz
+[2023-07-25 09:05:10] INFO root fetch - processPackages [readDataFile]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [readDataFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readDataFile-0.0.5.tar.gz tmp/readDataFile-0.0.6.tar.gz --markdown 20230725/r/readDataFile/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/08/94/23d9ab65f6ead0e6d3d7fc00751a3437521336d0642d4654b88dc3abb688/tritonv2-1.0.0.tar.gz
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/3b/0f/07a63c14f29091bf122a8f24d6cca124f8b20a91fce17451b0ef6cd7b85b/ros-cdk-core-1.0.9.tar.gz
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-paidswapi]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-paidswapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-paidswapi-1.0.16.tar.gz tmp/ros-cdk-paidswapi-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-paidswapi/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [uagents-twilio]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [uagents-twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_twilio-1.0.6.tar.gz tmp/uagents_twilio-1.0.7.tar.gz --markdown 20230725/u/uagents-twilio/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-25 09:05:10] INFO root fetch - processPackages [tritonv2]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [tritonv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonv2-0.9.9.3.tar.gz tmp/tritonv2-1.0.0.tar.gz --markdown 20230725/t/tritonv2/0.9.9.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [tess-atl]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [tess-atl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tess-atl-0.0.1.tar.gz tmp/tess-atl-0.0.2.tar.gz --markdown 20230725/t/tess-atl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.3.2-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.3.4-py3-none-any.whl.zip --markdown 20230725/D/DDesignerAPI/0.0.3.2-0.0.3.4/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-core]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-core-1.0.8.tar.gz tmp/ros-cdk-core-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-core/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230725/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/28/cf/919a32e2a5fab8e5399647618cd1316ddbd5451996c8a30cf2cdd81a2bcd/ros-cdk-cloudfw-1.0.9.tar.gz
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-cloudfw]: executing diffoscope
+[2023-07-25 09:05:10] INFO root fetch - processPackages [ros-cdk-cloudfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudfw-1.0.8.tar.gz tmp/ros-cdk-cloudfw-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cloudfw/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:11] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [always-updates]: Start processing: ros-cdk-cddc
+[2023-07-25 09:05:11] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-25 09:05:11] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.5.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.6.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [readDataFile]: Start processing: datumaro
+[2023-07-25 09:05:11] INFO root fetch - main [MainThread]: End processing [readDataFile]: success
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-cddc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [datumaro]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/0e/ff/b3d167b53d82837916c46bc8e6f1f431ad83cacafab4b0478a927a81c840/ros-cdk-cddc-1.0.8.tar.gz
+[2023-07-25 09:05:11] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/0e/f0/53640e9c8b55c3fa91048ee888b5c59a20cda67628df1857e829e1a8eb3b/datumaro-1.4.0rc3.tar.gz
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-paidswapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidswapi-1.0.16.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-paidswapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidswapi-1.0.17.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-paidswapi]: Start processing: ros-cdk-ros
+[2023-07-25 09:05:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-paidswapi]: success
+[2023-07-25 09:05:11] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.0.6.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.0.7.tar.gz]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [uagents-twilio]: Start processing: ai4xde
+[2023-07-25 09:05:11] INFO root fetch - main [MainThread]: End processing [uagents-twilio]: success
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:11] INFO root fetch - processPackages [ai4xde]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.2-py3-none-any.whl.zip]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.4-py3-none-any.whl.zip]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [DDesignerAPI]: Start processing: pulumi-opnsense
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.8.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.9.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-core]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-core]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/4c/31/86dd2c5e585276d59653d1c1f4e4e497f8df96aebe034b16097904065906/ros-cdk-cddc-1.0.9.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.3.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-1.0.0.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tritonv2]: Start processing: adafri
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [tritonv2]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ai4xde]: Downloading https://files.pythonhosted.org/packages/9c/ef/7ec67cd935714f4709504b2333c6c09c9a936b6b4be465e23daca19428ef/ai4xde-0.2.0.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/6b/a3/b5451f084e64f7fd60af89a944c4e9deceda0e850461b99956a7a0ec3a8e/pulumi_opnsense-0.0.78.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.8.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.9.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cloudfw]: Start processing: cPyparsing
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudfw]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tess-atl]: Remove: archive file [/home/abi/fetcher/tmp/tess-atl-0.0.1.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tess-atl]: Remove: archive file [/home/abi/fetcher/tmp/tess-atl-0.0.2.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [tess-atl]: Start processing: ros-cdk-mps
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [tess-atl]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [adafri]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/4b/54/eb3319faa58f57f2a7573b56b073fe8ec7fd78f28b8ba5610b2a90cb74c8/datumaro-1.4.0rc4.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [seqio-nightly]: Start processing: isystem.connect
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-25 09:05:12] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.2.1] Old Version: [2.4.7.2.2.0]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cddc]: executing diffoscope
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-cddc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cddc-1.0.8.tar.gz tmp/ros-cdk-cddc-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cddc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:12] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/55/25/e66746606e4b9ed0f1be3b07c88726e30fd945c8142338d5f8e6ce52396c/adafri-0.0.53.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-mps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:12] WARNING root fetch - processPackages [ai4xde]: Skipping package: exceeds size limit 24488948>=10485760
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ai4xde]: Start processing: ros-cdk-adb
+[2023-07-25 09:05:12] INFO root fetch - main [MainThread]: End processing [ai4xde] error
+[2023-07-25 09:05:12] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-07-25 09:05:12] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.4.0rc3.tar.gz tmp/datumaro-1.4.0rc4.tar.gz --markdown 20230725/d/datumaro/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-07-25 09:05:12] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/b9/51/8d80526ac7917706b9a69aedce8c5ef8ecf9e8c8f6485d60b211d4649ed0/cPyparsing-2.4.7.2.2.0.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-adb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/51/c1/5b6904d35dc81688df48e281f3a373dab2176c528df0cf87f559765d7b07/pulumi_opnsense-0.0.79.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-mps]: Downloading https://files.pythonhosted.org/packages/4d/2e/475d23ba8a392ba67d2adb03dfd2b0734b897fb62fbc1386caf7d2f7ff5e/ros-cdk-mps-1.0.8.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ros/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:12] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/79/71/23bf670afe9d591d3e103ead5ed1d409a93d525d91058e50fe9bb72d337a/adafri-0.0.54.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-07-25 09:05:12] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/1a/64/b4ed9ad2c0a4e2060a3e0c0670b8ebc56e100aa98f34049cf06fd69c83eb/ros-cdk-adb-1.0.8.tar.gz
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 09:05:12] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.78.tar.gz tmp/pulumi_opnsense-0.0.79.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-07-25 09:05:13] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-25 09:05:13] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.53.tar.gz tmp/adafri-0.0.54.tar.gz --markdown 20230725/a/adafri/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-07-25 09:05:13] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/8c/51/548830735273fbc91cdd0d583136577204089ea2ecf6ea2e85d135cf5230/cPyparsing-2.4.7.2.2.1.tar.gz
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-mps]: Downloading https://files.pythonhosted.org/packages/04/5d/3f9ced438cafe8c5350c8c169a41e55f3a32af778c9ff06c4da3ce95e64a/ros-cdk-mps-1.0.9.tar.gz
+[2023-07-25 09:05:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.8.tar.gz]
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.9.tar.gz]
+[2023-07-25 09:05:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-cddc]: success
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-mps]: executing diffoscope
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mps-1.0.8.tar.gz tmp/ros-cdk-mps-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-mps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/24/43/de2b821538577a04d2e77bd24da29873d8eabd80115b69bf8df04d7a0429/ros-cdk-adb-1.0.9.tar.gz
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-adb]: executing diffoscope
+[2023-07-25 09:05:13] INFO root fetch - processPackages [ros-cdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-adb-1.0.8.tar.gz tmp/ros-cdk-adb-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-adb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:05:13] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-25 09:05:13] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.2.0.tar.gz tmp/cPyparsing-2.4.7.2.2.1.tar.gz --markdown 20230725/c/cPyparsing/2.4.7.2.2.0-2.4.7.2.2.1/diff.md --exclude *.pyd
+[2023-07-25 09:05:14] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.78.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.79.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2023-07-25 09:05:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-25 09:05:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230725/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 09:05:14] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.53.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.54.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-mps]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mps-1.0.8.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-mps]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mps-1.0.9.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-mps]: success
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.8.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.9.tar.gz]
+[2023-07-25 09:05:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-adb]: success
+[2023-07-25 09:05:15] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc3.tar.gz]
+[2023-07-25 09:05:15] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc4.tar.gz]
+[2023-07-25 09:05:15] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-07-25 09:05:15] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-07-25 09:05:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-25 09:05:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-25 09:05:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-25 09:05:16] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-07-25 09:05:16] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230725/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-07-25 09:05:17] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.0.tar.gz]
+[2023-07-25 09:05:17] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.1.tar.gz]
+[2023-07-25 09:05:17] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-25 09:05:17] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-07-25 09:05:17] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-07-25 09:05:17] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-07-25 09:05:17] INFO root fetch - main [MainThread]: Store serial: [19025187]
