@@ -17238,3 +17238,234 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:51:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-25 09:51:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-25 09:51:45] INFO root fetch - main [MainThread]: Store serial: [19025704]
+[2023-07-25 09:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025704]
+[2023-07-25 09:56:54] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opnsense
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airoboros
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-ess
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-util
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-cloudphone
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-dfs
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acquire
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbtex
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyroll-report
+[2023-07-25 09:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adafri
+[2023-07-25 09:56:55] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [pyroll-report]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-ess]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [vbtex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-cloudphone]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-dfs]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [airoboros]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [adafri]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [acquire]: New version: [3.8.dev9] Old Version: [3.8.dev8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-25 09:56:55] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/6e/02/bd00ac0d674600dfeb5043c05ea749b48eca40d70bf56038bf7e4159dad6/vbtex-0.1.8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/79/71/23bf670afe9d591d3e103ead5ed1d409a93d525d91058e50fe9bb72d337a/adafri-0.0.54.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/26/5f/ccaae19e7fe8dca7ce565fdba7f6ebfacdf8cd34951fdbf2f873de243608/pulumi_opnsense-0.0.82.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [pyroll-report]: Downloading https://files.pythonhosted.org/packages/7b/d5/5ac0a34d8866f77d77584d2328461453147daee485c4f548df43b2298fe3/pyroll_report-2.0.1.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/c9/2c/5fe7e864a6189f632a70ae24ab968fc0fb7119629ead5dcf263845232cc2/ros-cdk-ess-1.0.8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/d0/53/3ecd59bccb7d8d06707f2e3ca4793a48314fbc1ed7008d87f5f3a717250a/ros-cdk-dfs-1.0.17.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/c3/eb/ab038759d335f534fbc0189536f96ab4fe8467adc14768be58ee1cc27492/ros-cdk-cloudphone-1.0.8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/32/b8/bb2b07b070d0b1997245b6f5a354c7321cecec57a50a656ac27f7d60b1a7/acquire-3.8.dev8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/4a/ff/9273f4cb2e8fca09dafad941f272c651a2394b294082efb56e8b062aaac3/airoboros-2.0.8.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/06/d7/0b44533157d4ca5f90efb4e30ed78f04191628b356b15a90b995feee6857/vbtex-0.1.9.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ff/ca/ed0bf8984365e87f3f9f2b9837d503552fbb2eb034898fc889798cc69322/pulumi_opnsense-0.0.83.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/60/7f/84111700ce583f9752b7695018bba6fea406a8b010a09b0aabd53199401e/adafri-0.0.55.tar.gz
+[2023-07-25 09:56:55] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-25 09:56:55] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.8.tar.gz tmp/vbtex-0.1.9.tar.gz --markdown 20230725/v/vbtex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.82.tar.gz tmp/pulumi_opnsense-0.0.83.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [pyroll-report]: Downloading https://files.pythonhosted.org/packages/11/1b/73d9a9f7311a949187fe650ffcb7397ab0d2e91e67be6708e30e32766407/pyroll_report-2.0.2.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/46/3d/9ce7da7ffa65d1a4e891fb205d146db05f2c729bae5edbbd338def78d151/ros-cdk-dfs-1.0.9.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.54.tar.gz tmp/adafri-0.0.55.tar.gz --markdown 20230725/a/adafri/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230725/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/7d/67/698fa9c6818e76a7c32f0b4b16631a78350d3647e5b5f48d6d1f8c221514/ros-cdk-ess-1.0.9.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/e6/1e/4df8d1ce7800f4b00810834183adfb84b0fe84c67d987db42e6b86c2bb62/acquire-3.8.dev9.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [pyroll-report]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [pyroll-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroll_report-2.0.1.tar.gz tmp/pyroll_report-2.0.2.tar.gz --markdown 20230725/p/pyroll-report/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/2f/fd/4604e0a4e603c76b8419f9e5c9c4a06b2d424551cfdcdcde41b01be2da5c/ros-cdk-cloudphone-1.0.9.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/ea/0b/10b7e8c1d72e2110732337666c1fb3278c338ad8f76908749f39897328c5/airoboros-2.0.9.tar.gz
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-dfs]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dfs-1.0.17.tar.gz tmp/ros-cdk-dfs-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-dfs/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-2.0.8.tar.gz tmp/airoboros-2.0.9.tar.gz --markdown 20230725/a/airoboros/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-ess]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ess-1.0.8.tar.gz tmp/ros-cdk-ess-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ess/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.8.dev8.tar.gz tmp/acquire-3.8.dev9.tar.gz --markdown 20230725/a/acquire/3.8.dev8-3.8.dev9/diff.md --exclude *.pyd
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-cloudphone]: executing diffoscope
+[2023-07-25 09:56:56] INFO root fetch - processPackages [ros-cdk-cloudphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudphone-1.0.8.tar.gz tmp/ros-cdk-cloudphone-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cloudphone/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:57] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.8.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.9.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [vbtex]: Start processing: pyatlan
+[2023-07-25 09:56:57] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pyatlan]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/0e/d5/669bbe73bf1adb86e9d8354665319956cce747648940fc66cbb6b940bfa1/pyatlan-0.4.1.tar.gz
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.82.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.83.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: xj-finance
+[2023-07-25 09:56:57] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 09:56:57] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.54.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.55.tar.gz]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [adafri]: Start processing: djangoldp-needle
+[2023-07-25 09:56:57] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-25 09:56:57] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-07-25 09:56:57] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-07-25 09:56:57] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/5f/e7/19a7188434f9f0c4b55378939f23137c7a9082b0332fd2c221e4432935bb/pyatlan-0.4.2.tar.gz
+[2023-07-25 09:56:57] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/46/da/a2ae33d27fbc4b9803c1e6987566e96475f1560a8892bfdc8a51a4b55f28/djangoldp_needle-0.1.96.tar.gz
+[2023-07-25 09:56:57] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-07-25 09:56:58] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.4.1.tar.gz tmp/pyatlan-0.4.2.tar.gz --markdown 20230725/p/pyatlan/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-25 09:56:58] INFO root fetch - processPackages [pyroll-report]: Remove: archive file [/home/abi/fetcher/tmp/pyroll_report-2.0.1.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [pyroll-report]: Remove: archive file [/home/abi/fetcher/tmp/pyroll_report-2.0.2.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [pyroll-report]: Start processing: zhousf-lib
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [pyroll-report]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.17.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-dfs]: Start processing: metaphor-python
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [ros-cdk-dfs]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.8.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-ess]: Start processing: climify-api
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [ros-cdk-ess]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [zhousf-lib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [metaphor-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-07-25 09:56:58] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230725/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.8.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-cloudphone]: Start processing: ros-cdk-kafka
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudphone]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/c7/85/2ca933d1ce9859ffbf64c7a1f1bd2fc15c6ff2b6ad5ab32de8cb8a0ac381/climify_api-1.0.8.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/e9/c3/e84e9f7c57265a43d36ddb386446cf73a31649e9863fd1956e4291aa2c37/metaphor-python-0.1.5.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-kafka]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/d2/3a/2e881ee192df0c043de6271cafe7d041786893a62567bf184315d210af4c/djangoldp_needle-0.1.97.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [fosslight-util]: Start processing: ros-cdk-elasticsearch
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/c2/e2/0dcf8941c9395cba9c7d162ec34b21fd44db107387d66aa57554beeee3e3/zhousf-lib-0.9.0.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev8.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [acquire]: Start processing: lava-optimization
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.8.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.9.tar.gz]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [airoboros]: Start processing: kodexa-cli
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-elasticsearch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:58] WARNING root fetch - processPackages [lava-optimization]: Skipping, unable to determine old version
+[2023-07-25 09:56:58] INFO root fetch - processPackages [lava-optimization]: Start processing: vbtex
+[2023-07-25 09:56:58] INFO root fetch - main [MainThread]: End processing [lava-optimization] error
+[2023-07-25 09:56:58] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/33/f9/a6ddc4ec479e3d0a39fc4f48dc23b14962dd59195960aa64469e4ddfe041/climify_api-1.0.9.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/a3/99/c40da094f8be49c3470e220bbe6f6af2a035df2d0cf91637a4591129356b/ros-cdk-kafka-1.0.8.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/29/66/0d9e780a223a4d21c59c513850cf7a0bb32667696b73b7dc0983e6a64e9c/metaphor-python-0.1.6.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35654118139] Old Version: [6.3.35654057955]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [vbtex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 09:56:58] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/71/c9/882e19573ed6ce5afb75a2374a3f26bf2ef4988bb5afb57ab6797bb410fe/kodexa_cli-6.3.35654057955.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [metaphor-python]: executing diffoscope
+[2023-07-25 09:56:58] INFO root fetch - processPackages [metaphor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-python-0.1.5.tar.gz tmp/metaphor-python-0.1.6.tar.gz --markdown 20230725/m/metaphor-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-25 09:56:58] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-07-25 09:56:58] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-07-25 09:56:58] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.96.tar.gz tmp/djangoldp_needle-0.1.97.tar.gz --markdown 20230725/d/djangoldp-needle/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-07-25 09:56:58] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230725/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/f4/93/d73d5ab7d854f0c866e9d1cdbdebf0be8e476e6d9be9e553db2cbfc83c33/ros-cdk-elasticsearch-1.0.8.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/6e/02/bd00ac0d674600dfeb5043c05ea749b48eca40d70bf56038bf7e4159dad6/vbtex-0.1.8.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/c5/51/5727735ae9a6c3a2ec45a2f27a7668e524d6066953bd376dbfadea5eebd6/ros-cdk-kafka-1.0.9.tar.gz
+[2023-07-25 09:56:58] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/06/d7/0b44533157d4ca5f90efb4e30ed78f04191628b356b15a90b995feee6857/vbtex-0.1.9.tar.gz
+[2023-07-25 09:56:59] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/c6/11/68ce801c4092eff5a56e9bb897c413fa7d677b847f290d53e7e68a3b0dd7/kodexa_cli-6.3.35654118139.tar.gz
+[2023-07-25 09:56:59] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-25 09:56:59] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.8.tar.gz tmp/vbtex-0.1.9.tar.gz --markdown 20230725/v/vbtex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:59] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-25 09:56:59] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35654057955.tar.gz tmp/kodexa_cli-6.3.35654118139.tar.gz --markdown 20230725/k/kodexa-cli/6.3.35654057955-6.3.35654118139/diff.md --exclude *.pyd
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-kafka]: executing diffoscope
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kafka-1.0.8.tar.gz tmp/ros-cdk-kafka-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-kafka/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/aa/4b/0a94330e95e4428425ca80ae62cc1dba2cf03a07b06c4294a2b410136fd6/ros-cdk-elasticsearch-1.0.9.tar.gz
+[2023-07-25 09:56:59] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [xj-finance]: Start processing: ros-cdk-sae
+[2023-07-25 09:56:59] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-sae]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.4.1.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.4.2.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [pyatlan]: Start processing: ros-cdk-directmail
+[2023-07-25 09:56:59] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-directmail]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-elasticsearch]: executing diffoscope
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-elasticsearch-1.0.8.tar.gz tmp/ros-cdk-elasticsearch-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-elasticsearch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/95/5e/26a5585a5fe36ef898857f1c85d833bf8557f57253b91175c353fd8db132/ros-cdk-sae-1.0.8.tar.gz
+[2023-07-25 09:56:59] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.5.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.6.tar.gz]
+[2023-07-25 09:56:59] INFO root fetch - processPackages [metaphor-python]: Start processing: quickemail
+[2023-07-25 09:56:59] INFO root fetch - main [MainThread]: End processing [metaphor-python]: success
+[2023-07-25 09:56:59] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/b1/73/66d4703ac0fb8baffe53b73c711bec554dc0760863ad5f56941b6e7f5f22/ros-cdk-directmail-1.0.16.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [quickemail]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [quickemail]: Downloading https://files.pythonhosted.org/packages/69/74/23df7fbcf28005935d14c15970ba531f12ba9dc1a52a63ec47f09d6fc95c/quickemail-0.2.5-py3-none-any.whl
+[2023-07-25 09:57:00] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.8.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.9.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [climify-api]: Start processing: pyquiver
+[2023-07-25 09:57:00] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-07-25 09:57:00] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.8.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.9.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [vbtex]: Start processing: bagbag
+[2023-07-25 09:57:00] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/48/72/cff8a4b003968402d7e15cd02a1e7cd2c3942986f32ecbb5f5f318c01237/ros-cdk-sae-1.0.9.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [bagbag]: New version: [0.61.6] Old Version: [0.61.5]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/f8/01/5212e789e0db0b469a6731957e54bbea8b55529d93881ebf9fc7c49016be/zhousf-lib-0.9.1.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [pyquiver]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/38/b3/df92ec2e27e55eb7312dc24700ef258195635aad614e8e720981ea052c93/ros-cdk-directmail-1.0.17.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/12/ad71c9a76cc63c90d17bfa3b86cb170245e5c24f532d63afebd07a2f0d36/bagbag-0.61.5.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.8.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.9.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-kafka]: success
+[2023-07-25 09:57:00] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35654057955.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35654118139.tar.gz]
+[2023-07-25 09:57:00] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-directmail]: executing diffoscope
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-directmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-directmail-1.0.16.tar.gz tmp/ros-cdk-directmail-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-directmail/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:57:00] INFO root fetch - processPackages [quickemail]: Downloading https://files.pythonhosted.org/packages/fd/9f/f8c6e5397a72ace6288ffc9f537dedee0a2e51a55f00c85a1ae846890c9d/quickemail-0.2.6.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-25 09:57:00] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.9.0.tar.gz tmp/zhousf-lib-0.9.1.tar.gz --markdown 20230725/z/zhousf-lib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-sae]: executing diffoscope
+[2023-07-25 09:57:00] INFO root fetch - processPackages [ros-cdk-sae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sae-1.0.8.tar.gz tmp/ros-cdk-sae-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-sae/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:57:00] INFO root fetch - processPackages [quickemail]: executing diffoscope
+[2023-07-25 09:57:00] INFO root fetch - processPackages [quickemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickemail-0.2.5-py3-none-any.whl.zip tmp/quickemail-0.2.6.tar.gz --markdown 20230725/q/quickemail/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-25 09:57:00] INFO root fetch - processPackages [pyquiver]: Downloading https://files.pythonhosted.org/packages/ef/a4/ba2ef713868a6ef61f07f9919f0a66a9143790dd0405b2ecd4d37dd910e1/pyquiver-0.0.1.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/40/9a/ff95ced358074e9a982297110bc834bd0d5cfa3dbe7949a8fc7f8071c25c/bagbag-0.61.6.tar.gz
+[2023-07-25 09:57:00] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 09:57:00] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.5.tar.gz tmp/bagbag-0.61.6.tar.gz --markdown 20230725/b/bagbag/0.61.5-0.61.6/diff.md --exclude *.pyd
+[2023-07-25 09:57:00] INFO root fetch - processPackages [pyquiver]: Downloading https://files.pythonhosted.org/packages/c1/d7/60ebbf26eca69800abcec3397c721292825b3cbecceb76374326d9748841/pyquiver-0.0.2-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.8.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.9.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - main [MainThread]: End processing [ros-cdk-elasticsearch]: success
+[2023-07-25 09:57:01] INFO root fetch - processPackages [djangoldp-needle]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_needle-0.1.96.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - processPackages [djangoldp-needle]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_needle-0.1.97.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.16.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.17.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - main [MainThread]: End processing [ros-cdk-directmail]: success
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.8.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.9.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - main [MainThread]: End processing [ros-cdk-sae]: success
+[2023-07-25 09:57:01] INFO root fetch - processPackages [quickemail]: Remove: archive file [/home/abi/fetcher/tmp/quickemail-0.2.5-py3-none-any.whl.zip]
+[2023-07-25 09:57:01] INFO root fetch - processPackages [quickemail]: Remove: archive file [/home/abi/fetcher/tmp/quickemail-0.2.6.tar.gz]
+[2023-07-25 09:57:01] INFO root fetch - main [MainThread]: End processing [quickemail]: success
+[2023-07-25 09:57:01] INFO root fetch - processPackages [pyquiver]: executing diffoscope
+[2023-07-25 09:57:01] INFO root fetch - processPackages [pyquiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquiver-0.0.1.tar.gz tmp/pyquiver-0.0.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230725/p/pyquiver/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 09:57:02] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.5.tar.gz]
+[2023-07-25 09:57:02] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.6.tar.gz]
+[2023-07-25 09:57:02] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 09:57:02] INFO root fetch - processPackages [pyquiver]: Remove: archive file [/home/abi/fetcher/tmp/pyquiver-0.0.1.tar.gz]
+[2023-07-25 09:57:02] INFO root fetch - processPackages [pyquiver]: Remove: archive file [/home/abi/fetcher/tmp/pyquiver-0.0.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-07-25 09:57:02] INFO root fetch - main [MainThread]: End processing [pyquiver]: success
+[2023-07-25 09:57:02] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.0.tar.gz]
+[2023-07-25 09:57:02] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.1.tar.gz]
+[2023-07-25 09:57:02] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-25 09:57:02] INFO root fetch - main [MainThread]: Store serial: [19025789]
