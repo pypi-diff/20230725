@@ -7144,3 +7144,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 03:51:45] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.9.tar.gz]
 [2023-07-25 03:51:45] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
 [2023-07-25 03:51:45] INFO root fetch - main [MainThread]: Store serial: [19022115]
+[2023-07-25 03:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022115]
+[2023-07-25 03:56:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrunch
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_core
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiolm-pytorch
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_bionty
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotion-lambda
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playgroundrl-envs
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-casdoor-auth
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: our1314
+[2023-07-25 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waveform-factory
+[2023-07-25 03:56:54] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.10] Old Version: [4.0.1]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [waveform-factory]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [our1314]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [django-casdoor-auth]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [scrunch]: New version: [6.5.2007.post1690238344] Old Version: [6.5.2006.post1690223540]
+[2023-07-25 03:56:54] INFO root fetch - processPackages [waveform-factory]: Downloading https://files.pythonhosted.org/packages/78/5d/e9f3acf6a9efde99ebe3a7a8f1da7db53940b7b40f5fdbc654ea1f9b88d1/waveform_factory-0.1.1.tar.gz
+[2023-07-25 03:56:54] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/5a/66/1ef5237df9dbe7f250003a9bd6ea9c785e3fa4ee85d11005d15f2b365704/our1314-0.0.8.tar.gz
+[2023-07-25 03:56:54] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/6e/85/23ce97fa41e4b21e2b05c93c4817690b828a9bfc35d6c38f4dc06f996748/playgroundrl_envs-0.0.6.tar.gz
+[2023-07-25 03:56:54] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/c8/c9/d1c5d6c6809491422a5038abe81d334d09661d73ee2d542924807b3355cf/remotion_lambda-4.0.1.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [django-casdoor-auth]: Downloading https://files.pythonhosted.org/packages/8d/25/358fbe1f8c707dc34be3b3c1dd1feb70b949f7ef0e6a1a2adaa7255c0c8d/django-casdoor-auth-1.0.2.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/e7/7a/099483a69be236c95087d6ab7c3187d1e3b4bcc56c496e93bcf118c25d0c/audiolm-pytorch-1.2.8.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/82/2b/2c75179b04890649ea49139937853df38f77ba8249b1818abfde11008610/scrunch-6.5.2006.post1690223540.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/f5/09/518973c3a1c6ffa24ba8120073c078015994971af6193fa643c17e7355f3/our1314-0.0.9.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/71/d1/527f0f89dcded24252eea52984c4b689675442f25045665140fee76ebc56/playgroundrl_envs-0.0.7.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/97/78/0aa772be2f9b7205f1b4584f304b618d71eb81b41480a1ebdd3e714bdfe6/remotion_lambda-4.0.10.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [waveform-factory]: Downloading https://files.pythonhosted.org/packages/cb/ef/9bf2f6ae98fc7bfdb94279c37d3d95b5121ece7bfdaf78c4a0db4645fd08/waveform_factory-0.1.2.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.0.8.tar.gz tmp/our1314-0.0.9.tar.gz --markdown 20230725/o/our1314/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.6.tar.gz tmp/playgroundrl_envs-0.0.7.tar.gz --markdown 20230725/p/playgroundrl-envs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [django-casdoor-auth]: Downloading https://files.pythonhosted.org/packages/72/a9/488ec36db927817fc3a661c55dc9080320327ab7b12dbc4ab8322c34aef6/django-casdoor-auth-1.1.0.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.1.tar.gz tmp/remotion_lambda-4.0.10.tar.gz --markdown 20230725/r/remotion-lambda/4.0.1-4.0.10/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [waveform-factory]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [waveform-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveform_factory-0.1.1.tar.gz tmp/waveform_factory-0.1.2.tar.gz --markdown 20230725/w/waveform-factory/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [django-casdoor-auth]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [django-casdoor-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-casdoor-auth-1.0.2.tar.gz tmp/django-casdoor-auth-1.1.0.tar.gz --markdown 20230725/d/django-casdoor-auth/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/fb/f1/2bbec1ceed03551bad796cf5ecff50ae34ea053ee968d19387f961bbd5ad/scrunch-6.5.2007.post1690238344.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/f2/58/b6da97e4b0948f7fad067b640521a0417a88e4ba73189aef8be50bd0148a/audiolm-pytorch-1.2.9.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-07-25 03:56:55] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.2.8.tar.gz tmp/audiolm-pytorch-1.2.9.tar.gz --markdown 20230725/a/audiolm-pytorch/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2006.post1690223540.tar.gz tmp/scrunch-6.5.2007.post1690238344.tar.gz --markdown 20230725/s/scrunch/6.5.2006.post1690223540-6.5.2007.post1690238344/diff.md --exclude *.pyd
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-07-25 03:56:55] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230725/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 03:56:56] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-07-25 03:56:56] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230725/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:56:56] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-25 03:56:56] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230725/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 03:56:56] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.8.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.9.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - processPackages [our1314]: Start processing: code-data-science
+[2023-07-25 03:56:56] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 03:56:56] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.1.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.10.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-07-25 03:56:56] INFO root fetch - processPackages [code-data-science]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2023-07-25 03:56:56] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.6.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.7.tar.gz]
+[2023-07-25 03:56:56] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [waveform-factory]: Remove: archive file [/home/abi/fetcher/tmp/waveform_factory-0.1.1.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [waveform-factory]: Remove: archive file [/home/abi/fetcher/tmp/waveform_factory-0.1.2.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [waveform-factory]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [code-data-science]: Downloading https://files.pythonhosted.org/packages/2c/6f/47c02b781ec7b25232c658a05609859e8b271727dd95edcad28d132534ef/code_data_science-1.0.1.tar.gz
+[2023-07-25 03:56:57] INFO root fetch - processPackages [django-casdoor-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-casdoor-auth-1.0.2.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [django-casdoor-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-casdoor-auth-1.1.0.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [django-casdoor-auth]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.8.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.9.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [code-data-science]: Downloading https://files.pythonhosted.org/packages/b4/de/55baf63f271b0e1cd094cb5f1559ee1c3700f27203e1b79585052c0f28ec/code_data_science-1.0.1.1.tar.gz
+[2023-07-25 03:56:57] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [code-data-science]: executing diffoscope
+[2023-07-25 03:56:57] INFO root fetch - processPackages [code-data-science]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_data_science-1.0.1.tar.gz tmp/code_data_science-1.0.1.1.tar.gz --markdown 20230725/c/code-data-science/1.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-25 03:56:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2006.post1690223540.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2007.post1690238344.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-25 03:56:57] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-07-25 03:56:57] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-07-25 03:56:58] INFO root fetch - processPackages [code-data-science]: Remove: archive file [/home/abi/fetcher/tmp/code_data_science-1.0.1.tar.gz]
+[2023-07-25 03:56:58] INFO root fetch - processPackages [code-data-science]: Remove: archive file [/home/abi/fetcher/tmp/code_data_science-1.0.1.1.tar.gz]
+[2023-07-25 03:56:58] INFO root fetch - main [MainThread]: End processing [code-data-science]: success
+[2023-07-25 03:56:58] INFO root fetch - main [MainThread]: Store serial: [19022207]
