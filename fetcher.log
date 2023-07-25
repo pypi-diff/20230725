@@ -20495,3 +20495,135 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:44:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.7.tar.gz]
 [2023-07-25 11:44:52] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
 [2023-07-25 11:44:52] INFO root fetch - main [MainThread]: Store serial: [19026957]
+[2023-07-25 11:49:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026957]
+[2023-07-25 11:50:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sanic-testing
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitsrun
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gscrew
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xformers
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airoboros
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actnova-yolo
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: check-rkn
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-07-25 11:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-go-goose
+[2023-07-25 11:50:01] INFO root fetch - processPackages [gscrew]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [cg]: New version: [40.2.0] Old Version: [40.1.5]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [airoboros]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-25 11:50:01] WARNING root fetch - processPackages [check-rkn]: Skipping, unable to determine old version
+[2023-07-25 11:50:01] INFO root fetch - processPackages [check-rkn]: Start processing: fdfat
+[2023-07-25 11:50:01] INFO root fetch - main [MainThread]: End processing [check-rkn] error
+[2023-07-25 11:50:01] INFO root fetch - processPackages [sanic-testing]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [bitsrun]: New version: [3.6.0] Old Version: [3.5.2]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [py-go-goose]: New version: [1.5.0] Old Version: [1.4.6]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 11:50:01] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:50:02] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/78/6f/466c99d0a4c39886400eb435cdf533e26257782a8ffc6e5cc4ed9a512c71/actnova-yolo-1.0.7.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/08/ec/aa55fdf9fcb04b983dfcad3c12147e2fd629bb3f58e266a42a9966b3b20d/gscrew-0.0.4.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/4a/ff/9273f4cb2e8fca09dafad941f272c651a2394b294082efb56e8b062aaac3/airoboros-2.0.8.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/f1/26/3fd3532504a8b9c8a15e46e5f2a4e3be7ff32adc72caba113065c170dcd5/py_go_goose-1.4.6-py3-none-any.whl
+[2023-07-25 11:50:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/79/6e/2afefe6a9d47353f6f38d472988e615ae6e31b01eea649bc5e5229e9dc39/cg-40.1.5.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [sanic-testing]: Downloading https://files.pythonhosted.org/packages/80/16/d68aa87c8bdf7a258d4658f5c10dd33ed1646cbc615f657893308261afd2/sanic-testing-23.3.0.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [bitsrun]: Downloading https://files.pythonhosted.org/packages/e3/c8/21c619526635ffdc168918e89b373ee7eb288448e63b0dae52e1de238ef1/bitsrun-3.5.2.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/ea/0b/10b7e8c1d72e2110732337666c1fb3278c338ad8f76908749f39897328c5/airoboros-2.0.9.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/45/f6/4d64e4ecfb693d3fa7b9907da2f48817b1d55ae86853ce5dc7124d077322/gscrew-1.0.0.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ba/6c/31a9bb28c03219e559a3a37b81cafbf4440eec33815b3e3f54ea4d6b7b09/actnova-yolo-1.0.8.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 11:50:02] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:02] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [gscrew]: executing diffoscope
+[2023-07-25 11:50:02] INFO root fetch - processPackages [gscrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gscrew-0.0.4.tar.gz tmp/gscrew-1.0.0.tar.gz --markdown 20230725/g/gscrew/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:02] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-07-25 11:50:02] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-2.0.8.tar.gz tmp/airoboros-2.0.9.tar.gz --markdown 20230725/a/airoboros/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:02] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/2c/fe/34cf56f7b75f4dd9395a2d6fcfb5c06a2f956f7d61d33caa373df0da645a/py_go_goose-1.5.0-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-25 11:50:02] INFO root fetch - processPackages [sanic-testing]: Downloading https://files.pythonhosted.org/packages/6a/57/cc56766bef98fd4e9de0bbccd356663994a80a9f9634ed3b173651863eca/sanic-testing-23.6.0.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1d/82/6530390136ae2205650410a89d94bd21d23f0c3dec96abd161f23f829395/cg-40.2.0.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-25 11:50:02] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 11:50:02] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:02] INFO root fetch - processPackages [sanic-testing]: executing diffoscope
+[2023-07-25 11:50:02] INFO root fetch - processPackages [sanic-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-testing-23.3.0.tar.gz tmp/sanic-testing-23.6.0.tar.gz --markdown 20230725/s/sanic-testing/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:02] INFO root fetch - processPackages [bitsrun]: Downloading https://files.pythonhosted.org/packages/f8/92/be4955ec0050f2d91763fff1c57be448edf4a756375b794069ac286d0de3/bitsrun-3.6.0.tar.gz
+[2023-07-25 11:50:03] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-25 11:50:03] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.7.tar.gz tmp/actnova-yolo-1.0.8.tar.gz --markdown 20230725/a/actnova-yolo/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-25 11:50:03] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-25 11:50:03] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230725/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:03] INFO root fetch - processPackages [bitsrun]: executing diffoscope
+[2023-07-25 11:50:03] INFO root fetch - processPackages [bitsrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitsrun-3.5.2.tar.gz tmp/bitsrun-3.6.0.tar.gz --markdown 20230725/b/bitsrun/3.5.2-3.6.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:03] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-25 11:50:03] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.6-py3-none-any.whl.zip tmp/py_go_goose-1.5.0-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230725/p/py-go-goose/1.4.6-1.5.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:03] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-25 11:50:03] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.1.5.tar.gz tmp/cg-40.2.0.tar.gz --markdown 20230725/c/cg/40.1.5-40.2.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:04] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [quao]: Start processing: clickloader
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [clickloader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [sanic-testing]: Remove: archive file [/home/abi/fetcher/tmp/sanic-testing-23.3.0.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [sanic-testing]: Remove: archive file [/home/abi/fetcher/tmp/sanic-testing-23.6.0.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [sanic-testing]: Start processing: cval-lib
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [sanic-testing]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-0.0.4.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.0.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [gscrew]: Start processing: zebrazoom
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [gscrew]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [clickloader]: Downloading https://files.pythonhosted.org/packages/7b/b2/94b538e6ef0b7ef3d56a20ea235dc2c7ecf62f5af0defc438958bcffc26d/clickloader-0.1.0.tar.gz
+[2023-07-25 11:50:04] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [fdfat]: Start processing: sanic-ext
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-25 11:50:04] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.8.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.9.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [bitsrun]: Remove: archive file [/home/abi/fetcher/tmp/bitsrun-3.5.2.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [bitsrun]: Remove: archive file [/home/abi/fetcher/tmp/bitsrun-3.6.0.tar.gz]
+[2023-07-25 11:50:04] INFO root fetch - main [MainThread]: End processing [bitsrun]: success
+[2023-07-25 11:50:04] INFO root fetch - processPackages [sanic-ext]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-25 11:50:04] INFO root fetch - processPackages [clickloader]: Downloading https://files.pythonhosted.org/packages/28/59/9cb70016dcdcd43245ab1ce38408378d4b671be3d0510b2717f1a5fbb653/clickloader-0.1.1.tar.gz
+[2023-07-25 11:50:04] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-25 11:50:05] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-07-25 11:50:05] INFO root fetch - processPackages [clickloader]: executing diffoscope
+[2023-07-25 11:50:05] INFO root fetch - processPackages [clickloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickloader-0.1.0.tar.gz tmp/clickloader-0.1.1.tar.gz --markdown 20230725/c/clickloader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 11:50:05] INFO root fetch - processPackages [sanic-ext]: Downloading https://files.pythonhosted.org/packages/e1/ef/f7ab696432d65fbff037fb432ae38be328e5605a00ce6a1b89d0ab677363/sanic-ext-23.3.0.tar.gz
+[2023-07-25 11:50:05] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-25 11:50:05] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-25 11:50:05] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230725/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:05] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.6-py3-none-any.whl.zip]
+[2023-07-25 11:50:05] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.5.0-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-25 11:50:05] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-25 11:50:05] INFO root fetch - processPackages [sanic-ext]: Downloading https://files.pythonhosted.org/packages/f1/da/909fc40a24a8bcbab45f8f540e7c852be3b195033d3c22417da8e2b48aee/sanic-ext-23.6.0.tar.gz
+[2023-07-25 11:50:05] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.7.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.8.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-25 11:50:05] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-07-25 11:50:05] INFO root fetch - processPackages [sanic-ext]: executing diffoscope
+[2023-07-25 11:50:05] INFO root fetch - processPackages [sanic-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-ext-23.3.0.tar.gz tmp/sanic-ext-23.6.0.tar.gz --markdown 20230725/s/sanic-ext/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-25 11:50:05] INFO root fetch - processPackages [clickloader]: Remove: archive file [/home/abi/fetcher/tmp/clickloader-0.1.0.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - processPackages [clickloader]: Remove: archive file [/home/abi/fetcher/tmp/clickloader-0.1.1.tar.gz]
+[2023-07-25 11:50:05] INFO root fetch - main [MainThread]: End processing [clickloader]: success
+[2023-07-25 11:50:06] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-25 11:50:06] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-25 11:50:06] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-25 11:50:06] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-07-25 11:50:06] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230725/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-25 11:50:07] INFO root fetch - processPackages [sanic-ext]: Remove: archive file [/home/abi/fetcher/tmp/sanic-ext-23.3.0.tar.gz]
+[2023-07-25 11:50:07] INFO root fetch - processPackages [sanic-ext]: Remove: archive file [/home/abi/fetcher/tmp/sanic-ext-23.6.0.tar.gz]
+[2023-07-25 11:50:07] INFO root fetch - main [MainThread]: End processing [sanic-ext]: success
+[2023-07-25 11:50:07] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-07-25 11:50:07] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-07-25 11:50:07] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-07-25 11:50:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.5.tar.gz]
+[2023-07-25 11:50:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.2.0.tar.gz]
+[2023-07-25 11:50:09] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-25 11:50:09] INFO root fetch - main [MainThread]: Store serial: [19027005]
