@@ -20915,3 +20915,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:00:44] INFO root fetch - processPackages [dnv-bladed-models]: Remove: archive file [/home/abi/fetcher/tmp/dnv_bladed_models-0.3.44.tar.gz]
 [2023-07-25 12:00:44] INFO root fetch - main [MainThread]: End processing [dnv-bladed-models]: success
 [2023-07-25 12:00:44] INFO root fetch - main [MainThread]: Store serial: [19027118]
+[2023-07-25 12:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027118]
+[2023-07-25 12:05:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zit
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlfoundry
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gscrew
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onoffmonitorserver
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: check-rkn
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quao
+[2023-07-25 12:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huhk
+[2023-07-25 12:05:54] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-25 12:05:54] WARNING root fetch - processPackages [check-rkn]: Skipping, unable to determine old version
+[2023-07-25 12:05:54] INFO root fetch - main [MainThread]: End processing [check-rkn] error
+[2023-07-25 12:05:54] INFO root fetch - processPackages [huhk]: New version: [1.8.1] Old Version: [1.7.8]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [onoffmonitorserver]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [gscrew]: New version: [1.0.2] Old Version: [0.0.4]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-25 12:05:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/ae/6a/787eb6ec9760dcd78f658bebe9b0645093876d51b31ccbf10b41d0f5126c/huhk-1.7.8.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [onoffmonitorserver]: Downloading https://files.pythonhosted.org/packages/ea/d1/c2c304359227fcb782de6a49d4ddbb73d6557c59c77e477708222e8414c7/onoffmonitorserver-0.1.0-py3-none-any.whl
+[2023-07-25 12:05:54] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/71/84/15f6f2180b5fb454adc88abeb0db3830a9ae370e12b33a283e38c1529e08/mlfoundry-0.9.2.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/08/ec/aa55fdf9fcb04b983dfcad3c12147e2fd629bb3f58e266a42a9966b3b20d/gscrew-0.0.4.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/5c/f8/8581aa782426c164ca863ce88bd4317afb588b8874d1041b840b5e417814/huhk-1.8.1.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-25 12:05:54] INFO root fetch - processPackages [onoffmonitorserver]: Downloading https://files.pythonhosted.org/packages/ff/83/ba6120250a43bd7c197aa729c4e9f45d1f1cd64948cede75d1b1452e5781/onoffmonitorserver-0.2.0-py3-none-any.whl
+[2023-07-25 12:05:54] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 12:05:54] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 12:05:54] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-25 12:05:54] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.7.8.tar.gz tmp/huhk-1.8.1.tar.gz --markdown 20230725/h/huhk/1.7.8-1.8.1/diff.md --exclude *.pyd
+[2023-07-25 12:05:54] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-25 12:05:54] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230725/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-25 12:05:55] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 12:05:55] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230725/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-25 12:05:55] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/f5/c6/c7416a084743bd9631c7137be40bd3910d958d0b5e94f345dd027617389b/mlfoundry-0.9.3.tar.gz
+[2023-07-25 12:05:55] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/55/8f/5a62c2c22428770f814fbecce93f4ee6545c35f7c266f2724f845bc4e7e5/gscrew-1.0.2.tar.gz
+[2023-07-25 12:05:55] INFO root fetch - processPackages [onoffmonitorserver]: executing diffoscope
+[2023-07-25 12:05:55] INFO root fetch - processPackages [onoffmonitorserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onoffmonitorserver-0.1.0-py3-none-any.whl.zip tmp/onoffmonitorserver-0.2.0-py3-none-any.whl.zip --markdown 20230725/o/onoffmonitorserver/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 12:05:55] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-25 12:05:55] INFO root fetch - processPackages [gscrew]: executing diffoscope
+[2023-07-25 12:05:55] INFO root fetch - processPackages [gscrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gscrew-0.0.4.tar.gz tmp/gscrew-1.0.2.tar.gz --markdown 20230725/g/gscrew/0.0.4-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 12:05:55] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-07-25 12:05:55] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.2.tar.gz tmp/mlfoundry-0.9.3.tar.gz --markdown 20230725/m/mlfoundry/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-25 12:05:55] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-25 12:05:55] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230725/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-25 12:05:56] INFO root fetch - processPackages [onoffmonitorserver]: Remove: archive file [/home/abi/fetcher/tmp/onoffmonitorserver-0.1.0-py3-none-any.whl.zip]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [onoffmonitorserver]: Remove: archive file [/home/abi/fetcher/tmp/onoffmonitorserver-0.2.0-py3-none-any.whl.zip]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [onoffmonitorserver]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-0.0.4.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-1.0.2.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [gscrew]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.8.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.8.1.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-25 12:05:56] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.2.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.3.tar.gz]
+[2023-07-25 12:05:56] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-07-25 12:05:57] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-25 12:05:57] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-25 12:05:57] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 12:05:57] INFO root fetch - main [MainThread]: Store serial: [19027161]
