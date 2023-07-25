@@ -14608,3 +14608,186 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:26:21] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
 [2023-07-25 08:26:21] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2023-07-25 08:26:21] INFO root fetch - main [MainThread]: Store serial: [19024796]
+[2023-07-25 08:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024796]
+[2023-07-25 08:31:29] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nemseer
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alanapy
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StockExchange
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emeralds
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdr-utils
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MultiAssayExperiment
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qiskit-iqm
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-interpreter
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fedex-sdk
+[2023-07-25 08:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-bpy-module-latest
+[2023-07-25 08:31:29] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.14]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [emeralds]: New version: [0.0.4rc0] Old Version: [0.0.4b0]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [nemseer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [MultiAssayExperiment]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [StockExchange]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.239] Old Version: [0.0.238]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [pdr-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230725] Old Version: [20230721]
+[2023-07-25 08:31:29] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/b8/93/37c53a35a4d491f7a27dc3cdde1f639479461d569b666a3e9bca23d64017/emeralds-0.0.4b0.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/38/e9/9c3c62500774afe17c42899877d1a0763e216b663fc51fda582e4d221c8b/alanapy-0.14.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [StockExchange]: Downloading https://files.pythonhosted.org/packages/37/c6/9c85fa4dd58421c552d6ac01adedef0cc95a8fe6183afe1e34c9d85acd42/StockExchange-0.0.2.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/f7/f5/2ad1b071b7c683c021c2452426de572897f3c804721ce7c2ad10c45fa52c/pdr-utils-0.0.7.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ef/37/2643a0bd673bd52e328486906869736a9cb434dcf61df2be81c143b4fe9d/fedex-sdk-1.0.7.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/ef/e8/f9344b81c81dbc9e34242068a8c82a396f654283474ff5d98a054e23a5b9/open_interpreter-0.0.238.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [nemseer]: Downloading https://files.pythonhosted.org/packages/19/c5/11698b4629e20a0f69624ee19f49bb4c5a7c223a97983c83dfec042c10ea/nemseer-1.0.5.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [MultiAssayExperiment]: Downloading https://files.pythonhosted.org/packages/ca/1d/74e2e0e676c83be762489e776eaf1f5d70856c0850bb8e4ae69026798ea9/MultiAssayExperiment-0.2.2.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/c1/7c/4a99306cf170fcf9f38dedd216d3b23b1710358f7caa67637038ad35780a/fake-bpy-module-latest-20230721.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/72/24/72a179d343bb1aabacf1a01bf869573fe21b5cd3d476461931882323dd5d/emeralds-0.0.4rc0.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [StockExchange]: Downloading https://files.pythonhosted.org/packages/c2/23/20d0a2f4214a30618b07b656eb60bd545cf860a022f9160ba747861f6ad0/StockExchange-0.0.3.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/70/ea/20c23b35e638243d97e43d9546630eb519355da50a051e5d9a3c445d6672/pdr-utils-0.0.8.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/5b/e9/f81521e7c69e622a8a02b648d05539fd414cf41f31fb29cd185943bd67f7/fedex-sdk-1.0.8.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.14.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230725/a/alanapy/0.14-0.9/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.4b0.tar.gz tmp/emeralds-0.0.4rc0.tar.gz --markdown 20230725/e/emeralds/0.0.4b0-0.0.4rc0/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/1c/8c/9b822f581e915a78e0ace331a774dd270edafbd1b39c48fe1ecb4fda9fc5/open_interpreter-0.0.239.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [nemseer]: Downloading https://files.pythonhosted.org/packages/7b/57/dfcd8b46472b9ee0f7d0bae69ed6ab62b8b4153f0eaa85568abb1c3bdbd3/nemseer-1.0.6.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [StockExchange]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [StockExchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StockExchange-0.0.2.tar.gz tmp/StockExchange-0.0.3.tar.gz --markdown 20230725/S/StockExchange/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [pdr-utils]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [pdr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdr-utils-0.0.7.tar.gz tmp/pdr-utils-0.0.8.tar.gz --markdown 20230725/p/pdr-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [MultiAssayExperiment]: Downloading https://files.pythonhosted.org/packages/b4/a5/6b3014e63a01ef5f3f3018126d0ffd5cec082fd72f821990c23d30158d59/MultiAssayExperiment-0.2.3.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ad/cf/e7dad7e82162ae8c9545c17c85b4bb1b61dadfd07272e726df50ccecb817/fake-bpy-module-latest-20230725.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.7.tar.gz tmp/fedex-sdk-1.0.8.tar.gz --markdown 20230725/f/fedex-sdk/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.238.tar.gz tmp/open_interpreter-0.0.239.tar.gz --markdown 20230725/o/open-interpreter/0.0.238-0.0.239/diff.md --exclude *.pyd
+[2023-07-25 08:31:30] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-07-25 08:31:30] INFO root fetch - processPackages [nemseer]: executing diffoscope
+[2023-07-25 08:31:30] INFO root fetch - processPackages [nemseer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemseer-1.0.5.tar.gz tmp/nemseer-1.0.6.tar.gz --markdown 20230725/n/nemseer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-25 08:31:31] INFO root fetch - processPackages [MultiAssayExperiment]: executing diffoscope
+[2023-07-25 08:31:31] INFO root fetch - processPackages [MultiAssayExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiAssayExperiment-0.2.2.tar.gz tmp/MultiAssayExperiment-0.2.3.tar.gz --markdown 20230725/M/MultiAssayExperiment/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-25 08:31:31] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-07-25 08:31:31] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230725/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-07-25 08:31:31] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-25 08:31:31] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230721.tar.gz tmp/fake-bpy-module-latest-20230725.tar.gz --markdown 20230725/f/fake-bpy-module-latest/20230721-20230725/diff.md --exclude *.pyd
+[2023-07-25 08:31:32] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4b0.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4rc0.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [emeralds]: Start processing: pulumi-tailscale
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [StockExchange]: Remove: archive file [/home/abi/fetcher/tmp/StockExchange-0.0.2.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [StockExchange]: Remove: archive file [/home/abi/fetcher/tmp/StockExchange-0.0.3.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [StockExchange]: Start processing: pulumi-sumologic
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [StockExchange]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.7.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.8.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pdr-utils]: Start processing: verify4py
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [pdr-utils]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [verify4py]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.7.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.8.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [fedex-sdk]: Start processing: codecarbon
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.14.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [alanapy]: Start processing: pulumi-snowflake
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [codecarbon]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.238.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.239.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [open-interpreter]: Start processing: upgini
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [nemseer]: Remove: archive file [/home/abi/fetcher/tmp/nemseer-1.0.5.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [nemseer]: Remove: archive file [/home/abi/fetcher/tmp/nemseer-1.0.6.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [nemseer]: Start processing: pulumi-spotinst
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [nemseer]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/06/be/3682ad3caff5ff0447575287d54ba55e1c8074dcce14027342873ce38d50/verify4py-1.0.1.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [MultiAssayExperiment]: Remove: archive file [/home/abi/fetcher/tmp/MultiAssayExperiment-0.2.2.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [MultiAssayExperiment]: Remove: archive file [/home/abi/fetcher/tmp/MultiAssayExperiment-0.2.3.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [MultiAssayExperiment]: Start processing: Mosek
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [MultiAssayExperiment]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/76/9f/4850f983f297f911b247463fd7b091ebdbd0df74c1b16b0bc585393fad77/codecarbon-2.2.5.tar.gz
+[2023-07-25 08:31:32] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-07-25 08:31:32] INFO root fetch - processPackages [qiskit-iqm]: Start processing: pulumi-venafi
+[2023-07-25 08:31:32] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-07-25 08:31:32] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1690265262] Old Version: [1.6.0a1689317304]
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/96/45/6f6820ef503178713a738fb29f63db59c2783ce2d7bbc05ea37d4cdf7429/verify4py-1.1.0.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-07-25 08:31:33] INFO root fetch - processPackages [verify4py]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [verify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-1.0.1.tar.gz tmp/verify4py-1.1.0.tar.gz --markdown 20230725/v/verify4py/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/73/c5/bdee1874edce3428682c25a3df098ad97e88af71108e1678ee563746631a/pulumi_venafi-1.6.0a1689317304.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230725/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/fb/32/fa94c344b864fcbcf62e3d8479062f6b5b5a5dc5b552cd4f00c2fce90d19/codecarbon-2.2.6.tar.gz
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230725/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230725/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230725/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.2.5.tar.gz tmp/codecarbon-2.2.6.tar.gz --markdown 20230725/c/codecarbon/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230725/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-07-25 08:31:33] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/c0/81/9cca5b38bee7bc87a71396fc3eef5fa981e991d0d4ef408de5301c647153/pulumi_venafi-1.6.0a1690265262.tar.gz
+[2023-07-25 08:31:34] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-07-25 08:31:34] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1689317304.tar.gz tmp/pulumi_venafi-1.6.0a1690265262.tar.gz --markdown 20230725/p/pulumi-venafi/1.6.0a1689317304-1.6.0a1690265262/diff.md --exclude *.pyd
+[2023-07-25 08:31:34] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-07-25 08:31:34] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-1.0.1.tar.gz]
+[2023-07-25 08:31:34] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-1.1.0.tar.gz]
+[2023-07-25 08:31:34] INFO root fetch - processPackages [verify4py]: Start processing: great-expectations-experimental
+[2023-07-25 08:31:34] INFO root fetch - main [MainThread]: End processing [verify4py]: success
+[2023-07-25 08:31:34] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-07-25 08:31:34] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230725/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-07-25 08:31:34] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230725016] Old Version: [0.1.20230725007]
+[2023-07-25 08:31:34] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/2e/a5/5bd59195f834c2ba614074fb2f515ac5e15132549c21b7537a2452516ecc/great_expectations_experimental-0.1.20230725007.tar.gz
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/3e/e7/8e0bbd29c379bade98b3cd6684a531f4c326e0c00a44a7f21d47c26cdffe/great_expectations_experimental-0.1.20230725016.tar.gz
+[2023-07-25 08:31:35] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-25 08:31:35] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230725007.tar.gz tmp/great_expectations_experimental-0.1.20230725016.tar.gz --markdown 20230725/g/great-expectations-experimental/0.1.20230725007-0.1.20230725016/diff.md --exclude *.pyd
+[2023-07-25 08:31:35] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.5.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.6.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1689317304.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1690265262.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-07-25 08:31:35] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-07-25 08:31:36] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230725007.tar.gz]
+[2023-07-25 08:31:36] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230725016.tar.gz]
+[2023-07-25 08:31:36] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-25 08:31:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230721.tar.gz]
+[2023-07-25 08:31:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230725.tar.gz]
+[2023-07-25 08:31:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-25 08:32:01] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 08:32:01] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 08:32:01] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-07-25 08:32:01] INFO root fetch - main [MainThread]: Store serial: [19024856]
