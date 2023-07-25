@@ -20176,3 +20176,196 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:34:17] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.1.tar.gz]
 [2023-07-25 11:34:17] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
 [2023-07-25 11:34:17] INFO root fetch - main [MainThread]: Store serial: [19026831]
+[2023-07-25 11:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026831]
+[2023-07-25 11:39:26] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubicweb-comment
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamaker-backup
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambient-package-update
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidychef
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memoryapi
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyHive6si
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sanic-routing
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fdfat
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: in-dbt-spark
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ambient-package-update]: New version: [23.7.1] Old Version: [23.5.9]
+[2023-07-25 11:39:26] WARNING root fetch - processPackages [PyHive6si]: Skipping, unable to determine old version
+[2023-07-25 11:39:26] INFO root fetch - processPackages [PyHive6si]: Start processing: dj-maintenance
+[2023-07-25 11:39:26] INFO root fetch - main [MainThread]: End processing [PyHive6si] error
+[2023-07-25 11:39:26] INFO root fetch - processPackages [cubicweb-comment]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [tidychef]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 11:39:26] WARNING root fetch - processPackages [datamaker-backup]: Skipping, unable to determine old version
+[2023-07-25 11:39:26] INFO root fetch - processPackages [datamaker-backup]: Start processing: curveengine
+[2023-07-25 11:39:26] INFO root fetch - main [MainThread]: End processing [datamaker-backup] error
+[2023-07-25 11:39:26] INFO root fetch - processPackages [sanic-routing]: New version: [23.6.0] Old Version: [22.8.0]
+[2023-07-25 11:39:26] WARNING root fetch - processPackages [memoryapi]: Skipping, unable to determine old version
+[2023-07-25 11:39:26] INFO root fetch - processPackages [memoryapi]: Start processing: aliyun-python-sdk-vpcpeer
+[2023-07-25 11:39:26] INFO root fetch - main [MainThread]: End processing [memoryapi] error
+[2023-07-25 11:39:26] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [in-dbt-spark]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [dj-maintenance]: New version: [0.2] Old Version: [0.1]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [curveengine]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-25 11:39:26] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [tidychef]: Downloading https://files.pythonhosted.org/packages/09/8c/9fc1ccb5789a53eebb88dc3914e80b62e9b2df2386c811c836c72486eeaa/tidychef-0.1.1.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [cubicweb-comment]: Downloading https://files.pythonhosted.org/packages/03/62/f117503ce985be4af6c0ad5697341a344fc13ad96a23785b4730579c6650/cubicweb-comment-2.0.0.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [ambient-package-update]: Downloading https://files.pythonhosted.org/packages/54/f8/f4b1eb44c8d952aaad498537ceaef44db49cb683feb484baf612a54c0926/ambient-package-update-23.5.9.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [sanic-routing]: Downloading https://files.pythonhosted.org/packages/c0/a4/0f7be9c81ff3dd4cb389374db29f0f598b940361f7ddcc5c8f38f48f7655/sanic-routing-22.8.0.tar.gz
+[2023-07-25 11:39:26] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/60/a0/d06e2297306cc126746f351b1d6a16e0090c9d02b91e122e00cb45c73618/in-dbt-spark-1.5.3.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/21/79/36eaeb561134c182c9824e555e21954c03a993055813377ded4abf39ed83/dj_maintenance-0.1.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [curveengine]: Downloading https://files.pythonhosted.org/packages/67/50/bf4d66e8ba0fc5bed2224de062eb515e1db247b065746fd07c2930b42154/curveengine-1.1.3-py3-none-any.whl
+[2023-07-25 11:39:27] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: Downloading https://files.pythonhosted.org/packages/5d/8d/18ef27f5d4054cf54b314f222770e5463a27d259b1a429b1459a20149691/aliyun-python-sdk-vpcpeer-1.0.1.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [tidychef]: Downloading https://files.pythonhosted.org/packages/f9/0f/ab6eaccb5ea9d0f30d0c62330c9d3e8d658e6890ea0b851f1b722969d0c5/tidychef-0.1.2.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [cubicweb-comment]: Downloading https://files.pythonhosted.org/packages/b7/f8/8325ebeab2f2314ba181b5d6ecd5d373a0d20879763b99c5da0b8016ca1d/cubicweb-comment-3.0.0.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [ambient-package-update]: Downloading https://files.pythonhosted.org/packages/eb/22/e10c001e7fdf18664ec2896345fca1c049fe709a5e170dc7cb7c8ea34deb/ambient_package_update-23.7.1.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [sanic-routing]: Downloading https://files.pythonhosted.org/packages/0b/7c/065805269e9a856e2575e4a3b29564005fa02be41333eacde3a3df19bc88/sanic-routing-23.6.0.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230725/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [curveengine]: Downloading https://files.pythonhosted.org/packages/38/c2/f4f0e594561b33d47dacf3b157575376e36e099292ffbb2af9c5163783e3/curveengine-1.1.4.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/ca/b5/781a5641c45b5f672c3d0cbc00a33fc492c4da21970eb75f4a9faea04981/in-dbt-spark-1.5.4.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: Downloading https://files.pythonhosted.org/packages/2b/6e/cae73ea7cb62fc955002d0d859594c9167dc5f0f72a4bda03ba9b26e0361/aliyun-python-sdk-vpcpeer-1.0.2.tar.gz
+[2023-07-25 11:39:27] INFO root fetch - processPackages [cubicweb-comment]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [cubicweb-comment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-comment-2.0.0.tar.gz tmp/cubicweb-comment-3.0.0.tar.gz --markdown 20230725/c/cubicweb-comment/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [ambient-package-update]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [ambient-package-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-package-update-23.5.9.tar.gz tmp/ambient_package_update-23.7.1.tar.gz --markdown 20230725/a/ambient-package-update/23.5.9-23.7.1/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [sanic-routing]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [sanic-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-routing-22.8.0.tar.gz tmp/sanic-routing-23.6.0.tar.gz --markdown 20230725/s/sanic-routing/22.8.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [tidychef]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [tidychef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidychef-0.1.1.tar.gz tmp/tidychef-0.1.2.tar.gz --markdown 20230725/t/tidychef/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [curveengine]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [curveengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curveengine-1.1.3-py3-none-any.whl.zip tmp/curveengine-1.1.4.tar.gz --markdown 20230725/c/curveengine/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-vpcpeer-1.0.1.tar.gz tmp/aliyun-python-sdk-vpcpeer-1.0.2.tar.gz --markdown 20230725/a/aliyun-python-sdk-vpcpeer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 11:39:27] INFO root fetch - processPackages [in-dbt-spark]: executing diffoscope
+[2023-07-25 11:39:27] INFO root fetch - processPackages [in-dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in-dbt-spark-1.5.3.tar.gz tmp/in-dbt-spark-1.5.4.tar.gz --markdown 20230725/i/in-dbt-spark/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-25 11:39:28] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/cf/7a/c8b233963dd7451b33a5b20535cdff6363dcd26577267cac6f5bd1a9a7f1/dj-maintenance-0.2.tar.gz
+[2023-07-25 11:39:28] INFO root fetch - processPackages [dj-maintenance]: executing diffoscope
+[2023-07-25 11:39:28] INFO root fetch - processPackages [dj-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_maintenance-0.1.tar.gz tmp/dj-maintenance-0.2.tar.gz --markdown 20230725/d/dj-maintenance/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-25 11:39:29] INFO root fetch - processPackages [curveengine]: Remove: archive file [/home/abi/fetcher/tmp/curveengine-1.1.3-py3-none-any.whl.zip]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [curveengine]: Remove: archive file [/home/abi/fetcher/tmp/curveengine-1.1.4.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [curveengine]: Start processing: moler
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [curveengine]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [moler]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [sanic-routing]: Remove: archive file [/home/abi/fetcher/tmp/sanic-routing-22.8.0.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [sanic-routing]: Remove: archive file [/home/abi/fetcher/tmp/sanic-routing-23.6.0.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [sanic-routing]: Start processing: phanos
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [sanic-routing]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/b4/a6/3fd66a88fcda521db113c9be55f3ec953ed517a8f773619cb8c948948763/moler-2.8.0.tar.gz
+[2023-07-25 11:39:29] INFO root fetch - processPackages [cubicweb-comment]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-comment-2.0.0.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [cubicweb-comment]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-comment-3.0.0.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [cubicweb-comment]: Start processing: langfuse
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [cubicweb-comment]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vpcpeer-1.0.1.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vpcpeer-1.0.2.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [aliyun-python-sdk-vpcpeer]: Start processing: covid-19-terms
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpcpeer]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-25 11:39:29] INFO root fetch - processPackages [covid-19-terms]: New version: [1.34.1] Old Version: [1.33.1]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [ambient-package-update]: Remove: archive file [/home/abi/fetcher/tmp/ambient-package-update-23.5.9.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [ambient-package-update]: Remove: archive file [/home/abi/fetcher/tmp/ambient_package_update-23.7.1.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [ambient-package-update]: Start processing: namekoplus
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [ambient-package-update]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [fdfat]: Start processing: eventdetector-ts
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [namekoplus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [eventdetector-ts]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/46/e0/0dc88d9fccf665f46da1ff66a4ab069f5b0da216b25c74a5d6652e9deb51/namekoplus-0.3.0.tar.gz
+[2023-07-25 11:39:29] INFO root fetch - processPackages [tidychef]: Remove: archive file [/home/abi/fetcher/tmp/tidychef-0.1.1.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [tidychef]: Remove: archive file [/home/abi/fetcher/tmp/tidychef-0.1.2.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [tidychef]: Start processing: perun.proxygui
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [tidychef]: success
+[2023-07-25 11:39:29] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/50/a9/f837fd382ef7f77643c7687f01b5849769689ef899396255b6038e1e31d0/eventdetector_ts-1.0.5.tar.gz
+[2023-07-25 11:39:29] INFO root fetch - processPackages [covid-19-terms]: Downloading https://files.pythonhosted.org/packages/5d/66/ea5377fa167f234e5243977a74e15454f992842ec9ffb33ec4feb3c2ba86/covid_19_terms-1.33.1.tar.gz
+[2023-07-25 11:39:29] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.5.3.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.5.4.tar.gz]
+[2023-07-25 11:39:29] INFO root fetch - processPackages [in-dbt-spark]: Start processing: buckets
+[2023-07-25 11:39:29] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
+[2023-07-25 11:39:30] INFO root fetch - processPackages [perun.proxygui]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230725/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-25 11:39:30] WARNING root fetch - processPackages [buckets]: Skipping, unable to determine old version
+[2023-07-25 11:39:30] INFO root fetch - processPackages [buckets]: Start processing: easypcd
+[2023-07-25 11:39:30] INFO root fetch - main [MainThread]: End processing [buckets] error
+[2023-07-25 11:39:30] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/49/b8/1d38c0e17d11a5dab70fce89547bc82455a38afb0e0c490d9b217bda120b/moler-2.9.0.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/fa/13/ae08be7d9226071eb99d059f419035c5127c4844f31a337792ad01b0be7e/namekoplus-0.3.1.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230725/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [eventdetector-ts]: Downloading https://files.pythonhosted.org/packages/6c/51/c50bfb26ed975d2069f230dcf461bde44485e566a8555d9cd251dc2f7f6a/eventdetector_ts-1.0.6.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [easypcd]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [covid-19-terms]: Downloading https://files.pythonhosted.org/packages/ef/c6/e6666a5186c198517a484aea1359e80910e367f1f9ad9a0d7aa6549670ec/covid_19_terms-1.34.1.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.3.0.tar.gz tmp/namekoplus-0.3.1.tar.gz --markdown 20230725/n/namekoplus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [moler]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [moler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moler-2.8.0.tar.gz tmp/moler-2.9.0.tar.gz --markdown 20230725/m/moler/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/ad/7e/f249a268c0997af6c25c08d9fee10e2d69a18572b408a4644b51b8a62a21/perun.proxygui-1.9.0.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [eventdetector-ts]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [eventdetector-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventdetector_ts-1.0.5.tar.gz tmp/eventdetector_ts-1.0.6.tar.gz --markdown 20230725/e/eventdetector-ts/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj_maintenance-0.1.tar.gz]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj-maintenance-0.2.tar.gz]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [dj-maintenance]: Start processing: pkgNipun
+[2023-07-25 11:39:30] INFO root fetch - main [MainThread]: End processing [dj-maintenance]: success
+[2023-07-25 11:39:30] INFO root fetch - processPackages [covid-19-terms]: executing diffoscope
+[2023-07-25 11:39:30] INFO root fetch - processPackages [covid-19-terms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covid_19_terms-1.33.1.tar.gz tmp/covid_19_terms-1.34.1.tar.gz --markdown 20230725/c/covid-19-terms/1.33.1-1.34.1/diff.md --exclude *.pyd
+[2023-07-25 11:39:30] INFO root fetch - processPackages [pkgNipun]: New version: [1.1.6.2] Old Version: [1.1.0]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/51/ac/f0e84aab811ce6aa52ef8a843a5bcbe66ed1a5f0e4920b5e25d482f53f92/easypcd-0.0.27-py3-none-any.whl
+[2023-07-25 11:39:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-25 11:39:30] INFO root fetch - processPackages [bagbag]: Start processing: lightly
+[2023-07-25 11:39:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 11:39:30] INFO root fetch - processPackages [pkgNipun]: Downloading https://files.pythonhosted.org/packages/18/af/32d0c88da76f60a436737c647686f143de145c216f12c1067342ff15d7a8/pkgNipun-1.1.0.tar.gz
+[2023-07-25 11:39:30] INFO root fetch - processPackages [lightly]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/f8/a4/1493cb1723290639042715fa2433e59e2f8efbd88528da11fd4f11cc803d/easypcd-0.0.28-py3-none-any.whl
+[2023-07-25 11:39:31] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/d0/34/8f127fd141110cc9eb8862e19287641d86206e9b8b58535bc9168eacedd7/lightly-1.4.7.tar.gz
+[2023-07-25 11:39:31] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-25 11:39:31] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-25 11:39:31] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.27-py3-none-any.whl.zip tmp/easypcd-0.0.28-py3-none-any.whl.zip --markdown 20230725/e/easypcd/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-25 11:39:31] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/22/4f/08b2315b8a277a13960ced57b9a287366c1b0b543b24ae52aea86d1fec16/lightly-1.4.8.tar.gz
+[2023-07-25 11:39:31] INFO root fetch - processPackages [pkgNipun]: Downloading https://files.pythonhosted.org/packages/7e/d7/0970a1c10ed66086da23ce240ca2d2fc58c82170962290007d040fd8eebb/pkgNipun-1.1.6.2-py3-none-any.whl
+[2023-07-25 11:39:31] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-25 11:39:31] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-07-25 11:39:31] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.7.tar.gz tmp/lightly-1.4.8.tar.gz --markdown 20230725/l/lightly/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-25 11:39:31] INFO root fetch - processPackages [covid-19-terms]: Remove: archive file [/home/abi/fetcher/tmp/covid_19_terms-1.33.1.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [covid-19-terms]: Remove: archive file [/home/abi/fetcher/tmp/covid_19_terms-1.34.1.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - main [MainThread]: End processing [covid-19-terms]: success
+[2023-07-25 11:39:31] INFO root fetch - processPackages [pkgNipun]: executing diffoscope
+[2023-07-25 11:39:31] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.5.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [pkgNipun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgNipun-1.1.0.tar.gz tmp/pkgNipun-1.1.6.2-py3-none-any.whl.zip --markdown 20230725/p/pkgNipun/1.1.0-1.1.6.2/diff.md --exclude *.pyd
+[2023-07-25 11:39:31] INFO root fetch - processPackages [eventdetector-ts]: Remove: archive file [/home/abi/fetcher/tmp/eventdetector_ts-1.0.6.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - main [MainThread]: End processing [eventdetector-ts]: success
+[2023-07-25 11:39:31] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.0.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.1.tar.gz]
+[2023-07-25 11:39:31] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-25 11:39:32] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.27-py3-none-any.whl.zip]
+[2023-07-25 11:39:32] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.28-py3-none-any.whl.zip]
+[2023-07-25 11:39:32] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-25 11:39:32] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/98/6c/8cb32ba4f907292aee868c5e0dd3904fe28398d96d5bcfaec295164d9dd3/perun.proxygui-1.9.1.tar.gz
+[2023-07-25 11:39:32] INFO root fetch - processPackages [pkgNipun]: Remove: archive file [/home/abi/fetcher/tmp/pkgNipun-1.1.0.tar.gz]
+[2023-07-25 11:39:32] INFO root fetch - processPackages [pkgNipun]: Remove: archive file [/home/abi/fetcher/tmp/pkgNipun-1.1.6.2-py3-none-any.whl.zip]
+[2023-07-25 11:39:32] INFO root fetch - main [MainThread]: End processing [pkgNipun]: success
+[2023-07-25 11:39:33] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-2.8.0.tar.gz]
+[2023-07-25 11:39:33] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-2.9.0.tar.gz]
+[2023-07-25 11:39:33] INFO root fetch - main [MainThread]: End processing [moler]: success
+[2023-07-25 11:39:34] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.7.tar.gz]
+[2023-07-25 11:39:34] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.8.tar.gz]
+[2023-07-25 11:39:34] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-07-25 11:39:34] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-07-25 11:39:34] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.9.0.tar.gz tmp/perun.proxygui-1.9.1.tar.gz --markdown 20230725/p/perun.proxygui/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-25 11:39:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.0.tar.gz]
+[2023-07-25 11:39:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.1.tar.gz]
+[2023-07-25 11:39:37] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-07-25 11:39:37] INFO root fetch - main [MainThread]: Store serial: [19026908]
