@@ -18324,3 +18324,174 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:28:42] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-25 10:28:42] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-25 10:28:42] INFO root fetch - main [MainThread]: Store serial: [19026141]
+[2023-07-25 10:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026141]
+[2023-07-25 10:33:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sygna-bridge-util
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgsqlx
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gogo-cli
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devchat-ask
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgsqlx-generator
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: merkle-py
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickstart-vdk
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: actnova-yolo
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mysqlx
+[2023-07-25 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actionlint-py
+[2023-07-25 10:33:52] INFO root fetch - processPackages [sygna-bridge-util]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [mysqlx]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [pgsqlx-generator]: New version: [1.6.0] Old Version: [1.1.0]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [gogo-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [merkle-py]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-25 10:33:52] WARNING root fetch - processPackages [devchat-ask]: Skipping, unable to determine old version
+[2023-07-25 10:33:52] INFO root fetch - processPackages [devchat-ask]: Start processing: mysqlx-generator
+[2023-07-25 10:33:52] INFO root fetch - main [MainThread]: End processing [devchat-ask] error
+[2023-07-25 10:33:52] INFO root fetch - processPackages [actionlint-py]: New version: [1.6.25.8] Old Version: [1.6.25.2]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.944393829.dev12432] Old Version: [0.2.932156931.dev12269]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-25 10:33:52] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/ef/5d/7d28ede509b243ec20a1c03d166cd83f14925f56a358a11579efb9735f8b/pgsqlx-generator-1.1.0.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/c5/9a/889e000e39cd46377284f7d637c70bf4546a7e63a01c97c13378e3fd99b8/gogo_cli-0.1.1.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [merkle-py]: Downloading https://files.pythonhosted.org/packages/7d/34/9f8a07322e7b3a7836f6871c4ba23a0c5d9659dc2d03f23b3691c8c28df3/merkle-py-1.2.3.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [sygna-bridge-util]: Downloading https://files.pythonhosted.org/packages/9e/56/85b0b8ea20b079e20eed5deb2e2ed9eb6f20ca0764d0e0fc985e5add35a9/sygna-bridge-util-2.0.1.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/49/e8/b7a7def74decf5f0b0e0eb5b911e8e135d702e2189878fb9c137aa0bd5b3/mysqlx-1.6.1.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/92/3b/ae1ce713fc129b83ead30ed2b8b5e0d66870d48960861f466110863a96ce/pgsqlx-1.6.2.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/6c/a0/a068b0d93800b1c83fc664133a7987a70fa769d016d2b413a6aa72651a7a/mysqlx-generator-1.6.1.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/4c/8d/41c1786bd0748f52c35fbc972b7f5ebf7cfd4454677072d68609b7bad02f/quickstart-vdk-0.2.932156931.dev12269.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ed/10/434ebaa0a3d5a804da30e05ddae74e4db21ebb4f48fd5dc42104860c3aff/actnova-yolo-1.0.2.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/b9/a1/b7ec90c504cbd2343753eddce314370210940059ac7b27b1fa564ec8b6e9/actionlint_py-1.6.25.2.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/a6/ea/a19ddac62540b50689e97c10879d43757d270659315a73c1af259faefca2/gogo_cli-0.1.2.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/11/1d/9c498becb9e3a584558ca255e6a2a9c77b3f90884fa1905ab55f7cf2d07f/pgsqlx-generator-1.6.0.tar.gz
+[2023-07-25 10:33:52] INFO root fetch - processPackages [merkle-py]: Downloading https://files.pythonhosted.org/packages/da/dc/f546e4cde4b19749c0f68cf471d6cd8d7a9d367551514276e9114d3acf9b/merkle-py-1.2.4.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/b0/dc/69cac447ccd8ba4483a28ec9087a8e129911639ce2fd98b1529053edd5a4/mysqlx-1.6.2.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/bb/b9/018cb43502e65c6560d91e78d22666d5e46c6fb04a0ac53893a47005b999/pgsqlx-1.6.3.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/0a/c5/2b9d40ab33fadce3b507672e568d9f3dba045a9204786df33e2371954064/mysqlx-generator-1.6.2.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [sygna-bridge-util]: Downloading https://files.pythonhosted.org/packages/09/c4/a59a16bb3ae772a7d0c48291ecf473f6fabd62d0da78c19cecc3f8c50c7f/sygna-bridge-util-2.0.2.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/19/1f/9840a020bf51edac0fc813170d9011aa49bd7a73c8838f262df30aae95a5/quickstart-vdk-0.2.944393829.dev12432.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [pgsqlx-generator]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [pgsqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-generator-1.1.0.tar.gz tmp/pgsqlx-generator-1.6.0.tar.gz --markdown 20230725/p/pgsqlx-generator/1.1.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.1.1.tar.gz tmp/gogo_cli-0.1.2.tar.gz --markdown 20230725/g/gogo-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/70/b8/19e8ca1cabb01510b96972b0cf5fe5f2f6fdb8e576623af1e1eb12d9c096/actionlint_py-1.6.25.8.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [merkle-py]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [merkle-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merkle-py-1.2.3.tar.gz tmp/merkle-py-1.2.4.tar.gz --markdown 20230725/m/merkle-py/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/ed/1e/0ca76a6675efcffeb381717fb641a80b01c90dc89b9358e299011aea6a17/actnova-yolo-1.0.3.tar.gz
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.6.1.tar.gz tmp/mysqlx-1.6.2.tar.gz --markdown 20230725/m/mysqlx/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.2.tar.gz tmp/pgsqlx-1.6.3.tar.gz --markdown 20230725/p/pgsqlx/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.6.1.tar.gz tmp/mysqlx-generator-1.6.2.tar.gz --markdown 20230725/m/mysqlx-generator/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [sygna-bridge-util]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [sygna-bridge-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sygna-bridge-util-2.0.1.tar.gz tmp/sygna-bridge-util-2.0.2.tar.gz --markdown 20230725/s/sygna-bridge-util/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actionlint-py]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actionlint-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionlint_py-1.6.25.2.tar.gz tmp/actionlint_py-1.6.25.8.tar.gz --markdown 20230725/a/actionlint-py/1.6.25.2-1.6.25.8/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.2.tar.gz tmp/actnova-yolo-1.0.3.tar.gz --markdown 20230725/a/actnova-yolo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-25 10:33:53] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-25 10:33:53] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.932156931.dev12269.tar.gz tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz --markdown 20230725/q/quickstart-vdk/0.2.932156931.dev12269-0.2.944393829.dev12432/diff.md --exclude *.pyd
+[2023-07-25 10:33:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.1.tar.gz]
+[2023-07-25 10:33:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.2.tar.gz]
+[2023-07-25 10:33:54] INFO root fetch - processPackages [mysqlx-generator]: Start processing: coconut-develop
+[2023-07-25 10:33:54] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.1.0.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.0.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx-generator]: Start processing: game-lib-pool
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.1.1.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.1.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gogo-cli]: Start processing: mfhpo-simulator
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.3.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [pgsqlx]: Start processing: coder-retriever
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [game-lib-pool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-25 10:33:55] WARNING root fetch - processPackages [coder-retriever]: Skipping, unable to determine old version
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coder-retriever]: Start processing: accelerometer
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [coder-retriever] error
+[2023-07-25 10:33:55] INFO root fetch - processPackages [merkle-py]: Remove: archive file [/home/abi/fetcher/tmp/merkle-py-1.2.3.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [merkle-py]: Remove: archive file [/home/abi/fetcher/tmp/merkle-py-1.2.4.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [merkle-py]: Start processing: gscrew
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [merkle-py]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/33/77/9f0776073c3aa8ee379f82301a0dce5690d627d73553d556b5777d293bdd/mfhpo_simulator-1.2.5-py3-none-any.whl
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gscrew]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [sygna-bridge-util]: Remove: archive file [/home/abi/fetcher/tmp/sygna-bridge-util-2.0.1.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [accelerometer]: New version: [7.0.1] Old Version: [7.0.0.dev1]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [sygna-bridge-util]: Remove: archive file [/home/abi/fetcher/tmp/sygna-bridge-util-2.0.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [sygna-bridge-util]: Start processing: MindsDB
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [sygna-bridge-util]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.932156931.dev12269.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [quickstart-vdk]: Start processing: configuraptor
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.1.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mysqlx]: Start processing: actnova-yolo
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.6.25.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.6.25.8.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [actionlint-py]: success
+[2023-07-25 10:33:55] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [game-lib-pool]: Downloading https://files.pythonhosted.org/packages/97/0f/da627951fc54ac5541ea9929dbe1cf6f921f45ac6bd29f21536b38b3931f/game_lib_pool-0.1.1-cp311-none-win_amd64.whl
+[2023-07-25 10:33:55] INFO root fetch - processPackages [MindsDB]: New version: [23.7.4.0] Old Version: [23.7.3.1]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/5c/b7/f4be2633bf3cd8dccb2c8a4c11a2eabf5a1bcff6af9576cbb8ea81161ba5/GScrew-0.0.2.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [accelerometer]: Downloading https://files.pythonhosted.org/packages/d5/11/a39f1a17e9994152f16b4389e39bb0616e6f7c3664fdcc07c42e3b0c8929/accelerometer-7.0.0.dev1.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-25 10:33:55] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230725/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/65/9e/5337fdd6ab52eaa816e21fda57308f5f74ac840c7d82d4796bb7eb127ed2/mfhpo_simulator-1.2.6-py3-none-any.whl
+[2023-07-25 10:33:55] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/9e/67/10cf1f4dfeff246305e85a274d6f943163301896a7087cd205ff2cfbdefa/MindsDB-23.7.3.1.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-07-25 10:33:55] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.2.5-py3-none-any.whl.zip tmp/mfhpo_simulator-1.2.6-py3-none-any.whl.zip --markdown 20230725/m/mfhpo-simulator/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-25 10:33:55] INFO root fetch - processPackages [game-lib-pool]: Downloading https://files.pythonhosted.org/packages/1b/19/c83e8e989c3d0cf88ff56745beecf4adcf4264180081563b4b90aadcb816/game_lib_pool-0.1.2-cp311-none-win_amd64.whl
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/b7/69/6ae14aa0cdd3973275c589f285c7a4fe4a1d6aba52a428fe89bb3d619ac4/actnova-yolo-1.0.4.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [gscrew]: Downloading https://files.pythonhosted.org/packages/08/ec/aa55fdf9fcb04b983dfcad3c12147e2fd629bb3f58e266a42a9966b3b20d/gscrew-0.0.4.tar.gz
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.2.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.3.tar.gz]
+[2023-07-25 10:33:55] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-25 10:33:56] INFO root fetch - processPackages [gscrew]: executing diffoscope
+[2023-07-25 10:33:56] INFO root fetch - processPackages [gscrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GScrew-0.0.2.tar.gz tmp/gscrew-0.0.4.tar.gz --markdown 20230725/g/gscrew/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 10:33:56] INFO root fetch - processPackages [game-lib-pool]: executing diffoscope
+[2023-07-25 10:33:56] INFO root fetch - processPackages [game-lib-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_lib_pool-0.1.1-cp311-none-win_amd64.whl.zip tmp/game_lib_pool-0.1.2-cp311-none-win_amd64.whl.zip --markdown 20230725/g/game-lib-pool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:56] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-07-25 10:33:56] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-25 10:33:56] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.3.tar.gz tmp/actnova-yolo-1.0.4.tar.gz --markdown 20230725/a/actnova-yolo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-25 10:33:56] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-07-25 10:33:56] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230725/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-07-25 10:33:56] INFO root fetch - processPackages [accelerometer]: Downloading https://files.pythonhosted.org/packages/85/ea/04be5957364e43043556b748974cb080dc5751b9da3a956b8d7cee125771/accelerometer-7.0.1.tar.gz
+[2023-07-25 10:33:56] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.5-py3-none-any.whl.zip]
+[2023-07-25 10:33:56] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.6-py3-none-any.whl.zip]
+[2023-07-25 10:33:56] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-07-25 10:33:56] INFO root fetch - processPackages [accelerometer]: executing diffoscope
+[2023-07-25 10:33:56] INFO root fetch - processPackages [accelerometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerometer-7.0.0.dev1.tar.gz tmp/accelerometer-7.0.1.tar.gz --markdown 20230725/a/accelerometer/7.0.0.dev1-7.0.1/diff.md --exclude *.pyd
+[2023-07-25 10:33:56] ERROR root fetch - processPackages [actnova-yolo]: Diffoscope failed: time="2023-07-25T10:33:56+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/actnova-yolo-1.0.3.tar.gz: No such file or directory
+
+[2023-07-25 10:33:56] INFO root fetch - main [MainThread]: End processing [actnova-yolo] error
+[2023-07-25 10:33:57] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/4b/21/3a60a9fbdd84c5746d58b62d184b095d35b4c939d580fd913ffa9016989b/MindsDB-23.7.4.0.tar.gz
+[2023-07-25 10:33:57] INFO root fetch - processPackages [game-lib-pool]: Remove: archive file [/home/abi/fetcher/tmp/game_lib_pool-0.1.1-cp311-none-win_amd64.whl.zip]
+[2023-07-25 10:33:57] INFO root fetch - processPackages [game-lib-pool]: Remove: archive file [/home/abi/fetcher/tmp/game_lib_pool-0.1.2-cp311-none-win_amd64.whl.zip]
+[2023-07-25 10:33:57] INFO root fetch - main [MainThread]: End processing [game-lib-pool]: success
+[2023-07-25 10:33:57] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-07-25 10:33:57] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.7.3.1.tar.gz tmp/MindsDB-23.7.4.0.tar.gz --markdown 20230725/M/MindsDB/23.7.3.1-23.7.4.0/diff.md --exclude *.pyd
+[2023-07-25 10:33:57] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/GScrew-0.0.2.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - processPackages [gscrew]: Remove: archive file [/home/abi/fetcher/tmp/gscrew-0.0.4.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - main [MainThread]: End processing [gscrew]: success
+[2023-07-25 10:33:57] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-25 10:33:57] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-07-25 10:33:57] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-07-25 10:33:58] INFO root fetch - processPackages [accelerometer]: Remove: archive file [/home/abi/fetcher/tmp/accelerometer-7.0.0.dev1.tar.gz]
+[2023-07-25 10:33:58] INFO root fetch - processPackages [accelerometer]: Remove: archive file [/home/abi/fetcher/tmp/accelerometer-7.0.1.tar.gz]
+[2023-07-25 10:33:58] INFO root fetch - main [MainThread]: End processing [accelerometer]: success
+[2023-07-25 10:34:03] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.7.3.1.tar.gz]
+[2023-07-25 10:34:03] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-23.7.4.0.tar.gz]
+[2023-07-25 10:34:03] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-07-25 10:34:03] INFO root fetch - main [MainThread]: Store serial: [19026195]
