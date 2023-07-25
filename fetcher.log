@@ -12086,3 +12086,187 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 06:51:05] INFO root fetch - processPackages [azure-mgmt-authorization]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-authorization-4.0.0.zip]
 [2023-07-25 06:51:05] INFO root fetch - main [MainThread]: End processing [azure-mgmt-authorization]: success
 [2023-07-25 06:51:05] INFO root fetch - main [MainThread]: Store serial: [19023921]
+[2023-07-25 06:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19023921]
+[2023-07-25 06:56:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-scraper-geonode
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-report-csv
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getdaft
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bento-sts
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deploymenthub
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mareep
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databento
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-rma
+[2023-07-25 06:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-rma
+[2023-07-25 06:56:14] INFO root fetch - processPackages [hdx-scraper-geonode]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [bento-sts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [deploymenthub]: New version: [1.6] Old Version: [1.4]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [odoo13-addon-report-csv]: New version: [13.0.1.0.4.dev1] Old Version: [13.0.1.0.3.dev4]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev9] Old Version: [14.0.3.2.7.dev7]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [databento]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [mareep]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.9] Old Version: [15.0.1.1.3.7]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [getdaft]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 06:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-25 06:56:15] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/9b/cd/aa3eb1c6ac1019c82a5833fa87c8129ffe1774a86f237423a46a9c589340/bento_sts-0.1.5.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/e6/bd/383a89008d6436b6f96aeb1484b1713e978f99bfed640aab7bd8417cc4d2/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/ec/7f/42fd00aa009c9f81f4b225b83de7411fc31ae6098e856df732782c12f003/mareep-0.0.4.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/28/3f/9eb0380f900bad9bc42b4f78707bf50cc1557a8edcb2b557391fcc80d6e2/hdx_scraper_geonode-1.5.0.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/f9/72/284c7699962889b39104278d0108fc31d0fa75ae6c949f2147c459ade65c/deploymenthub-1.4.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/6c/b5/14e63f1b8ce754fe88450f5223d79fd3baf3a8c50f57456f0dd1280f27f7/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/bd/3f/10f69f3a2223e8f22ac1155c00810fcbe2909ff3b8ef8177e5a8ba3ae023/getdaft-0.1.8.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/93/43f39bc9947f7439732d180bbdb189acbb6f86440a4e0e399513aee499f3/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/a8/79/5cea21ed0ebdee11265589fd34ca324a6ffe253a0ef8c4c1c8e1bbf7db9e/bento_sts-0.1.6.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/82/d5/6de6299c615ae057fce3e8d56f90d82ec566dc7386c4d139e1129780612a/mareep-0.0.5.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/6d/a4/85ac7dcdcbdceaf16de0dc0c01ec50258dedf640b0c6ef47ed5611551032/hdx_scraper_geonode-1.5.1.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [databento]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [databento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento-0.8.1.tar.gz tmp/databento-0.9.0.tar.gz --markdown 20230725/d/databento/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/52/3b/bf7bd0374de35baa7f2528cfa7a82ff35e76b43adf90dda81a339bdaa219/odoo13_addon_report_csv-13.0.1.0.4.dev1-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [bento-sts]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [bento-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bento_sts-0.1.5.tar.gz tmp/bento_sts-0.1.6.tar.gz --markdown 20230725/b/bento-sts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/92/21/52a5729f2aa06eba442a1dc2b70432e5a34fc3815f3b3856587a49378f9f/deploymenthub-1.6.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/ce/66/fe6dee29414d1f98bb4ffde25c3aa609f7c4736db62e50875b21628c6033/getdaft-0.1.9.tar.gz
+[2023-07-25 06:56:15] INFO root fetch - processPackages [mareep]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [mareep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mareep-0.0.4.tar.gz tmp/mareep-0.0.5.tar.gz --markdown 20230725/m/mareep/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [hdx-scraper-geonode]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [hdx-scraper-geonode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_scraper_geonode-1.5.0.tar.gz tmp/hdx_scraper_geonode-1.5.1.tar.gz --markdown 20230725/h/hdx-scraper-geonode/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/f9/9b/23ecb9fbb7a6da74409255c802ad2e3e9bab955954232cffbb4181794938/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [deploymenthub]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [deploymenthub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymenthub-1.4.tar.gz tmp/deploymenthub-1.6.tar.gz --markdown 20230725/d/deploymenthub/1.4-1.6/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/c2/07/339470c5901da506b8003ae1c4ce2977880011325e58d90a15ccd12f4f57/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl
+[2023-07-25 06:56:15] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.1.8.tar.gz tmp/getdaft-0.1.9.tar.gz --markdown 20230725/g/getdaft/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo13-addon-report-csv]: executing diffoscope
+[2023-07-25 06:56:15] INFO root fetch - processPackages [odoo13-addon-report-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo13_addon_report_csv-13.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230725/o/odoo13-addon-report-csv/13.0.1.0.3.dev4-13.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-07-25 06:56:16] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-07-25 06:56:16] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-rma/15.0.1.1.3.7-15.0.1.1.3.9/diff.md --exclude *.pyd
+[2023-07-25 06:56:16] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-07-25 06:56:16] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-rma/14.0.3.2.7.dev7-14.0.3.2.7.dev9/diff.md --exclude *.pyd
+[2023-07-25 06:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-25 06:56:16] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.8.1.tar.gz]
+[2023-07-25 06:56:16] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
+[2023-07-25 06:56:16] INFO root fetch - processPackages [databento]: Start processing: cm-two
+[2023-07-25 06:56:16] INFO root fetch - main [MainThread]: End processing [databento]: success
+[2023-07-25 06:56:16] INFO root fetch - processPackages [cm-two]: New version: [2.3.54] Old Version: [2.3.53]
+[2023-07-25 06:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-25 06:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230725/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-25 06:56:17] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/24/c3/01ed0127ba7cf918dc6ff59e43e49e1309f79afa885409ffa166b9a576a5/cm_two-2.3.54-py3-none-any.whl
+[2023-07-25 06:56:17] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.4.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.5.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [mareep]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.5.0.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.5.1.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [hdx-scraper-geonode]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-1.4.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-1.6.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [deploymenthub]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-25 06:56:17] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.53-py3-none-any.whl.zip tmp/cm_two-2.3.54-py3-none-any.whl.zip --markdown 20230725/c/cm-two/2.3.53-2.3.54/diff.md --exclude *.pyd
+[2023-07-25 06:56:17] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.5.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.6.tar.gz]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [bento-sts]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-report-csv]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip]
+[2023-07-25 06:56:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-07-25 06:56:18] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-25T06:56:17+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-25 06:56:18] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-25 06:56:19] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-25 06:56:19] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-25 06:56:19] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-25 06:56:20] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.8.tar.gz]
+[2023-07-25 06:56:20] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.9.tar.gz]
+[2023-07-25 06:56:20] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2023-07-25 06:56:20] INFO root fetch - main [MainThread]: Store serial: [19023954]
