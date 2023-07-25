@@ -22655,3 +22655,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 13:15:39] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
 [2023-07-25 13:15:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-07-25 13:15:39] INFO root fetch - main [MainThread]: Store serial: [19027819]
+[2023-07-25 13:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027819]
+[2023-07-25 13:20:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rosa-python-client
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zheinit
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rosa-python-client
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykli
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-pipe
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpiooutputtest
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parable
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: passwordP
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxcubecore
+[2023-07-25 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Nimbus-Splash
+[2023-07-25 13:20:48] INFO root fetch - processPackages [pykli]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [deep-pipe]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-25 13:20:48] WARNING root fetch - processPackages [parable]: Skipping, unable to determine old version
+[2023-07-25 13:20:48] INFO root fetch - main [MainThread]: End processing [parable] error
+[2023-07-25 13:20:48] INFO root fetch - processPackages [passwordP]: New version: [1.1.1.1] Old Version: [1.0.1.1]
+[2023-07-25 13:20:48] WARNING root fetch - processPackages [gpiooutputtest]: Skipping, unable to determine old version
+[2023-07-25 13:20:48] INFO root fetch - main [MainThread]: End processing [gpiooutputtest] error
+[2023-07-25 13:20:48] INFO root fetch - processPackages [zheinit]: New version: [0.0.8] Old Version: [0.0.73]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [Nimbus-Splash]: New version: [1.0.0] Old Version: [0.9.3]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [mxcubecore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 13:20:48] INFO root fetch - processPackages [pykli]: Downloading https://files.pythonhosted.org/packages/93/c6/f982ce7f6e57469b446f891e8940db4fc425e3abd63af16c159ba2846980/pykli-1.0.0.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/1c/db/11786f607609119b3b093a0a38d5a259db988a19de340dca2fa227169e8c/passwordP-1.0.1.1-py3-none-any.whl
+[2023-07-25 13:20:48] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/4b/4a/51897240976dcd26fb6d8eadde760440d5d831393ec87a15582b3b63c706/zheinit-0.0.73.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/de/b6/f23c68a8d44340168d91a592a2c31237fe151e457eeaa1ae34a615d3da8b/mxcubecore-1.8.0.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/b3/c3/5f83f16e655932c2288472ebb11253b99bb1ce0d4a8f7c4f75ee6d5c3758/Nimbus%20Splash-0.9.3.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [pykli]: Downloading https://files.pythonhosted.org/packages/9a/fa/f3f8ee7cb0497a090eac2caaf9cc50f5154a2a9fb72bbf22161c90caaceb/pykli-1.1.1.tar.gz
+[2023-07-25 13:20:48] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 28908102>=10485760
+[2023-07-25 13:20:48] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2023-07-25 13:20:48] INFO root fetch - processPackages [deep-pipe]: Downloading https://files.pythonhosted.org/packages/32/38/68e24b3aed29e8359b16f435fd19763f4c08149d5a1308657bbd93c416ef/deep_pipe-0.2.6.tar.gz
+[2023-07-25 13:20:48] INFO root fetch - processPackages [pykli]: executing diffoscope
+[2023-07-25 13:20:48] INFO root fetch - processPackages [pykli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykli-1.0.0.tar.gz tmp/pykli-1.1.1.tar.gz --markdown 20230725/p/pykli/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/aa/2c/f805e27da5217e9dc3c7f39f70cc2295568c5596537d4a9b1b3bdec4a30f/passwordP-1.1.1.1.tar.gz
+[2023-07-25 13:20:49] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/bf/86/c755c1ac2e37311dc3bad0050c5ac3b49909945e7643d394f00ab2f30d32/zheinit-0.0.8.tar.gz
+[2023-07-25 13:20:49] INFO root fetch - processPackages [deep-pipe]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [deep-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_pipe-0.2.5.tar.gz tmp/deep_pipe-0.2.6.tar.gz --markdown 20230725/d/deep-pipe/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-25 13:20:49] INFO root fetch - processPackages [passwordP]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [passwordP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordP-1.0.1.1-py3-none-any.whl.zip tmp/passwordP-1.1.1.1.tar.gz --markdown 20230725/p/passwordP/1.0.1.1-1.1.1.1/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.73.tar.gz tmp/zheinit-0.0.8.tar.gz --markdown 20230725/z/zheinit/0.0.73-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/27/be/48ba968c5c63a623b1a96d13c3f723a3794294ca8dd3bab39b0b93e31d98/Nimbus_Splash-1.0.0-py3-none-any.whl
+[2023-07-25 13:20:49] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.3.tar.gz tmp/Nimbus_Splash-1.0.0-py3-none-any.whl.zip --markdown 20230725/N/Nimbus-Splash/0.9.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230725/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-25 13:20:49] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230725/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:20:49] INFO root fetch - processPackages [pykli]: Remove: archive file [/home/abi/fetcher/tmp/pykli-1.0.0.tar.gz]
+[2023-07-25 13:20:49] INFO root fetch - processPackages [pykli]: Remove: archive file [/home/abi/fetcher/tmp/pykli-1.1.1.tar.gz]
+[2023-07-25 13:20:49] INFO root fetch - main [MainThread]: End processing [pykli]: success
+[2023-07-25 13:20:50] INFO root fetch - processPackages [deep-pipe]: Remove: archive file [/home/abi/fetcher/tmp/deep_pipe-0.2.5.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - processPackages [deep-pipe]: Remove: archive file [/home/abi/fetcher/tmp/deep_pipe-0.2.6.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [deep-pipe]: success
+[2023-07-25 13:20:50] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-1.0.1.1-py3-none-any.whl.zip]
+[2023-07-25 13:20:50] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-1.1.1.1.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [passwordP]: success
+[2023-07-25 13:20:50] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.73.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.8.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-25 13:20:50] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/Nimbus Splash-0.9.3.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/Nimbus_Splash-1.0.0-py3-none-any.whl.zip]
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-07-25 13:20:50] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-25 13:20:50] INFO root fetch - main [MainThread]: Store serial: [19027851]
