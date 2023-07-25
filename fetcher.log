@@ -7904,3 +7904,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 04:44:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230725.tar.gz]
 [2023-07-25 04:44:37] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-25 04:44:37] INFO root fetch - main [MainThread]: Store serial: [19022542]
+[2023-07-25 04:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022542]
+[2023-07-25 04:49:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-invoice-base-invoicing-mode
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verify4py-test1
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bkpaas-auth
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shootpandora-Cloud
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redsession
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiki-utils-api
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hwi
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-dataworks-public20200518-py2
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yanimage
+[2023-07-25 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dataworks-public20200518
+[2023-07-25 04:49:51] INFO root fetch - processPackages [redsession]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-25 04:49:51] INFO root fetch - processPackages [bkpaas-auth]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-25 04:49:51] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: New version: [14.0.1.1.1.dev7] Old Version: [14.0.1.1.1.dev5]
+[2023-07-25 04:49:51] INFO root fetch - processPackages [yanimage]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-25 04:49:51] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-25 04:49:51] WARNING root fetch - processPackages [verify4py-test1]: Skipping, unable to determine old version
+[2023-07-25 04:49:51] INFO root fetch - processPackages [verify4py-test1]: Start processing: GRFloodMaster
+[2023-07-25 04:49:51] INFO root fetch - main [MainThread]: End processing [verify4py-test1] error
+[2023-07-25 04:49:51] INFO root fetch - processPackages [hwi]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-25 04:49:52] INFO root fetch - processPackages [shootpandora-Cloud]: New version: [1.2.8] Old Version: [0.5.1]
+[2023-07-25 04:49:52] INFO root fetch - processPackages [kiki-utils-api]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-25 04:49:52] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-25 04:49:52] WARNING root fetch - processPackages [GRFloodMaster]: Skipping, unable to determine old version
+[2023-07-25 04:49:52] INFO root fetch - processPackages [GRFloodMaster]: Start processing: huhk
+[2023-07-25 04:49:52] INFO root fetch - main [MainThread]: End processing [GRFloodMaster] error
+[2023-07-25 04:49:52] INFO root fetch - processPackages [huhk]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-07-25 04:49:52] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/81/ae/99e534af49dbcd5f346aa20df41b36c82d3e0f2bbfa547be37156f8d6e13/huhk-1.7.5.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/a6/ba/3d23f5c76910694bbea91aa6b222620188f7a9a0226dbe72182bbaee4239/redsession-1.0.1.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [yanimage]: Downloading https://files.pythonhosted.org/packages/ba/ed/3c553e2580f1c2c4ec35a3c108bf355faae2dfb81bfdb4abcb92ab38f179/yanimage-1.0.2.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/09/49/46dc0627b25eadbdd885778fe37556ae08a6176db2abc413c271384a4c28/kiki_utils_api-1.5.0-py3-none-any.whl
+[2023-07-25 04:49:52] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/7d/ec/9047fc6e708a6ecf4cd3b63ec4c9e0258cd48b069a9ef2c7424fc9a0edbb/shootpandora-Cloud-0.5.1.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/4d/51/ead0969d1a6bf7e002c78e7ac59975476c4f6ca6009d4800baf8a58aa21b/bkpaas-auth-2.0.5.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/e1/0c/619f170d6df033537454ce1e19a6828ffee8d353c085f40fbb846257e293/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-25 04:49:52] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/db/42/01ead8cbac8088ff85a740aff563b9a37cf3380f20202231ff4a824a03d9/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/99/04/796943d2401dd0845e07a997ad57d07fac2c1743f842805c5ae0a477185d/alibabacloud_dataworks-public20200518-4.4.8.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [hwi]: Downloading https://files.pythonhosted.org/packages/bb/a0/11cfaa8425d5657205570410a0ab18dad87be12533dc9200df40da25a205/hwi-2.2.1.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/2e/99/7b0dadd51e9b2fed83435f0d03ca0fdbc29f627e1bcb30155c70ab2e81af/kiki_utils_api-1.5.1-py3-none-any.whl
+[2023-07-25 04:49:52] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/33/0b/40528aa6c3f3fd39b7cbad4c16b23e7705c76839e47c2067edcb47f5b1ea/bkpaas-auth-2.0.6.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/2b/d2/08717b8212eb2ab2c6a10ce77cd4e11df421f88a87c740e802ac56af92cd/redsession-1.0.2.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/9c/cd/159dacba058e8a12a92c9d6543b62c530d1e081d3efc8ee4809d1cdfbb56/huhk-1.7.6.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [yanimage]: Downloading https://files.pythonhosted.org/packages/ac/21/3173a317485949b6e5b1676b7ce5b9bb8164ba47cb07cb04554e3f9b7c2f/yanimage-1.0.3.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/10/7f/f55cee23a21153825ef3412ade4e162186ec3bed30e2e027b784079e078c/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [bkpaas-auth]: executing diffoscope
+[2023-07-25 04:49:52] INFO root fetch - processPackages [bkpaas-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkpaas-auth-2.0.5.tar.gz tmp/bkpaas-auth-2.0.6.tar.gz --markdown 20230725/b/bkpaas-auth/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-25 04:49:52] INFO root fetch - processPackages [kiki-utils-api]: executing diffoscope
+[2023-07-25 04:49:52] INFO root fetch - processPackages [kiki-utils-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiki_utils_api-1.5.0-py3-none-any.whl.zip tmp/kiki_utils_api-1.5.1-py3-none-any.whl.zip --markdown 20230725/k/kiki-utils-api/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-25 04:49:52] INFO root fetch - processPackages [redsession]: executing diffoscope
+[2023-07-25 04:49:52] INFO root fetch - processPackages [redsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redsession-1.0.1.tar.gz tmp/redsession-1.0.2.tar.gz --markdown 20230725/r/redsession/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 04:49:52] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/9d/1f/9448cb47b0fd187eb640e3e369fa3006b94966c58946dd401fef7e2ae80f/alibabacloud_dataworks-public20200518-4.4.9.tar.gz
+[2023-07-25 04:49:52] INFO root fetch - processPackages [hwi]: Downloading https://files.pythonhosted.org/packages/c1/c0/83bf6aeb76ea46552f0974128dfbac627399aeaa6ceb038a2c5b6e9616af/hwi-2.3.0.tar.gz
+[2023-07-25 04:49:53] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.7.5.tar.gz tmp/huhk-1.7.6.tar.gz --markdown 20230725/h/huhk/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [shootpandora-Cloud]: Downloading https://files.pythonhosted.org/packages/37/df/9dddd550226eb4bae7191c79345803de61961937d6d82de789d1a6295e75/shootpandora-Cloud-1.2.8.tar.gz
+[2023-07-25 04:49:53] INFO root fetch - processPackages [yanimage]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [yanimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanimage-1.0.2.tar.gz tmp/yanimage-1.0.3.tar.gz --markdown 20230725/y/yanimage/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/f4/78/91749041fe20a78a909964aa85fc70666868a902c3247ac40a656043004f/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev7-py3-none-any.whl
+[2023-07-25 04:49:53] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz --markdown 20230725/a/alibabacloud-dataworks-public20200518-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz --markdown 20230725/a/alibabacloud-dataworks-public20200518/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [hwi]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [hwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hwi-2.2.1.tar.gz tmp/hwi-2.3.0.tar.gz --markdown 20230725/h/hwi/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev7-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-account-invoice-base-invoicing-mode/14.0.1.1.1.dev5-14.0.1.1.1.dev7/diff.md --exclude *.pyd
+[2023-07-25 04:49:53] INFO root fetch - processPackages [shootpandora-Cloud]: executing diffoscope
+[2023-07-25 04:49:53] INFO root fetch - processPackages [shootpandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shootpandora-Cloud-0.5.1.tar.gz tmp/shootpandora-Cloud-1.2.8.tar.gz --markdown 20230725/s/shootpandora-Cloud/0.5.1-1.2.8/diff.md --exclude *.pyd
+[2023-07-25 04:49:54] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.5.0-py3-none-any.whl.zip]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.5.1-py3-none-any.whl.zip]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [kiki-utils-api]: Start processing: cdk8s-operator
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [kiki-utils-api]: success
+[2023-07-25 04:49:54] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.0.1.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.0.2.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [redsession]: success
+[2023-07-25 04:49:54] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev7-py3-none-any.whl.zip]
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-base-invoicing-mode]: success
+[2023-07-25 04:49:54] INFO root fetch - processPackages [yanimage]: Remove: archive file [/home/abi/fetcher/tmp/yanimage-1.0.2.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [yanimage]: Remove: archive file [/home/abi/fetcher/tmp/yanimage-1.0.3.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [yanimage]: success
+[2023-07-25 04:49:54] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-25 04:49:54] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.5.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.6.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-25 04:49:54] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.0.5.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.0.6.tar.gz]
+[2023-07-25 04:49:54] INFO root fetch - main [MainThread]: End processing [bkpaas-auth]: success
+[2023-07-25 04:49:55] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-25 04:49:55] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-25 04:49:55] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230725/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-25 04:49:55] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-0.5.1.tar.gz]
+[2023-07-25 04:49:55] INFO root fetch - processPackages [shootpandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/shootpandora-Cloud-1.2.8.tar.gz]
+[2023-07-25 04:49:55] INFO root fetch - main [MainThread]: End processing [shootpandora-Cloud]: success
+[2023-07-25 04:49:56] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-25 04:49:56] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518-py2]: success
+[2023-07-25 04:49:56] INFO root fetch - processPackages [hwi]: Remove: archive file [/home/abi/fetcher/tmp/hwi-2.2.1.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - processPackages [hwi]: Remove: archive file [/home/abi/fetcher/tmp/hwi-2.3.0.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - main [MainThread]: End processing [hwi]: success
+[2023-07-25 04:49:56] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz]
+[2023-07-25 04:49:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518]: success
+[2023-07-25 04:49:56] INFO root fetch - main [MainThread]: Store serial: [19022578]
