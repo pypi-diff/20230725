@@ -8415,3 +8415,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:10:59] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.7.tar.gz]
 [2023-07-25 05:10:59] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-07-25 05:10:59] INFO root fetch - main [MainThread]: Store serial: [19022699]
+[2023-07-25 05:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022699]
+[2023-07-25 05:16:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-25 05:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: config-server
+[2023-07-25 05:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: great-expectations-experimental
+[2023-07-25 05:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurebyte
+[2023-07-25 05:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-25 05:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soutools
+[2023-07-25 05:16:08] INFO root fetch - processPackages [featurebyte]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-25 05:16:08] WARNING root fetch - processPackages [config-server]: Skipping, unable to determine old version
+[2023-07-25 05:16:08] INFO root fetch - main [MainThread]: End processing [config-server] error
+[2023-07-25 05:16:08] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230725] Old Version: [0.0.17.dev20230724]
+[2023-07-25 05:16:08] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230725016] Old Version: [0.1.20230725007]
+[2023-07-25 05:16:08] INFO root fetch - processPackages [soutools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 05:16:08] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/24/35/dfafcd836592d0f3ba22961a87c8c7db91920b869da1d6e2db03fe7f1998/GANDLF-0.0.17.dev20230724.tar.gz
+[2023-07-25 05:16:08] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/2e/a5/5bd59195f834c2ba614074fb2f515ac5e15132549c21b7537a2452516ecc/great_expectations_experimental-0.1.20230725007.tar.gz
+[2023-07-25 05:16:08] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/82/fd/f2f2a223c8e1d36af9cc71e792da5aa2e1e2094cb8f1a047747de9f13b5b/featurebyte-0.3.1.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [soutools]: Downloading https://files.pythonhosted.org/packages/eb/f9/c67d0306b33935b6b4da00407d5fa636487e91311709d84a7b5ab5eae725/soutools-0.0.1.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/3e/e7/8e0bbd29c379bade98b3cd6684a531f4c326e0c00a44a7f21d47c26cdffe/great_expectations_experimental-0.1.20230725016.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/df/94/fd9bad20a7c27c48453a127e2c0c49cde2f34aac5e679bbdef1f01ecef9f/GANDLF-0.0.17.dev20230725.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/c4/25/ef0ac5ea541642a2a8a138ea4b075cc10efc5093a3e3da90405a5c8f5f9d/featurebyte-0.4.0.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-25 05:16:09] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230725007.tar.gz tmp/great_expectations_experimental-0.1.20230725016.tar.gz --markdown 20230725/g/great-expectations-experimental/0.1.20230725007-0.1.20230725016/diff.md --exclude *.pyd
+[2023-07-25 05:16:09] INFO root fetch - processPackages [soutools]: Downloading https://files.pythonhosted.org/packages/82/0c/056efdc38093072f9915972d64a07a6365de62930625d5e2a86a5f89fa34/soutools-0.0.2.tar.gz
+[2023-07-25 05:16:09] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-25 05:16:09] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230724.tar.gz tmp/GANDLF-0.0.17.dev20230725.tar.gz --markdown 20230725/G/GANDLF/0.0.17.dev20230724-0.0.17.dev20230725/diff.md --exclude *.pyd
+[2023-07-25 05:16:09] INFO root fetch - processPackages [featurebyte]: executing diffoscope
+[2023-07-25 05:16:09] INFO root fetch - processPackages [featurebyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte-0.3.1.tar.gz tmp/featurebyte-0.4.0.tar.gz --markdown 20230725/f/featurebyte/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-25 05:16:09] INFO root fetch - processPackages [soutools]: executing diffoscope
+[2023-07-25 05:16:09] INFO root fetch - processPackages [soutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soutools-0.0.1.tar.gz tmp/soutools-0.0.2.tar.gz --markdown 20230725/s/soutools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 05:16:10] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230725007.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230725016.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-25 05:16:10] INFO root fetch - processPackages [soutools]: Remove: archive file [/home/abi/fetcher/tmp/soutools-0.0.1.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - processPackages [soutools]: Remove: archive file [/home/abi/fetcher/tmp/soutools-0.0.2.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - main [MainThread]: End processing [soutools]: success
+[2023-07-25 05:16:10] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230724.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230725.tar.gz]
+[2023-07-25 05:16:10] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-25 05:16:15] INFO root fetch - processPackages [featurebyte]: Remove: archive file [/home/abi/fetcher/tmp/featurebyte-0.3.1.tar.gz]
+[2023-07-25 05:16:15] INFO root fetch - processPackages [featurebyte]: Remove: archive file [/home/abi/fetcher/tmp/featurebyte-0.4.0.tar.gz]
+[2023-07-25 05:16:15] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
+[2023-07-25 05:16:15] INFO root fetch - main [MainThread]: Store serial: [19022716]
