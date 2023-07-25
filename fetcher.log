@@ -22278,3 +22278,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:59:56] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.0.zip]
 [2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
 [2023-07-25 12:59:56] INFO root fetch - main [MainThread]: Store serial: [19027673]
+[2023-07-25 13:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027673]
+[2023-07-25 13:05:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odin-cyble
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boxsdk
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warpzone-sdk
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diagrams-yaml
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: passw
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streams-py
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitopenlib
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odin-cyble
+[2023-07-25 13:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyPreprocessing
+[2023-07-25 13:05:05] INFO root fetch - processPackages [passw]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [streams-py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [odin-cyble]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [boxsdk]: New version: [3.8.0] Old Version: [3.7.3]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [pyPreprocessing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [odin-cyble]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.3.5] Old Version: [8.3.4]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-25 13:05:05] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/20/18/204ac645a0e232356c3e2a592acc272d03a903b92cc5ec2f0b994a6bc754/streams_py-0.3.2.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/d5/cf/7aa38656b9f07fa621147258cba496aaa8dd9d4e7d6af6b4917e0c41abd9/odin_cyble-0.0.5.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/d5/cf/7aa38656b9f07fa621147258cba496aaa8dd9d4e7d6af6b4917e0c41abd9/odin_cyble-0.0.5.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/66/28/2973e79e090b17ca075ba8a5c57ea80fa4c33d7bfdc52234a9a8e2843587/passw-1.0.0.tar.gz
+[2023-07-25 13:05:05] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/47/c9/afc0d657fdbc8e68608b64eeb8bfd81d688a00377027b8bd87a222cd91d7/boxsdk-3.7.3.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [pyPreprocessing]: Downloading https://files.pythonhosted.org/packages/d0/e9/84f54e5b9a029df33ef6aaeb7a0b9f66d6806cd75e8e0f3a4ae15c75cd97/pyPreprocessing-0.0.1.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/b6/77/aede3e9bba804a447fb821d66ea65234348300167d8162a8b60fefa076f3/warpzone_sdk-8.3.4.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/e9/cb/a1896d6660884395ccd2b397cbe298edd60ad67d592b97d460b9839190fa/streams_py-0.3.3.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/4f/9a/55ebe65f55776a8f51a8045a218ff69fc1399d614c0de6a8e405a4d5f6bb/odin_cyble-0.0.6.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/4f/9a/55ebe65f55776a8f51a8045a218ff69fc1399d614c0de6a8e405a4d5f6bb/odin_cyble-0.0.6.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [passw]: Downloading https://files.pythonhosted.org/packages/9b/19/7bd4a46dbe07ed7f3768619276ee737bb960d6970e3482d76bea3061840c/passw-1.0.0.1.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230725/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [pyPreprocessing]: Downloading https://files.pythonhosted.org/packages/a7/55/04185906d7760a5fec36f647298a228208e904da122b44d3969a50e0e49d/pyPreprocessing-0.0.2.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/6a/44/39398213d5e65cca65929cf2cea2c299bf1e3c0c867da297d0fafedd3a11/boxsdk-3.8.0.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230725/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/ca/79/8aecc0ece3c1fae3abc2526f7b7e2e87a18172fa4d196e3e972fac65062a/warpzone_sdk-8.3.5.tar.gz
+[2023-07-25 13:05:06] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230725/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [streams-py]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [streams-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streams_py-0.3.2.tar.gz tmp/streams_py-0.3.3.tar.gz --markdown 20230725/s/streams-py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [pyPreprocessing]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [pyPreprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreprocessing-0.0.1.tar.gz tmp/pyPreprocessing-0.0.2.tar.gz --markdown 20230725/p/pyPreprocessing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.3.4.tar.gz tmp/warpzone_sdk-8.3.5.tar.gz --markdown 20230725/w/warpzone-sdk/8.3.4-8.3.5/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_cyble-0.0.5.tar.gz tmp/odin_cyble-0.0.6.tar.gz --markdown 20230725/o/odin-cyble/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [boxsdk]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [boxsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsdk-3.7.3.tar.gz tmp/boxsdk-3.8.0.tar.gz --markdown 20230725/b/boxsdk/3.7.3-3.8.0/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [odin-cyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_cyble-0.0.5.tar.gz tmp/odin_cyble-0.0.6.tar.gz --markdown 20230725/o/odin-cyble/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 13:05:06] INFO root fetch - processPackages [passw]: executing diffoscope
+[2023-07-25 13:05:06] INFO root fetch - processPackages [passw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passw-1.0.0.tar.gz tmp/passw-1.0.0.1.tar.gz --markdown 20230725/p/passw/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-25 13:05:08] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [diagrams-yaml]: Start processing: apify-shared
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-25 13:05:08] INFO root fetch - processPackages [apify-shared]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [nwebclient]: Start processing: mlcvzoo-mmdetection
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-25 13:05:08] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-25 13:05:08] INFO root fetch - processPackages [mlcvzoo-mmdetection]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/4e/2a/be93ac68c44ca1e9fab02de152e7f203f1ac19336a9d2412fd606f203ee3/apify_shared-1.0.0b1.tar.gz
+[2023-07-25 13:05:08] INFO root fetch - processPackages [passw]: Remove: archive file [/home/abi/fetcher/tmp/passw-1.0.0.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [passw]: Remove: archive file [/home/abi/fetcher/tmp/passw-1.0.0.1.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [passw]: success
+[2023-07-25 13:05:08] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.5.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.6.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [odin-cyble]: success
+[2023-07-25 13:05:08] INFO root fetch - processPackages [pyPreprocessing]: Remove: archive file [/home/abi/fetcher/tmp/pyPreprocessing-0.0.1.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - processPackages [pyPreprocessing]: Remove: archive file [/home/abi/fetcher/tmp/pyPreprocessing-0.0.2.tar.gz]
+[2023-07-25 13:05:08] INFO root fetch - main [MainThread]: End processing [pyPreprocessing]: success
+[2023-07-25 13:05:09] INFO root fetch - main [MainThread]: End processing [odin-cyble]: success
+[2023-07-25 13:05:09] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.3.2.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.3.3.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - main [MainThread]: End processing [streams-py]: success
+[2023-07-25 13:05:09] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/8b/2e/f7707ea5a05e75c55b8074a7d218fbfc80066c3a6eded0f3f70588dd1ff5/mlcvzoo_mmdetection-6.0.0.tar.gz
+[2023-07-25 13:05:09] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.4.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.5.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-07-25 13:05:09] INFO root fetch - processPackages [apify-shared]: Downloading https://files.pythonhosted.org/packages/51/e6/a1ac63d1c0a4f23272672faab71769722e89beefb9db2e33685bd7f6abdd/apify_shared-1.0.0b2.tar.gz
+[2023-07-25 13:05:09] INFO root fetch - processPackages [apify-shared]: executing diffoscope
+[2023-07-25 13:05:09] INFO root fetch - processPackages [apify-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_shared-1.0.0b1.tar.gz tmp/apify_shared-1.0.0b2.tar.gz --markdown 20230725/a/apify-shared/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-25 13:05:09] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/e0/fb/5efc8ce05e0c7b20daa500328e7d718bf80e9d321bbde11752e12f42c142/mlcvzoo_mmdetection-6.0.1.tar.gz
+[2023-07-25 13:05:09] INFO root fetch - processPackages [mlcvzoo-mmdetection]: executing diffoscope
+[2023-07-25 13:05:09] INFO root fetch - processPackages [mlcvzoo-mmdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_mmdetection-6.0.0.tar.gz tmp/mlcvzoo_mmdetection-6.0.1.tar.gz --markdown 20230725/m/mlcvzoo-mmdetection/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-25 13:05:09] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.7.3.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.8.0.tar.gz]
+[2023-07-25 13:05:09] INFO root fetch - main [MainThread]: End processing [boxsdk]: success
+[2023-07-25 13:05:10] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.0b1.tar.gz]
+[2023-07-25 13:05:10] INFO root fetch - processPackages [apify-shared]: Remove: archive file [/home/abi/fetcher/tmp/apify_shared-1.0.0b2.tar.gz]
+[2023-07-25 13:05:10] INFO root fetch - main [MainThread]: End processing [apify-shared]: success
+[2023-07-25 13:05:10] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmdetection-6.0.0.tar.gz]
+[2023-07-25 13:05:10] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmdetection-6.0.1.tar.gz]
+[2023-07-25 13:05:10] INFO root fetch - main [MainThread]: End processing [mlcvzoo-mmdetection]: success
+[2023-07-25 13:05:10] INFO root fetch - main [MainThread]: Store serial: [19027708]
