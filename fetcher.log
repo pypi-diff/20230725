@@ -22729,3 +22729,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
 [2023-07-25 13:20:50] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
 [2023-07-25 13:20:50] INFO root fetch - main [MainThread]: Store serial: [19027851]
+[2023-07-25 13:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027851]
+[2023-07-25 13:25:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audiostack
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lzokay
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sliceguard
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splite5
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indexed-gzip
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luccas-library
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcai-bentoml
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thegolem
+[2023-07-25 13:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickbeutils
+[2023-07-25 13:25:59] WARNING root fetch - processPackages [luccas-library]: Skipping, unable to determine old version
+[2023-07-25 13:25:59] INFO root fetch - processPackages [luccas-library]: Start processing: isyatirimanaliz-test
+[2023-07-25 13:25:59] INFO root fetch - main [MainThread]: End processing [luccas-library] error
+[2023-07-25 13:25:59] INFO root fetch - processPackages [lzokay]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-25 13:25:59] WARNING root fetch - processPackages [splite5]: Skipping, unable to determine old version
+[2023-07-25 13:25:59] INFO root fetch - main [MainThread]: End processing [splite5] error
+[2023-07-25 13:25:59] INFO root fetch - processPackages [sliceguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [thegolem]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [kcai-bentoml]: New version: [1.0.22.post3] Old Version: [1.0.22.post2]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [audiostack]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [indexed-gzip]: New version: [1.8.3] Old Version: [1.7.1]
+[2023-07-25 13:25:59] INFO root fetch - processPackages [lzokay]: Downloading https://files.pythonhosted.org/packages/d0/ad/6c98f4b2fa55dd9a646276155246efbebacad532d6c7d12e42beebc07b94/lzokay-1.1.4.tar.gz
+[2023-07-25 13:25:59] INFO root fetch - processPackages [quickbeutils]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-25 13:25:59] WARNING root fetch - processPackages [isyatirimanaliz-test]: Skipping, unable to determine old version
+[2023-07-25 13:25:59] INFO root fetch - main [MainThread]: End processing [isyatirimanaliz-test] error
+[2023-07-25 13:25:59] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-25 13:26:00] INFO root fetch - processPackages [thegolem]: Downloading https://files.pythonhosted.org/packages/4b/e2/b76ae2b7751796534e73748e2c248c7767dcaf75a28f38b9afef6fb3df51/thegolem-0.3.1.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/95/fd/2fb5f90a40e211bfccaf886b671796583ee813a850678fb6ca5a90a80947/audiostack-0.0.7.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [sliceguard]: Downloading https://files.pythonhosted.org/packages/b3/b8/d055232a7c40ecc333cbdd041042f69ec6eb9f3abdeac416d81d3a0ac505/sliceguard-0.0.8.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [kcai-bentoml]: Downloading https://files.pythonhosted.org/packages/fc/37/1246e954a589d48cd0c1714464f569652abe276cdb84624503609f457d53/kcai-bentoml-1.0.22.post2.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [indexed-gzip]: Downloading https://files.pythonhosted.org/packages/0e/24/6b7f45d8bb5ed7ed0253b399c0a54880c8540c4cb34ea5579fe3f038b326/indexed_gzip-1.7.1.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [quickbeutils]: Downloading https://files.pythonhosted.org/packages/5f/22/e6de03c9f36cc2ce03be29b58e1a8f05d1494872451409be1e270a3b09b8/quickbeutils-1.2.1.tar.gz
+[2023-07-25 13:26:00] WARNING root fetch - processPackages [kcai-bentoml]: Skipping package: exceeds size limit 19845380>=10485760
+[2023-07-25 13:26:00] INFO root fetch - main [MainThread]: End processing [kcai-bentoml] error
+[2023-07-25 13:26:00] INFO root fetch - processPackages [lzokay]: Downloading https://files.pythonhosted.org/packages/a1/0c/7c4dea5aea6bfe0cd3f7e492013893588d383df4dc282838768faa3ff878/lzokay-1.1.5.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [thegolem]: Downloading https://files.pythonhosted.org/packages/6a/56/c48c727098fefbdbf46339fd86145420dbc74aa69a07e36a8b9c56a10fcc/thegolem-0.3.2.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [lzokay]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [lzokay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzokay-1.1.4.tar.gz tmp/lzokay-1.1.5.tar.gz --markdown 20230725/l/lzokay/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-25 13:26:00] INFO root fetch - processPackages [sliceguard]: Downloading https://files.pythonhosted.org/packages/09/81/02488f3a908125f091e88430c9898b33b906db17e9716f26d79fc3417d58/sliceguard-0.0.9.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [quickbeutils]: Downloading https://files.pythonhosted.org/packages/9e/8e/6be164a587f1f26a190a202f036e4b2dd986085a8cb0d41aae2fe5c50f7f/quickbeutils-1.2.2.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [thegolem]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [thegolem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thegolem-0.3.1.tar.gz tmp/thegolem-0.3.2.tar.gz --markdown 20230725/t/thegolem/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-25 13:26:00] INFO root fetch - processPackages [indexed-gzip]: Downloading https://files.pythonhosted.org/packages/da/01/55ff5fd128ee061e16c421e5e1435e24e86aa2fd9d12a0ecbc57853b268a/indexed_gzip-1.8.3.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/18/3b/72eb81444c3d069cd65d6024fc9963f042f1d94430c9185af0c3d5755258/audiostack-0.0.9.tar.gz
+[2023-07-25 13:26:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-25 13:26:00] INFO root fetch - processPackages [sliceguard]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [sliceguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceguard-0.0.8.tar.gz tmp/sliceguard-0.0.9.tar.gz --markdown 20230725/s/sliceguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:26:00] INFO root fetch - processPackages [quickbeutils]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [quickbeutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbeutils-1.2.1.tar.gz tmp/quickbeutils-1.2.2.tar.gz --markdown 20230725/q/quickbeutils/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-25 13:26:00] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-0.0.7.tar.gz tmp/audiostack-0.0.9.tar.gz --markdown 20230725/a/audiostack/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:26:00] INFO root fetch - processPackages [indexed-gzip]: executing diffoscope
+[2023-07-25 13:26:00] INFO root fetch - processPackages [indexed-gzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexed_gzip-1.7.1.tar.gz tmp/indexed_gzip-1.8.3.tar.gz --markdown 20230725/i/indexed-gzip/1.7.1-1.8.3/diff.md --exclude *.pyd
+[2023-07-25 13:26:01] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-25 13:26:01] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230725/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-25 13:26:01] INFO root fetch - processPackages [lzokay]: Remove: archive file [/home/abi/fetcher/tmp/lzokay-1.1.4.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - processPackages [lzokay]: Remove: archive file [/home/abi/fetcher/tmp/lzokay-1.1.5.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - main [MainThread]: End processing [lzokay]: success
+[2023-07-25 13:26:01] INFO root fetch - processPackages [sliceguard]: Remove: archive file [/home/abi/fetcher/tmp/sliceguard-0.0.8.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - processPackages [sliceguard]: Remove: archive file [/home/abi/fetcher/tmp/sliceguard-0.0.9.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - main [MainThread]: End processing [sliceguard]: success
+[2023-07-25 13:26:01] INFO root fetch - processPackages [quickbeutils]: Remove: archive file [/home/abi/fetcher/tmp/quickbeutils-1.2.1.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - processPackages [quickbeutils]: Remove: archive file [/home/abi/fetcher/tmp/quickbeutils-1.2.2.tar.gz]
+[2023-07-25 13:26:01] INFO root fetch - main [MainThread]: End processing [quickbeutils]: success
+[2023-07-25 13:26:02] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-0.0.7.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-0.0.9.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2023-07-25 13:26:02] INFO root fetch - processPackages [indexed-gzip]: Remove: archive file [/home/abi/fetcher/tmp/indexed_gzip-1.7.1.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - processPackages [indexed-gzip]: Remove: archive file [/home/abi/fetcher/tmp/indexed_gzip-1.8.3.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - main [MainThread]: End processing [indexed-gzip]: success
+[2023-07-25 13:26:02] INFO root fetch - processPackages [thegolem]: Remove: archive file [/home/abi/fetcher/tmp/thegolem-0.3.1.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - processPackages [thegolem]: Remove: archive file [/home/abi/fetcher/tmp/thegolem-0.3.2.tar.gz]
+[2023-07-25 13:26:02] INFO root fetch - main [MainThread]: End processing [thegolem]: success
+[2023-07-25 13:26:03] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-25 13:26:03] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-25 13:26:03] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-25 13:26:03] INFO root fetch - main [MainThread]: Store serial: [19027948]
