@@ -19686,3 +19686,152 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:13:17] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.3.tar.gz]
 [2023-07-25 11:13:17] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-07-25 11:13:17] INFO root fetch - main [MainThread]: Store serial: [19026626]
+[2023-07-25 11:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026626]
+[2023-07-25 11:18:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlrover
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelwhaleutils
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discotime
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Furious-GUI
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packageN
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gempyp
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vcc-utils
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zmq-tubes
+[2023-07-25 11:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydecs
+[2023-07-25 11:18:26] INFO root fetch - processPackages [pydecs]: New version: [2023.7.25] Old Version: [2023.6.6]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [gempyp]: New version: [1.0.70b3] Old Version: [1.0.70b1]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [packageN]: New version: [1.1.6.1] Old Version: [1.1.6]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [dlrover]: New version: [0.2.0] Old Version: [0.1.0rc0.dev1]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.2.1] Old Version: [0.5.2.0]
+[2023-07-25 11:18:26] WARNING root fetch - processPackages [vcc-utils]: Skipping, unable to determine old version
+[2023-07-25 11:18:26] INFO root fetch - processPackages [vcc-utils]: Start processing: rcon
+[2023-07-25 11:18:26] INFO root fetch - main [MainThread]: End processing [vcc-utils] error
+[2023-07-25 11:18:26] INFO root fetch - processPackages [zmq-tubes]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-25 11:18:26] INFO root fetch - processPackages [discotime]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-25 11:18:27] INFO root fetch - processPackages [rcon]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-25 11:18:27] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/33/f8/f4a124dd86577b83c2ee68471603dc871af5ec6a4d4eea2c5420b6565333/modelwhaleutils-0.5.2.0.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [packageN]: Downloading https://files.pythonhosted.org/packages/08/46/f30fa630c5e95d1567788d6a5ea07f5022483ef2d7f1519e00e8126a5165/packageN-1.1.6.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/35/ea/597450a9f1347486eac467d6217bb1371ef12659c0d51b7fb85edca63936/Furious-GUI-0.1.2.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [rcon]: Downloading https://files.pythonhosted.org/packages/ad/1f/839b30fee68c79215a8f57a3595ba429c0e7c840d081fd7d646aca7f36ab/rcon-2.4.0.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [pydecs]: Downloading https://files.pythonhosted.org/packages/6f/66/a05b46db9d0c97479b47469d32b387da0d69b0b83e835dacb2f60fb4c016/pydecs-2023.6.6-py3-none-any.whl
+[2023-07-25 11:18:27] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/f3/9e/fb7e02ede4118c197f1bf9faa73c02a2643795e6473725c7e48b024b77be/gempyp-1.0.70b1.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/1d/db/74e9c7adf094b4bbed7671d4a89f7026854f7f771d14571bf47bef8ecb14/discotime-0.0.4.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [zmq-tubes]: Downloading https://files.pythonhosted.org/packages/c4/09/6d160d29f87d1e18b7762a286c2583ea420f8f995ca7662fb90aa038b59f/zmq_tubes-1.8.0.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/54/ae/2cb298e2968ec5896042eec78eb1e6b6b39dfdfa21bd8facc0fa9caf4bd6/dlrover-0.1.0rc0.dev1-py3-none-any.whl
+[2023-07-25 11:18:27] INFO root fetch - processPackages [packageN]: Downloading https://files.pythonhosted.org/packages/f4/08/7aafeed14e5bad12ec0c2ddb907c3748217174f7310624216e53c8f427ce/packageN-1.1.6.1-py3-none-any.whl
+[2023-07-25 11:18:27] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/bd/4b/5d00b9e39d11982737412381d5eb79b9b2733906df2c0b4462e24ed11b13/modelwhaleutils-0.5.2.1-py3.7.egg
+[2023-07-25 11:18:27] INFO root fetch - processPackages [rcon]: Downloading https://files.pythonhosted.org/packages/fa/53/ca45b81222fc92d60327cf73886f35a6f7f9148358393a60a9f39d232761/rcon-2.4.1.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/78/40/f494f6b68b43bdd352067ec963166c07ef64c00caf603a0a06c5655b3ae0/discotime-0.1.0.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/8e/98/74da41393ea7032b5d3915fb0776718554e9da5bb1e57db5757a45faea7d/gempyp-1.0.70b3.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [pydecs]: Downloading https://files.pythonhosted.org/packages/e7/73/50a3ccc29c15454d4027bf941e379dffaed01115a907120a97bdeee1e78c/pydecs-2023.7.25.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-25 11:18:27] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2023-07-25 11:18:27] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.2.0.tar.gz tmp/modelwhaleutils-0.5.2.1-py3.7.egg --markdown 20230725/m/modelwhaleutils/0.5.2.0-0.5.2.1/diff.md --exclude *.pyd
+[2023-07-25 11:18:27] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/40/9f/2b65e0031d5ae64c401e056c43df6707102f34d62758b2b00f7dcc940547/dlrover-0.2.0-py3-none-any.whl
+[2023-07-25 11:18:27] INFO root fetch - processPackages [packageN]: executing diffoscope
+[2023-07-25 11:18:27] INFO root fetch - processPackages [packageN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packageN-1.1.6.tar.gz tmp/packageN-1.1.6.1-py3-none-any.whl.zip --markdown 20230725/p/packageN/1.1.6-1.1.6.1/diff.md --exclude *.pyd
+[2023-07-25 11:18:27] INFO root fetch - processPackages [zmq-tubes]: Downloading https://files.pythonhosted.org/packages/13/e2/ec305d5aa55ef91f98da32c1b6f84231a7af999e4bb31d82fc4bf29bc211/zmq_tubes-1.9.0.tar.gz
+[2023-07-25 11:18:28] INFO root fetch - processPackages [rcon]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [rcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcon-2.4.0.tar.gz tmp/rcon-2.4.1.tar.gz --markdown 20230725/r/rcon/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [discotime]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [discotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotime-0.0.4.tar.gz tmp/discotime-0.1.0.tar.gz --markdown 20230725/d/discotime/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [pydecs]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [pydecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydecs-2023.6.6-py3-none-any.whl.zip tmp/pydecs-2023.7.25.tar.gz --markdown 20230725/p/pydecs/2023.6.6-2023.7.25/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/07/2d/a801c56462fb2f51f5d93242eb58dec1236d1be6890cd46209da8be304bc/Furious-GUI-0.1.3.tar.gz
+[2023-07-25 11:18:28] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230725/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [dlrover]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [dlrover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrover-0.1.0rc0.dev1-py3-none-any.whl.zip tmp/dlrover-0.2.0-py3-none-any.whl.zip --markdown 20230725/d/dlrover/0.1.0rc0.dev1-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.70b1.tar.gz tmp/gempyp-1.0.70b3.tar.gz --markdown 20230725/g/gempyp/1.0.70b1-1.0.70b3/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [zmq-tubes]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [zmq-tubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmq_tubes-1.8.0.tar.gz tmp/zmq_tubes-1.9.0.tar.gz --markdown 20230725/z/zmq-tubes/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-25 11:18:28] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-07-25 11:18:28] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.2.tar.gz tmp/Furious-GUI-0.1.3.tar.gz --markdown 20230725/F/Furious-GUI/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-25 11:18:29] INFO root fetch - processPackages [packageN]: Remove: archive file [/home/abi/fetcher/tmp/packageN-1.1.6.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [packageN]: Remove: archive file [/home/abi/fetcher/tmp/packageN-1.1.6.1-py3-none-any.whl.zip]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [packageN]: Start processing: databend
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [packageN]: success
+[2023-07-25 11:18:29] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 11:18:29] INFO root fetch - processPackages [pydecs]: Remove: archive file [/home/abi/fetcher/tmp/pydecs-2023.6.6-py3-none-any.whl.zip]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [pydecs]: Remove: archive file [/home/abi/fetcher/tmp/pydecs-2023.7.25.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [pydecs]: Start processing: cubicweb-timesheet
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [pydecs]: success
+[2023-07-25 11:18:29] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.0.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.1-py3.7.egg]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [modelwhaleutils]: Start processing: skrl
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2023-07-25 11:18:29] INFO root fetch - processPackages [cubicweb-timesheet]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [skrl]: New version: [1.0.0rc1] Old Version: [0.9.1]
+[2023-07-25 11:18:29] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-25 11:18:29] INFO root fetch - processPackages [databend]: Start processing: sflkit
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-25 11:18:29] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.0.4.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.1.0.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [discotime]: Start processing: imap-tools
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [discotime]: success
+[2023-07-25 11:18:29] INFO root fetch - processPackages [sflkit]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [cubicweb-timesheet]: Downloading https://files.pythonhosted.org/packages/84/51/7efdee81f627f0e186d0569110453d2edb0bc0e10ed1b8d3a1b5d2d410e3/cubicweb-timesheet-0.9.1.tar.gz
+[2023-07-25 11:18:29] INFO root fetch - processPackages [skrl]: Downloading https://files.pythonhosted.org/packages/b7/77/e73026c5081f8b4c5ad8643e3b1d2c754a673becff2a5025c41b0b64f21d/skrl-0.9.1.tar.gz
+[2023-07-25 11:18:29] INFO root fetch - processPackages [imap-tools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [zmq-tubes]: Remove: archive file [/home/abi/fetcher/tmp/zmq_tubes-1.8.0.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [zmq-tubes]: Remove: archive file [/home/abi/fetcher/tmp/zmq_tubes-1.9.0.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [zmq-tubes]: Start processing: c2cwsgiutils
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [zmq-tubes]: success
+[2023-07-25 11:18:29] INFO root fetch - processPackages [rcon]: Remove: archive file [/home/abi/fetcher/tmp/rcon-2.4.0.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [rcon]: Remove: archive file [/home/abi/fetcher/tmp/rcon-2.4.1.tar.gz]
+[2023-07-25 11:18:29] INFO root fetch - processPackages [rcon]: Start processing: tidychef
+[2023-07-25 11:18:29] INFO root fetch - main [MainThread]: End processing [rcon]: success
+[2023-07-25 11:18:30] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/77/2d/9c443506b34714b9055f69f713ac8c2e0654afb20ce72d4f86086646f283/sflkit-0.2.6.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-25 11:18:30] WARNING root fetch - processPackages [tidychef]: Skipping, unable to determine old version
+[2023-07-25 11:18:30] INFO root fetch - main [MainThread]: End processing [tidychef] error
+[2023-07-25 11:18:30] INFO root fetch - processPackages [imap-tools]: Downloading https://files.pythonhosted.org/packages/7c/91/287526663b51f06812bd20ecb142dc636e43b2394f6cd5c6167d57a12972/imap-tools-1.0.0.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.70b1.tar.gz]
+[2023-07-25 11:18:30] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.70b3.tar.gz]
+[2023-07-25 11:18:30] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2023-07-25 11:18:30] INFO root fetch - processPackages [cubicweb-timesheet]: Downloading https://files.pythonhosted.org/packages/d9/17/fc1021aec2c433c029784e4a6db768ae4d7e95559699341f230499a526a5/cubicweb-timesheet-1.0.0.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [skrl]: Downloading https://files.pythonhosted.org/packages/36/b7/6a4dca2f4ef0b8be0cb3bd7ec2c058b3b08e39ea2db849974d0633b4c652/skrl-1.0.0rc1.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/8f/1d/6326104e1432897b1e3b0ea0164f8e2671d494db41fce5c741ed5185b77d/sflkit-0.2.7.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [cubicweb-timesheet]: executing diffoscope
+[2023-07-25 11:18:30] INFO root fetch - processPackages [cubicweb-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-timesheet-0.9.1.tar.gz tmp/cubicweb-timesheet-1.0.0.tar.gz --markdown 20230725/c/cubicweb-timesheet/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 11:18:30] INFO root fetch - processPackages [imap-tools]: Downloading https://files.pythonhosted.org/packages/67/c4/fefa480f0cd0026d44ffe2505fa2526529e5676f3245c6141afc37f3c7fa/imap-tools-1.1.0.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [skrl]: executing diffoscope
+[2023-07-25 11:18:30] INFO root fetch - processPackages [skrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrl-0.9.1.tar.gz tmp/skrl-1.0.0rc1.tar.gz --markdown 20230725/s/skrl/0.9.1-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-25 11:18:30] INFO root fetch - processPackages [sflkit]: executing diffoscope
+[2023-07-25 11:18:30] INFO root fetch - processPackages [sflkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sflkit-0.2.6.tar.gz tmp/sflkit-0.2.7.tar.gz --markdown 20230725/s/sflkit/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-25 11:18:30] INFO root fetch - processPackages [imap-tools]: executing diffoscope
+[2023-07-25 11:18:30] INFO root fetch - processPackages [imap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap-tools-1.0.0.tar.gz tmp/imap-tools-1.1.0.tar.gz --markdown 20230725/i/imap-tools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 11:18:30] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-25 11:18:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-25 11:18:30] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-25 11:18:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 11:18:30] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-25 11:18:30] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230725/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-25 11:18:31] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.1.0rc0.dev1-py3-none-any.whl.zip]
+[2023-07-25 11:18:31] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.2.0-py3-none-any.whl.zip]
+[2023-07-25 11:18:31] INFO root fetch - main [MainThread]: End processing [dlrover]: success
+[2023-07-25 11:18:31] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.2.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.3.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-07-25 11:18:31] INFO root fetch - processPackages [cubicweb-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-timesheet-0.9.1.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - processPackages [cubicweb-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-timesheet-1.0.0.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - main [MainThread]: End processing [cubicweb-timesheet]: success
+[2023-07-25 11:18:31] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.6.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.7.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - main [MainThread]: End processing [sflkit]: success
+[2023-07-25 11:18:31] INFO root fetch - processPackages [imap-tools]: Remove: archive file [/home/abi/fetcher/tmp/imap-tools-1.0.0.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - processPackages [imap-tools]: Remove: archive file [/home/abi/fetcher/tmp/imap-tools-1.1.0.tar.gz]
+[2023-07-25 11:18:31] INFO root fetch - main [MainThread]: End processing [imap-tools]: success
+[2023-07-25 11:18:32] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-25 11:18:32] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-25 11:18:32] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-25 11:18:32] INFO root fetch - processPackages [skrl]: Remove: archive file [/home/abi/fetcher/tmp/skrl-0.9.1.tar.gz]
+[2023-07-25 11:18:32] INFO root fetch - processPackages [skrl]: Remove: archive file [/home/abi/fetcher/tmp/skrl-1.0.0rc1.tar.gz]
+[2023-07-25 11:18:32] INFO root fetch - main [MainThread]: End processing [skrl]: success
+[2023-07-25 11:18:32] INFO root fetch - main [MainThread]: Store serial: [19026693]
