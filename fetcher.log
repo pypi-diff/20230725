@@ -8141,3 +8141,166 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 05:00:29] INFO root fetch - processPackages [i2cssh]: Remove: archive file [/home/abi/fetcher/tmp/i2cssh-0.0.9.tar.gz]
 [2023-07-25 05:00:29] INFO root fetch - main [MainThread]: End processing [i2cssh]: success
 [2023-07-25 05:00:29] INFO root fetch - main [MainThread]: Store serial: [19022623]
+[2023-07-25 05:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022623]
+[2023-07-25 05:05:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzjr
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fileseq
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vanna
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal-client
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-core
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawler-studio
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cPyparsing
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-mobilenetwork
+[2023-07-25 05:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-contract
+[2023-07-25 05:05:38] INFO root fetch - processPackages [vanna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 05:05:38] WARNING root fetch - processPackages [fastapi-core]: Skipping, unable to determine old version
+[2023-07-25 05:05:38] INFO root fetch - processPackages [fastapi-core]: Start processing: azure-mgmt-storagemover
+[2023-07-25 05:05:38] INFO root fetch - main [MainThread]: End processing [fastapi-core] error
+[2023-07-25 05:05:38] INFO root fetch - processPackages [Fileseq]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [modal]: New version: [0.50.2718] Old Version: [0.50.2712]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [pyzjr]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [crawler-studio]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.2.0] Old Version: [2.4.7.2.1.2]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [azure-mgmt-storagemover]: New version: [2.0.0b1] Old Version: [1.0.0b1]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [modal-client]: New version: [0.50.2718] Old Version: [0.50.2712]
+[2023-07-25 05:05:38] INFO root fetch - processPackages [Fileseq]: Downloading https://files.pythonhosted.org/packages/33/2b/c97d6d78156192e8bc4a360ecde04b6f0ed639d6150f866868d747669755/Fileseq-1.8.1.zip
+[2023-07-25 05:05:38] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/5b/ca/cc777f9bc29b1e4fe210049e3102d56ef58add9c556bae60c14eab33dd11/vanna-0.0.8.tar.gz
+[2023-07-25 05:05:38] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/66/d5/92ca2c0b3c6bea22e61bdc0ce608dcdfdf0586e363f459e42c9829303363/modal_client-0.50.2712-py3-none-any.whl
+[2023-07-25 05:05:38] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/2e/11/1f6ba2fd6e700c1535cf81e7c9d2c7f2c0e9ac76dd94db30b637060de1c2/modal-0.50.2712-py3-none-any.whl
+[2023-07-25 05:05:38] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: Downloading https://files.pythonhosted.org/packages/84/52/e0bbd2415d763ffafe4875f6b0288c2f0ce3a7c087fb28202d2a48fd5642/azure-mgmt-mobilenetwork-2.0.0.zip
+[2023-07-25 05:05:38] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/22/37/95a13ae98411a8b484eb91727779388bbb4f2c0f717074785462295659b0/cPyparsing-2.4.7.2.1.2.tar.gz
+[2023-07-25 05:05:38] INFO root fetch - processPackages [crawler-studio]: Downloading https://files.pythonhosted.org/packages/59/3a/c510a9dfc185b6b2fe894785e8eacdf4a26b07bf7ec534e5025ac7df9983/crawler_studio-1.5.2.tar.gz
+[2023-07-25 05:05:38] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/99/a7/03db30c0769c19c6dfb46f11bbab423f60bcb83d5fd0823556a674ce2b24/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-25 05:05:38] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/fc/a4/fa430d09bba1aa7bfd9e42c76f03111a351fd4d138a1b6913396b41e7fbd/pyzjr-0.0.9.tar.gz
+[2023-07-25 05:05:38] INFO root fetch - processPackages [azure-mgmt-storagemover]: Downloading https://files.pythonhosted.org/packages/e1/21/1715b4bb1fe23c5e53be416440ca7bf7c30aef1ca199abfa07e92f5ed3fa/azure-mgmt-storagemover-1.0.0b1.zip
+[2023-07-25 05:05:39] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/96/fd/c03f80a50f42777698aab1db4d2a450d872752730425c9b21148e9ce116b/vanna-0.0.9.tar.gz
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f9/c6/c49cb341264e3eae31206bcc175fad6bf40de17afa7e676d548312bdadb7/modal-0.50.2718-py3-none-any.whl
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/7f/63/3d7ef1e10371ea46b2db8b36849c1d917d8e4ced1a865c151ab12222428c/modal_client-0.50.2718-py3-none-any.whl
+[2023-07-25 05:05:39] INFO root fetch - processPackages [Fileseq]: Downloading https://files.pythonhosted.org/packages/bd/3b/d5fb83ad0a640e6f92a9c41a0af6b6d1117e2ca60c637622aab189fc5604/Fileseq-1.9.0.zip
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: Downloading https://files.pythonhosted.org/packages/13/52/26997173af1dba861b0f1fdf7f5375e30c7ffd8d7be40eb08ceed8cf18fd/azure-mgmt-mobilenetwork-3.0.0.zip
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2712-py3-none-any.whl.zip tmp/modal-0.50.2718-py3-none-any.whl.zip --markdown 20230725/m/modal/0.50.2712-0.50.2718/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-storagemover]: Downloading https://files.pythonhosted.org/packages/43/18/a42d5b3d4705635d2eb1736e0e171f0abaf870704987b789cb3506a276d4/azure-mgmt-storagemover-2.0.0b1.zip
+[2023-07-25 05:05:39] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.0.8.tar.gz tmp/vanna-0.0.9.tar.gz --markdown 20230725/v/vanna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2712-py3-none-any.whl.zip tmp/modal_client-0.50.2718-py3-none-any.whl.zip --markdown 20230725/m/modal-client/0.50.2712-0.50.2718/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-mobilenetwork-2.0.0.zip tmp/azure-mgmt-mobilenetwork-3.0.0.zip --markdown 20230725/a/azure-mgmt-mobilenetwork/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/90/2c/1230fbbbdd02e659b7439af79d8c93c7a637da318a1f22af2a16d44bcdbf/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-25 05:05:39] INFO root fetch - processPackages [Fileseq]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [Fileseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fileseq-1.8.1.zip tmp/Fileseq-1.9.0.zip --markdown 20230725/F/Fileseq/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-contract/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-storagemover]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [azure-mgmt-storagemover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-storagemover-1.0.0b1.zip tmp/azure-mgmt-storagemover-2.0.0b1.zip --markdown 20230725/a/azure-mgmt-storagemover/1.0.0b1-2.0.0b1/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/b9/51/8d80526ac7917706b9a69aedce8c5ef8ecf9e8c8f6485d60b211d4649ed0/cPyparsing-2.4.7.2.2.0.tar.gz
+[2023-07-25 05:05:39] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/9c/92/47cdc01155f5cd5e9b4acd7b2cafac14d86fc2860c9cbba88cfaa5d3d385/pyzjr-1.0.0.tar.gz
+[2023-07-25 05:05:39] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.9.tar.gz tmp/pyzjr-1.0.0.tar.gz --markdown 20230725/p/pyzjr/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 05:05:39] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-25 05:05:39] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.1.2.tar.gz tmp/cPyparsing-2.4.7.2.2.0.tar.gz --markdown 20230725/c/cPyparsing/2.4.7.2.1.2-2.4.7.2.2.0/diff.md --exclude *.pyd
+[2023-07-25 05:05:40] INFO root fetch - processPackages [crawler-studio]: Downloading https://files.pythonhosted.org/packages/4d/c0/e691e5fd3a8aa785a4d84124a5848eb67c706708960792b1855a1a93fbc9/crawler_studio-1.5.3.tar.gz
+[2023-07-25 05:05:40] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2712-py3-none-any.whl.zip]
+[2023-07-25 05:05:40] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2718-py3-none-any.whl.zip]
+[2023-07-25 05:05:40] INFO root fetch - processPackages [modal]: Start processing: cyberdrop-dl
+[2023-07-25 05:05:40] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-25 05:05:40] INFO root fetch - processPackages [crawler-studio]: executing diffoscope
+[2023-07-25 05:05:40] INFO root fetch - processPackages [crawler-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_studio-1.5.2.tar.gz tmp/crawler_studio-1.5.3.tar.gz --markdown 20230725/c/crawler-studio/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-25 05:05:40] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-25 05:05:40] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.8.tar.gz]
+[2023-07-25 05:05:40] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.9.tar.gz]
+[2023-07-25 05:05:40] INFO root fetch - processPackages [vanna]: Start processing: graphreduce
+[2023-07-25 05:05:40] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2023-07-25 05:05:41] INFO root fetch - processPackages [graphreduce]: New version: [1.2] Old Version: [1.1]
+[2023-07-25 05:05:41] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/ab/7b/7e3d129ad16faa898d7aa4a188403808658731a35fcc2dc7f8887c79eb97/graphreduce-1.1.tar.gz
+[2023-07-25 05:05:41] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/0f/d2/7cc87543a095963414febdc4df7c1ab1bbd48d86ec141ccb48301c38b32b/graphreduce-1.2.tar.gz
+[2023-07-25 05:05:41] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.9.tar.gz]
+[2023-07-25 05:05:41] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.0.0.tar.gz]
+[2023-07-25 05:05:41] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-25 05:05:41] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-25 05:05:41] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230725/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-25 05:05:41] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-25 05:05:41] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.1.tar.gz tmp/graphreduce-1.2.tar.gz --markdown 20230725/g/graphreduce/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-25 05:05:41] INFO root fetch - processPackages [Fileseq]: Remove: archive file [/home/abi/fetcher/tmp/Fileseq-1.8.1.zip]
+[2023-07-25 05:05:41] INFO root fetch - processPackages [Fileseq]: Remove: archive file [/home/abi/fetcher/tmp/Fileseq-1.9.0.zip]
+[2023-07-25 05:05:41] INFO root fetch - main [MainThread]: End processing [Fileseq]: success
+[2023-07-25 05:05:41] INFO root fetch - processPackages [azure-mgmt-storagemover]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-storagemover-1.0.0b1.zip]
+[2023-07-25 05:05:41] INFO root fetch - processPackages [azure-mgmt-storagemover]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-storagemover-2.0.0b1.zip]
+[2023-07-25 05:05:41] INFO root fetch - main [MainThread]: End processing [azure-mgmt-storagemover]: success
+[2023-07-25 05:05:42] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-mobilenetwork-2.0.0.zip]
+[2023-07-25 05:05:42] INFO root fetch - processPackages [azure-mgmt-mobilenetwork]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-mobilenetwork-3.0.0.zip]
+[2023-07-25 05:05:42] INFO root fetch - main [MainThread]: End processing [azure-mgmt-mobilenetwork]: success
+[2023-07-25 05:05:42] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2712-py3-none-any.whl.zip]
+[2023-07-25 05:05:42] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2718-py3-none-any.whl.zip]
+[2023-07-25 05:05:42] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-25 05:05:42] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-25 05:05:42] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-25 05:05:42] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-25 05:05:42] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-25 05:05:42] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-25 05:05:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2023-07-25 05:05:42] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.1.tar.gz]
+[2023-07-25 05:05:42] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.2.tar.gz]
+[2023-07-25 05:05:42] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-25 05:05:43] ERROR root fetch - processPackages [crawler-studio]: Diffoscope failed: time="2023-07-25T05:05:40+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-07-25 05:05:43] INFO root fetch - main [MainThread]: End processing [crawler-studio] error
+[2023-07-25 05:05:44] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.1.2.tar.gz]
+[2023-07-25 05:05:44] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.0.tar.gz]
+[2023-07-25 05:05:44] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-25 05:05:44] INFO root fetch - main [MainThread]: Store serial: [19022664]
