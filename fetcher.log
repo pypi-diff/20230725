@@ -2866,3 +2866,20 @@
 [2023-07-25 02:47:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-25 02:47:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-25 02:47:15] INFO root fetch - main [MainThread]: Store serial: [19020620]
+[2023-07-25 02:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020620]
+[2023-07-25 02:52:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-25 02:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-25 02:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itk-elastix
+[2023-07-25 02:52:25] INFO root fetch - processPackages [itk-elastix]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-25 02:52:25] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 02:52:26] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/6e/f5/0de4c1f7ea7a6ecea34ac7303fe9424882723c867037f25a8d05eeb333a3/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl
+[2023-07-25 02:52:26] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-25 02:52:26] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-25 02:52:26] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-25 02:52:28] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/7a/41/4832fae79f88a83dc1722b6aba7e1c0a3c084dbfb15cfed44aa620d4d317/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl
+[2023-07-25 02:52:29] INFO root fetch - processPackages [itk-elastix]: executing diffoscope
+[2023-07-25 02:52:29] INFO root fetch - processPackages [itk-elastix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230725/i/itk-elastix/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 02:52:30] INFO root fetch - processPackages [itk-elastix]: Remove: archive file [/home/abi/fetcher/tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 02:52:30] INFO root fetch - processPackages [itk-elastix]: Remove: archive file [/home/abi/fetcher/tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 02:52:30] INFO root fetch - main [MainThread]: End processing [itk-elastix]: success
+[2023-07-25 02:52:30] INFO root fetch - main [MainThread]: Store serial: [19020642]
