@@ -22574,3 +22574,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 13:10:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-25 13:10:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-25 13:10:26] INFO root fetch - main [MainThread]: Store serial: [19027781]
+[2023-07-25 13:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027781]
+[2023-07-25 13:15:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biobb-analysis
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passwordP
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htscf
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devchat-ask
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: file-to-dataframe
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SimpleRegressor
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dummy-url-wrapper
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ffmpeg-bitrate-stats
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bagbag
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scanpydoc
+[2023-07-25 13:15:36] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [devchat-ask]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [passwordP]: New version: [1.0.1.1] Old Version: [0.0.1.1]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [biobb-analysis]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-25 13:15:36] WARNING root fetch - processPackages [SimpleRegressor]: Skipping, unable to determine old version
+[2023-07-25 13:15:36] INFO root fetch - main [MainThread]: End processing [SimpleRegressor] error
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-25 13:15:36] WARNING root fetch - processPackages [file-to-dataframe]: Skipping, unable to determine old version
+[2023-07-25 13:15:36] INFO root fetch - main [MainThread]: End processing [file-to-dataframe] error
+[2023-07-25 13:15:36] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [scanpydoc]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-25 13:15:36] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/81/5c/84a8bd576aebccd660e9e0721b2b805ee15dae20a9c2ddc38e74d4f8cf5e/dummy_url_wrapper-0.0.8.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/15/7d/8b34194b6a3cde2b6192a7acbfe149f2db9dc6465884980be1dd43ad565f/devchat_ask-0.0.2-py3-none-any.whl
+[2023-07-25 13:15:36] INFO root fetch - processPackages [biobb-analysis]: Downloading https://files.pythonhosted.org/packages/70/ae/96a066c776608f54ec7b4c74796415be392e195d9dc6718278439c7c5375/biobb_analysis-4.0.1.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/83/bf/d2c3ac054944b3593b1606ecefe9c2d40f36eea44f72e8e84bc3ba9db929/passwordP-0.0.1.1-py3-none-any.whl
+[2023-07-25 13:15:36] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: Downloading https://files.pythonhosted.org/packages/ba/fb/d474eb534f2f3983d8e7f711cb4fb0d1983fd25335652972e3c91ee8efec/ffmpeg_bitrate_stats-0.4.1.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/d4/4c/dbe4d1763a0d99adbbf400d6b94573aa7e0388508eaf83fa657e7bea1a1b/scanpydoc-0.9.3.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-25 13:15:36] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/8a/2b/d0e5a3eb38c8db957442176fd4a229531f674ecfb07a9eecb8374e4c3eee/dummy_url_wrapper-0.0.9.tar.gz
+[2023-07-25 13:15:37] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230725/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.8.tar.gz tmp/dummy_url_wrapper-0.0.9.tar.gz --markdown 20230725/d/dummy-url-wrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230725/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/db/93/60c54edeac33d882b1eb7e5ad270f4dff45ddfbdc388cd04f67a0cbf335a/devchat_ask-0.0.3-py3-none-any.whl
+[2023-07-25 13:15:37] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/1c/db/11786f607609119b3b093a0a38d5a259db988a19de340dca2fa227169e8c/passwordP-1.0.1.1-py3-none-any.whl
+[2023-07-25 13:15:37] INFO root fetch - processPackages [biobb-analysis]: Downloading https://files.pythonhosted.org/packages/46/32/0aaea2ca0673eb74973c89627ea5e1fa9e63bd87cfef47f2139728f1ea27/biobb_analysis-4.0.2.tar.gz
+[2023-07-25 13:15:37] INFO root fetch - processPackages [devchat-ask]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [devchat-ask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat_ask-0.0.2-py3-none-any.whl.zip tmp/devchat_ask-0.0.3-py3-none-any.whl.zip --markdown 20230725/d/devchat-ask/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [passwordP]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [passwordP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordP-0.0.1.1-py3-none-any.whl.zip tmp/passwordP-1.0.1.1-py3-none-any.whl.zip --markdown 20230725/p/passwordP/0.0.1.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [biobb-analysis]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [biobb-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_analysis-4.0.1.tar.gz tmp/biobb_analysis-4.0.2.tar.gz --markdown 20230725/b/biobb-analysis/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/14/9b/624c9bf248d38bae51bca50a27b0b1232912e20bca62c1d8064dce377aea/scanpydoc-0.9.4.tar.gz
+[2023-07-25 13:15:37] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: Downloading https://files.pythonhosted.org/packages/af/55/813bb688b20c3ef8a1569ebb2599b7df57908cfa9e3b97a951ba4df6e59a/ffmpeg_bitrate_stats-0.4.2.tar.gz
+[2023-07-25 13:15:37] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.9.3.tar.gz tmp/scanpydoc-0.9.4.tar.gz --markdown 20230725/s/scanpydoc/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-25 13:15:37] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: executing diffoscope
+[2023-07-25 13:15:37] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_bitrate_stats-0.4.1.tar.gz tmp/ffmpeg_bitrate_stats-0.4.2.tar.gz --markdown 20230725/f/ffmpeg-bitrate-stats/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-25 13:15:38] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.8.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.9.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.2-py3-none-any.whl.zip]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.3-py3-none-any.whl.zip]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [devchat-ask]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-0.0.1.1-py3-none-any.whl.zip]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-1.0.1.1-py3-none-any.whl.zip]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [passwordP]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [biobb-analysis]: Remove: archive file [/home/abi/fetcher/tmp/biobb_analysis-4.0.1.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [biobb-analysis]: Remove: archive file [/home/abi/fetcher/tmp/biobb_analysis-4.0.2.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [biobb-analysis]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_bitrate_stats-0.4.1.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [ffmpeg-bitrate-stats]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_bitrate_stats-0.4.2.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [ffmpeg-bitrate-stats]: success
+[2023-07-25 13:15:38] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.3.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.4.tar.gz]
+[2023-07-25 13:15:38] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-25 13:15:39] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-25 13:15:39] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-25 13:15:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 13:15:39] INFO root fetch - main [MainThread]: Store serial: [19027819]
