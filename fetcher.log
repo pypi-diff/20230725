@@ -9074,3 +9074,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:42:28] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl.zip]
 [2023-07-25 05:42:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-url]: success
 [2023-07-25 05:42:28] INFO root fetch - main [MainThread]: Store serial: [19022929]
+[2023-07-25 05:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022929]
+[2023-07-25 05:47:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-25 05:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indic-transliteration
+[2023-07-25 05:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animdl
+[2023-07-25 05:47:37] INFO root fetch - processPackages [indic-transliteration]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-07-25 05:47:37] INFO root fetch - processPackages [animdl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-25 05:47:37] INFO root fetch - processPackages [indic-transliteration]: Downloading https://files.pythonhosted.org/packages/b5/84/2b13c4ee9f3ebd0bc7898ee071584a8838d11fb38de6f662c58468c2156a/indic_transliteration-2.3.7-py3-none-any.whl
+[2023-07-25 05:47:37] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/d5/87/bc94a216e17ed60ad18db20c5fd75acfa4b236270c7a1111f6992d19e567/animdl-1.7.8.tar.gz
+[2023-07-25 05:47:37] INFO root fetch - processPackages [indic-transliteration]: Downloading https://files.pythonhosted.org/packages/7e/8a/bf48d67c25c225712a232755eb03343d5dd2005598644ab58ae1dc248806/indic_transliteration-2.3.9-py3-none-any.whl
+[2023-07-25 05:47:38] INFO root fetch - processPackages [indic-transliteration]: executing diffoscope
+[2023-07-25 05:47:38] INFO root fetch - processPackages [indic-transliteration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indic_transliteration-2.3.7-py3-none-any.whl.zip tmp/indic_transliteration-2.3.9-py3-none-any.whl.zip --markdown 20230725/i/indic-transliteration/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-07-25 05:47:38] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/0e/37/d4eb2ed02f62b54d44d74ec067b7cc440fdc4cab9f8404d07181c1f95463/animdl-1.7.9.tar.gz
+[2023-07-25 05:47:38] INFO root fetch - processPackages [animdl]: executing diffoscope
+[2023-07-25 05:47:38] INFO root fetch - processPackages [animdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animdl-1.7.8.tar.gz tmp/animdl-1.7.9.tar.gz --markdown 20230725/a/animdl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-25 05:47:39] INFO root fetch - processPackages [indic-transliteration]: Remove: archive file [/home/abi/fetcher/tmp/indic_transliteration-2.3.7-py3-none-any.whl.zip]
+[2023-07-25 05:47:39] INFO root fetch - processPackages [indic-transliteration]: Remove: archive file [/home/abi/fetcher/tmp/indic_transliteration-2.3.9-py3-none-any.whl.zip]
+[2023-07-25 05:47:39] INFO root fetch - main [MainThread]: End processing [indic-transliteration]: success
+[2023-07-25 05:47:39] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.8.tar.gz]
+[2023-07-25 05:47:39] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.9.tar.gz]
+[2023-07-25 05:47:39] INFO root fetch - main [MainThread]: End processing [animdl]: success
+[2023-07-25 05:47:39] INFO root fetch - main [MainThread]: Store serial: [19022934]
