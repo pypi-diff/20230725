@@ -16374,3 +16374,140 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:24:12] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.17.tar.gz]
 [2023-07-25 09:24:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
 [2023-07-25 09:24:12] INFO root fetch - main [MainThread]: Store serial: [19025414]
+[2023-07-25 09:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025414]
+[2023-07-25 09:29:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-edas
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-imm
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lava-nc
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hubble-exchange
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-mongodb
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glidertools
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-software
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-pvtz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tess-atl
+[2023-07-25 09:29:22] INFO root fetch - processPackages [netbox-software]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [lava-nc]: New version: [0.8.0] Old Version: [0.7.0.post2]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-edas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [hubble-exchange]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-imm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [glidertools]: New version: [2023.7.25] Old Version: [2022.12.13]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [tess-atl]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-mongodb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-pvtz]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [tess-atl]: Downloading https://files.pythonhosted.org/packages/9c/c4/9a1745f7ca42fb73392fe4eeb7eb3a83e3247f94ece21a92a08806e3b002/tess-atl-0.0.2.1.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/98/60/bd0908f28ac8a992612b247c30a1c2d9e54e67ea7234f8db1c9c8244eb97/ros-cdk-imm-1.0.8.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230725] Old Version: [0.7.3.dev20230724]
+[2023-07-25 09:29:22] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/1a/7c/4576d77ad3472b36ebd1270566c32280883eb3997bb5c8c52cfcef59ffb0/netbox_software-0.2.3.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [lava-nc]: Downloading https://files.pythonhosted.org/packages/a3/cb/b3d4e06a325707215fb1aaedb5201231934392934e947455d7d0b9a8bc06/lava_nc-0.7.0.post2.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-edas]: Downloading https://files.pythonhosted.org/packages/0b/7e/b9b8199374a340b785e3877f24b771d1f55c945cfd11f3748df6de0db690/ros-cdk-edas-1.0.8.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [glidertools]: Downloading https://files.pythonhosted.org/packages/2c/16/411c613d967a4a10120c5b1527262c8cbdd3462227b99810ad063999e2b5/glidertools-2022.12.13.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/cf/df/23722fdce9abbda572dc6789b3c4029b4fb4410d6514ae1d6d24f8c0722a/ros-cdk-pvtz-1.0.8.tar.gz
+[2023-07-25 09:29:22] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/fd/0c/390276073f83b41522083ca8f78cc0d26e4b7d2df8bed6e4133dbf968807/ros-cdk-mongodb-1.0.8.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/ba/6c/2669d45b4ed067e201efd42715bba20aa05f90440d3a4d928b3a577cf018/hubble_exchange-0.3.0.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/54/84/d342726d4c5585e25e8c9c3ff41f3d32bc5176cd6eba504c8a4ae3b2e60a/tfq_nightly-0.7.3.dev20230724-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 09:29:23] INFO root fetch - processPackages [tess-atl]: Downloading https://files.pythonhosted.org/packages/15/79/0883e3fb1342d4470943eaff4bb0b3a28991b9a1c4d6f0fea39697f7ec27/tess-atl-0.0.2.2.tar.gz
+[2023-07-25 09:29:23] WARNING root fetch - processPackages [glidertools]: Skipping package: exceeds size limit 25052536>=10485760
+[2023-07-25 09:29:23] INFO root fetch - processPackages [glidertools]: Start processing: pynrfjprog
+[2023-07-25 09:29:23] INFO root fetch - main [MainThread]: End processing [glidertools] error
+[2023-07-25 09:29:23] INFO root fetch - processPackages [pynrfjprog]: New version: [9.8.1] Old Version: [9.8.0]
+[2023-07-25 09:29:23] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-25 09:29:23] INFO root fetch - processPackages [tfq-nightly]: Start processing: ros-cdk-emr
+[2023-07-25 09:29:23] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-25 09:29:23] INFO root fetch - processPackages [tess-atl]: executing diffoscope
+[2023-07-25 09:29:23] INFO root fetch - processPackages [tess-atl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tess-atl-0.0.2.1.tar.gz tmp/tess-atl-0.0.2.2.tar.gz --markdown 20230725/t/tess-atl/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-07-25 09:29:23] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/01/7c/dba2db7595d42bc22092f7a63e32b6769a7a985e543fe30d100195315f0c/netbox_software-0.2.4.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-emr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/d7/2b/6df354dd4b66c05efea9da7b88905dfc8411c362104ce9cdc595148d29d1/ros-cdk-imm-1.0.9.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/26/14/6d5cee77fa4377a0b32eacea98456ef31ebd8f8a0615c5fe56a1e1d116bb/hubble_exchange-0.4.0.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-edas]: Downloading https://files.pythonhosted.org/packages/53/7d/043c3e0b75b0bcdf76085051ee246a35cd27900ff071192c3fffe1c4ec64/ros-cdk-edas-1.0.9.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-07-25 09:29:23] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.2.3.tar.gz tmp/netbox_software-0.2.4.tar.gz --markdown 20230725/n/netbox-software/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-25 09:29:23] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-07-25 09:29:23] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.3.0.tar.gz tmp/hubble_exchange-0.4.0.tar.gz --markdown 20230725/h/hubble-exchange/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-25 09:29:23] INFO root fetch - processPackages [pynrfjprog]: Downloading https://files.pythonhosted.org/packages/e3/8a/db4906c690341af7dfb7fe3f3de7d96d5119418f14a8953bf9555989bac3/pynrfjprog-9.8.0.zip
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/8c/37/af9e6cf0ec86aff85a224718e6883b6dedc00b2184263951a758a79c45e3/ros-cdk-pvtz-1.0.9.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [lava-nc]: Downloading https://files.pythonhosted.org/packages/bc/62/818b2f946f8443549f51709bf4506c4333db67fd1ad83cfb4cae99093ea4/lava_nc-0.8.0.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-edas]: executing diffoscope
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-edas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-edas-1.0.8.tar.gz tmp/ros-cdk-edas-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-edas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/50/61/202417019680bcdf94da5ef5ff605881e25813c2c7cd5b4bf0d3190d9e33/ros-cdk-emr-1.0.8.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/19/3d/6b5027e615ef2defc678bd8213bf4fcbead4f7c6e4c281e4e2eae4cfb27c/ros-cdk-mongodb-1.0.9.tar.gz
+[2023-07-25 09:29:23] INFO root fetch - processPackages [lava-nc]: executing diffoscope
+[2023-07-25 09:29:23] INFO root fetch - processPackages [lava-nc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lava_nc-0.7.0.post2.tar.gz tmp/lava_nc-0.8.0.tar.gz --markdown 20230725/l/lava-nc/0.7.0.post2-0.8.0/diff.md --exclude *.pyd
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-mongodb]: executing diffoscope
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mongodb-1.0.8.tar.gz tmp/ros-cdk-mongodb-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-mongodb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-pvtz]: executing diffoscope
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-pvtz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-pvtz-1.0.8.tar.gz tmp/ros-cdk-pvtz-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-pvtz/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:24] INFO root fetch - processPackages [tess-atl]: Remove: archive file [/home/abi/fetcher/tmp/tess-atl-0.0.2.1.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [tess-atl]: Remove: archive file [/home/abi/fetcher/tmp/tess-atl-0.0.2.2.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [tess-atl]: Start processing: ros-cdk-computenest
+[2023-07-25 09:29:24] INFO root fetch - main [MainThread]: End processing [tess-atl]: success
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-computenest]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-imm]: executing diffoscope
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-imm-1.0.8.tar.gz tmp/ros-cdk-imm-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-imm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/8e/dd/a78ed513dffb3ea1146d45f0e1e11a5e14f1ba4e37217d9c7fc294a8ae85/ros-cdk-emr-1.0.9.tar.gz
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/1a/ce/4a56740e88027686b61d22c51e698810654a82abd08087a335920901ece8/ros-cdk-computenest-1.0.16.tar.gz
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-emr]: executing diffoscope
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-emr-1.0.8.tar.gz tmp/ros-cdk-emr-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-emr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:24] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.3.0.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.4.0.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [hubble-exchange]: Start processing: superpowered-sdk
+[2023-07-25 09:29:24] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-07-25 09:29:24] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.2.3.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.2.4.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [netbox-software]: Start processing: picosnitch
+[2023-07-25 09:29:24] INFO root fetch - main [MainThread]: End processing [netbox-software]: success
+[2023-07-25 09:29:24] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/e3/e2/0fd186f79bd3c6fe11c7e02f34fc789e06e3d711fc7dba3fe3f03eba8b74/ros-cdk-computenest-1.0.17.tar.gz
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-edas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edas-1.0.8.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-edas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edas-1.0.9.tar.gz]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-edas]: Start processing: xblock-utils
+[2023-07-25 09:29:24] INFO root fetch - main [MainThread]: End processing [ros-cdk-edas]: success
+[2023-07-25 09:29:24] INFO root fetch - processPackages [picosnitch]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 09:29:24] INFO root fetch - processPackages [pynrfjprog]: Downloading https://files.pythonhosted.org/packages/4b/a1/f2b0ec09dce38d8049744e710e215969d7dce1280c68d8e85561b851a6b4/pynrfjprog-9.8.1.zip
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-computenest]: executing diffoscope
+[2023-07-25 09:29:24] INFO root fetch - processPackages [ros-cdk-computenest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-computenest-1.0.16.tar.gz tmp/ros-cdk-computenest-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-computenest/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:29:25] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/42/73/ac56626bf302fe1ce198c2ed99003cbf37551b848d4a50db54fbc2acbc93/superpowered-sdk-0.1.8.tar.gz
+[2023-07-25 09:29:25] INFO root fetch - processPackages [xblock-utils]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-25 09:29:25] INFO root fetch - processPackages [xblock-utils]: Downloading https://files.pythonhosted.org/packages/0d/31/cadef52f8fd59a6701f5cff63bd2209a9533807ed31c2b4fb9c40f654c23/xblock-utils-3.2.0.tar.gz
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.8.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.9.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-pvtz]: success
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.8.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.9.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-mongodb]: success
+[2023-07-25 09:29:25] INFO root fetch - processPackages [picosnitch]: executing diffoscope
+[2023-07-25 09:29:25] INFO root fetch - processPackages [picosnitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picosnitch-0.9.0.tar.gz tmp/picosnitch-0.9.1.tar.gz --markdown 20230725/p/picosnitch/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 09:29:25] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/b5/4e/1d63519bf9de35706bda532be3b524597fb67d236d41d73bd145c737e1fc/superpowered-sdk-0.1.9.tar.gz
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.8.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.9.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-imm]: success
+[2023-07-25 09:29:25] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-07-25 09:29:25] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.8.tar.gz tmp/superpowered-sdk-0.1.9.tar.gz --markdown 20230725/s/superpowered-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 09:29:25] INFO root fetch - processPackages [xblock-utils]: Downloading https://files.pythonhosted.org/packages/4d/6a/4b06c431b2c697f8fa29aae61c495b14c346ff38bbe7830f011216ac76bd/xblock-utils-3.3.0.tar.gz
+[2023-07-25 09:29:25] INFO root fetch - processPackages [pynrfjprog]: executing diffoscope
+[2023-07-25 09:29:25] INFO root fetch - processPackages [pynrfjprog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynrfjprog-9.8.0.zip tmp/pynrfjprog-9.8.1.zip --markdown 20230725/p/pynrfjprog/9.8.0-9.8.1/diff.md --exclude *.pyd
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.8.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.9.tar.gz]
+[2023-07-25 09:29:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-emr]: success
+[2023-07-25 09:29:25] INFO root fetch - processPackages [xblock-utils]: executing diffoscope
+[2023-07-25 09:29:25] INFO root fetch - processPackages [xblock-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-utils-3.2.0.tar.gz tmp/xblock-utils-3.3.0.tar.gz --markdown 20230725/x/xblock-utils/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-25 09:29:26] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.16.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.17.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - main [MainThread]: End processing [ros-cdk-computenest]: success
+[2023-07-25 09:29:26] INFO root fetch - processPackages [picosnitch]: Remove: archive file [/home/abi/fetcher/tmp/picosnitch-0.9.0.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - processPackages [picosnitch]: Remove: archive file [/home/abi/fetcher/tmp/picosnitch-0.9.1.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - main [MainThread]: End processing [picosnitch]: success
+[2023-07-25 09:29:26] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.8.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.9.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-07-25 09:29:26] INFO root fetch - processPackages [xblock-utils]: Remove: archive file [/home/abi/fetcher/tmp/xblock-utils-3.2.0.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - processPackages [xblock-utils]: Remove: archive file [/home/abi/fetcher/tmp/xblock-utils-3.3.0.tar.gz]
+[2023-07-25 09:29:26] INFO root fetch - main [MainThread]: End processing [xblock-utils]: success
+[2023-07-25 09:29:27] INFO root fetch - processPackages [lava-nc]: Remove: archive file [/home/abi/fetcher/tmp/lava_nc-0.7.0.post2.tar.gz]
+[2023-07-25 09:29:27] INFO root fetch - processPackages [lava-nc]: Remove: archive file [/home/abi/fetcher/tmp/lava_nc-0.8.0.tar.gz]
+[2023-07-25 09:29:27] INFO root fetch - main [MainThread]: End processing [lava-nc]: success
+[2023-07-25 09:30:31] INFO root fetch - processPackages [pynrfjprog]: Remove: archive file [/home/abi/fetcher/tmp/pynrfjprog-9.8.0.zip]
+[2023-07-25 09:30:31] INFO root fetch - processPackages [pynrfjprog]: Remove: archive file [/home/abi/fetcher/tmp/pynrfjprog-9.8.1.zip]
+[2023-07-25 09:30:31] INFO root fetch - main [MainThread]: End processing [pynrfjprog]: success
+[2023-07-25 09:30:31] INFO root fetch - main [MainThread]: Store serial: [19025465]
