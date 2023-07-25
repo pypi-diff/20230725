@@ -20369,3 +20369,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:39:37] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.1.tar.gz]
 [2023-07-25 11:39:37] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2023-07-25 11:39:37] INFO root fetch - main [MainThread]: Store serial: [19026908]
+[2023-07-25 11:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026908]
+[2023-07-25 11:44:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfuse
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdfat
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diagrams-yaml
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weditor
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cysimdjson
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tablemap
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdfat
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-cooperator
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tpcp
+[2023-07-25 11:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: filter-stations
+[2023-07-25 11:44:47] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.3.0.0] Old Version: [14.0.1.6.3.dev2]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [tablemap]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [cysimdjson]: New version: [23.8] Old Version: [23.7]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [weditor]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [tpcp]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 11:44:47] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/25/bb/d9c854dc150ac23ab27a002e86907a3a08bdc31c207626a4f9a2f37e44a9/tablemap-0.3.3.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [tpcp]: Downloading https://files.pythonhosted.org/packages/54/79/28d054007059a5501bb64c3a1da9fd60349d936775fbcb337e3f9b4f281a/tpcp-0.9.0.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [weditor]: Downloading https://files.pythonhosted.org/packages/b9/d0/b5f61b264b2448623d308ca40bf3f369cd98842815fb6b462676a10c30ba/weditor-0.6.8.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/60/4e/bf9524f3e684f445d36692dcbf76f82bbe4ff75007e5885c33de2a1aac38/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl
+[2023-07-25 11:44:47] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/72/c5/a997f119ab359df8cd695438ee39a98390e34cdd228fea291062d0c45c79/cysimdjson-23.7.tar.gz
+[2023-07-25 11:44:47] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/20/82/5c65fb452a1ddc0ab4940e1680155fbbc76b01befc0256f060b824d5bf07/tablemap-0.3.4.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230725/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tablemap]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tablemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemap-0.3.3.tar.gz tmp/tablemap-0.3.4.tar.gz --markdown 20230725/t/tablemap/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tpcp]: Downloading https://files.pythonhosted.org/packages/c1/b5/300b5effffaebda986e07ecd46bdef9d6bddbb6059eee6072eedcd5ec377/tpcp-0.9.1.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/a3/6a/95eb0d740a1f91ce539617150bdf06282bad7e47ab66b7bf599d696f52d9/langfuse-0.0.9.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/86/63/1704c460f2958a283213f1d1f91fcf8016aa9b26a8addec31b3ff5f2b816/cysimdjson-23.8.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230725/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/71/a0/fd01714c7e55e983525bdc94480ea398699925e610a7bfd713024ca88e6b/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl
+[2023-07-25 11:44:48] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230725/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [cysimdjson]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [cysimdjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysimdjson-23.7.tar.gz tmp/cysimdjson-23.8.tar.gz --markdown 20230725/c/cysimdjson/23.7-23.8/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tpcp]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [tpcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpcp-0.9.0.tar.gz tmp/tpcp-0.9.1.tar.gz --markdown 20230725/t/tpcp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [weditor]: Downloading https://files.pythonhosted.org/packages/70/8a/a516d06e8b2788feb569c1ecd690897e68f26e389d8a3ca97db7c77b3ad0/weditor-0.7.0.tar.gz
+[2023-07-25 11:44:48] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-cooperator/14.0.1.6.3.dev2-14.0.3.0.0/diff.md --exclude *.pyd
+[2023-07-25 11:44:48] INFO root fetch - processPackages [weditor]: executing diffoscope
+[2023-07-25 11:44:48] INFO root fetch - processPackages [weditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weditor-0.6.8.tar.gz tmp/weditor-0.7.0.tar.gz --markdown 20230725/w/weditor/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-07-25 11:44:49] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.3.tar.gz]
+[2023-07-25 11:44:49] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.4.tar.gz]
+[2023-07-25 11:44:49] INFO root fetch - processPackages [tablemap]: Start processing: aesim.simba
+[2023-07-25 11:44:49] INFO root fetch - main [MainThread]: End processing [tablemap]: success
+[2023-07-25 11:44:49] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-25 11:44:49] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-25 11:44:49] INFO root fetch - processPackages [diagrams-yaml]: Start processing: cval-lib
+[2023-07-25 11:44:49] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-25 11:44:49] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.7.7a1]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [fdfat]: Start processing: actnova-yolo
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [langfuse]: Start processing: mintc
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/99/c0/91f2d8ca1666c667c28916adb39658c714234a72dab1cb3a7e4632e1fd5b/aesim.simba-2023.7.7a1-py3-none-win_amd64.whl
+[2023-07-25 11:44:50] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [filter-stations]: Start processing: upgini
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-25 11:44:50] WARNING root fetch - processPackages [mintc]: Skipping, unable to determine old version
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [mintc] error
+[2023-07-25 11:44:50] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 70570174>=10485760
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-07-25 11:44:50] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/11/cc/50d4b811b80cf4e8fa43e1a6dfc6098ea5b84802bfc77c8d3c8a03dede1a/actnova-yolo-1.0.6.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230725/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-25 11:44:50] INFO root fetch - processPackages [tpcp]: Remove: archive file [/home/abi/fetcher/tmp/tpcp-0.9.0.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [tpcp]: Remove: archive file [/home/abi/fetcher/tmp/tpcp-0.9.1.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [tpcp]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-23.7.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-23.8.tar.gz]
+[2023-07-25 11:44:50] INFO root fetch - main [MainThread]: End processing [cysimdjson]: success
+[2023-07-25 11:44:50] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/78/6f/466c99d0a4c39886400eb435cdf533e26257782a8ffc6e5cc4ed9a512c71/actnova-yolo-1.0.7.tar.gz
+[2023-07-25 11:44:50] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-25 11:44:50] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230725/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-25 11:44:50] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-25 11:44:50] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.6.tar.gz tmp/actnova-yolo-1.0.7.tar.gz --markdown 20230725/a/actnova-yolo/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-25 11:44:51] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl.zip]
+[2023-07-25 11:44:51] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.0-py3-none-any.whl.zip]
+[2023-07-25 11:44:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2023-07-25 11:44:51] INFO root fetch - processPackages [weditor]: Remove: archive file [/home/abi/fetcher/tmp/weditor-0.6.8.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - processPackages [weditor]: Remove: archive file [/home/abi/fetcher/tmp/weditor-0.7.0.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - main [MainThread]: End processing [weditor]: success
+[2023-07-25 11:44:51] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-25 11:44:51] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-25 11:44:51] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-25 11:44:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.6.tar.gz]
+[2023-07-25 11:44:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.7.tar.gz]
+[2023-07-25 11:44:52] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-25 11:44:52] INFO root fetch - main [MainThread]: Store serial: [19026957]
