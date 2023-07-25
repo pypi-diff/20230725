@@ -7330,3 +7330,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 04:02:12] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.19.tar.gz]
 [2023-07-25 04:02:12] INFO root fetch - main [MainThread]: End processing [weathon]: success
 [2023-07-25 04:02:12] INFO root fetch - main [MainThread]: Store serial: [19022251]
+[2023-07-25 04:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022251]
+[2023-07-25 04:07:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocut-fix
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seismic-rna
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: our1314
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shootpandora-ChatGPT
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdx-python-api
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fosslight-util
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fixie-proto
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weathon
+[2023-07-25 04:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rondsspark
+[2023-07-25 04:07:20] INFO root fetch - processPackages [weathon]: New version: [0.0.0.19] Old Version: [0.0.0.18]
+[2023-07-25 04:07:20] WARNING root fetch - processPackages [autocut-fix]: Skipping, unable to determine old version
+[2023-07-25 04:07:20] INFO root fetch - main [MainThread]: End processing [autocut-fix] error
+[2023-07-25 04:07:20] INFO root fetch - processPackages [seismic-rna]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-25 04:07:20] INFO root fetch - processPackages [fixie-proto]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 04:07:20] WARNING root fetch - processPackages [shootpandora-ChatGPT]: Skipping, unable to determine old version
+[2023-07-25 04:07:20] INFO root fetch - main [MainThread]: End processing [shootpandora-ChatGPT] error
+[2023-07-25 04:07:20] INFO root fetch - processPackages [our1314]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 04:07:20] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-25 04:07:20] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-25 04:07:20] INFO root fetch - processPackages [hdx-python-api]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-07-25 04:07:20] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/64/7b/391fd2c66ad0444a6e94f869dc58016cdce6eac51ad5a85ec951b955abad/weathon-0.0.0.18.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/5a/66/1ef5237df9dbe7f250003a9bd6ea9c785e3fa4ee85d11005d15f2b365704/our1314-0.0.8.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/b5/c2/151f4e7e3b552ff50674bfcf313f18cd3cef97ae2594e439158ab6a9c398/seismic-rna-0.4.1.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [fixie-proto]: Downloading https://files.pythonhosted.org/packages/ea/b0/7da102c47a0f696c8b0c4dcafaac5aaa2dfdb28ac1932e70ff61c0f5ce5f/fixie-proto-0.1.1.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/d3/b2/a5c4aa9cfd385cdae8a8c1b22260458a1afc392afb69129613f67aa3ce15/hdx_python_api-6.0.5.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/84/6f/68c468ff3d581aadf57372bf0ebe36c0783a8b86bdf75a8f93721e8db740/weathon-0.0.0.19.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/f5/09/518973c3a1c6ffa24ba8120073c078015994971af6193fa643c17e7355f3/our1314-0.0.9.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [weathon]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [weathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathon-0.0.0.18.tar.gz tmp/weathon-0.0.0.19.tar.gz --markdown 20230725/w/weathon/0.0.0.18-0.0.0.19/diff.md --exclude *.pyd
+[2023-07-25 04:07:21] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.0.8.tar.gz tmp/our1314-0.0.9.tar.gz --markdown 20230725/o/our1314/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:07:21] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/2a/28/226274e5312d0f8aa0c8152e87dcf76496a401f9b9d7578e42b85ce88ce1/seismic-rna-0.5.0.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [fixie-proto]: Downloading https://files.pythonhosted.org/packages/d5/ab/62020c58970be518475a8a704808d3da017989bb0ddab0cc41d7e03b713b/fixie_proto-0.1.2.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230725/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-25 04:07:21] INFO root fetch - processPackages [seismic-rna]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [seismic-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismic-rna-0.4.1.tar.gz tmp/seismic-rna-0.5.0.tar.gz --markdown 20230725/s/seismic-rna/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-25 04:07:21] INFO root fetch - processPackages [fixie-proto]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [fixie-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixie-proto-0.1.1.tar.gz tmp/fixie_proto-0.1.2.tar.gz --markdown 20230725/f/fixie-proto/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 04:07:21] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/5c/f9/756f0dd43a8fdbf3fd661cfb61e40f34f6d6b5586812fd3b3091f70bedf2/hdx_python_api-6.0.6.tar.gz
+[2023-07-25 04:07:21] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2023-07-25 04:07:21] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_api-6.0.5.tar.gz tmp/hdx_python_api-6.0.6.tar.gz --markdown 20230725/h/hdx-python-api/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-07-25 04:07:22] INFO root fetch - processPackages [fixie-proto]: Remove: archive file [/home/abi/fetcher/tmp/fixie-proto-0.1.1.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.8.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - processPackages [fixie-proto]: Remove: archive file [/home/abi/fetcher/tmp/fixie_proto-0.1.2.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.9.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - main [MainThread]: End processing [fixie-proto]: success
+[2023-07-25 04:07:22] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 04:07:22] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-25 04:07:22] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-25 04:07:23] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2023-07-25 04:07:23] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.4.1.tar.gz]
+[2023-07-25 04:07:23] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.5.0.tar.gz]
+[2023-07-25 04:07:23] INFO root fetch - main [MainThread]: End processing [seismic-rna]: success
+[2023-07-25 04:07:23] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.5.tar.gz]
+[2023-07-25 04:07:23] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.6.tar.gz]
+[2023-07-25 04:07:23] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2023-07-25 04:07:23] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-07-25 04:07:23] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230725/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-25 04:07:24] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2023-07-25 04:07:24] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2023-07-25 04:07:24] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-07-25 04:07:25] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.18.tar.gz]
+[2023-07-25 04:07:25] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.19.tar.gz]
+[2023-07-25 04:07:25] INFO root fetch - main [MainThread]: End processing [weathon]: success
+[2023-07-25 04:07:25] INFO root fetch - main [MainThread]: Store serial: [19022288]
