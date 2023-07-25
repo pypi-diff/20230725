@@ -20752,3 +20752,166 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:55:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250950-py3-none-any.whl.zip]
 [2023-07-25 11:55:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-25 11:55:25] INFO root fetch - main [MainThread]: Store serial: [19027045]
+[2023-07-25 12:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027045]
+[2023-07-25 12:00:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obis
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PaIRS-UniNa
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-oos
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quao
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tesla-ce-client
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kadi
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: understar
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diagrams-yaml
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salure-helpers-ftp
+[2023-07-25 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-project-timeline
+[2023-07-25 12:00:34] INFO root fetch - processPackages [aliyun-python-sdk-oos]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [obis]: New version: [0.4.2rc7] Old Version: [0.4.2rc6]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [odoo-addon-project-timeline]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.4]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [tesla-ce-client]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.5.4] Old Version: [1.5.2]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [understar]: New version: [2.45] Old Version: [2.44]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [PaIRS-UniNa]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-25 12:00:34] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/a5/f4/720f84933cd528eba6f941247847123d7042313e2680105b4b9d800fcca1/understar-2.44.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/47/33/d759a26dd648a164acd192eaeabe06ee467e0ea5ff0519977c5599fe7cbd/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-25 12:00:34] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/a9/35/4bd6c81cc6dd6cf03190586a4c3ec760fed57292a229b52a3605d4d4507e/obis-0.4.2rc6.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/22/36/4d41c2f0368da4d0e49d8b7862df16721fdd61e2f21fb75b1e9a6f989623/salure_helpers_ftp-1.5.2.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2023-07-25 12:00:34] INFO root fetch - processPackages [tesla-ce-client]: Downloading https://files.pythonhosted.org/packages/a8/81/db7ce48d5a88c58e3143a88f470bc8e4e2d35f3c7f66cefd4632d6fcb84f/tesla-ce-client-0.0.1.tar.gz
+[2023-07-25 12:00:34] INFO root fetch - processPackages [PaIRS-UniNa]: Downloading https://files.pythonhosted.org/packages/69/4e/2b53531580f31c28a38782893ba6dae21b82b912d12d0d1793de194eb35c/PaIRS_UniNa-0.1.7-cp39-cp39-win_amd64.whl
+[2023-07-25 12:00:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/c6/d4/05da89d7e334e86661f9d6d4d71b1e43b4e7640946ef551adc40b52ee59c/aliyun-python-sdk-oos-1.5.8.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-25 12:00:35] WARNING root fetch - processPackages [PaIRS-UniNa]: Skipping package: exceeds size limit 10977836>=10485760
+[2023-07-25 12:00:35] INFO root fetch - processPackages [PaIRS-UniNa]: Start processing: fdfat
+[2023-07-25 12:00:35] INFO root fetch - main [MainThread]: End processing [PaIRS-UniNa] error
+[2023-07-25 12:00:35] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/42/f2/02e4ef58fb522abfebdcb4344341166e6efa3d67a8599f59e290444191cc/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl
+[2023-07-25 12:00:35] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/87/bf/3e29cf437a4228e0148d0b2b2ecb31341833d8277d11b2409551d5e47e52/understar-2.45.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 12:00:35] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230725/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/32/fc/db170b5311bb56f76bf0a76f00817cdfbf874de837a524452d16051adc03/salure_helpers_ftp-1.5.4.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [odoo-addon-project-timeline]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [odoo-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-project-timeline/16.0.1.0.0.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [tesla-ce-client]: Downloading https://files.pythonhosted.org/packages/c6/18/f4e7bb74e039551d96252b0dc0ba4dc534960eb452c0b37b5df2fa76bd79/tesla-ce-client-0.0.3.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.44.tar.gz tmp/understar-2.45.tar.gz --markdown 20230725/u/understar/2.44-2.45/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2023-07-25 12:00:35] INFO root fetch - processPackages [kadi]: Start processing: alibabacloud-oos20190601-py2
+[2023-07-25 12:00:35] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2023-07-25 12:00:35] WARNING root fetch - processPackages [alibabacloud-oos20190601-py2]: Skipping, unable to determine old version
+[2023-07-25 12:00:35] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Start processing: smartdoor
+[2023-07-25 12:00:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-oos20190601-py2] error
+[2023-07-25 12:00:35] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/69/8f/92fce0d04c84ced6d067d84c0092591ffed1a863ccdc5aa0b3f6bdc2afc4/obis-0.4.2rc7.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/2f/ec/d5c650f46dbf41510176e73ca2ddff09c3de0856def755e1b9b9888db5ee/aliyun-python-sdk-oos-1.5.9.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.5.2.tar.gz tmp/salure_helpers_ftp-1.5.4.tar.gz --markdown 20230725/s/salure-helpers-ftp/1.5.2-1.5.4/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [tesla-ce-client]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [tesla-ce-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla-ce-client-0.0.1.tar.gz tmp/tesla-ce-client-0.0.3.tar.gz --markdown 20230725/t/tesla-ce-client/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [smartdoor]: New version: [2.0.0.dev4] Old Version: [2.0.0.dev3]
+[2023-07-25 12:00:35] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oos-1.5.8.tar.gz tmp/aliyun-python-sdk-oos-1.5.9.tar.gz --markdown 20230725/a/aliyun-python-sdk-oos/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/72/58/4bf57a5b43266f6043d50f79e84697b9e2e0f871382d2cc1ee49b4fd62a7/smartdoor-2.0.0.dev3.tar.gz
+[2023-07-25 12:00:35] INFO root fetch - processPackages [obis]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [obis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obis-0.4.2rc6.tar.gz tmp/obis-0.4.2rc7.tar.gz --markdown 20230725/o/obis/0.4.2rc6-0.4.2rc7/diff.md --exclude *.pyd
+[2023-07-25 12:00:35] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 12:00:35] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 12:00:36] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/6c/ce/3d7a1aff5f0669c39372c5dbf0f911cc55473080b7afd6d60561b372299c/smartdoor-2.0.0.dev4.tar.gz
+[2023-07-25 12:00:36] INFO root fetch - processPackages [smartdoor]: executing diffoscope
+[2023-07-25 12:00:36] INFO root fetch - processPackages [smartdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdoor-2.0.0.dev3.tar.gz tmp/smartdoor-2.0.0.dev4.tar.gz --markdown 20230725/s/smartdoor/2.0.0.dev3-2.0.0.dev4/diff.md --exclude *.pyd
+[2023-07-25 12:00:36] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-25 12:00:36] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-25 12:00:36] INFO root fetch - processPackages [diagrams-yaml]: Start processing: dnv-bladed-models
+[2023-07-25 12:00:36] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [dnv-bladed-models]: New version: [0.3.44] Old Version: [0.3.32a686]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [quao]: Start processing: ambient-toolbox
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [dnv-bladed-models]: Downloading https://files.pythonhosted.org/packages/18/fb/e7deecdd604bb9211d3c3f7a6a0ba32accf62315bc392cd767fe941b0d2c/dnv_bladed_models-0.3.32a686.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.2.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.4.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [salure-helpers-ftp]: Start processing: finterion
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.4.3] Old Version: [8.4.2]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [finterion]: New version: [0.4] Old Version: [0.3]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [odoo-addon-project-timeline]: Start processing: scib
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.44.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.45.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [understar]: Start processing: zimran-events
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [scib]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [tesla-ce-client]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-client-0.0.1.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [tesla-ce-client]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-client-0.0.3.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [tesla-ce-client]: Start processing: finterion-investing-algorithm-framework
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [tesla-ce-client]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [zimran-events]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [fdfat]: Start processing: mfam-math
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/b3/2a/e3be0b66ad627b9623576d44a4ef2274fe0a9f1566c874f21006bdbf6646/ambient-toolbox-8.4.2.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.2] Old Version: [0.1]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/2a/5a/8740cf13577a026124f8263391c764cdda36b7f6dd849b77e3c6d54cae64/finterion-0.3.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [scib]: Downloading https://files.pythonhosted.org/packages/91/07/bd5506e6a47df721b300e5384d6188f3e58103b2fb3a7bdca3e621ec53e0/scib-1.1.3.tar.gz
+[2023-07-25 12:00:37] WARNING root fetch - processPackages [mfam-math]: Skipping, unable to determine old version
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [mfam-math] error
+[2023-07-25 12:00:37] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/a0/d7/80c6685d9a6418944c148a3dc3679bcfa3ce95f9383bed0143f32a4dd623/zimran-events-0.3.1.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev3.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev4.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [smartdoor]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.8.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.9.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oos]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [dnv-bladed-models]: Downloading https://files.pythonhosted.org/packages/7e/6e/4ccaf7da5e053916f279b500c72bb7e462f74843f0d172ac2d27723e1b24/dnv_bladed_models-0.3.44.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/86/e2/d60c50b1efad6e274f54ae11a24e3856d582507ece8ddcb30e2a70291cb8/finterion%20investing%20algorithm%20framework-0.1.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc6.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc7.tar.gz]
+[2023-07-25 12:00:37] INFO root fetch - main [MainThread]: End processing [obis]: success
+[2023-07-25 12:00:37] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/82/d0/1304c595e18a861f743b98134968c7c6586ac2e99ab87040686e856f0374/ambient_toolbox-8.4.3.tar.gz
+[2023-07-25 12:00:37] INFO root fetch - processPackages [dnv-bladed-models]: executing diffoscope
+[2023-07-25 12:00:37] INFO root fetch - processPackages [dnv-bladed-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnv_bladed_models-0.3.32a686.tar.gz tmp/dnv_bladed_models-0.3.44.tar.gz --markdown 20230725/d/dnv-bladed-models/0.3.32a686-0.3.44/diff.md --exclude *.pyd
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion]: Downloading https://files.pythonhosted.org/packages/dd/82/12141ecf4da214d33f7ef2dd84fe00ada8f3a53da6dbacda2321c505dd5f/finterion-0.4.tar.gz
+[2023-07-25 12:00:38] INFO root fetch - processPackages [scib]: Downloading https://files.pythonhosted.org/packages/74/ef/276f54709f912670f15e38d6f7c3f67eeadd4a72b4c9453c7141eb837cc4/scib-1.1.4.tar.gz
+[2023-07-25 12:00:38] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-07-25 12:00:38] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.4.2.tar.gz tmp/ambient_toolbox-8.4.3.tar.gz --markdown 20230725/a/ambient-toolbox/8.4.2-8.4.3/diff.md --exclude *.pyd
+[2023-07-25 12:00:38] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/e5/8e/5620cc147c7ced636a421276b146e0e48608578658c710ddf6c65fd296b4/zimran-events-0.3.2.tar.gz
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion]: executing diffoscope
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion-0.3.tar.gz tmp/finterion-0.4.tar.gz --markdown 20230725/f/finterion/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-25 12:00:38] INFO root fetch - processPackages [scib]: executing diffoscope
+[2023-07-25 12:00:38] INFO root fetch - processPackages [scib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scib-1.1.3.tar.gz tmp/scib-1.1.4.tar.gz --markdown 20230725/s/scib/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-25 12:00:38] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-07-25 12:00:38] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.3.1.tar.gz tmp/zimran-events-0.3.2.tar.gz --markdown 20230725/z/zimran-events/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/cd/f9/240afe8e494a66e0a2d46ed90009aaf1ae160853789c2f91975de9f99c61/finterion_investing_algorithm_framework-0.2-py3-none-any.whl
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-07-25 12:00:38] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion investing algorithm framework-0.1.tar.gz tmp/finterion_investing_algorithm_framework-0.2-py3-none-any.whl.zip --markdown 20230725/f/finterion-investing-algorithm-framework/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-25 12:00:39] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.3.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - processPackages [finterion]: Remove: archive file [/home/abi/fetcher/tmp/finterion-0.4.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - main [MainThread]: End processing [finterion]: success
+[2023-07-25 12:00:39] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.3.1.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.3.2.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-07-25 12:00:39] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion investing algorithm framework-0.1.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.2-py3-none-any.whl.zip]
+[2023-07-25 12:00:39] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-07-25 12:00:39] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient-toolbox-8.4.2.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - processPackages [ambient-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ambient_toolbox-8.4.3.tar.gz]
+[2023-07-25 12:00:39] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-07-25 12:00:40] INFO root fetch - processPackages [scib]: Remove: archive file [/home/abi/fetcher/tmp/scib-1.1.3.tar.gz]
+[2023-07-25 12:00:40] INFO root fetch - processPackages [scib]: Remove: archive file [/home/abi/fetcher/tmp/scib-1.1.4.tar.gz]
+[2023-07-25 12:00:40] INFO root fetch - main [MainThread]: End processing [scib]: success
+[2023-07-25 12:00:44] INFO root fetch - processPackages [dnv-bladed-models]: Remove: archive file [/home/abi/fetcher/tmp/dnv_bladed_models-0.3.32a686.tar.gz]
+[2023-07-25 12:00:44] INFO root fetch - processPackages [dnv-bladed-models]: Remove: archive file [/home/abi/fetcher/tmp/dnv_bladed_models-0.3.44.tar.gz]
+[2023-07-25 12:00:44] INFO root fetch - main [MainThread]: End processing [dnv-bladed-models]: success
+[2023-07-25 12:00:44] INFO root fetch - main [MainThread]: Store serial: [19027118]
