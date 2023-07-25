@@ -2989,3 +2989,119 @@
 [2023-07-25 03:03:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2023-07-25 03:03:04] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2023-07-25 03:03:04] INFO root fetch - main [MainThread]: Store serial: [19020688]
+[2023-07-25 03:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020688]
+[2023-07-25 03:08:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipcryptographymodV1
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-fs2
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testflows.github.runners
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sns-notify
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reclist
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msticpy
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipcryptographymodV1
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CrossPy
+[2023-07-25 03:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testflows.github.runners
+[2023-07-25 03:08:14] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.1.230725.1010623] Old Version: [1.1.230725.1010307]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [flask-fs2]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [pipcryptographymodV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.1.230725.1010623] Old Version: [1.1.230725.1010307]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [pipcryptographymodV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [reclist]: New version: [2.0.0] Old Version: [0.3.1]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [msticpy]: New version: [2.6.0] Old Version: [2.5.3]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 03:08:14] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/92/45/086140763050619a265e27b812df4ce1dcc8a9b1034aa2a081263f44d421/testflows.github.runners-1.1.230725.1010307.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/92/45/086140763050619a265e27b812df4ce1dcc8a9b1034aa2a081263f44d421/testflows.github.runners-1.1.230725.1010307.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [pipcryptographymodV1]: Downloading https://files.pythonhosted.org/packages/96/4e/45eea3339bc43b350e40a91fac17a4db54999315a2026e397311392e96af/pipcryptographymodV1-1.0.0.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [pipcryptographymodV1]: Downloading https://files.pythonhosted.org/packages/96/4e/45eea3339bc43b350e40a91fac17a4db54999315a2026e397311392e96af/pipcryptographymodV1-1.0.0.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/dd/b2/a1518d9184db6e870adacb999dd63d17853b086bc5186177bdd4c5145859/msticpy-2.5.3.tar.gz
+[2023-07-25 03:08:14] INFO root fetch - processPackages [flask-fs2]: Downloading https://files.pythonhosted.org/packages/cc/40/6f78d76524f741d90c16ca9818c3f843656981d537d11ba1cf2685ae276a/flask_fs2-0.7.8-py2.py3-none-any.whl
+[2023-07-25 03:08:15] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/f8/26/93103f4a22b9ac9a08eba08d72c27e12d9d34a0a9dba06dc7791001c40dc/reclist-0.3.1.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/08/f9/9c636fef6dba36432eef5e075eb4d4451e5828eff11aaa53ea3a22f9fb28/testflows.github.runners-1.1.230725.1010623.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/08/f9/9c636fef6dba36432eef5e075eb4d4451e5828eff11aaa53ea3a22f9fb28/testflows.github.runners-1.1.230725.1010623.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: Downloading https://files.pythonhosted.org/packages/bb/fe/d11243dbd976f8bd9fedcb721288704ffa1968f36a8c00436e698dc7a594/pipcryptographymodV1-1.1.0.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: Downloading https://files.pythonhosted.org/packages/bb/fe/d11243dbd976f8bd9fedcb721288704ffa1968f36a8c00436e698dc7a594/pipcryptographymodV1-1.1.0.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.1.230725.1010307.tar.gz tmp/testflows.github.runners-1.1.230725.1010623.tar.gz --markdown 20230725/t/testflows.github.runners/1.1.230725.1010307-1.1.230725.1010623/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.1.230725.1010307.tar.gz tmp/testflows.github.runners-1.1.230725.1010623.tar.gz --markdown 20230725/t/testflows.github.runners/1.1.230725.1010307-1.1.230725.1010623/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/70/a2/cdcd0fb8198f9a565d804a4edf11d42a8215167b76bb4ffe5edd8b8edfca/msticpy-2.6.0.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/2e/f1/159a828677a0141f1ea704d44d3e9fbca2993fc4b404f897078958e094ed/reclist-2.0.0.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptographymodV1-1.0.0.tar.gz tmp/pipcryptographymodV1-1.1.0.tar.gz --markdown 20230725/p/pipcryptographymodV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [pipcryptographymodV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptographymodV1-1.0.0.tar.gz tmp/pipcryptographymodV1-1.1.0.tar.gz --markdown 20230725/p/pipcryptographymodV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-07-25 03:08:15] INFO root fetch - processPackages [msticpy]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [msticpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msticpy-2.5.3.tar.gz tmp/msticpy-2.6.0.tar.gz --markdown 20230725/m/msticpy/2.5.3-2.6.0/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [reclist]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [reclist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reclist-0.3.1.tar.gz tmp/reclist-2.0.0.tar.gz --markdown 20230725/r/reclist/0.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-07-25 03:08:15] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230725/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-07-25 03:08:15] INFO root fetch - processPackages [flask-fs2]: Downloading https://files.pythonhosted.org/packages/d8/44/6a9ffb78ba5b3ec856c2db5040eef1b17460164f70bccd103ba174a94207/flask_fs2-0.7.9-py2.py3-none-any.whl
+[2023-07-25 03:08:16] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-25 03:08:16] INFO root fetch - processPackages [flask-fs2]: executing diffoscope
+[2023-07-25 03:08:16] INFO root fetch - processPackages [flask-fs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_fs2-0.7.8-py2.py3-none-any.whl.zip tmp/flask_fs2-0.7.9-py2.py3-none-any.whl.zip --markdown 20230725/f/flask-fs2/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-25 03:08:16] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-25 03:08:16] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-25 03:08:16] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230725/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:08:16] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.1.230725.1010307.tar.gz]
+[2023-07-25 03:08:16] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.1.230725.1010623.tar.gz]
+[2023-07-25 03:08:16] INFO root fetch - processPackages [testflows.github.runners]: Start processing: aemcmc-nightly
+[2023-07-25 03:08:16] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-25 03:08:16] INFO root fetch - processPackages [pipcryptographymodV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptographymodV1-1.0.0.tar.gz]
+[2023-07-25 03:08:16] INFO root fetch - processPackages [pipcryptographymodV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcryptographymodV1-1.1.0.tar.gz]
+[2023-07-25 03:08:16] INFO root fetch - processPackages [pipcryptographymodV1]: Start processing: ytdl-sub
+[2023-07-25 03:08:16] INFO root fetch - main [MainThread]: End processing [pipcryptographymodV1]: success
+[2023-07-25 03:08:16] INFO root fetch - processPackages [testflows.github.runners]: Start processing: bloomfilter-py
+[2023-07-25 03:08:16] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-25 03:08:16] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230724] Old Version: [0.0.8.dev20230723]
+[2023-07-25 03:08:16] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.7.24.post3] Old Version: [2023.7.24.post2]
+[2023-07-25 03:08:17] INFO root fetch - main [MainThread]: End processing [pipcryptographymodV1]: success
+[2023-07-25 03:08:17] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/63/0a/5b0a440e5e6b81852d4cce4341de3eda3176570a296a2517134c85ca9dda/aemcmc-nightly-0.0.8.dev20230723.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-0.3.1.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/ec/62/2b6b5a799b3c4f7aef3d5c3c03cb11849caba49c47d562bd89f62e6ce8d9/ytdl-sub-2023.7.24.post2.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-2.0.0.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - main [MainThread]: End processing [reclist]: success
+[2023-07-25 03:08:17] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-25 03:08:17] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230725/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:08:17] INFO root fetch - processPackages [bloomfilter-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 03:08:17] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-07-25 03:08:17] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/4c/b1/88dc57aeab0a4147fbcfea6fd171268ac4168a06934f038303c9347796fa/ytdl-sub-2023.7.24.post3.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [flask-fs2]: Remove: archive file [/home/abi/fetcher/tmp/flask_fs2-0.7.8-py2.py3-none-any.whl.zip]
+[2023-07-25 03:08:17] INFO root fetch - processPackages [flask-fs2]: Remove: archive file [/home/abi/fetcher/tmp/flask_fs2-0.7.9-py2.py3-none-any.whl.zip]
+[2023-07-25 03:08:17] INFO root fetch - main [MainThread]: End processing [flask-fs2]: success
+[2023-07-25 03:08:17] INFO root fetch - processPackages [bloomfilter-py]: Downloading https://files.pythonhosted.org/packages/ce/70/89b21de4c4389c6b13f7729b4d9ead013d557a83205328c0efde1c20141a/bloomfilter-py-0.2.0.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-07-25 03:08:17] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.7.24.post2.tar.gz tmp/ytdl-sub-2023.7.24.post3.tar.gz --markdown 20230725/y/ytdl-sub/2023.7.24.post2-2023.7.24.post3/diff.md --exclude *.pyd
+[2023-07-25 03:08:17] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/1c/83/a3f2214502d801be277b2e54f43c28283083c65667f01793d202ede3cfc2/aemcmc-nightly-0.0.8.dev20230724.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [bloomfilter-py]: Downloading https://files.pythonhosted.org/packages/3d/a3/5259b8e15cd28492983075daaa5a0f8d50dbfa9d2df927b0772ad221e94b/bloomfilter-py-0.2.1.tar.gz
+[2023-07-25 03:08:17] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-25 03:08:17] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230723.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230724.tar.gz --markdown 20230725/a/aemcmc-nightly/0.0.8.dev20230723-0.0.8.dev20230724/diff.md --exclude *.pyd
+[2023-07-25 03:08:17] INFO root fetch - processPackages [bloomfilter-py]: executing diffoscope
+[2023-07-25 03:08:17] INFO root fetch - processPackages [bloomfilter-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloomfilter-py-0.2.0.tar.gz tmp/bloomfilter-py-0.2.1.tar.gz --markdown 20230725/b/bloomfilter-py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 03:08:17] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-25 03:08:17] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-25 03:08:18] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-25 03:08:18] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230723.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230724.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-25 03:08:18] INFO root fetch - processPackages [bloomfilter-py]: Remove: archive file [/home/abi/fetcher/tmp/bloomfilter-py-0.2.0.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - processPackages [bloomfilter-py]: Remove: archive file [/home/abi/fetcher/tmp/bloomfilter-py-0.2.1.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - main [MainThread]: End processing [bloomfilter-py]: success
+[2023-07-25 03:08:18] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.24.post2.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.24.post3.tar.gz]
+[2023-07-25 03:08:18] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-07-25 03:08:19] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.5.3.tar.gz]
+[2023-07-25 03:08:19] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.6.0.tar.gz]
+[2023-07-25 03:08:19] INFO root fetch - main [MainThread]: End processing [msticpy]: success
+[2023-07-25 03:08:19] INFO root fetch - main [MainThread]: Store serial: [19020724]
