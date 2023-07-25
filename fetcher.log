@@ -15409,3 +15409,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:54:44] INFO root fetch - processPackages [xmindtotestcase]: Remove: archive file [/home/abi/fetcher/tmp/xmindtotestcase-1.7.0.tar.gz]
 [2023-07-25 08:54:44] INFO root fetch - main [MainThread]: End processing [xmindtotestcase]: success
 [2023-07-25 08:54:44] INFO root fetch - main [MainThread]: Store serial: [19025063]
+[2023-07-25 08:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025063]
+[2023-07-25 08:59:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablemap
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: our1314
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmxlock
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sagemaker-ssh-helper
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: status-ok
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: common-version
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-assembly-schema
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codecarbon
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shakenfist-client
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-cxapi
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ros-cdk-cxapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 08:59:56] WARNING root fetch - processPackages [status-ok]: Skipping, unable to determine old version
+[2023-07-25 08:59:56] INFO root fetch - processPackages [status-ok]: Start processing: cval-lib
+[2023-07-25 08:59:56] INFO root fetch - main [MainThread]: End processing [status-ok] error
+[2023-07-25 08:59:56] INFO root fetch - processPackages [codecarbon]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [tablemap]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-25 08:59:56] WARNING root fetch - processPackages [pmxlock]: Skipping, unable to determine old version
+[2023-07-25 08:59:56] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 08:59:56] INFO root fetch - main [MainThread]: End processing [pmxlock] error
+[2023-07-25 08:59:56] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ros-cdk-assembly-schema]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [common-version]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [sagemaker-ssh-helper]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [shakenfist-client]: New version: [0.7.0.0rc6] Old Version: [0.7.0.0rc5]
+[2023-07-25 08:59:56] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/fb/32/fa94c344b864fcbcf62e3d8479062f6b5b5a5dc5b552cd4f00c2fce90d19/codecarbon-2.2.6.tar.gz
+[2023-07-25 08:59:56] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-07-25 08:59:56] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/1f/e6/dd583ddab582d1221ee1a969c71696b74f6d06ac7793da54d7549f70cf57/ros-cdk-cxapi-1.0.8.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/6a/54/657ad7c2f002e6c3d3e2d506771eff9c8a856646bad28d95c5c4e0d6c8ff/tablemap-0.3.2.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [sagemaker-ssh-helper]: Downloading https://files.pythonhosted.org/packages/f3/b4/5ecd056a02ac9c17b6741db757c77e63ab9503eb3a64f7525e80db5acc08/sagemaker-ssh-helper-1.9.1.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/69/c7/844c7616a479dbd33dba633da09bb99b6647c86e91d4ebf7a7bf8e50d64a/ros-cdk-assembly-schema-1.0.8.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [common-version]: Downloading https://files.pythonhosted.org/packages/fb/b2/e797811fa8bc953231ae159b66a03d31017586096b57534b6f97cc18b47d/common_version-0.0.1.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [shakenfist-client]: Downloading https://files.pythonhosted.org/packages/ff/3c/a069d8874660ebda8c0398cf52f545f7d87bd6e716c85adf8456fdbb7d4d/shakenfist-client-0.7.0.0rc5.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/a3/9a/167aba8a58abfc14783bffa0d41bc1d6561df41fcd644f280057a7d890a2/codecarbon-2.2.7.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230725/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/05/55/8d7adff1d9a900e400ca314b191384110e8121856571cb39beb715207859/ros-cdk-cxapi-1.0.9.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/25/bb/d9c854dc150ac23ab27a002e86907a3a08bdc31c207626a4f9a2f37e44a9/tablemap-0.3.3.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.2.6.tar.gz tmp/codecarbon-2.2.7.tar.gz --markdown 20230725/c/codecarbon/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [common-version]: Downloading https://files.pythonhosted.org/packages/c5/e9/f7bc2b06791b67c7abd38c11769eb4a71feb9f0f85af141f15b63b433c5f/common_version-0.0.2.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [sagemaker-ssh-helper]: Downloading https://files.pythonhosted.org/packages/1e/8b/93956498b3ebe5c79c6055c9eed8294e8320e14ccbba6e822e74794a3171/sagemaker-ssh-helper-2.0.0.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [tablemap]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [tablemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemap-0.3.2.tar.gz tmp/tablemap-0.3.3.tar.gz --markdown 20230725/t/tablemap/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/2b/83/1e959ec26eed4d2aa4034c97ab2977a82364f27f03651d9841a04d9defe4/ros-cdk-assembly-schema-1.0.9.tar.gz
+[2023-07-25 08:59:57] INFO root fetch - processPackages [common-version]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [common-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_version-0.0.1.tar.gz tmp/common_version-0.0.2.tar.gz --markdown 20230725/c/common-version/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230725/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [sagemaker-ssh-helper]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [sagemaker-ssh-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-ssh-helper-1.9.1.tar.gz tmp/sagemaker-ssh-helper-2.0.0.tar.gz --markdown 20230725/s/sagemaker-ssh-helper/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-cxapi]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-cxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cxapi-1.0.8.tar.gz tmp/ros-cdk-cxapi-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cxapi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-assembly-schema]: executing diffoscope
+[2023-07-25 08:59:57] INFO root fetch - processPackages [ros-cdk-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-assembly-schema-1.0.8.tar.gz tmp/ros-cdk-assembly-schema-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-assembly-schema/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 08:59:58] INFO root fetch - processPackages [shakenfist-client]: Downloading https://files.pythonhosted.org/packages/5c/6b/0f15adbf5669da29db63a5e3ad445e84e3f23e30dbebdee28fac5f4a3c43/shakenfist-client-0.7.0.0rc6.tar.gz
+[2023-07-25 08:59:58] INFO root fetch - processPackages [shakenfist-client]: executing diffoscope
+[2023-07-25 08:59:58] INFO root fetch - processPackages [shakenfist-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-client-0.7.0.0rc5.tar.gz tmp/shakenfist-client-0.7.0.0rc6.tar.gz --markdown 20230725/s/shakenfist-client/0.7.0.0rc5-0.7.0.0rc6/diff.md --exclude *.pyd
+[2023-07-25 08:59:59] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.2.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.3.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [tablemap]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [sagemaker-ssh-helper]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-ssh-helper-1.9.1.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [sagemaker-ssh-helper]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-ssh-helper-2.0.0.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [sagemaker-ssh-helper]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.8.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.9.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-cxapi]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [common-version]: Remove: archive file [/home/abi/fetcher/tmp/common_version-0.0.1.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [common-version]: Remove: archive file [/home/abi/fetcher/tmp/common_version-0.0.2.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [common-version]: success
+[2023-07-25 08:59:59] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.6.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.7.tar.gz]
+[2023-07-25 08:59:59] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2023-07-25 09:00:00] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.8.tar.gz]
+[2023-07-25 09:00:00] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
+[2023-07-25 09:00:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
+[2023-07-25 09:00:00] INFO root fetch - processPackages [shakenfist-client]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-client-0.7.0.0rc5.tar.gz]
+[2023-07-25 09:00:00] INFO root fetch - processPackages [shakenfist-client]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-client-0.7.0.0rc6.tar.gz]
+[2023-07-25 09:00:00] INFO root fetch - main [MainThread]: End processing [shakenfist-client]: success
+[2023-07-25 09:00:00] INFO root fetch - main [MainThread]: Store serial: [19025100]
