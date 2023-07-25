@@ -11876,3 +11876,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 06:40:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-25 06:40:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-25 06:40:38] INFO root fetch - main [MainThread]: Store serial: [19023869]
+[2023-07-25 06:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19023869]
+[2023-07-25 06:45:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-25 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emeralds
+[2023-07-25 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-project
+[2023-07-25 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-source
+[2023-07-25 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metrapy
+[2023-07-25 06:45:47] INFO root fetch - processPackages [emeralds]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 06:45:47] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230724.0] Old Version: [16.0.20230623.0]
+[2023-07-25 06:45:47] INFO root fetch - processPackages [fosslight-source]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-25 06:45:47] INFO root fetch - processPackages [metrapy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 06:45:47] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/8d/63/8e95b380f4031f40eb8a67185ed9e2aee31fadc25e315bc38e04c70bc8fd/emeralds-0.0.1.tar.gz
+[2023-07-25 06:45:47] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/45/cc/bd11817f702b3fffe19a4fa1dcec14ce40c30e29fbeaa5de410418894dbf/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl
+[2023-07-25 06:45:47] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/ee/81/9d5938e4f4b84f30990232b1c32ac6d1f0a4b51b609e7d7fef02cca1c97b/fosslight_source-1.6.8.tar.gz
+[2023-07-25 06:45:47] INFO root fetch - processPackages [metrapy]: Downloading https://files.pythonhosted.org/packages/e2/2c/07af018703c8d2865372372c68f357ca14c9ec13e255e270686a28d93ba7/metrapy-0.1.0.tar.gz
+[2023-07-25 06:45:48] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/4d/96/40f2d3c58689edb35875035a09694ab1a92bcab0d13fe7db54f8d7230468/emeralds-0.0.2.tar.gz
+[2023-07-25 06:45:48] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/38/d4/9f6414388a0a7a4d3c48895c8a8dc0845a18a1fcef5dcd3fd58e9292a5e2/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl
+[2023-07-25 06:45:48] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 06:45:48] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.1.tar.gz tmp/emeralds-0.0.2.tar.gz --markdown 20230725/e/emeralds/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 06:45:48] INFO root fetch - processPackages [metrapy]: Downloading https://files.pythonhosted.org/packages/4c/19/4d936c5fdc7c8370f99620fe6d7ae3f86e286f584d03db48a5551c2a2855/metrapy-0.1.1.tar.gz
+[2023-07-25 06:45:48] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-07-25 06:45:48] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl.zip --markdown 20230725/o/odoo-addons-oca-project/16.0.20230623.0-16.0.20230724.0/diff.md --exclude *.pyd
+[2023-07-25 06:45:48] INFO root fetch - processPackages [metrapy]: executing diffoscope
+[2023-07-25 06:45:48] INFO root fetch - processPackages [metrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrapy-0.1.0.tar.gz tmp/metrapy-0.1.1.tar.gz --markdown 20230725/m/metrapy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 06:45:49] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/9d/81/a3d8e1dafb41eb63278bfb32976a9fc72dcca248bd42ca726c302c026a86/fosslight_source-1.6.9.tar.gz
+[2023-07-25 06:45:49] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.1.tar.gz]
+[2023-07-25 06:45:49] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.2.tar.gz]
+[2023-07-25 06:45:49] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 06:45:49] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-07-25 06:45:49] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230724.0-py3-none-any.whl.zip]
+[2023-07-25 06:45:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-07-25 06:45:49] INFO root fetch - processPackages [metrapy]: Remove: archive file [/home/abi/fetcher/tmp/metrapy-0.1.0.tar.gz]
+[2023-07-25 06:45:49] INFO root fetch - processPackages [metrapy]: Remove: archive file [/home/abi/fetcher/tmp/metrapy-0.1.1.tar.gz]
+[2023-07-25 06:45:49] INFO root fetch - main [MainThread]: End processing [metrapy]: success
+[2023-07-25 06:45:49] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2023-07-25 06:45:49] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.6.8.tar.gz tmp/fosslight_source-1.6.9.tar.gz --markdown 20230725/f/fosslight-source/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-25 06:45:50] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.8.tar.gz]
+[2023-07-25 06:45:50] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.9.tar.gz]
+[2023-07-25 06:45:50] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2023-07-25 06:45:50] INFO root fetch - main [MainThread]: Store serial: [19023882]
