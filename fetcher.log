@@ -12803,3 +12803,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:12:22] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.4.dev0.tar.gz]
 [2023-07-25 07:12:22] INFO root fetch - main [MainThread]: End processing [chromadb-client]: success
 [2023-07-25 07:12:22] INFO root fetch - main [MainThread]: Store serial: [19024115]
+[2023-07-25 07:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024115]
+[2023-07-25 07:17:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbtex
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: annb
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromadb
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proces
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MarsGT
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onqlave-python-sdk-pilot
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-07-25 07:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nipunPakg
+[2023-07-25 07:17:32] INFO root fetch - processPackages [chromadb]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-25 07:17:32] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 07:17:32] INFO root fetch - processPackages [vbtex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 07:17:32] WARNING root fetch - processPackages [annb]: Skipping, unable to determine old version
+[2023-07-25 07:17:32] INFO root fetch - main [MainThread]: End processing [annb] error
+[2023-07-25 07:17:32] INFO root fetch - processPackages [MarsGT]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 07:17:32] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 07:17:32] WARNING root fetch - processPackages [nipunPakg]: Skipping, unable to determine old version
+[2023-07-25 07:17:32] INFO root fetch - main [MainThread]: End processing [nipunPakg] error
+[2023-07-25 07:17:32] INFO root fetch - processPackages [proces]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230723] Old Version: [2.14.0.dev20230722]
+[2023-07-25 07:17:32] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/ab/3e/c6897239514be424e871a1d655808dcd27eb153489bc83a398820fb87d3f/chromadb-0.4.2.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/6e/02/bd00ac0d674600dfeb5043c05ea749b48eca40d70bf56038bf7e4159dad6/vbtex-0.1.8.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/9e/dc/9ce52fb431949fb747aaf3e3cdf75afcec346f889a4abb6232b009d0bf0a/MarsGT-0.2.0.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/af/62/3c0e60ab727d7f8e51b583741e0acf54620fab7fbec44ae83378e0df2766/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-25 07:17:32] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 07:17:32] ERROR root fetch - processPackages [proces]: Unable to fetch info: No such project/version 'proces' 0.1.5
+[2023-07-25 07:17:32] INFO root fetch - main [MainThread]: End processing [proces] error
+[2023-07-25 07:17:32] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/06/d7/0b44533157d4ca5f90efb4e30ed78f04191628b356b15a90b995feee6857/vbtex-0.1.9.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 07:17:32] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/44/f6/ba01cb1a132c366121e9e33a50e964aa8fbcaf4cf697b0251a250768037a/MarsGT-0.2.1.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-25 07:17:32] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.8.tar.gz tmp/vbtex-0.1.9.tar.gz --markdown 20230725/v/vbtex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 07:17:32] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 07:17:32] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 07:17:32] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/1b/f5/a89e5ecfcf334768bbe82dbf571610884fb967fb45c790e4a1fd1970ff12/chromadb-0.4.3.tar.gz
+[2023-07-25 07:17:32] INFO root fetch - processPackages [MarsGT]: executing diffoscope
+[2023-07-25 07:17:32] INFO root fetch - processPackages [MarsGT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarsGT-0.2.0.tar.gz tmp/MarsGT-0.2.1.tar.gz --markdown 20230725/M/MarsGT/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/da/58/3d7a4e334ccdb058a9276860b0f89d75da6bc29dea034ded9f31fbfe86f7/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-25 07:17:32] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-07-25 07:17:32] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.4.2.tar.gz tmp/chromadb-0.4.3.tar.gz --markdown 20230725/c/chromadb/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-25 07:17:32] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-25 07:17:33] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-25 07:17:33] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230725/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 07:17:33] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-25 07:17:33] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230725/t/tflite-runtime-nightly/2.14.0.dev20230722-2.14.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-25 07:17:33] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-25 07:17:33] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-25 07:17:33] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 07:17:33] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.8.tar.gz]
+[2023-07-25 07:17:33] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.9.tar.gz]
+[2023-07-25 07:17:33] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-25 07:17:33] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.2.0.tar.gz]
+[2023-07-25 07:17:33] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.2.1.tar.gz]
+[2023-07-25 07:17:33] INFO root fetch - main [MainThread]: End processing [MarsGT]: success
+[2023-07-25 07:17:34] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-25 07:17:34] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-25 07:17:34] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-25 07:17:34] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-25 07:17:34] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-25 07:17:34] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-25 07:17:34] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.2.tar.gz]
+[2023-07-25 07:17:34] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.3.tar.gz]
+[2023-07-25 07:17:34] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-07-25 07:17:34] INFO root fetch - main [MainThread]: Store serial: [19024155]
