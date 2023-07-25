@@ -21863,3 +21863,126 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:38:56] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc4.tar.gz]
 [2023-07-25 12:38:56] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-07-25 12:38:56] INFO root fetch - main [MainThread]: Store serial: [19027508]
+[2023-07-25 12:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027508]
+[2023-07-25 12:44:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stravavis
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartdoor
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-sql
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiba-core
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-lazy-srcset
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmql
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tesla-ce-client
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymetadata
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skypilot-nightly
+[2023-07-25 12:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodhd
+[2023-07-25 12:44:10] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev5] Old Version: [0.5.2.dev4]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [stravavis]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [mb-sql]: New version: [1.0.202307251038] Old Version: [1.0.202307200344]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [smartdoor]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230724] Old Version: [1.0.0.dev20230723]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [pymetadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [tesla-ce-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [django-lazy-srcset]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [lmql]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2023-07-25 12:44:10] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/32/e4/01807a95919a3ce97cebed2820a52956befa82fc3c9f9c1f2214a259ac2d/skypilot-nightly-1.0.0.dev20230723.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/7d/06/40c02a2aec7e41df0e0863edbc22af2def7f30378f3d2082e896e762ccb2/kiba_core-0.5.2.dev4-py3-none-any.whl
+[2023-07-25 12:44:10] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [tesla-ce-client]: Downloading https://files.pythonhosted.org/packages/c6/18/f4e7bb74e039551d96252b0dc0ba4dc534960eb452c0b37b5df2fa76bd79/tesla-ce-client-0.0.3.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/eb/7d/b4356bdb03591a888ba766b8d1e8d25446d44d864f9f3733a193fd7cb0eb/smartdoor-2.0.0.dev5.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [lmql]: Downloading https://files.pythonhosted.org/packages/1d/7c/600b7d53b9a22e049d9967428277a95324bee0fd2811fccb4881cc68f67f/lmql-0.0.6.5.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [stravavis]: Downloading https://files.pythonhosted.org/packages/72/3a/8b13274c27b6e8a88bc140802946874ffde1d1706e5926f6100bd75906da/stravavis-0.1.0.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/3a/e7/d83d6aba6e6d4c2b69157079213317819481e989408d864ce99c63c08fd4/pymetadata-0.3.8.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [mb-sql]: Downloading https://files.pythonhosted.org/packages/2e/54/f99bf1576b0d5cc523b04987a0b093daba4b0d7414c796c2663c178d8a94/mb_sql-1.0.202307200344-py3-none-any.whl
+[2023-07-25 12:44:10] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/89/61/99ed34cd9fa4194cb60591c28c99155ed99952dc4f41b9ea9e77a6fa0b40/django-lazy-srcset-1.0.1.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/cf/e6/c374b7c5ce930e26388e971a2af29a8e5f99474c540b3ccaf490aa59aad3/kiba_core-0.5.2.dev5-py3-none-any.whl
+[2023-07-25 12:44:10] INFO root fetch - processPackages [tesla-ce-client]: Downloading https://files.pythonhosted.org/packages/ba/e0/48217877d872e591ac82cfdffcbc4f2fd762ec65a0e015c6aac419c3e1a4/tesla-ce-client-0.0.4.tar.gz
+[2023-07-25 12:44:10] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8e/b5/bff06767d71c84547cb269473adc1a802660203e4935f9741639d713755b/skypilot-nightly-1.0.0.dev20230724.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [lmql]: Downloading https://files.pythonhosted.org/packages/e0/b9/71d55c61afe14e960dade153d1d7f9e33503aca386aacb38cc31e4a6c29f/lmql-0.0.6.6.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/1b/80/be6970a6013c1e0850eaf408ecf43e5cc97803be64189c9a094b6f0cfd3d/django-lazy-srcset-1.0.2.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [mb-sql]: Downloading https://files.pythonhosted.org/packages/e9/34/ca67d33a7819cf5e63cc91a54ecac9ca5a00c4dc1bd154b49ebd81e95123/mb_sql-1.0.202307251038-py3-none-any.whl
+[2023-07-25 12:44:11] INFO root fetch - processPackages [tesla-ce-client]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [tesla-ce-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla-ce-client-0.0.3.tar.gz tmp/tesla-ce-client-0.0.4.tar.gz --markdown 20230725/t/tesla-ce-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/4e/bb/0d9840df8652aaa29a2526a90ff3f6e253f816b143d04cc5ea83d15bd8d7/smartdoor-2.0.0.dev6.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev4-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev5-py3-none-any.whl.zip --markdown 20230725/k/kiba-core/0.5.2.dev4-0.5.2.dev5/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [stravavis]: Downloading https://files.pythonhosted.org/packages/f2/1a/86ca09df97ed58229cf7aeb9cce6eea572863f78567259c3507bd07f05a0/stravavis-0.2.0.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/c5/a0/60d04d3557b8d42d76ad79122555bbba7390a391a0459bce2204153c4b76/pymetadata-0.3.9.tar.gz
+[2023-07-25 12:44:11] INFO root fetch - processPackages [lmql]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [lmql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmql-0.0.6.5.tar.gz tmp/lmql-0.0.6.6.tar.gz --markdown 20230725/l/lmql/0.0.6.5-0.0.6.6/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [django-lazy-srcset]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [django-lazy-srcset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lazy-srcset-1.0.1.tar.gz tmp/django-lazy-srcset-1.0.2.tar.gz --markdown 20230725/d/django-lazy-srcset/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [mb-sql]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [mb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_sql-1.0.202307200344-py3-none-any.whl.zip tmp/mb_sql-1.0.202307251038-py3-none-any.whl.zip --markdown 20230725/m/mb-sql/1.0.202307200344-1.0.202307251038/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230725/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [stravavis]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [stravavis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stravavis-0.1.0.tar.gz tmp/stravavis-0.2.0.tar.gz --markdown 20230725/s/stravavis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [smartdoor]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [smartdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdoor-2.0.0.dev5.tar.gz tmp/smartdoor-2.0.0.dev6.tar.gz --markdown 20230725/s/smartdoor/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [pymetadata]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [pymetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetadata-0.3.8.tar.gz tmp/pymetadata-0.3.9.tar.gz --markdown 20230725/p/pymetadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 12:44:11] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-25 12:44:11] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230723.tar.gz tmp/skypilot-nightly-1.0.0.dev20230724.tar.gz --markdown 20230725/s/skypilot-nightly/1.0.0.dev20230723-1.0.0.dev20230724/diff.md --exclude *.pyd
+[2023-07-25 12:44:13] INFO root fetch - processPackages [tesla-ce-client]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-client-0.0.3.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [tesla-ce-client]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-client-0.0.4.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [tesla-ce-client]: Start processing: tcp-sdk
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [tesla-ce-client]: success
+[2023-07-25 12:44:13] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-1.0.1.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-1.0.2.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [django-lazy-srcset]: Start processing: openai-wrapper
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [django-lazy-srcset]: success
+[2023-07-25 12:44:13] INFO root fetch - processPackages [mb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mb_sql-1.0.202307200344-py3-none-any.whl.zip]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [mb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mb_sql-1.0.202307251038-py3-none-any.whl.zip]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [mb-sql]: Start processing: whist-core
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [mb-sql]: success
+[2023-07-25 12:44:13] WARNING root fetch - processPackages [tcp-sdk]: Skipping, unable to determine old version
+[2023-07-25 12:44:13] INFO root fetch - processPackages [tcp-sdk]: Start processing: PyBADS
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [tcp-sdk] error
+[2023-07-25 12:44:13] INFO root fetch - processPackages [openai-wrapper]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [whist-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev4-py3-none-any.whl.zip]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev5-py3-none-any.whl.zip]
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2023-07-25 12:44:13] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.8.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.9.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-07-25 12:44:13] INFO root fetch - processPackages [PyBADS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev5.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev6.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - main [MainThread]: End processing [smartdoor]: success
+[2023-07-25 12:44:13] INFO root fetch - processPackages [stravavis]: Remove: archive file [/home/abi/fetcher/tmp/stravavis-0.1.0.tar.gz]
+[2023-07-25 12:44:13] INFO root fetch - processPackages [stravavis]: Remove: archive file [/home/abi/fetcher/tmp/stravavis-0.2.0.tar.gz]
+[2023-07-25 12:44:14] INFO root fetch - main [MainThread]: End processing [stravavis]: success
+[2023-07-25 12:44:14] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/a4/bb/e24001b2d0ad375cd27dabfd1a2577384605a89c0ffa9f1f481c5f07e1c9/openai_wrapper-0.6.0.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [whist-core]: Downloading https://files.pythonhosted.org/packages/32/83/ab9a7aa972117d2ca41a9f1de8056ce0f0832444cb7c5021d9bb99368412/whist_core-0.9.0.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [PyBADS]: Downloading https://files.pythonhosted.org/packages/60/28/aad8e2919b776893ec9a376fb1f238b839abce2a0f2db4fee1cfb9a0dfe3/PyBADS-1.0.1.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [whist-core]: Downloading https://files.pythonhosted.org/packages/c1/dc/ebe1083d075d67147ec8a3d7792ca8bfe70be82ff64fc16a25484c61a21b/whist_core-0.9.1.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/f5/56/688199121d11305227bddb939e23952b363bbf50521fe6da5d40a02d881a/openai_wrapper-0.6.1.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.3.8.tar.gz]
+[2023-07-25 12:44:14] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.3.9.tar.gz]
+[2023-07-25 12:44:14] INFO root fetch - main [MainThread]: End processing [pymetadata]: success
+[2023-07-25 12:44:14] INFO root fetch - processPackages [whist-core]: executing diffoscope
+[2023-07-25 12:44:14] INFO root fetch - processPackages [whist-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whist_core-0.9.0.tar.gz tmp/whist_core-0.9.1.tar.gz --markdown 20230725/w/whist-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 12:44:14] INFO root fetch - processPackages [openai-wrapper]: executing diffoscope
+[2023-07-25 12:44:14] INFO root fetch - processPackages [openai-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_wrapper-0.6.0.tar.gz tmp/openai_wrapper-0.6.1.tar.gz --markdown 20230725/o/openai-wrapper/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-25 12:44:14] INFO root fetch - processPackages [PyBADS]: Downloading https://files.pythonhosted.org/packages/8a/7b/e916dd7df315efb88c71f5c5be06973a28e5aac2a8566826a50df5ec33bd/PyBADS-1.0.2.tar.gz
+[2023-07-25 12:44:14] INFO root fetch - processPackages [PyBADS]: executing diffoscope
+[2023-07-25 12:44:14] INFO root fetch - processPackages [PyBADS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBADS-1.0.1.tar.gz tmp/PyBADS-1.0.2.tar.gz --markdown 20230725/P/PyBADS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 12:44:15] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230723.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230724.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-25 12:44:15] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.0.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.1.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - main [MainThread]: End processing [openai-wrapper]: success
+[2023-07-25 12:44:15] INFO root fetch - processPackages [lmql]: Remove: archive file [/home/abi/fetcher/tmp/lmql-0.0.6.5.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - processPackages [lmql]: Remove: archive file [/home/abi/fetcher/tmp/lmql-0.0.6.6.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - main [MainThread]: End processing [lmql]: success
+[2023-07-25 12:44:15] INFO root fetch - processPackages [whist-core]: Remove: archive file [/home/abi/fetcher/tmp/whist_core-0.9.0.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - processPackages [whist-core]: Remove: archive file [/home/abi/fetcher/tmp/whist_core-0.9.1.tar.gz]
+[2023-07-25 12:44:15] INFO root fetch - main [MainThread]: End processing [whist-core]: success
+[2023-07-25 12:44:16] INFO root fetch - processPackages [PyBADS]: Remove: archive file [/home/abi/fetcher/tmp/PyBADS-1.0.1.tar.gz]
+[2023-07-25 12:44:16] INFO root fetch - processPackages [PyBADS]: Remove: archive file [/home/abi/fetcher/tmp/PyBADS-1.0.2.tar.gz]
+[2023-07-25 12:44:16] INFO root fetch - main [MainThread]: End processing [PyBADS]: success
+[2023-07-25 12:44:16] INFO root fetch - main [MainThread]: Store serial: [19027552]
