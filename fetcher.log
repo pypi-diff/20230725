@@ -19017,3 +19017,221 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:55:09] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-25 10:55:09] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-25 10:55:09] INFO root fetch - main [MainThread]: Store serial: [19026392]
+[2023-07-25 11:00:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026392]
+[2023-07-25 11:00:18] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialdata-plot
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wow-ai-sdk
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-ipython-client
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-lib
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-pptx-fix
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-scan-server
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-device-server
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: locust
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-scan-bundler
+[2023-07-25 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-file-writer
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [wow-ai-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] WARNING root fetch - processPackages [python-pptx-fix]: Skipping, unable to determine old version
+[2023-07-25 11:00:18] INFO root fetch - processPackages [python-pptx-fix]: Start processing: bec-dap
+[2023-07-25 11:00:18] INFO root fetch - main [MainThread]: End processing [python-pptx-fix] error
+[2023-07-25 11:00:18] INFO root fetch - processPackages [spatialdata-plot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-07-25 11:00:18] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [spatialdata-plot]: Downloading https://files.pythonhosted.org/packages/aa/5f/34c74bf2fd869b43cca56229709dd9f07fa26dacdbcd9f9e33f61c00a2bb/spatialdata_plot-0.0.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/e0/78/865ba98ba2653929e71fe7999b0d0cc875ad2c35c479de654225c8268466/wow_ai_sdk-0.1.5.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230725/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [wow-ai-sdk]: Downloading https://files.pythonhosted.org/packages/0a/79/4daf67c0d6523b09f6636abc61ee7bf223b5cd2444adeb2ca6ca07b170bd/wow_ai_sdk-0.1.6.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230725/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [spatialdata-plot]: Downloading https://files.pythonhosted.org/packages/25/fb/060c59d19749230efcfdc110098b678dce3b8eff8da28aee4d0c193c2f18/spatialdata_plot-0.0.3.tar.gz
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230725/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230725/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230725/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230725/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-25 11:00:19] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230725/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:20] INFO root fetch - processPackages [wow-ai-sdk]: executing diffoscope
+[2023-07-25 11:00:20] INFO root fetch - processPackages [wow-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_sdk-0.1.5.tar.gz tmp/wow_ai_sdk-0.1.6.tar.gz --markdown 20230725/w/wow-ai-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-25 11:00:20] INFO root fetch - processPackages [spatialdata-plot]: executing diffoscope
+[2023-07-25 11:00:20] INFO root fetch - processPackages [spatialdata-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_plot-0.0.2.tar.gz tmp/spatialdata_plot-0.0.3.tar.gz --markdown 20230725/s/spatialdata-plot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 11:00:20] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-07-25 11:00:21] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-07-25 11:00:21] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230725/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: bec-scihub
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scihub]: New version: [0.14.6] Old Version: [0.14.5]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scan-server]: Start processing: bec-server
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-file-writer]: Start processing: pulumi-opnsense
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-device-server]: Start processing: kfish
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-dap]: Start processing: je-api-testka
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-lib]: Start processing: kcli
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.5.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [wow-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_sdk-0.1.6.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [wow-ai-sdk]: Start processing: omero-web
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [wow-ai-sdk]: success
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-server]: New version: [0.14.6] Old Version: [0.14.5]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/c0/d0/451d77a6536a27b68d216a5ec8f3f6bd1a74ab8716786ff294ab12a4f2cd/bec_scihub-0.14.5.tar.gz
+[2023-07-25 11:00:21] INFO root fetch - processPackages [kfish]: New version: [99.0.202307250859] Old Version: [99.0.202307250856]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-07-25 11:00:21] INFO root fetch - processPackages [bec-ipython-client]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-25 11:00:21] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-25 11:00:22] INFO root fetch - processPackages [omero-web]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [kcli]: New version: [99.0.202307250856] Old Version: [99.0.202307250853]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230725.8.57.697813] Old Version: [20230719.15.53.919804]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/13/9a/4075adbfe3a7f7b9c914bb916a397a3685489d81599b6b9ac175bb241fae/bec-server-0.14.5.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/82/aa/f5a0c09a07b9ec6b5cad23d1c90c085e4ec3a1ce8d0c7f5542bc4a61f304/kcli-99.0.202307250853-py3-none-any.whl
+[2023-07-25 11:00:22] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ff/ca/ed0bf8984365e87f3f9f2b9837d503552fbb2eb034898fc889798cc69322/pulumi_opnsense-0.0.83.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bb/11/b0730e531dbc0605610f04e5d70c80864103faf3c8a247a238d917a9d181/kfish-99.0.202307250856-py3-none-any.whl
+[2023-07-25 11:00:22] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/ef/56/ca934f6599bd2daf503a86e6203dce722bddc087ffae9459329b73fbf470/omero-web-5.9.1.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [spatialdata-plot]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_plot-0.0.2.tar.gz]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [spatialdata-plot]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_plot-0.0.3.tar.gz]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [spatialdata-plot]: Start processing: timedctl
+[2023-07-25 11:00:22] INFO root fetch - main [MainThread]: End processing [spatialdata-plot]: success
+[2023-07-25 11:00:22] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/17/d5/3d6c46f4f9a33de2eccf5260cdb7e3b5c348efadf944c9b3dcbb4f1f7a34/certora-cli-alpha-nast-mutation-test-20230719.15.53.919804.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/3c/93/2cdbc7f18adb52bd95ffd6111ea3ef170dc7b0dd2a7e790a3dfbb9c0243d/bec_scihub-0.14.6.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [timedctl]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-07-25 11:00:22] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37488670>=10485760
+[2023-07-25 11:00:22] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Start processing: neptune
+[2023-07-25 11:00:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-25 11:00:22] INFO root fetch - processPackages [neptune]: New version: [1.4.0rc0] Old Version: [1.4.0]
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/2f/0e/b3b9b1236804e808e19c65662dbb6493b7332a725e3ee4e9bd10fec6e6d1/bec-server-0.14.6.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/00/e6/0578955d4ccb5dc085ad27af03b50032824a17d79a9374b2e901c928ff31/pulumi_opnsense-0.0.84.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-0.14.5.tar.gz tmp/bec_scihub-0.14.6.tar.gz --markdown 20230725/b/bec-scihub/0.14.5-0.14.6/diff.md --exclude *.pyd
+[2023-07-25 11:00:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/f7/8cd56a6f58958d4d7422f3304475c82c3776892506696e9ef6fe00136448/kcli-99.0.202307250856-py3-none-any.whl
+[2023-07-25 11:00:22] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/ec/00/6608369456ebeaf64a1d35b37a90007c61a25194b4286abe9f6d1b4bb3fc/timedctl-5.0.2.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/1c/72/d699aa67a8271729421c8ba319b2020828e6d4f5e6461d44644ddf57e580/neptune-1.4.0.tar.gz
+[2023-07-25 11:00:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/8e/16/3da6c976e0a220e5afbd9d35a01edb4596534303adb350cbd845c0022247/kfish-99.0.202307250859-py3-none-any.whl
+[2023-07-25 11:00:22] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-07-25 11:00:22] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230725/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 11:00:22] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 11:00:22] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.83.tar.gz tmp/pulumi_opnsense-0.0.84.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2023-07-25 11:00:22] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-0.14.5.tar.gz tmp/bec-server-0.14.6.tar.gz --markdown 20230725/b/bec-server/0.14.5-0.14.6/diff.md --exclude *.pyd
+[2023-07-25 11:00:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 11:00:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250856-py3-none-any.whl.zip tmp/kfish-99.0.202307250859-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250856-99.0.202307250859/diff.md --exclude *.pyd
+[2023-07-25 11:00:23] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/47/75/4264d04fc06fdc6af0c9d45fb86d7c76676d33af145a49c27e40b8df6dbe/timedctl-5.0.3.tar.gz
+[2023-07-25 11:00:23] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/bb/eb/8d26eda5c0c2712e5f19abab53e8bd63092a0d8b63bf844b1be2f9771c73/neptune-1.4.0rc0.tar.gz
+[2023-07-25 11:00:23] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-25 11:00:23] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-5.0.2.tar.gz tmp/timedctl-5.0.3.tar.gz --markdown 20230725/t/timedctl/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-07-25 11:00:23] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2023-07-25 11:00:23] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-1.4.0.tar.gz tmp/neptune-1.4.0rc0.tar.gz --markdown 20230725/n/neptune/1.4.0-1.4.0rc0/diff.md --exclude *.pyd
+[2023-07-25 11:00:23] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 11:00:23] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307250853-py3-none-any.whl.zip tmp/kcli-99.0.202307250856-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307250853-99.0.202307250856/diff.md --exclude *.pyd
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.5.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.6.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-scihub]: Start processing: neptune-client
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [neptune-client]: New version: [1.4.0rc0] Old Version: [1.4.0]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/87/b1/97dedd01aff39d93e282ea870287e6bf741460c2d7cae96d7dcae38d4d30/omero-web-5.9.2.tar.gz
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.14.5.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.14.6.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [bec-server]: Start processing: tme-api
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [tme-api]: New version: [2023.7.25] Old Version: [2023.3.24.post1]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/d1/bf/3c0ff6431613c688b05fc56441772435a2f546212080a8f00d2c1a125293/neptune_client-1.4.0.tar.gz
+[2023-07-25 11:00:24] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.83.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.84.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: django-outbox-menu
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [je-api-testka]: Start processing: kfish
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [django-outbox-menu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250856-py3-none-any.whl.zip]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250859-py3-none-any.whl.zip]
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [tme-api]: Downloading https://files.pythonhosted.org/packages/f7/0c/e59ac1aa9d1ca245bc6c1854f75953199621bdc831114b40ff53a0579889/tme_api-2023.3.24.post1.tar.gz
+[2023-07-25 11:00:24] INFO root fetch - processPackages [kfish]: New version: [99.0.202307250859] Old Version: [99.0.202307250856]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.2.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.3.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bb/11/b0730e531dbc0605610f04e5d70c80864103faf3c8a247a238d917a9d181/kfish-99.0.202307250856-py3-none-any.whl
+[2023-07-25 11:00:24] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/51/b4/f8f4d00517abb25ad121697ebb32847a01cea1cb6d249b6dd678e12ac149/neptune_client-1.4.0rc0.tar.gz
+[2023-07-25 11:00:24] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-07-25 11:00:24] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-07-25 11:00:24] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/a4/b5/e927ce22b10a0beef1e06c269bf6eadb92529b619a81ebd58c9491256c5a/django-outbox-menu-1.0.8.tar.gz
+[2023-07-25 11:00:25] INFO root fetch - processPackages [tme-api]: Downloading https://files.pythonhosted.org/packages/af/a6/848a38d7063e7236b86ad58ed5a6da96c704bf21819f5eea68e40ba1f5f6/tme_api-2023.7.25.tar.gz
+[2023-07-25 11:00:25] INFO root fetch - processPackages [neptune-client]: executing diffoscope
+[2023-07-25 11:00:25] INFO root fetch - processPackages [neptune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_client-1.4.0.tar.gz tmp/neptune_client-1.4.0rc0.tar.gz --markdown 20230725/n/neptune-client/1.4.0-1.4.0rc0/diff.md --exclude *.pyd
+[2023-07-25 11:00:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/8e/16/3da6c976e0a220e5afbd9d35a01edb4596534303adb350cbd845c0022247/kfish-99.0.202307250859-py3-none-any.whl
+[2023-07-25 11:00:25] INFO root fetch - processPackages [tme-api]: executing diffoscope
+[2023-07-25 11:00:25] INFO root fetch - processPackages [tme-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tme_api-2023.3.24.post1.tar.gz tmp/tme_api-2023.7.25.tar.gz --markdown 20230725/t/tme-api/2023.3.24.post1-2023.7.25/diff.md --exclude *.pyd
+[2023-07-25 11:00:25] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 11:00:25] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250856-py3-none-any.whl.zip tmp/kfish-99.0.202307250859-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250856-99.0.202307250859/diff.md --exclude *.pyd
+[2023-07-25 11:00:25] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/12/74/17de0051024c6e36a45ad52e58d199e38092cc14004026d9ecb4d963cfd5/django-outbox-menu-1.0.9.tar.gz
+[2023-07-25 11:00:25] INFO root fetch - processPackages [omero-web]: executing diffoscope
+[2023-07-25 11:00:25] INFO root fetch - processPackages [omero-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-web-5.9.1.tar.gz tmp/omero-web-5.9.2.tar.gz --markdown 20230725/o/omero-web/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-07-25 11:00:25] INFO root fetch - processPackages [django-outbox-menu]: executing diffoscope
+[2023-07-25 11:00:25] INFO root fetch - processPackages [django-outbox-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-outbox-menu-1.0.8.tar.gz tmp/django-outbox-menu-1.0.9.tar.gz --markdown 20230725/d/django-outbox-menu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:00:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250856-py3-none-any.whl.zip]
+[2023-07-25 11:00:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250859-py3-none-any.whl.zip]
+[2023-07-25 11:00:26] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 11:00:26] INFO root fetch - processPackages [tme-api]: Remove: archive file [/home/abi/fetcher/tmp/tme_api-2023.3.24.post1.tar.gz]
+[2023-07-25 11:00:26] INFO root fetch - processPackages [tme-api]: Remove: archive file [/home/abi/fetcher/tmp/tme_api-2023.7.25.tar.gz]
+[2023-07-25 11:00:26] INFO root fetch - main [MainThread]: End processing [tme-api]: success
+[2023-07-25 11:00:27] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.4.0.tar.gz]
+[2023-07-25 11:00:27] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.4.0rc0.tar.gz]
+[2023-07-25 11:00:27] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2023-07-25 11:00:27] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.8.tar.gz]
+[2023-07-25 11:00:27] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.9.tar.gz]
+[2023-07-25 11:00:27] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
+[2023-07-25 11:00:28] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.4.0.tar.gz]
+[2023-07-25 11:00:28] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.4.0rc0.tar.gz]
+[2023-07-25 11:00:28] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
+[2023-07-25 11:00:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250853-py3-none-any.whl.zip]
+[2023-07-25 11:00:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250856-py3-none-any.whl.zip]
+[2023-07-25 11:00:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 11:00:31] INFO root fetch - processPackages [omero-web]: Remove: archive file [/home/abi/fetcher/tmp/omero-web-5.9.1.tar.gz]
+[2023-07-25 11:00:31] INFO root fetch - processPackages [omero-web]: Remove: archive file [/home/abi/fetcher/tmp/omero-web-5.9.2.tar.gz]
+[2023-07-25 11:00:31] INFO root fetch - main [MainThread]: End processing [omero-web]: success
+[2023-07-25 11:00:31] INFO root fetch - main [MainThread]: Store serial: [19026468]
