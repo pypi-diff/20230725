@@ -9029,3 +9029,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:37:18] INFO root fetch - processPackages [indic-transliteration]: Remove: archive file [/home/abi/fetcher/tmp/indic_transliteration-2.3.9-py3-none-any.whl.zip]
 [2023-07-25 05:37:18] INFO root fetch - main [MainThread]: End processing [indic-transliteration]: success
 [2023-07-25 05:37:18] INFO root fetch - main [MainThread]: Store serial: [19022901]
+[2023-07-25 05:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022901]
+[2023-07-25 05:42:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pqlistener
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-document-url
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reclist
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openplugin-py
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infrahouse-toolkit
+[2023-07-25 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe2pay
+[2023-07-25 05:42:26] WARNING root fetch - processPackages [pqlistener]: Skipping, unable to determine old version
+[2023-07-25 05:42:26] INFO root fetch - main [MainThread]: End processing [pqlistener] error
+[2023-07-25 05:42:26] INFO root fetch - processPackages [reclist]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-25 05:42:26] INFO root fetch - processPackages [odoo-addon-document-url]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.2]
+[2023-07-25 05:42:26] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-25 05:42:26] INFO root fetch - processPackages [openplugin-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 05:42:26] WARNING root fetch - processPackages [safe2pay]: Skipping, unable to determine old version
+[2023-07-25 05:42:26] INFO root fetch - main [MainThread]: End processing [safe2pay] error
+[2023-07-25 05:42:26] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/2e/f1/159a828677a0141f1ea704d44d3e9fbca2993fc4b404f897078958e094ed/reclist-2.0.0.tar.gz
+[2023-07-25 05:42:26] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/47/50/69ef2d39feb454b0540e3dcdd0ea607c86a2c82d1941c83324d5971376bc/infrahouse-toolkit-1.7.0.tar.gz
+[2023-07-25 05:42:27] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/8d/94/3db90f454ce088d3389334c920e6569dbd0693f066df7b94775a805c52d1/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl
+[2023-07-25 05:42:27] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/58/41/c06f34c620b6fdc57d4281608f60cfc095689b9c4ccd9c70e6df3ae974d3/openplugin-py-0.0.4.tar.gz
+[2023-07-25 05:42:27] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/73/12/e64f926b8a8324ee3c4f107300702dde196642064f5f125dc0e923b614f9/reclist-2.0.1.tar.gz
+[2023-07-25 05:42:27] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/9d/d1/f35c7c52553e9b00f400bcd7067300d7963574ed39b6513afa5d1a0a1e39/infrahouse-toolkit-1.7.1.tar.gz
+[2023-07-25 05:42:27] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/f1/f6/a515e32680ee1308ecf63700c04ee5e981ee435e1d1907fb1a2ab84d799a/openplugin-py-0.0.5.tar.gz
+[2023-07-25 05:42:27] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-25 05:42:27] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-1.7.0.tar.gz tmp/infrahouse-toolkit-1.7.1.tar.gz --markdown 20230725/i/infrahouse-toolkit/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-25 05:42:27] INFO root fetch - processPackages [reclist]: executing diffoscope
+[2023-07-25 05:42:27] INFO root fetch - processPackages [reclist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reclist-2.0.0.tar.gz tmp/reclist-2.0.1.tar.gz --markdown 20230725/r/reclist/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-25 05:42:27] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/e1/96/e2543da0fde29c8009af420cb613910cf75bbf94c2df1f86f948795cecaf/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl
+[2023-07-25 05:42:27] INFO root fetch - processPackages [odoo-addon-document-url]: executing diffoscope
+[2023-07-25 05:42:27] INFO root fetch - processPackages [odoo-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-document-url/16.0.1.0.2.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-07-25 05:42:27] INFO root fetch - processPackages [openplugin-py]: executing diffoscope
+[2023-07-25 05:42:27] INFO root fetch - processPackages [openplugin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-py-0.0.4.tar.gz tmp/openplugin-py-0.0.5.tar.gz --markdown 20230725/o/openplugin-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 05:42:28] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-2.0.0.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-2.0.1.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - main [MainThread]: End processing [reclist]: success
+[2023-07-25 05:42:28] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.4.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.5.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - main [MainThread]: End processing [openplugin-py]: success
+[2023-07-25 05:42:28] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.7.0.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.7.1.tar.gz]
+[2023-07-25 05:42:28] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-25 05:42:28] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2023-07-25 05:42:28] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-25 05:42:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-url]: success
+[2023-07-25 05:42:28] INFO root fetch - main [MainThread]: Store serial: [19022929]
