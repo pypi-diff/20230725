@@ -13454,3 +13454,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:33:50] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.9.tar.gz]
 [2023-07-25 07:33:50] INFO root fetch - main [MainThread]: End processing [hbshare]: success
 [2023-07-25 07:33:50] INFO root fetch - main [MainThread]: Store serial: [19024329]
+[2023-07-25 07:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024329]
+[2023-07-25 07:39:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v-quantum-annealing
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluke-api
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: launchable
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeronet-raster
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aeronet-convert
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeronet
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-hr-timesheet-sheet-attendance
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readDataFile
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygamergui
+[2023-07-25 07:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-model-tracker
+[2023-07-25 07:39:00] INFO root fetch - processPackages [aeronet-raster]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-25 07:39:00] INFO root fetch - processPackages [fluke-api]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-25 07:39:00] INFO root fetch - processPackages [readDataFile]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 07:39:00] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [pygamergui]: New version: [0.6] Old Version: [0.5]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-convert]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [django-model-tracker]: New version: [2.1.0b1] Old Version: [2.0.4b1]
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/6f/bc/c70196adceb9669a62908fde2c051a7416f40f0ccf3af6878da77b901de1/aeronet_convert-0.1.0a4.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/d9/df/59f0650d61a6a6effef53f9855b2affd3fb1d9d5546ed77089f3dd68ff9f/aeronet_raster-0.1.0a4.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [django-model-tracker]: Downloading https://files.pythonhosted.org/packages/23/95/8bd6d68254586968bac183d79814d5056b48c85293dcbcb29d1b1d6a3ed0/django-model-tracker-2.0.4b1.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/fb/1b/f22b0c2c98423fc4f9941e4c391c55f7d571c4ade0c96d4600f5304a81d4/aeronet-0.1.0a6.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/54/d5/99515b38103d01351f06cff77365064315fdda37f8fbfb8ab07060a3214e/readDataFile-0.0.2.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [fluke-api]: Downloading https://files.pythonhosted.org/packages/49/b5/de38b2131065d85a4c2bb3a50fe06d69b5784f317fcc27b06fe522d8212c/fluke-api-0.4.0.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [pygamergui]: Downloading https://files.pythonhosted.org/packages/9d/59/5980b3d4dfaeede60cf2b5dabd342fb7cf6b86994963656b03f3909f3d08/pygamergui-0.5.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/f8/f5/8d5fe6a810ff7fa085f228c389101aaa463eb72cf95f99d97d35fe4ebe8a/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-25 07:39:01] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-07-25 07:39:01] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-07-25 07:39:01] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/36/10/b48a93c5968b93ca5be19b7654f8bdb4e295e8def4832ba9f86bea07a46c/aeronet_convert-0.1.0a5.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [django-model-tracker]: Downloading https://files.pythonhosted.org/packages/6f/87/ebabf401ba9823178321b6c760e711f7c8c74a33228fe69a560b6ce38018/django-model-tracker-2.1.0b1.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/af/f9/40d262229f152fd385ffb9c7b2f1255d5f3dcfd80af1072d06878dc0a44e/aeronet_raster-0.1.0a5.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-convert]: executing diffoscope
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_convert-0.1.0a4.tar.gz tmp/aeronet_convert-0.1.0a5.tar.gz --markdown 20230725/a/aeronet-convert/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-25 07:39:01] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/b7/06/5293f85170aecd124da60ab7421302bfefccea323ad12b5d6ca474c725bf/readDataFile-0.0.3.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [pygamergui]: Downloading https://files.pythonhosted.org/packages/cd/e6/cc4d2f78e6f92adc116ad14d265d882c0c4dfa3c97be6b2bf8273bb20b86/pygamergui-0.6.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [django-model-tracker]: executing diffoscope
+[2023-07-25 07:39:01] INFO root fetch - processPackages [django-model-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-model-tracker-2.0.4b1.tar.gz tmp/django-model-tracker-2.1.0b1.tar.gz --markdown 20230725/d/django-model-tracker/2.0.4b1-2.1.0b1/diff.md --exclude *.pyd
+[2023-07-25 07:39:01] INFO root fetch - processPackages [fluke-api]: Downloading https://files.pythonhosted.org/packages/0f/03/85da095293ed6547e38daf1cf89efdf079c34aa810d1b61bf8a18f296015/fluke-api-0.4.1.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/e8/01/7acff313821f2f17365df6cc3f4afa405d8ce8e8736543481295bdb515de/aeronet-0.1.0a7.tar.gz
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-raster]: executing diffoscope
+[2023-07-25 07:39:01] INFO root fetch - processPackages [aeronet-raster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_raster-0.1.0a4.tar.gz tmp/aeronet_raster-0.1.0a5.tar.gz --markdown 20230725/a/aeronet-raster/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/49/ba/01d0e65f62a57b5d3bda6920e251cb2d5f6bebfde0f20989ec757bb34eb8/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-25 07:39:02] INFO root fetch - processPackages [pygamergui]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [pygamergui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygamergui-0.5.tar.gz tmp/pygamergui-0.6.tar.gz --markdown 20230725/p/pygamergui/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [readDataFile]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [readDataFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readDataFile-0.0.2.tar.gz tmp/readDataFile-0.0.3.tar.gz --markdown 20230725/r/readDataFile/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [aeronet]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [aeronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet-0.1.0a6.tar.gz tmp/aeronet-0.1.0a7.tar.gz --markdown 20230725/a/aeronet/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [fluke-api]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [fluke-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke-api-0.4.0.tar.gz tmp/fluke-api-0.4.1.tar.gz --markdown 20230725/f/fluke-api/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-hr-timesheet-sheet-attendance/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-25 07:39:02] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-25 07:39:02] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-25 07:39:02] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230725/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a4.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a5.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [aeronet-convert]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [django-model-tracker]: Remove: archive file [/home/abi/fetcher/tmp/django-model-tracker-2.0.4b1.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [django-model-tracker]: Remove: archive file [/home/abi/fetcher/tmp/django-model-tracker-2.1.0b1.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [django-model-tracker]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [pygamergui]: Remove: archive file [/home/abi/fetcher/tmp/pygamergui-0.5.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [pygamergui]: Remove: archive file [/home/abi/fetcher/tmp/pygamergui-0.6.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [pygamergui]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a4.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a5.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [aeronet-raster]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a6.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a7.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [aeronet]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet-attendance]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.2.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.3.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [readDataFile]: success
+[2023-07-25 07:39:03] INFO root fetch - processPackages [fluke-api]: Remove: archive file [/home/abi/fetcher/tmp/fluke-api-0.4.0.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - processPackages [fluke-api]: Remove: archive file [/home/abi/fetcher/tmp/fluke-api-0.4.1.tar.gz]
+[2023-07-25 07:39:03] INFO root fetch - main [MainThread]: End processing [fluke-api]: success
+[2023-07-25 07:39:04] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-25 07:39:04] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-25 07:39:04] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-25 07:39:04] INFO root fetch - main [MainThread]: Store serial: [19024357]
