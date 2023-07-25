@@ -16511,3 +16511,235 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:30:31] INFO root fetch - processPackages [pynrfjprog]: Remove: archive file [/home/abi/fetcher/tmp/pynrfjprog-9.8.1.zip]
 [2023-07-25 09:30:31] INFO root fetch - main [MainThread]: End processing [pynrfjprog]: success
 [2023-07-25 09:30:31] INFO root fetch - main [MainThread]: Store serial: [19025465]
+[2023-07-25 09:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025465]
+[2023-07-25 09:35:44] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flumine
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-edsuser
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: l10n
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsface-cpu-python
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-forecast-line
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-rocketmq
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satosa-oidcop
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clean-python
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-vs
+[2023-07-25 09:35:44] INFO root fetch - processPackages [OneOnOne]: New version: [0.6948] Old Version: [0.6947]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [satosa-oidcop]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [l10n]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-edsuser]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [clean-python]: New version: [0.2.0b1] Old Version: [0.2.0b0]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-rocketmq]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-vs]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: New version: [15.0.1.3.3] Old Version: [15.0.1.3.2]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [flumine]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.76] Old Version: [1.1.74]
+[2023-07-25 09:35:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e8/14/c13549245fb2f13d640b7e370f8f6025362902ce88cb3bc0bbb0a2a3c47f/OneOnOne-0.6947.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/88/5e/16d18709c1269ddf859c9ccbc945824451982b6c51d066a47d9655547955/ros-cdk-rocketmq-1.0.8.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/e2/aa/59dce42a597b400920706e378133441ba2da98dc1b825b2f03205a6d7590/l10n-0.1.1.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/4b/ce/11208f1db3dd24d5088a9b9a274c70f0014abfc758d0c74ca1d021828273/ros-cdk-edsuser-1.0.16.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/25/46/bd879148059bb57df6ab13d6253465fbd51565379762facaeaed2a1ffe84/satosa_oidcop-2.1.0.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/16/80/21c8baa467700b564fab9e8ec3b61a1301546399ce747ae94904175a573d/clean-python-0.2.0b0.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/d9/38/31d212b35fc26d4275357bfcad95d2083ee2f9fcc64c8324701dedab5a5f/flumine-2.4.0.tar.gz
+[2023-07-25 09:35:44] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Downloading https://files.pythonhosted.org/packages/5c/91/fdf9d9334c72b18b9b43798983b6a39c39c910639b5d3de103f9ea3df670/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl
+[2023-07-25 09:35:44] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/cc/dd/145ae019f7f98b8eaabce1508ab7e3d354cdcc03ab1db2a07da4d1b9088b/nsface_cpu_python-1.1.74-py3-none-any.whl
+[2023-07-25 09:35:44] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/63/47/f3e83c87c7102979fc64bad872c7b2d7df605c677917442044f3f992bad2/ros-cdk-vs-1.0.8.tar.gz
+[2023-07-25 09:35:45] WARNING root fetch - processPackages [nsface-cpu-python]: Skipping package: exceeds size limit 41438492>=10485760
+[2023-07-25 09:35:45] INFO root fetch - processPackages [nsface-cpu-python]: Start processing: nsface-python
+[2023-07-25 09:35:45] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python] error
+[2023-07-25 09:35:45] INFO root fetch - processPackages [nsface-python]: New version: [1.1.76] Old Version: [1.1.74]
+[2023-07-25 09:35:45] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/2d/58/26b85eff0b1bfb65c866af194626da4577d8d7a6bead8830d9c9516bec29/l10n-0.1.2.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/0c/cc/bc326c48174273ebcb5552f3da12f47dbe23ed03dda619e6823872163e10/ros-cdk-edsuser-1.0.17.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/d1/cd/62c2debef91798dec42543fef6c2fbff7d6915f98b9d573ae59f46007c29/satosa_oidcop-2.1.1.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Downloading https://files.pythonhosted.org/packages/e9/34/26fbf6e699b12b5034ff54c574634101dd6b477e6070d0a2018695ca91ef/odoo_addon_project_forecast_line-15.0.1.3.3-py3-none-any.whl
+[2023-07-25 09:35:45] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/0d/3e/a96452ad0ee73e0b528eca8cd86da79b276a42312a08dea30fb69f8dfccd/nsface_python-1.1.74-py3-none-any.whl
+[2023-07-25 09:35:45] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/a2/cd/abd5b4915b68154a9a10886b5b32acf9c3ba24b118a5aaa515a657ac897a/flumine-2.4.1.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/ae/d7/088ef51635987163d51446b83abb06af91ea3d636e0c398fe77b19e8f6cb/clean-python-0.2.0b1.tar.gz
+[2023-07-25 09:35:45] WARNING root fetch - processPackages [nsface-python]: Skipping package: exceeds size limit 45102172>=10485760
+[2023-07-25 09:35:45] INFO root fetch - processPackages [nsface-python]: Start processing: odoo13-addon-purchase-security
+[2023-07-25 09:35:45] INFO root fetch - main [MainThread]: End processing [nsface-python] error
+[2023-07-25 09:35:45] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/9b/1c/58d2772ceb3e7fe7d07a7347bf70d25c0e3c12afa38e210ef6514e2aafd1/OneOnOne-0.6948.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/43/76/f18d031c57455622c197aad71e5c0e372bfbbc2f0ff57f3c4dfb6ff20e73/ros-cdk-vs-1.0.9.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [l10n]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [l10n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l10n-0.1.1.tar.gz tmp/l10n-0.1.2.tar.gz --markdown 20230725/l/l10n/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-edsuser]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-edsuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-edsuser-1.0.16.tar.gz tmp/ros-cdk-edsuser-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-edsuser/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [satosa-oidcop]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [satosa-oidcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosa_oidcop-2.1.0.tar.gz tmp/satosa_oidcop-2.1.1.tar.gz --markdown 20230725/s/satosa-oidcop/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/61/cd/467d0c00a5d11269809fbd0c9699e7c95b96ce902cc841ac369be1d9272c/ros-cdk-rocketmq-1.0.9.tar.gz
+[2023-07-25 09:35:45] INFO root fetch - processPackages [odoo13-addon-purchase-security]: New version: [13.0.2.0.0] Old Version: [13.0.1.1.1.dev2]
+[2023-07-25 09:35:45] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.2.0b0.tar.gz tmp/clean-python-0.2.0b1.tar.gz --markdown 20230725/c/clean-python/0.2.0b0-0.2.0b1/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-vs]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-vs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vs-1.0.8.tar.gz tmp/ros-cdk-vs-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-vs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl.zip tmp/odoo_addon_project_forecast_line-15.0.1.3.3-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-project-forecast-line/15.0.1.3.2-15.0.1.3.3/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [flumine]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [flumine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumine-2.4.0.tar.gz tmp/flumine-2.4.1.tar.gz --markdown 20230725/f/flumine/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq-1.0.8.tar.gz tmp/ros-cdk-rocketmq-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-rocketmq/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-25 09:35:45] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6947.tar.gz tmp/OneOnOne-0.6948.tar.gz --markdown 20230725/O/OneOnOne/0.6947-0.6948/diff.md --exclude *.pyd
+[2023-07-25 09:35:45] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/5c/f7/33e084827136c7bce9d998f9cdaeb28ad19a193a376f1c89cecf17d5b0c8/odoo13_addon_purchase_security-13.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-25 09:35:46] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/e6/02/09206ddbf7c0cb9ecad4d151f7fd3340e6503076e7f6d581e5de1efd2907/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl
+[2023-07-25 09:35:46] INFO root fetch - processPackages [odoo13-addon-purchase-security]: executing diffoscope
+[2023-07-25 09:35:46] INFO root fetch - processPackages [odoo13-addon-purchase-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_security-13.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230725/o/odoo13-addon-purchase-security/13.0.1.1.1.dev2-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-07-25 09:35:46] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.16.tar.gz]
+[2023-07-25 09:35:46] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.17.tar.gz]
+[2023-07-25 09:35:46] INFO root fetch - processPackages [ros-cdk-edsuser]: Start processing: ros-cdk-flink
+[2023-07-25 09:35:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-edsuser]: success
+[2023-07-25 09:35:46] INFO root fetch - processPackages [ros-cdk-flink]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.1.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.2.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [l10n]: Start processing: django-botmanager
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [l10n]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [django-botmanager]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/26/fc/823f035c4824220e50463870a2b26d7f7065169517274251d7236f0a4ed1/ros-cdk-flink-1.0.17.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.1.0.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.1.1.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [satosa-oidcop]: Start processing: spdx-tools
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [satosa-oidcop]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0rc3] Old Version: [0.8.0rc2]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.8.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.9.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-rocketmq]: Start processing: ros-cdk-eci
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-eci]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.8.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.9.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-vs]: Start processing: mwj-apitest
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-vs]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/36/7e/6854cd3bfd0f83fae73de6140897f282004e6eadf8b14c5b1bde401c01d6/django-botmanager-0.2.14.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [mwj-apitest]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/59/f0/b2abbb05e8a9242ec57a89c58e8fe1f169bc5bf94a0096390eb123322f5a/spdx-tools-0.8.0rc2.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/4b/e8/1ef35050ff9594260663ad8df120394df9a756dd807ca2747273cef053fb/mwj-apitest-1.2.1.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/f2/00/f5879934bb70a838d477bc00430b57a3ea9532957136a859951f55675817/ros-cdk-flink-1.0.9.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/d2/fa/4b076e5e26015c9d43ceac696178e6aaf5780065b3aaac3c91259ba56fb5/ros-cdk-eci-1.0.8.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6947.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6948.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [OneOnOne]: Start processing: ros-cdk-redis
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b0.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b1.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [clean-python]: Start processing: SpatialPrompt
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-redis]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl.zip]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line-15.0.1.3.3-py3-none-any.whl.zip]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Start processing: ros-cdk-iot
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-forecast-line]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [SpatialPrompt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_security-13.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_security-13.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [odoo13-addon-purchase-security]: Start processing: bemserver-api
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-security]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-flink]: executing diffoscope
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-flink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-flink-1.0.17.tar.gz tmp/ros-cdk-flink-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-flink/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:47] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/da/5b/b1166dc1c1a3b4b5b5bb80a61562476bda2bdae0fdc31c1f755d2da9520c/django-botmanager-0.2.15.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [bemserver-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.4.0.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.4.1.tar.gz]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [flumine]: Start processing: mdnet
+[2023-07-25 09:35:47] INFO root fetch - main [MainThread]: End processing [flumine]: success
+[2023-07-25 09:35:47] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/5a/37/b4a276ef59e8daea622821fecede5ed3297cf1c11d49f66f873e77bfefaa/mwj-apitest-1.2.2.tar.gz
+[2023-07-25 09:35:47] INFO root fetch - processPackages [mdnet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 09:35:47] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/f9/37/c2f9452820ea9aab67f2a26c2746578c4eaaf5843fe0960caa257ea0861d/ros-cdk-redis-1.0.8.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/9e/af/d4f82ee92c54ac72d7c18019c6641536898aad53ecc8081f3df04c43aff7/spdx-tools-0.8.0rc3.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [django-botmanager]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [django-botmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-botmanager-0.2.14.tar.gz tmp/django-botmanager-0.2.15.tar.gz --markdown 20230725/d/django-botmanager/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [SpatialPrompt]: Downloading https://files.pythonhosted.org/packages/ce/f9/52fd0edf0838352cd1ca49cf03bd4c2c516dc315d1fd66e9066e7fc386de/spatialprompt-0.0.3.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.2.1.tar.gz tmp/mwj-apitest-1.2.2.tar.gz --markdown 20230725/m/mwj-apitest/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/d1/96/d63eab3b697c60441c8e4773f0f7e4f7ae0cc4ac6c9b80c1b861c1726f94/bemserver-api-0.8.0.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mdnet]: Downloading https://files.pythonhosted.org/packages/af/1e/8b91170cc33fbc93a531da1f037f286115eaae8d2ac505a55772c5abe141/mdnet-0.1.1.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.8.0rc2.tar.gz tmp/spdx-tools-0.8.0rc3.tar.gz --markdown 20230725/s/spdx-tools/0.8.0rc2-0.8.0rc3/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/8e/c5/88a66c12bd5b01106bed9b20b61874d61d7ee10e54be84ec6b86e7b5000c/ros-cdk-eci-1.0.9.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [SpatialPrompt]: Downloading https://files.pythonhosted.org/packages/e5/a3/2573d4f54c61191428188e94bb722405221abe3771ba19f0d74a69748d6e/SpatialPrompt-0.0.4.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/07/d9/77b4deeeee6a1c77a1424293bb0d34996cb37198c52ac49b073910e25642/ros-cdk-redis-1.0.9.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-eci]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-eci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eci-1.0.8.tar.gz tmp/ros-cdk-eci-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-eci/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mdnet]: Downloading https://files.pythonhosted.org/packages/fa/0d/80dd25b9cff5cbd80611af16ea66766065987018305906a98b898dd19623/mdnet-0.1.2.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [SpatialPrompt]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [SpatialPrompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialprompt-0.0.3.tar.gz tmp/SpatialPrompt-0.0.4.tar.gz --markdown 20230725/S/SpatialPrompt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-redis]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-redis-1.0.8.tar.gz tmp/ros-cdk-redis-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-redis/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mdnet]: executing diffoscope
+[2023-07-25 09:35:48] INFO root fetch - processPackages [mdnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdnet-0.1.1.tar.gz tmp/mdnet-0.1.2.tar.gz --markdown 20230725/m/mdnet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.17.tar.gz]
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.9.tar.gz]
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-flink]: Start processing: toot
+[2023-07-25 09:35:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-flink]: success
+[2023-07-25 09:35:48] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [toot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 09:35:48] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/5c/e7/77a339a63998e92a93bf92e8d87de9152b25180a76f0d202f8550beef516/bemserver-api-0.9.0.tar.gz
+[2023-07-25 09:35:48] INFO root fetch - processPackages [toot]: Downloading https://files.pythonhosted.org/packages/6f/4c/40b18a715f450cb1654fcd6e634b411ca81609250129e1f3a528089ad018/toot-0.9.0.tar.gz
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-iot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:49] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django-botmanager-0.2.14.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django-botmanager-0.2.15.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [django-botmanager]: Start processing: cpath
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
+[2023-07-25 09:35:49] INFO root fetch - processPackages [bemserver-api]: executing diffoscope
+[2023-07-25 09:35:49] INFO root fetch - processPackages [bemserver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-0.8.0.tar.gz tmp/bemserver-api-0.9.0.tar.gz --markdown 20230725/b/bemserver-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 09:35:49] WARNING root fetch - processPackages [cpath]: Skipping, unable to determine old version
+[2023-07-25 09:35:49] INFO root fetch - processPackages [cpath]: Start processing: pulumi-opnsense
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [cpath] error
+[2023-07-25 09:35:49] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.1.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.2.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [mwj-apitest]: Start processing: ros-cdk-apigateway
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-25 09:35:49] INFO root fetch - processPackages [toot]: Downloading https://files.pythonhosted.org/packages/7b/ae/96dcc33d877e3ff88d7e595e98db1ccf9948f98c14a10c1dc6d4dbe15702/toot-0.9.1.tar.gz
+[2023-07-25 09:35:49] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/87/4c/b7dcfb67106a2986ebf5a1ac5ba60d93372fd9773894ba0ec8d615f101f6/pulumi_opnsense-0.0.80.tar.gz
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-apigateway]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [toot]: executing diffoscope
+[2023-07-25 09:35:49] INFO root fetch - processPackages [toot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toot-0.9.0.tar.gz tmp/toot-0.9.1.tar.gz --markdown 20230725/t/toot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 09:35:49] INFO root fetch - processPackages [SpatialPrompt]: Remove: archive file [/home/abi/fetcher/tmp/spatialprompt-0.0.3.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [SpatialPrompt]: Remove: archive file [/home/abi/fetcher/tmp/SpatialPrompt-0.0.4.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [SpatialPrompt]: Start processing: jina
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [SpatialPrompt]: success
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/1d/b0/3cedb3539c7bb1d3dcab0f7f1ac2033e973807f841650e1c0abc65c0c72e/ros-cdk-apigateway-1.0.8.tar.gz
+[2023-07-25 09:35:49] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/1a/04/59a15814d8178a4324a8f22c0dd36252c6e90b5d380711076606f0b9038b/pulumi_opnsense-0.0.81.tar.gz
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.8.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.9.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [ros-cdk-eci]: success
+[2023-07-25 09:35:49] INFO root fetch - processPackages [mdnet]: Remove: archive file [/home/abi/fetcher/tmp/mdnet-0.1.1.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - processPackages [mdnet]: Remove: archive file [/home/abi/fetcher/tmp/mdnet-0.1.2.tar.gz]
+[2023-07-25 09:35:49] INFO root fetch - main [MainThread]: End processing [mdnet]: success
+[2023-07-25 09:35:49] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 09:35:49] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.80.tar.gz tmp/pulumi_opnsense-0.0.81.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.8.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.9.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-redis]: success
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/94/48/604f7f2ecb59443deae30113635825597c141a89c4456815b78576861ec2/ros-cdk-apigateway-1.0.9.tar.gz
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-apigateway]: executing diffoscope
+[2023-07-25 09:35:50] INFO root fetch - processPackages [ros-cdk-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-apigateway-1.0.8.tar.gz tmp/ros-cdk-apigateway-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-apigateway/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:35:50] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-25 09:35:50] INFO root fetch - processPackages [toot]: Remove: archive file [/home/abi/fetcher/tmp/toot-0.9.0.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - processPackages [toot]: Remove: archive file [/home/abi/fetcher/tmp/toot-0.9.1.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - main [MainThread]: End processing [toot]: success
+[2023-07-25 09:35:50] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-25 09:35:50] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.80.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.81.tar.gz]
+[2023-07-25 09:35:50] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 09:35:51] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-25 09:35:51] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-25 09:35:51] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230725/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-25 09:35:51] INFO root fetch - processPackages [bemserver-api]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-api-0.8.0.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - processPackages [bemserver-api]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-api-0.9.0.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
+[2023-07-25 09:35:51] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.8.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.9.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-apigateway]: success
+[2023-07-25 09:35:51] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0rc2.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0rc3.tar.gz]
+[2023-07-25 09:35:51] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-07-25 09:35:52] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-25 09:35:52] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-25 09:35:52] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-25 09:35:52] INFO root fetch - main [MainThread]: Store serial: [19025536]
