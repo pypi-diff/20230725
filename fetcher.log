@@ -21075,3 +21075,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:11:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307251007-py3-none-any.whl.zip]
 [2023-07-25 12:11:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-25 12:11:11] INFO root fetch - main [MainThread]: Store serial: [19027195]
+[2023-07-25 12:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027195]
+[2023-07-25 12:16:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humlab-penelope
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: en-aesops-sentiment
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-shopfloor-reception
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aries-cloudcontroller
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DGet
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pheno-utils
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acryl-datahub
+[2023-07-25 12:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelwhaleutils
+[2023-07-25 12:16:19] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.9.0b0] Old Version: [0.8.2b0]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230725.8.57.697813] Old Version: [20230725.10.14.255449]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.0]
+[2023-07-25 12:16:20] WARNING root fetch - processPackages [en-aesops-sentiment]: Skipping, unable to determine old version
+[2023-07-25 12:16:20] INFO root fetch - processPackages [en-aesops-sentiment]: Start processing: taxonomy-connector
+[2023-07-25 12:16:20] INFO root fetch - main [MainThread]: End processing [en-aesops-sentiment] error
+[2023-07-25 12:16:20] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.2.1] Old Version: [0.5.2.0]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/a9/65/8c1f09da11897a7f113789868521046e0bdf84ded189651b7aaec3b9945e/aries_cloudcontroller-0.8.2b0.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/7c/4d/e20ebde103090fd9a4c404c8045a7d10350a507f4fc1b66a0af511c256c0/odoo14_addon_shopfloor_reception-14.0.2.0.0-py3-none-any.whl
+[2023-07-25 12:16:20] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/33/f8/f4a124dd86577b83c2ee68471603dc871af5ec6a4d4eea2c5420b6565333/modelwhaleutils-0.5.2.0.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/8f/cd/b0832e31ffb3dd2baad36f7c5f75ef94b97e069ea7987752f319826ca472/certora-cli-alpha-nast-mutation-test-20230725.10.14.255449.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/df/43/1179ceed661e1124d2de691e2ab3a0863115b56c67fab90b7c10e730f9b8/pheno-utils-0.3.6.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:16:20] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-25 12:16:20] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37488345>=10485760
+[2023-07-25 12:16:20] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Start processing: nvfuser-cu118
+[2023-07-25 12:16:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-25 12:16:20] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-25 12:16:20] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-25 12:16:20] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230725/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-25 12:16:20] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/bd/4b/5d00b9e39d11982737412381d5eb79b9b2733906df2c0b4462e24ed11b13/modelwhaleutils-0.5.2.1-py3.7.egg
+[2023-07-25 12:16:20] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/57/b2/58bce2d4896e36349b51dec54743ac164b6d4026d21b4bcaab9a1b2c6cec/aries_cloudcontroller-0.9.0b0.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/f3/7b/0d993f95d9cf9c930ff811ccc2da36dd2912725eb1bbfeb6eedaa0d124bb/pheno-utils-0.3.7.tar.gz
+[2023-07-25 12:16:20] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:16:20] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/9c/08/25606da944bdb0647a1a6ae373aafdfd8f5bea03e80b20416e09d5eaf76d/odoo14_addon_shopfloor_reception-14.0.2.1.0-py3-none-any.whl
+[2023-07-25 12:16:20] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2023-07-25 12:16:20] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.2.0.tar.gz tmp/modelwhaleutils-0.5.2.1-py3.7.egg --markdown 20230725/m/modelwhaleutils/0.5.2.0-0.5.2.1/diff.md --exclude *.pyd
+[2023-07-25 12:16:20] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-07-25 12:16:21] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-25 12:16:21] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-07-25 12:16:21] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.2b0.tar.gz tmp/aries_cloudcontroller-0.9.0b0.tar.gz --markdown 20230725/a/aries-cloudcontroller/0.8.2b0-0.9.0b0/diff.md --exclude *.pyd
+[2023-07-25 12:16:21] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-25 12:16:21] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.6.tar.gz tmp/pheno-utils-0.3.7.tar.gz --markdown 20230725/p/pheno-utils/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-25 12:16:21] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: executing diffoscope
+[2023-07-25 12:16:21] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-shopfloor-reception/14.0.2.0.0-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-07-25 12:16:21] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-07-25 12:16:21] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230725/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-25 12:16:21] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-07-25 12:16:21] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-07-25 12:16:21] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230725/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-25 12:16:21] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:16:21] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-25 12:16:22] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-25 12:16:22] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230725/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-25 12:16:22] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:16:22] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [DGet]: Start processing: databricks-aws-utils
+[2023-07-25 12:16:22] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-25 12:16:22] INFO root fetch - processPackages [databricks-aws-utils]: New version: [1.3.3b1] Old Version: [1.3.2]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.0.tar.gz]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.1-py3.7.egg]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [modelwhaleutils]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-25 12:16:22] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2023-07-25 12:16:22] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-25 12:16:22] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230725/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-25 12:16:22] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/fa/3d/bf65a9f0a23e3a15e79d5d788b85930a42d4d632e107dd3da4bbdac05140/databricks_aws_utils-1.3.2.tar.gz
+[2023-07-25 12:16:22] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.6.tar.gz]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.7.tar.gz]
+[2023-07-25 12:16:22] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-25 12:16:22] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-25 12:16:22] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-25 12:16:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception]: success
+[2023-07-25 12:16:22] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-25 12:16:22] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230725/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-25 12:16:22] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-25 12:16:23] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/24/d8/c31e267411af4fec34eabee44bd4b9f00237d077537c442c6547aed422b4/databricks_aws_utils-1.3.3b1.tar.gz
+[2023-07-25 12:16:23] INFO root fetch - processPackages [databricks-aws-utils]: executing diffoscope
+[2023-07-25 12:16:23] INFO root fetch - processPackages [databricks-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_aws_utils-1.3.2.tar.gz tmp/databricks_aws_utils-1.3.3b1.tar.gz --markdown 20230725/d/databricks-aws-utils/1.3.2-1.3.3b1/diff.md --exclude *.pyd
+[2023-07-25 12:16:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-25 12:16:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-25 12:16:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230725/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-25 12:16:23] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.8.0.tar.gz]
+[2023-07-25 12:16:23] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
+[2023-07-25 12:16:23] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-07-25 12:16:24] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.3.2.tar.gz]
+[2023-07-25 12:16:24] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.3.3b1.tar.gz]
+[2023-07-25 12:16:24] INFO root fetch - main [MainThread]: End processing [databricks-aws-utils]: success
+[2023-07-25 12:16:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-25 12:16:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-25 12:16:24] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-25 12:16:25] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.2b0.tar.gz]
+[2023-07-25 12:16:25] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0b0.tar.gz]
+[2023-07-25 12:16:25] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-07-25 12:16:25] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:16:25] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:16:25] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-25 12:16:25] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-07-25 12:16:25] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-07-25 12:16:25] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-07-25 12:16:25] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:16:25] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:16:25] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-25 12:16:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-25 12:16:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-25 12:16:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-25 12:16:26] INFO root fetch - main [MainThread]: Store serial: [19027236]
