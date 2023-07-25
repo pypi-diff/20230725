@@ -21986,3 +21986,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:44:16] INFO root fetch - processPackages [PyBADS]: Remove: archive file [/home/abi/fetcher/tmp/PyBADS-1.0.2.tar.gz]
 [2023-07-25 12:44:16] INFO root fetch - main [MainThread]: End processing [PyBADS]: success
 [2023-07-25 12:44:16] INFO root fetch - main [MainThread]: Store serial: [19027552]
+[2023-07-25 12:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027552]
+[2023-07-25 12:49:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ganymede-aux
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proctracer
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-draftail-anchors
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kissio
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climify-api
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dj-maintenance
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tesla-ce-provider
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: en-aesops-language
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SpotifyUtil
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crypto-screening
+[2023-07-25 12:49:25] INFO root fetch - processPackages [SpotifyUtil]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [kissio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [dj-maintenance]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [ganymede-aux]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [wagtail-draftail-anchors]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [crypto-screening]: New version: [8.2.2] Old Version: [8.2.1]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [proctracer]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-25 12:49:25] INFO root fetch - processPackages [tesla-ce-provider]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-25 12:49:25] WARNING root fetch - processPackages [en-aesops-language]: Skipping, unable to determine old version
+[2023-07-25 12:49:25] INFO root fetch - processPackages [en-aesops-language]: Start processing: vdk-core
+[2023-07-25 12:49:25] INFO root fetch - main [MainThread]: End processing [en-aesops-language] error
+[2023-07-25 12:49:25] INFO root fetch - processPackages [SpotifyUtil]: Downloading https://files.pythonhosted.org/packages/28/1b/7d7c2a2534c21af4981b320d360918cf22e0cb3d279da876586703acf08a/SpotifyUtil-0.0.5.tar.gz
+[2023-07-25 12:49:25] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/66/2b/cf4f65a5a6c4eaf5c4796b9176bda3da3f14b54814fd01ea8d0724f38b74/crypto-screening-8.2.1.tar.gz
+[2023-07-25 12:49:25] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/c7/85/2ca933d1ce9859ffbf64c7a1f1bd2fc15c6ff2b6ad5ab32de8cb8a0ac381/climify_api-1.0.8.tar.gz
+[2023-07-25 12:49:25] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/22/be/78b1adbf78323a5ba600f55ce71428395b6c002610a02537342ff63f9ad3/dj_maintenance-0.2.2.tar.gz
+[2023-07-25 12:49:25] INFO root fetch - processPackages [tesla-ce-provider]: Downloading https://files.pythonhosted.org/packages/b3/21/80e7e6a932012393e279ddf1d9c9d691d665e61a05add2e1f4b872d1f378/tesla-ce-provider-0.0.7.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [vdk-core]: New version: [0.3.944573153] Old Version: [0.3.927847332]
+[2023-07-25 12:49:26] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/9b/16/9da87bfbb728b914f952a8d5f8353e789f2838147d0c2bdc12a16b917947/proctracer-0.0.14.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [ganymede-aux]: Downloading https://files.pythonhosted.org/packages/bd/95/c5846b09083c40f51a4eafa38361972333e770727541c00b78fa813a517e/ganymede_aux-0.4.0-cp39-cp39-win_amd64.whl
+[2023-07-25 12:49:26] INFO root fetch - processPackages [wagtail-draftail-anchors]: Downloading https://files.pythonhosted.org/packages/c8/67/5794295817a4152b50296c8734d9fb4839165f3c07f7c8ec12e06dde11ab/wagtail_draftail_anchors-0.5.0-py3-none-any.whl
+[2023-07-25 12:49:26] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/4b/4a/e1c85479edb49adb0b33ef4177256b8e0f39bae6ae20ae6516996343ac11/kissio-0.0.8.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [SpotifyUtil]: Downloading https://files.pythonhosted.org/packages/ee/1b/c0269598b79f4baaf585256b0396ab9f6eaed6ae4689987ca541eda45a10/SpotifyUtil-0.0.6.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/00/77/21d7662aae8a58aa8f3d7a6ea4670c8882a4a5c2f12acb100ce25e8420a2/vdk-core-0.3.927847332.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/33/f9/a6ddc4ec479e3d0a39fc4f48dc23b14962dd59195960aa64469e4ddfe041/climify_api-1.0.9.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [tesla-ce-provider]: Downloading https://files.pythonhosted.org/packages/39/f7/1b2c28a33fce1b1a502e62c27e5322458d38c24e4ce1e0282194b3232f18/tesla-ce-provider-0.0.8.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/af/aa/b4a643206f89a23fc2861dc19f8b6b9bf98d644b2af79cb0c1dec92ec05b/crypto-screening-8.2.2.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/4d/2d/b4783e62904e4e71ab352d1c7118e4afa164170482b3ee430d737d292508/proctracer-0.0.15.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [SpotifyUtil]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [SpotifyUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotifyUtil-0.0.5.tar.gz tmp/SpotifyUtil-0.0.6.tar.gz --markdown 20230725/S/SpotifyUtil/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [ganymede-aux]: Downloading https://files.pythonhosted.org/packages/ca/6a/6bc983f117558cc58970b2b115a79bfdb75fd0b91bb48c95a968c366f56e/ganymede_aux-0.4.1-cp39-cp39-win_amd64.whl
+[2023-07-25 12:49:26] INFO root fetch - processPackages [wagtail-draftail-anchors]: Downloading https://files.pythonhosted.org/packages/24/dd/48064f8ed7c1f4133764163c0422795a03753a9798f6a47677d76cd62884/wagtail_draftail_anchors-0.6.0-py3-none-any.whl
+[2023-07-25 12:49:26] INFO root fetch - processPackages [tesla-ce-provider]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [tesla-ce-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla-ce-provider-0.0.7.tar.gz tmp/tesla-ce-provider-0.0.8.tar.gz --markdown 20230725/t/tesla-ce-provider/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/f5/a5/0104b48042793e8e2becbc59cf9419eae99ee7a90c746144d05f78e5a435/kissio-0.0.9.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230725/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.2.1.tar.gz tmp/crypto-screening-8.2.2.tar.gz --markdown 20230725/c/crypto-screening/8.2.1-8.2.2/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/4d/6c/4cbeed93d84e4fb0a7c3811a01941b3c56035897223f7b8b4a175369239a/dj_maintenance-0.2.3.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [wagtail-draftail-anchors]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [wagtail-draftail-anchors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_draftail_anchors-0.5.0-py3-none-any.whl.zip tmp/wagtail_draftail_anchors-0.6.0-py3-none-any.whl.zip --markdown 20230725/w/wagtail-draftail-anchors/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.14.tar.gz tmp/proctracer-0.0.15.tar.gz --markdown 20230725/p/proctracer/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/64/f9/c74448f110a74d7386bb8121d713a31f4f4552577132660f5b3d8412381f/vdk-core-0.3.944573153.tar.gz
+[2023-07-25 12:49:26] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.8.tar.gz tmp/kissio-0.0.9.tar.gz --markdown 20230725/k/kissio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:49:26] INFO root fetch - processPackages [ganymede-aux]: executing diffoscope
+[2023-07-25 12:49:26] INFO root fetch - processPackages [ganymede-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganymede_aux-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/ganymede_aux-0.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20230725/g/ganymede-aux/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-25 12:49:27] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-07-25 12:49:27] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.927847332.tar.gz tmp/vdk-core-0.3.944573153.tar.gz --markdown 20230725/v/vdk-core/0.3.927847332-0.3.944573153/diff.md --exclude *.pyd
+[2023-07-25 12:49:27] INFO root fetch - processPackages [dj-maintenance]: executing diffoscope
+[2023-07-25 12:49:27] INFO root fetch - processPackages [dj-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_maintenance-0.2.2.tar.gz tmp/dj_maintenance-0.2.3.tar.gz --markdown 20230725/d/dj-maintenance/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-25 12:49:28] INFO root fetch - processPackages [SpotifyUtil]: Remove: archive file [/home/abi/fetcher/tmp/SpotifyUtil-0.0.5.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [SpotifyUtil]: Remove: archive file [/home/abi/fetcher/tmp/SpotifyUtil-0.0.6.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - main [MainThread]: End processing [SpotifyUtil]: success
+[2023-07-25 12:49:28] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.14.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.15.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-25 12:49:28] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.8.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [tesla-ce-provider]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-provider-0.0.7.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.9.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [tesla-ce-provider]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-provider-0.0.8.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-25 12:49:28] INFO root fetch - main [MainThread]: End processing [tesla-ce-provider]: success
+[2023-07-25 12:49:28] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.8.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.9.tar.gz]
+[2023-07-25 12:49:28] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-07-25 12:49:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.1.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.2.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-25 12:49:29] INFO root fetch - processPackages [wagtail-draftail-anchors]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_draftail_anchors-0.5.0-py3-none-any.whl.zip]
+[2023-07-25 12:49:29] INFO root fetch - processPackages [wagtail-draftail-anchors]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_draftail_anchors-0.6.0-py3-none-any.whl.zip]
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [wagtail-draftail-anchors]: success
+[2023-07-25 12:49:29] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.927847332.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.944573153.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-07-25 12:49:29] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj_maintenance-0.2.2.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj_maintenance-0.2.3.tar.gz]
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [dj-maintenance]: success
+[2023-07-25 12:49:29] INFO root fetch - processPackages [ganymede-aux]: Remove: archive file [/home/abi/fetcher/tmp/ganymede_aux-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 12:49:29] INFO root fetch - processPackages [ganymede-aux]: Remove: archive file [/home/abi/fetcher/tmp/ganymede_aux-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [ganymede-aux]: success
+[2023-07-25 12:49:29] INFO root fetch - main [MainThread]: Store serial: [19027592]
