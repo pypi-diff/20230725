@@ -14341,3 +14341,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:15:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230724.tar.gz]
 [2023-07-25 08:15:45] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-25 08:15:45] INFO root fetch - main [MainThread]: Store serial: [19024579]
+[2023-07-25 08:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024579]
+[2023-07-25 08:20:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlottie-python
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: game-lib-pool
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lj-spider-core
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TinetApiRequest
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testmhdbAPI
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prql-python
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edgeimpulse-api
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: common-version
+[2023-07-25 08:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-otbr-api
+[2023-07-25 08:20:55] WARNING root fetch - processPackages [game-lib-pool]: Skipping, unable to determine old version
+[2023-07-25 08:20:55] INFO root fetch - processPackages [game-lib-pool]: Start processing: absbox
+[2023-07-25 08:20:55] INFO root fetch - main [MainThread]: End processing [game-lib-pool] error
+[2023-07-25 08:20:55] WARNING root fetch - processPackages [lj-spider-core]: Skipping, unable to determine old version
+[2023-07-25 08:20:55] INFO root fetch - processPackages [lj-spider-core]: Start processing: pulumi-pagerduty
+[2023-07-25 08:20:55] INFO root fetch - main [MainThread]: End processing [lj-spider-core] error
+[2023-07-25 08:20:55] INFO root fetch - processPackages [rlottie-python]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [prql-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.26.0] Old Version: [1.25.34]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [python-otbr-api]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-25 08:20:55] WARNING root fetch - processPackages [common-version]: Skipping, unable to determine old version
+[2023-07-25 08:20:55] INFO root fetch - processPackages [common-version]: Start processing: pylint-pydantic
+[2023-07-25 08:20:55] INFO root fetch - main [MainThread]: End processing [common-version] error
+[2023-07-25 08:20:55] WARNING root fetch - processPackages [testmhdbAPI]: Skipping, unable to determine old version
+[2023-07-25 08:20:55] INFO root fetch - processPackages [testmhdbAPI]: Start processing: pulumi-okta
+[2023-07-25 08:20:55] INFO root fetch - main [MainThread]: End processing [testmhdbAPI] error
+[2023-07-25 08:20:55] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pylint-pydantic]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pulumi-okta]: New version: [4.2.0a1690263967] Old Version: [4.2.0a1689314511]
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [rlottie-python]: Downloading https://files.pythonhosted.org/packages/dd/1d/b695fc89fee8d8d57223f88c7da7831961413f0304abb7499f4f22cd6ef8/rlottie_python-1.1.2.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [python-otbr-api]: Downloading https://files.pythonhosted.org/packages/0f/eb/a56bbf8f52a76dc3cee8c9443a3397b55101ddcdc5d55b909ebe98308053/python-otbr-api-2.2.0.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [prql-python]: Downloading https://files.pythonhosted.org/packages/31/72/776ab1a8541fdfd02873df7896d1f45521a1c7d133ca861988d5efa5163e/prql_python-0.8.1-cp37-abi3-win_amd64.whl
+[2023-07-25 08:20:55] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/8c/ac/d0bb1a2a196758f151c69fe08e2c708b85b266d05cf3f18b012030e82ec4/edgeimpulse_api-1.25.34.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/42/43/bfff9f2b6663b7286c92319a585d2007c3812e327acd963f1d487e9af209/TinetApiRequest-1.0.2.tar.gz
+[2023-07-25 08:20:55] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pylint-pydantic]: Downloading https://files.pythonhosted.org/packages/93/89/9183f82633c3375de14b62ed67ffb94d51dbb063f12e4c74f39cadef496c/pylint_pydantic-0.2.3-py3-none-any.whl
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/67/bb/c871e8a837dadb7df65a862f172e14fca6855f668296302d04bf552aad5d/pulumi_okta-4.2.0a1689314511.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [python-otbr-api]: Downloading https://files.pythonhosted.org/packages/c2/75/c11744b257e0601db0335e67d156b74c57a52f0c7652d3027f4b81fdf471/python-otbr-api-2.3.0.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/16/d0/62b952aedcd58fed5a90ed4f8b461abf95dce1e7c005cdf610e9ef573ed1/TinetApiRequest-1.0.3.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [prql-python]: Downloading https://files.pythonhosted.org/packages/0c/89/59f8229b019f6ddb9a1102bfa68dae40e75e0476b593d36abeebc8c15e33/prql_python-0.9.0.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/66/67/be2d029fe6f28edd320a68c66827e82112ada33db15925c1adfb415a448c/edgeimpulse_api-1.26.0.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [python-otbr-api]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [python-otbr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-otbr-api-2.2.0.tar.gz tmp/python-otbr-api-2.3.0.tar.gz --markdown 20230725/p/python-otbr-api/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [rlottie-python]: Downloading https://files.pythonhosted.org/packages/45/68/bc33a8026d1237a615c50702426d1350f64b25dd4fbd663f67f67cff5039/rlottie_python-1.1.3.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pylint-pydantic]: Downloading https://files.pythonhosted.org/packages/2e/aa/89f984d369dce0c7acb470d7fbef4eba31a823bb83646369789b932ad467/pylint_pydantic-0.2.4-py3-none-any.whl
+[2023-07-25 08:20:56] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.2.tar.gz tmp/TinetApiRequest-1.0.3.tar.gz --markdown 20230725/T/TinetApiRequest/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/33/ba/c2154a1ae016852804833003c366e6e6025f1cbe7108d1f6bce1ccc55805/pulumi_okta-4.2.0a1690263967.tar.gz
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230725/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.25.34.tar.gz tmp/edgeimpulse_api-1.26.0.tar.gz --markdown 20230725/e/edgeimpulse-api/1.25.34-1.26.0/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230725/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [prql-python]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [prql-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prql_python-0.8.1-cp37-abi3-win_amd64.whl.zip tmp/prql_python-0.9.0.tar.gz --markdown 20230725/p/prql-python/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pylint-pydantic]: executing diffoscope
+[2023-07-25 08:20:56] INFO root fetch - processPackages [pylint-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_pydantic-0.2.3-py3-none-any.whl.zip tmp/pylint_pydantic-0.2.4-py3-none-any.whl.zip --markdown 20230725/p/pylint-pydantic/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-25 08:20:57] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-07-25 08:20:57] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230725/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-07-25 08:20:57] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-07-25 08:20:57] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.2.0a1689314511.tar.gz tmp/pulumi_okta-4.2.0a1690263967.tar.gz --markdown 20230725/p/pulumi-okta/4.2.0a1689314511-4.2.0a1690263967/diff.md --exclude *.pyd
+[2023-07-25 08:20:57] INFO root fetch - processPackages [rlottie-python]: executing diffoscope
+[2023-07-25 08:20:57] INFO root fetch - processPackages [rlottie-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlottie_python-1.1.2.tar.gz tmp/rlottie_python-1.1.3.tar.gz --markdown 20230725/r/rlottie-python/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-25 08:20:58] INFO root fetch - processPackages [python-otbr-api]: Remove: archive file [/home/abi/fetcher/tmp/python-otbr-api-2.2.0.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [python-otbr-api]: Remove: archive file [/home/abi/fetcher/tmp/python-otbr-api-2.3.0.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [python-otbr-api]: Start processing: our1314
+[2023-07-25 08:20:58] INFO root fetch - main [MainThread]: End processing [python-otbr-api]: success
+[2023-07-25 08:20:58] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.2.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [our1314]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.3.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-07-25 08:20:58] INFO root fetch - processPackages [pylint-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pylint_pydantic-0.2.3-py3-none-any.whl.zip]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [pylint-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pylint_pydantic-0.2.4-py3-none-any.whl.zip]
+[2023-07-25 08:20:58] INFO root fetch - main [MainThread]: End processing [pylint-pydantic]: success
+[2023-07-25 08:20:58] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dc/79/625bee0a1dc26666bf1cd51f47883a18494be306904a79d276e223caa431/our1314-0.1.4.tar.gz
+[2023-07-25 08:20:58] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2023-07-25 08:20:58] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-07-25 08:20:58] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/bf/ef/f2368dbe25a666a58458a91188b8944759a5294b945793a9895810329e10/our1314-0.1.5.tar.gz
+[2023-07-25 08:20:58] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 08:20:58] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.4.tar.gz tmp/our1314-0.1.5.tar.gz --markdown 20230725/o/our1314/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 08:20:59] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-07-25 08:20:59] INFO root fetch - processPackages [prql-python]: Remove: archive file [/home/abi/fetcher/tmp/prql_python-0.8.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-25 08:20:59] INFO root fetch - processPackages [prql-python]: Remove: archive file [/home/abi/fetcher/tmp/prql_python-0.9.0.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - main [MainThread]: End processing [prql-python]: success
+[2023-07-25 08:20:59] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-07-25 08:20:59] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.4.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.5.tar.gz]
+[2023-07-25 08:20:59] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 08:21:00] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1689314511.tar.gz]
+[2023-07-25 08:21:00] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1690263967.tar.gz]
+[2023-07-25 08:21:00] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-07-25 08:21:01] INFO root fetch - processPackages [rlottie-python]: Remove: archive file [/home/abi/fetcher/tmp/rlottie_python-1.1.2.tar.gz]
+[2023-07-25 08:21:01] INFO root fetch - processPackages [rlottie-python]: Remove: archive file [/home/abi/fetcher/tmp/rlottie_python-1.1.3.tar.gz]
+[2023-07-25 08:21:01] INFO root fetch - main [MainThread]: End processing [rlottie-python]: success
+[2023-07-25 08:21:02] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.34.tar.gz]
+[2023-07-25 08:21:02] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.26.0.tar.gz]
+[2023-07-25 08:21:02] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-25 08:21:02] INFO root fetch - main [MainThread]: Store serial: [19024731]
