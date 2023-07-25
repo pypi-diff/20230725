@@ -3390,3 +3390,119 @@
 [2023-07-25 03:24:21] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-25 03:24:21] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-25 03:24:21] INFO root fetch - main [MainThread]: Store serial: [19020818]
+[2023-07-25 03:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020818]
+[2023-07-25 03:29:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrosimple
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplematrixbotlib
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playgroundrl-envs
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Akatosh
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: great-expectations-experimental
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-core
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-runtime
+[2023-07-25 03:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet-embed
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [pyrosimple]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [simplematrixbotlib]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [Akatosh]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230725007] Old Version: [0.1.20230723002]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev2068] Old Version: [0.8.2.dev2044]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/41/14/02326f091fc55f57ea30dc6e617388b0e81b9401e6bbdc0b46f2deccc9e1/flet_embed-0.9.0.dev1620.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/a8/20/104642b5d72a045430e52e7af96489ed005394dab69051eeaebc577d6384/flet_runtime-0.9.0.dev1620.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/6e/85/23ce97fa41e4b21e2b05c93c4817690b828a9bfc35d6c38f4dc06f996748/playgroundrl_envs-0.0.6.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/14/98/c956bb11235bbb877a0b90e63487515d9b2c6129bc2283f352784e792fcb/flet_core-0.9.0.dev1620.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/e6/86/a5ff57bdcd07032f82e3b9fc57bce20a14a3a7fde27f47b5d0701618b275/pyrosimple-2.9.0.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [simplematrixbotlib]: Downloading https://files.pythonhosted.org/packages/54/ea/569ec77684a76189854efe8421e6e6dd8be84497902d37b4b5792912038b/simplematrixbotlib-2.9.0.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/ab/5b/22f2c9570fef8739867d968c98a05d715a06307cb2d39f67ea2e532008e2/great_expectations_experimental-0.1.20230723002.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/78/6f/8197550d102be5ec72010343d9ecc9ca91d64e6cfa09466aff3fe44b6f67/Akatosh-2.1.7.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/45/e8/f62e8b113a6938ad937ae85742a9910ae070435bbc2cb3a0a7a1ce46301b/duckdb-0.8.2.dev2044.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/4d/e9/5e13b73cda4c209c3054b818ee754ca5c119462af4cafb86e2a29bebaf49/flet_embed-0.9.0.dev1621.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/17/0b/86bf96dd2a5d8e23c6bb0e8c937c11b117d1740583bd834a4a496d728d91/flet_runtime-0.9.0.dev1621.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-25 03:29:31] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10511814>=10485760
+[2023-07-25 03:29:31] INFO root fetch - processPackages [duckdb]: Start processing: flet
+[2023-07-25 03:29:31] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1620.tar.gz tmp/flet_embed-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-embed/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1620.tar.gz tmp/flet_runtime-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-runtime/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/d3/c5/8c92779e6bf903753ecd59a71184437c447e801c7d9bf1a97d3c39c7212a/flet_core-0.9.0.dev1621.tar.gz
+[2023-07-25 03:29:31] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 03:29:31] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/71/d1/527f0f89dcded24252eea52984c4b689675442f25045665140fee76ebc56/playgroundrl_envs-0.0.7.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/2e/a5/5bd59195f834c2ba614074fb2f515ac5e15132549c21b7537a2452516ecc/great_expectations_experimental-0.1.20230725007.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230725/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/e2/e7/6c1d1482a537fca8077c215962bab5386c96445324bbc1939e7a633362d0/Akatosh-2.1.8.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [simplematrixbotlib]: Downloading https://files.pythonhosted.org/packages/9a/64/2bad2197eed78bd6102c3689d2b06873c4b0701bf6629e9eb7db00f0c28d/simplematrixbotlib-2.9.1.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/9c/9b/494cea0f7be384c1c9e00eb42b969e48bf1411b1ccca4d358b45553eae33/flet-0.9.0.dev1620.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1620.tar.gz tmp/flet_core-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-core/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/5a/a2/4ac9319d185bc037fb33507148aaf889737c206f0203d819052b43ac4d81/pyrosimple-2.9.1.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.6.tar.gz tmp/playgroundrl_envs-0.0.7.tar.gz --markdown 20230725/p/playgroundrl-envs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.7.tar.gz tmp/Akatosh-2.1.8.tar.gz --markdown 20230725/A/Akatosh/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [simplematrixbotlib]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [simplematrixbotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplematrixbotlib-2.9.0.tar.gz tmp/simplematrixbotlib-2.9.1.tar.gz --markdown 20230725/s/simplematrixbotlib/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230723002.tar.gz tmp/great_expectations_experimental-0.1.20230725007.tar.gz --markdown 20230725/g/great-expectations-experimental/0.1.20230723002-0.1.20230725007/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [pyrosimple]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [pyrosimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosimple-2.9.0.tar.gz tmp/pyrosimple-2.9.1.tar.gz --markdown 20230725/p/pyrosimple/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ca/0d/18af0cd72e9bdb33ab15796b1a68f15014807754d0f9f503c6c8225c4a31/flet-0.9.0.dev1621.tar.gz
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-25 03:29:32] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1620.tar.gz tmp/flet-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1620.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1621.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-embed]: Start processing: cdk-lambda-layer-curl
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1620.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1621.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [flet-runtime]: Start processing: fewlines
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [fewlines]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [fewlines]: Downloading https://files.pythonhosted.org/packages/cc/b1/bff5aefdc2b435ef0a367e43b4f62995f340fb1c66039ebbabdf96bdcbad/fewlines-0.0.3.tar.gz
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-25 03:29:33] INFO root fetch - processPackages [simplematrixbotlib]: Remove: archive file [/home/abi/fetcher/tmp/simplematrixbotlib-2.9.0.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [simplematrixbotlib]: Remove: archive file [/home/abi/fetcher/tmp/simplematrixbotlib-2.9.1.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [simplematrixbotlib]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.7.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.8.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [fewlines]: Downloading https://files.pythonhosted.org/packages/c4/c3/1e96ffca69a1205e226f7f85eaf022645f7807954834de4cad32a14484eb/fewlines-0.0.5.tar.gz
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-25 03:29:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230725/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:29:33] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.6.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.7.tar.gz]
+[2023-07-25 03:29:33] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-07-25 03:29:33] INFO root fetch - processPackages [fewlines]: executing diffoscope
+[2023-07-25 03:29:33] INFO root fetch - processPackages [fewlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fewlines-0.0.3.tar.gz tmp/fewlines-0.0.5.tar.gz --markdown 20230725/f/fewlines/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 03:29:34] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.0.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.1.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
+[2023-07-25 03:29:34] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230723002.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230725007.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-25 03:29:34] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1620.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1621.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-25 03:29:34] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1620.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1621.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-25 03:29:34] INFO root fetch - processPackages [fewlines]: Remove: archive file [/home/abi/fetcher/tmp/fewlines-0.0.3.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - processPackages [fewlines]: Remove: archive file [/home/abi/fetcher/tmp/fewlines-0.0.5.tar.gz]
+[2023-07-25 03:29:34] INFO root fetch - main [MainThread]: End processing [fewlines]: success
+[2023-07-25 03:29:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-25 03:29:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-25 03:29:35] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-25 03:29:35] INFO root fetch - main [MainThread]: Store serial: [19020852]
