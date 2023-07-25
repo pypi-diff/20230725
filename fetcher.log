@@ -18638,3 +18638,126 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:39:21] INFO root fetch - processPackages [crawler-studio]: Remove: archive file [/home/abi/fetcher/tmp/crawler_studio-1.5.6.tar.gz]
 [2023-07-25 10:39:21] INFO root fetch - main [MainThread]: End processing [crawler-studio]: success
 [2023-07-25 10:39:21] INFO root fetch - main [MainThread]: Store serial: [19026248]
+[2023-07-25 10:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026248]
+[2023-07-25 10:44:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: michina
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-tabbed-admin3
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spider-utils
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccs-digitalmarketplace-utils
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statwolfACME
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invenio-records-lom
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visionai-data-format
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tff-nightly
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gempyp
+[2023-07-25 10:44:30] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [michina]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [62.0.0] Old Version: [61.6.1]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 10:44:30] WARNING root fetch - processPackages [django-tabbed-admin3]: Skipping, unable to determine old version
+[2023-07-25 10:44:30] INFO root fetch - processPackages [django-tabbed-admin3]: Start processing: proctracer
+[2023-07-25 10:44:30] INFO root fetch - main [MainThread]: End processing [django-tabbed-admin3] error
+[2023-07-25 10:44:30] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.6a0] Old Version: [1.0.6]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [statwolfACME]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [gempyp]: New version: [1.0.70b2] Old Version: [1.0.70b1]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230724] Old Version: [0.0.1.dev20230723]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [spider-utils]: New version: [2023.7.25] Old Version: [2022.5.29]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [proctracer]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-25 10:44:30] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/5d/e1/683849c6f9e0ff3cb48f9ea986ee1dbec57aa6f6af5a24097d511ef2edfb/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl
+[2023-07-25 10:44:30] INFO root fetch - processPackages [statwolfACME]: Downloading https://files.pythonhosted.org/packages/bd/df/c086a4b8d1bc8ce5a1df00f88286cfe4eb1c3e651116a45641e46be20eab/statwolfACME-2.1.2-py2.py3-none-any.whl
+[2023-07-25 10:44:30] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/17/86/f6a8cf0099eab0f9ded805b6de28df266640232ff787894e77b1e26392e4/michina-0.1.0.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [spider-utils]: Downloading https://files.pythonhosted.org/packages/f9/20/169a2301f321a0e7be6f83759e6602090176e2bd82e85d965080ac44bc1f/spider-utils-2022.5.29.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/cc/3f/db0e3d5f3a37146a605675ff8fce2588531888c3ad46b3ae81caf451567d/ccs-digitalmarketplace-utils-61.6.1.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/e1/0e/59e968d9864cc06d419228d01273c70bd7762bddb227045050eb74777862/proctracer-0.0.11.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/c0/31/818c91dffc7fea16ccaeebcb9f07bf490ae43c562ca9ccdbf6dd11d96217/visionai-data-format-1.0.6.tar.gz
+[2023-07-25 10:44:30] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/f3/9e/fb7e02ede4118c197f1bf9faa73c02a2643795e6473725c7e48b024b77be/gempyp-1.0.70b1.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/99/96/54057476b38a9075cf2c56fa421fb43cd54726af884d0747b52e2e79086d/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl
+[2023-07-25 10:44:31] INFO root fetch - processPackages [statwolfACME]: Downloading https://files.pythonhosted.org/packages/9b/68/40eeeb5f10f63fd1ab86b0ad66b22256a26f4b1826bfd9e065d752877a64/statwolfACME-2.1.3-py2.py3-none-any.whl
+[2023-07-25 10:44:31] INFO root fetch - processPackages [michina]: Downloading https://files.pythonhosted.org/packages/64/ab/6c8f976fd2440b58746a0743dae903873609be7182cce88844608f817647/michina-0.1.1.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [spider-utils]: Downloading https://files.pythonhosted.org/packages/85/ae/4914c65e2a7f00d79f2143f8e1c1b8cbbee8383f06d93c3c56aff28eae58/spider-utils-2023.7.25.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230725/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/38/bc/9a42200959d93fe6c20eb6a7c25982daf5ccfbc12cbde9c207c279d236d2/proctracer-0.0.12.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/91/c8/e61cfdaaf20022942ed8c926847df40d5975e0f02bb06e6b589bd2759f7a/ccs-digitalmarketplace-utils-62.0.0.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/10/39/eeeff5d21737850a53562181e5afc7d56a9ff864a68808ee6dea2b72f82e/visionai-data-format-1.0.6a0.tar.gz
+[2023-07-25 10:44:31] INFO root fetch - processPackages [statwolfACME]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [statwolfACME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statwolfACME-2.1.2-py2.py3-none-any.whl.zip tmp/statwolfACME-2.1.3-py2.py3-none-any.whl.zip --markdown 20230725/s/statwolfACME/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [michina]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [michina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/michina-0.1.0.tar.gz tmp/michina-0.1.1.tar.gz --markdown 20230725/m/michina/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [spider-utils]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [spider-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-utils-2022.5.29.tar.gz tmp/spider-utils-2023.7.25.tar.gz --markdown 20230725/s/spider-utils/2022.5.29-2023.7.25/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.11.tar.gz tmp/proctracer-0.0.12.tar.gz --markdown 20230725/p/proctracer/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-61.6.1.tar.gz tmp/ccs-digitalmarketplace-utils-62.0.0.tar.gz --markdown 20230725/c/ccs-digitalmarketplace-utils/61.6.1-62.0.0/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.6.tar.gz tmp/visionai-data-format-1.0.6a0.tar.gz --markdown 20230725/v/visionai-data-format/1.0.6-1.0.6a0/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip --markdown 20230725/t/tff-nightly/0.0.1.dev20230723-0.0.1.dev20230724/diff.md --exclude *.pyd
+[2023-07-25 10:44:31] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2023-07-25 10:44:31] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20230725/i/invenio-records-lom/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 10:44:32] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/d2/58/3b20be7184889d78d64e308a37c5864b6fde7aace1f38e717d0745103b87/gempyp-1.0.70b2.tar.gz
+[2023-07-25 10:44:32] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2023-07-25 10:44:32] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.70b1.tar.gz tmp/gempyp-1.0.70b2.tar.gz --markdown 20230725/g/gempyp/1.0.70b1-1.0.70b2/diff.md --exclude *.pyd
+[2023-07-25 10:44:32] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.1.0.tar.gz]
+[2023-07-25 10:44:32] INFO root fetch - processPackages [michina]: Remove: archive file [/home/abi/fetcher/tmp/michina-0.1.1.tar.gz]
+[2023-07-25 10:44:32] INFO root fetch - processPackages [michina]: Start processing: pysndlib
+[2023-07-25 10:44:32] INFO root fetch - main [MainThread]: End processing [michina]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [statwolfACME]: Remove: archive file [/home/abi/fetcher/tmp/statwolfACME-2.1.2-py2.py3-none-any.whl.zip]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [statwolfACME]: Remove: archive file [/home/abi/fetcher/tmp/statwolfACME-2.1.3-py2.py3-none-any.whl.zip]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [statwolfACME]: Start processing: trajectopy
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [statwolfACME]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [TDCRPy]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [pysndlib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [trajectopy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [spider-utils]: Remove: archive file [/home/abi/fetcher/tmp/spider-utils-2022.5.29.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [spider-utils]: Remove: archive file [/home/abi/fetcher/tmp/spider-utils-2023.7.25.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [spider-utils]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.805] Old Version: [0.0.804]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.11.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.12.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [pysndlib]: Downloading https://files.pythonhosted.org/packages/e1/12/4747f8c4657654c469f2bdc78bb572eab4315aaca207c60238744e75ce57/pysndlib-0.5.2.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/d1/35/e644a3aa3ea6cf8342c09c6065ec77e522e3b78a47b7b99506c8416fa1e1/trajectopy-0.2.0.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/12/4e/9a814c3814eee05bfef51ddf9fd81f4ef0ff78648d7a27c7c28cd59668df/lusid-scheduler-sdk-preview-0.0.804.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-61.6.1.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-62.0.0.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.6.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.6a0.tar.gz]
+[2023-07-25 10:44:33] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-07-25 10:44:33] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/33/99/f244625590a169e162cb133c3032fb512b3e975833855257fc056eb20062/trajectopy-0.3.0.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [pysndlib]: Downloading https://files.pythonhosted.org/packages/24/64/3f084c3baadada586775bbc3be165511659c7a125a394ee1bcf8cbc3cc44/pysndlib-0.5.3.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/cc/f7/633a49c38ce54cfdc74be0bd27c4a5218cfacfe6c1004d5de433096ad242/lusid-scheduler-sdk-preview-0.0.805.tar.gz
+[2023-07-25 10:44:33] INFO root fetch - processPackages [trajectopy]: executing diffoscope
+[2023-07-25 10:44:33] INFO root fetch - processPackages [trajectopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy-0.2.0.tar.gz tmp/trajectopy-0.3.0.tar.gz --markdown 20230725/t/trajectopy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 10:44:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-25 10:44:33] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.804.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.805.tar.gz --markdown 20230725/l/lusid-scheduler-sdk-preview/0.0.804-0.0.805/diff.md --exclude *.pyd
+[2023-07-25 10:44:34] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.70b1.tar.gz]
+[2023-07-25 10:44:34] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.70b2.tar.gz]
+[2023-07-25 10:44:34] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2023-07-25 10:44:34] INFO root fetch - processPackages [pysndlib]: executing diffoscope
+[2023-07-25 10:44:34] INFO root fetch - processPackages [pysndlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysndlib-0.5.2.tar.gz tmp/pysndlib-0.5.3.tar.gz --markdown 20230725/p/pysndlib/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-25 10:44:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip]
+[2023-07-25 10:44:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip]
+[2023-07-25 10:44:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-25 10:44:34] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2023-07-25 10:44:34] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2023-07-25 10:44:34] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2023-07-25 10:44:35] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-0.2.0.tar.gz]
+[2023-07-25 10:44:35] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-0.3.0.tar.gz]
+[2023-07-25 10:44:35] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
+[2023-07-25 10:44:35] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.804.tar.gz]
+[2023-07-25 10:44:35] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.805.tar.gz]
+[2023-07-25 10:44:35] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-25 10:44:36] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.2.tar.gz]
+[2023-07-25 10:44:36] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.3.tar.gz]
+[2023-07-25 10:44:36] INFO root fetch - main [MainThread]: End processing [pysndlib]: success
+[2023-07-25 10:44:36] INFO root fetch - main [MainThread]: Store serial: [19026297]
