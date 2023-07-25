@@ -8941,3 +8941,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:32:05] INFO root fetch - processPackages [markdown2]: Remove: archive file [/home/abi/fetcher/tmp/markdown2-2.4.9.tar.gz]
 [2023-07-25 05:32:05] INFO root fetch - main [MainThread]: End processing [markdown2]: success
 [2023-07-25 05:32:05] INFO root fetch - main [MainThread]: Store serial: [19022864]
+[2023-07-25 05:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022864]
+[2023-07-25 05:37:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weave
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fasttextsearch
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firestoned
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysndlib
+[2023-07-25 05:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zensvi
+[2023-07-25 05:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coba
+[2023-07-25 05:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydelorean
+[2023-07-25 05:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: indic-transliteration
+[2023-07-25 05:37:14] INFO root fetch - processPackages [firestoned]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [weave]: New version: [0.24.1] Old Version: [0.24.0]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [fasttextsearch]: New version: [0.7] Old Version: [0.6]
+[2023-07-25 05:37:14] WARNING root fetch - processPackages [pysndlib]: Skipping, unable to determine old version
+[2023-07-25 05:37:14] INFO root fetch - processPackages [pysndlib]: Start processing: mynacode
+[2023-07-25 05:37:14] INFO root fetch - main [MainThread]: End processing [pysndlib] error
+[2023-07-25 05:37:14] INFO root fetch - processPackages [pydelorean]: New version: [1.5.0] Old Version: [1.3.5]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [coba]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [zensvi]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [indic-transliteration]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 05:37:14] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/5e/61/012c2d30d13034f16acd33830ddf4b944d6225dd98a0b806c6cb6676b289/firestoned-0.2.8.tar.gz
+[2023-07-25 05:37:14] INFO root fetch - processPackages [weave]: Downloading https://files.pythonhosted.org/packages/d7/a2/f208858c15044f89c31c2d16c311a0cac60a7ecc4632ead1afdc584ee941/weave-0.24.0.tar.gz
+[2023-07-25 05:37:14] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/31/9a/5cca62578003c02178cf5ef6940faa8c9fd9f15d373824f2b55a6241444b/fasttextsearch-0.6.tar.gz
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 05:37:14] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/01/c3/b0fbb5c65700f9a2f83f02107e6ea67c7a5a28d6cc8543dbc8e7c6b300fe/pydelorean-1.3.5.tar.gz
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 05:37:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 05:37:14] INFO root fetch - processPackages [indic-transliteration]: Downloading https://files.pythonhosted.org/packages/b5/84/2b13c4ee9f3ebd0bc7898ee071584a8838d11fb38de6f662c58468c2156a/indic_transliteration-2.3.7-py3-none-any.whl
+[2023-07-25 05:37:14] WARNING root fetch - processPackages [weave]: Skipping package: exceeds size limit 24530590>=10485760
+[2023-07-25 05:37:14] INFO root fetch - main [MainThread]: End processing [weave] error
+[2023-07-25 05:37:14] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/59/3c/95b2eb4730aa8b43191faf559acfb2fd06f681e741da80c2f684abc5a2c4/coba-7.0.2.tar.gz
+[2023-07-25 05:37:14] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/df/48/f1769b0265c77d5f78578d87f1734fb85c9cb7a89e2a0adb88b52def19a2/zensvi-0.7.2.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/a8/92/48881cac99d0a278eed7cc6c1d2ae70ce1ecada6cca5a187d9d2f5d5f048/firestoned-0.2.9.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/d7/b8/f07ddfa21196ba3fb72ca15fac4805f4ce9c1391581fe67176ad41069e8b/fasttextsearch-0.7.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 05:37:15] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/73/c2/cbc930db919cb0a002e963673e4f85427cdb1187e3e5eeffb2cc4bf43540/pydelorean-1.5.0.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 05:37:15] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/29/ac/c487655fcfcd18735c924285ef3def0fbfa6c0a29d7cc523d292c176d9d6/coba-7.0.3.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [firestoned]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [firestoned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestoned-0.2.8.tar.gz tmp/firestoned-0.2.9.tar.gz --markdown 20230725/f/firestoned/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.6.tar.gz tmp/fasttextsearch-0.7.tar.gz --markdown 20230725/f/fasttextsearch/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.3.5.tar.gz tmp/pydelorean-1.5.0.tar.gz --markdown 20230725/p/pydelorean/1.3.5-1.5.0/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/49/27/fb53dccdb1c7ffcf65efb838a0d474fc79028e26f742a9d772aa5e246711/zensvi-0.8.0.tar.gz
+[2023-07-25 05:37:15] INFO root fetch - processPackages [coba]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [coba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coba-7.0.2.tar.gz tmp/coba-7.0.3.tar.gz --markdown 20230725/c/coba/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-07-25 05:37:15] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-25 05:37:15] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.7.2.tar.gz tmp/zensvi-0.8.0.tar.gz --markdown 20230725/z/zensvi/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-25 05:37:16] INFO root fetch - processPackages [indic-transliteration]: Downloading https://files.pythonhosted.org/packages/7e/8a/bf48d67c25c225712a232755eb03343d5dd2005598644ab58ae1dc248806/indic_transliteration-2.3.9-py3-none-any.whl
+[2023-07-25 05:37:16] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-25 05:37:16] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 05:37:16] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.3.5.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.0.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-25 05:37:16] INFO root fetch - processPackages [indic-transliteration]: executing diffoscope
+[2023-07-25 05:37:16] INFO root fetch - processPackages [indic-transliteration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indic_transliteration-2.3.7-py3-none-any.whl.zip tmp/indic_transliteration-2.3.9-py3-none-any.whl.zip --markdown 20230725/i/indic-transliteration/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 05:37:16] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.2.8.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.2.9.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [firestoned]: success
+[2023-07-25 05:37:16] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.6.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.7.tar.gz]
+[2023-07-25 05:37:16] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-07-25 05:37:17] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-7.0.2.tar.gz]
+[2023-07-25 05:37:17] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-7.0.3.tar.gz]
+[2023-07-25 05:37:17] INFO root fetch - main [MainThread]: End processing [coba]: success
+[2023-07-25 05:37:17] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.7.2.tar.gz]
+[2023-07-25 05:37:17] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.8.0.tar.gz]
+[2023-07-25 05:37:17] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-25 05:37:18] INFO root fetch - processPackages [indic-transliteration]: Remove: archive file [/home/abi/fetcher/tmp/indic_transliteration-2.3.7-py3-none-any.whl.zip]
+[2023-07-25 05:37:18] INFO root fetch - processPackages [indic-transliteration]: Remove: archive file [/home/abi/fetcher/tmp/indic_transliteration-2.3.9-py3-none-any.whl.zip]
+[2023-07-25 05:37:18] INFO root fetch - main [MainThread]: End processing [indic-transliteration]: success
+[2023-07-25 05:37:18] INFO root fetch - main [MainThread]: Store serial: [19022901]
