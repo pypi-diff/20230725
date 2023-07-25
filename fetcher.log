@@ -2931,3 +2931,61 @@
 [2023-07-25 02:57:52] INFO root fetch - processPackages [pdpilot]: Remove: archive file [/home/abi/fetcher/tmp/pdpilot-0.5.1.tar.gz]
 [2023-07-25 02:57:52] INFO root fetch - main [MainThread]: End processing [pdpilot]: success
 [2023-07-25 02:57:52] INFO root fetch - main [MainThread]: Store serial: [19020656]
+[2023-07-25 03:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020656]
+[2023-07-25 03:03:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotion-lambda
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotion-lambda
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codedapertures
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygams
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: porn-cli
+[2023-07-25 03:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unit-syntax
+[2023-07-25 03:03:01] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.10] Old Version: [4.0.0]
+[2023-07-25 03:03:01] WARNING root fetch - processPackages [pygams]: Skipping, unable to determine old version
+[2023-07-25 03:03:01] INFO root fetch - main [MainThread]: End processing [pygams] error
+[2023-07-25 03:03:01] INFO root fetch - processPackages [porn-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-25 03:03:01] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.10] Old Version: [4.0.0]
+[2023-07-25 03:03:01] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 03:03:01] INFO root fetch - processPackages [unit-syntax]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-25 03:03:01] INFO root fetch - processPackages [codedapertures]: New version: [0.4] Old Version: [0.3]
+[2023-07-25 03:03:01] INFO root fetch - processPackages [porn-cli]: Downloading https://files.pythonhosted.org/packages/f5/bf/9acde2aeb5f4455e5cf1689ea715cb13125cf4268480242972621333c161/porn_cli-1.0.5.tar.gz
+[2023-07-25 03:03:01] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e0/11/05c2703168afee03e99894d7e03c5693198eaaf4c1c93c18203519fea1bd/remotion_lambda-4.0.0.tar.gz
+[2023-07-25 03:03:01] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e0/11/05c2703168afee03e99894d7e03c5693198eaaf4c1c93c18203519fea1bd/remotion_lambda-4.0.0.tar.gz
+[2023-07-25 03:03:01] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/1d/35/b9eb2e0a41c62c01de34a4c64b4217a81948205961091f59157ab7953de4/codedapertures-0.3.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [porn-cli]: Downloading https://files.pythonhosted.org/packages/c0/10/a2d67cbd6141bc99036d6f276b828c7baf3d8163a7cd1ad219644486a605/porn_cli-1.0.6.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/28/cc/5b68d2262d0d394ea11c68635d6574e659c60ae094490ba2e0a99de98174/unit_syntax-0.1.8.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/2a/bf/f549cbc95db9b51591f9bdfe53be5bc3b77d1062d99e46ed600afcb06cda/codedapertures-0.4.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [porn-cli]: executing diffoscope
+[2023-07-25 03:03:02] INFO root fetch - processPackages [porn-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porn_cli-1.0.5.tar.gz tmp/porn_cli-1.0.6.tar.gz --markdown 20230725/p/porn-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/97/78/0aa772be2f9b7205f1b4584f304b618d71eb81b41480a1ebdd3e714bdfe6/remotion_lambda-4.0.10.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/97/78/0aa772be2f9b7205f1b4584f304b618d71eb81b41480a1ebdd3e714bdfe6/remotion_lambda-4.0.10.tar.gz
+[2023-07-25 03:03:02] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-07-25 03:03:02] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.3.tar.gz tmp/codedapertures-0.4.tar.gz --markdown 20230725/c/codedapertures/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.0.tar.gz tmp/remotion_lambda-4.0.10.tar.gz --markdown 20230725/r/remotion-lambda/4.0.0-4.0.10/diff.md --exclude *.pyd
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-07-25 03:03:02] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.0.tar.gz tmp/remotion_lambda-4.0.10.tar.gz --markdown 20230725/r/remotion-lambda/4.0.0-4.0.10/diff.md --exclude *.pyd
+[2023-07-25 03:03:03] INFO root fetch - processPackages [porn-cli]: Remove: archive file [/home/abi/fetcher/tmp/porn_cli-1.0.5.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - processPackages [porn-cli]: Remove: archive file [/home/abi/fetcher/tmp/porn_cli-1.0.6.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - main [MainThread]: End processing [porn-cli]: success
+[2023-07-25 03:03:03] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.0.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.10.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-07-25 03:03:03] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-07-25 03:03:03] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.3.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.4.tar.gz]
+[2023-07-25 03:03:03] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-07-25 03:03:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-25 03:03:03] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/d8/ff/bcd54efe8a307c12fd176932ed0b46250dbfe963643bed1d54371287c160/unit_syntax-0.2.0.tar.gz
+[2023-07-25 03:03:03] INFO root fetch - processPackages [unit-syntax]: executing diffoscope
+[2023-07-25 03:03:03] INFO root fetch - processPackages [unit-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_syntax-0.1.8.tar.gz tmp/unit_syntax-0.2.0.tar.gz --markdown 20230725/u/unit-syntax/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 03:03:03] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-25 03:03:03] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230725/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-25 03:03:04] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.1.8.tar.gz]
+[2023-07-25 03:03:04] INFO root fetch - processPackages [unit-syntax]: Remove: archive file [/home/abi/fetcher/tmp/unit_syntax-0.2.0.tar.gz]
+[2023-07-25 03:03:04] INFO root fetch - main [MainThread]: End processing [unit-syntax]: success
+[2023-07-25 03:03:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-25 03:03:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-25 03:03:04] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-25 03:03:04] INFO root fetch - main [MainThread]: Store serial: [19020688]
