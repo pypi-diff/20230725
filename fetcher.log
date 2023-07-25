@@ -20993,3 +20993,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:05:57] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
 [2023-07-25 12:05:57] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-07-25 12:05:57] INFO root fetch - main [MainThread]: Store serial: [19027161]
+[2023-07-25 12:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027161]
+[2023-07-25 12:11:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odincyble
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dj-maintenance
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-neat
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpggen
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promg
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-ftp
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubicweb-skillmat
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fdfat
+[2023-07-25 12:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KiMoPack
+[2023-07-25 12:11:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202307251007] Old Version: [99.0.202307250950]
+[2023-07-25 12:11:06] WARNING root fetch - processPackages [odincyble]: Skipping, unable to determine old version
+[2023-07-25 12:11:06] INFO root fetch - processPackages [odincyble]: Start processing: kfish
+[2023-07-25 12:11:06] INFO root fetch - main [MainThread]: End processing [odincyble] error
+[2023-07-25 12:11:06] INFO root fetch - processPackages [dj-maintenance]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cpggen]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cognite-neat]: New version: [0.18.0] Old Version: [0.17.4]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cubicweb-skillmat]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [KiMoPack]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-07-25 12:11:06] WARNING root fetch - processPackages [promg]: Skipping, unable to determine old version
+[2023-07-25 12:11:06] INFO root fetch - main [MainThread]: End processing [promg] error
+[2023-07-25 12:11:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202307251010] Old Version: [99.0.202307250954]
+[2023-07-25 12:11:06] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/cf/7a/c8b233963dd7451b33a5b20535cdff6363dcd26577267cac6f5bd1a9a7f1/dj-maintenance-0.2.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/af/e8/11501b2b072e9f70f791c6ce0050bc84f338d1bed730ff8e4af5127ff3be/kcli-99.0.202307250950-py3-none-any.whl
+[2023-07-25 12:11:06] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/32/fc/db170b5311bb56f76bf0a76f00817cdfbf874de837a524452d16051adc03/salure_helpers_ftp-1.5.4.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/36/24/bbdbe45d944cf1ec37446bc1f13b517f1610b4dddac2dbdd8f0e0dee1399/cpggen-1.8.3.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/83/88/568700471b8f1caa699c4c9d9465fa5c98405dceb1e0ea13388c59393856/KiMoPack-7.1.0.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/db/8e/f3c5e27da1af9e9d711a5dad1b09a67a1f473c5db04433264e6900f15d01/cognite_neat-0.17.4.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [cubicweb-skillmat]: Downloading https://files.pythonhosted.org/packages/4d/3e/d36e384c2704fbfa015ddcc076c8c511f4a4c39ffaf453d3b1bffc7c22d3/cubicweb-skillmat-0.9.1.tar.gz
+[2023-07-25 12:11:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/98/bc/be7a485ebd44830cd9788615e9c1e540559a7ec7a14308ef3c804b6b2f5b/kfish-99.0.202307250954-py3-none-any.whl
+[2023-07-25 12:11:06] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 55232026>=10485760
+[2023-07-25 12:11:06] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-07-25 12:11:07] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 12:11:07] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/36/87e229a2ba8f2caf71b17f2c6cbb4be4d29c8bb210c859143da325b21a7c/kcli-99.0.202307251007-py3-none-any.whl
+[2023-07-25 12:11:07] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/19/56/5acb8215d65d60b185cdfa0bdec557512e2c2554f18c52d57acfc179ba42/salure_helpers_ftp-1.5.5.tar.gz
+[2023-07-25 12:11:07] INFO root fetch - processPackages [dj-maintenance]: Downloading https://files.pythonhosted.org/packages/8f/f0/7de49569e1dab161addc678af3c0a628d996985431ddd0591a7437c80830/dj_maintenance-0.2.1.tar.gz
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/66/3b/7e82ccbe4bc5f310bf724a49a102e69830da74879d5b6881bffcde874e4f/kfish-99.0.202307251010-py3-none-any.whl
+[2023-07-25 12:11:07] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.5.4.tar.gz tmp/salure_helpers_ftp-1.5.5.tar.gz --markdown 20230725/s/salure-helpers-ftp/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] INFO root fetch - processPackages [dj-maintenance]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [dj-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-maintenance-0.2.tar.gz tmp/dj_maintenance-0.2.1.tar.gz --markdown 20230725/d/dj-maintenance/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] WARNING root fetch - processPackages [cpggen]: Skipping package: exceeds size limit 72488517>=10485760
+[2023-07-25 12:11:07] INFO root fetch - main [MainThread]: End processing [cpggen] error
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/7a/ec/d2a49f29a4e27f376eb1ff842ae09e312ab1ceaa40c7151de0df8c6498c3/cognite_neat-0.18.0.tar.gz
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307250950-py3-none-any.whl.zip tmp/kcli-99.0.202307251007-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307250950-99.0.202307251007/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cubicweb-skillmat]: Downloading https://files.pythonhosted.org/packages/c6/4e/34156e449bf75c678310f1d1f2ef57c9ae54a58e744c843dd27841078e8d/cubicweb-skillmat-1.0.0.tar.gz
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250954-py3-none-any.whl.zip tmp/kfish-99.0.202307251010-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250954-99.0.202307251010/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cubicweb-skillmat]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cubicweb-skillmat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-skillmat-0.9.1.tar.gz tmp/cubicweb-skillmat-1.0.0.tar.gz --markdown 20230725/c/cubicweb-skillmat/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-25 12:11:07] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.17.4.tar.gz tmp/cognite_neat-0.18.0.tar.gz --markdown 20230725/c/cognite-neat/0.17.4-0.18.0/diff.md --exclude *.pyd
+[2023-07-25 12:11:08] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.4.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.5.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-07-25 12:11:08] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 12:11:08] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj-maintenance-0.2.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - processPackages [dj-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/dj_maintenance-0.2.1.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - main [MainThread]: End processing [dj-maintenance]: success
+[2023-07-25 12:11:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250954-py3-none-any.whl.zip]
+[2023-07-25 12:11:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307251010-py3-none-any.whl.zip]
+[2023-07-25 12:11:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 12:11:08] INFO root fetch - processPackages [cubicweb-skillmat]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-skillmat-0.9.1.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - processPackages [cubicweb-skillmat]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-skillmat-1.0.0.tar.gz]
+[2023-07-25 12:11:08] INFO root fetch - main [MainThread]: End processing [cubicweb-skillmat]: success
+[2023-07-25 12:11:10] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.4.tar.gz]
+[2023-07-25 12:11:10] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.0.tar.gz]
+[2023-07-25 12:11:10] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-25 12:11:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250950-py3-none-any.whl.zip]
+[2023-07-25 12:11:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307251007-py3-none-any.whl.zip]
+[2023-07-25 12:11:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 12:11:11] INFO root fetch - main [MainThread]: Store serial: [19027195]
