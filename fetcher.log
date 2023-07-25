@@ -7701,3 +7701,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 04:28:47] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.6.tar.gz]
 [2023-07-25 04:28:47] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-07-25 04:28:47] INFO root fetch - main [MainThread]: Store serial: [19022408]
+[2023-07-25 04:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022408]
+[2023-07-25 04:33:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcengine-python-sdk
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autocut-fix
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semsimian
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: our1314
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exuse
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vellum-ai
+[2023-07-25 04:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zerocap-websocket-test
+[2023-07-25 04:33:56] WARNING root fetch - processPackages [our1314]: Skipping, unable to determine old version
+[2023-07-25 04:33:56] INFO root fetch - main [MainThread]: End processing [our1314] error
+[2023-07-25 04:33:56] WARNING root fetch - processPackages [autocut-fix]: Skipping, unable to determine old version
+[2023-07-25 04:33:56] INFO root fetch - main [MainThread]: End processing [autocut-fix] error
+[2023-07-25 04:33:56] ERROR root fetch - processPackages [zerocap-websocket-test]: Unable to get metadata: No such project 'zerocap-websocket-test'
+[2023-07-25 04:33:56] INFO root fetch - main [MainThread]: End processing [zerocap-websocket-test] error
+[2023-07-25 04:33:56] INFO root fetch - processPackages [exuse]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 04:33:56] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 04:33:56] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 04:33:56] INFO root fetch - processPackages [semsimian]: New version: [0.1.18rc2] Old Version: [0.1.18rc1]
+[2023-07-25 04:33:56] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-07-25 04:33:56] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-25 04:33:57] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/36/6d/0787cbb510eeee75d2893f9bb040630d723cfb032d118561103c58726c9f/semsimian-0.1.18rc1-cp39-none-win_amd64.whl
+[2023-07-25 04:33:57] INFO root fetch - processPackages [exuse]: Downloading https://files.pythonhosted.org/packages/e5/0f/44f365b820c109061947b9553e5ed5eedca3778b79231eb05d61407f09cc/exuse-0.1.5.tar.gz
+[2023-07-25 04:33:57] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-07-25 04:33:57] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-25 04:33:57] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-07-25 04:33:57] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230725/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:33:57] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-25 04:33:57] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230725/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:33:57] INFO root fetch - processPackages [exuse]: Downloading https://files.pythonhosted.org/packages/4b/1a/c62b8853c7d5bd8e0f0cb8a00c17243bf031cfecf2f01b28644c8aeda6be/exuse-0.1.6.tar.gz
+[2023-07-25 04:33:57] INFO root fetch - processPackages [exuse]: executing diffoscope
+[2023-07-25 04:33:57] INFO root fetch - processPackages [exuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exuse-0.1.5.tar.gz tmp/exuse-0.1.6.tar.gz --markdown 20230725/e/exuse/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-25 04:33:57] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/90/66/e4131c60d88894de3643e79345b4ddfe18ef6477cabcb920c80be88c6580/semsimian-0.1.18rc2-cp39-none-win_amd64.whl
+[2023-07-25 04:33:58] INFO root fetch - processPackages [semsimian]: executing diffoscope
+[2023-07-25 04:33:58] INFO root fetch - processPackages [semsimian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsimian-0.1.18rc1-cp39-none-win_amd64.whl.zip tmp/semsimian-0.1.18rc2-cp39-none-win_amd64.whl.zip --markdown 20230725/s/semsimian/0.1.18rc1-0.1.18rc2/diff.md --exclude *.pyd
+[2023-07-25 04:33:58] INFO root fetch - processPackages [exuse]: Remove: archive file [/home/abi/fetcher/tmp/exuse-0.1.5.tar.gz]
+[2023-07-25 04:33:58] INFO root fetch - processPackages [exuse]: Remove: archive file [/home/abi/fetcher/tmp/exuse-0.1.6.tar.gz]
+[2023-07-25 04:33:58] INFO root fetch - main [MainThread]: End processing [exuse]: success
+[2023-07-25 04:33:58] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-07-25 04:33:58] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-07-25 04:33:58] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-07-25 04:33:58] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.18rc1-cp39-none-win_amd64.whl.zip]
+[2023-07-25 04:33:58] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.18rc2-cp39-none-win_amd64.whl.zip]
+[2023-07-25 04:33:58] INFO root fetch - main [MainThread]: End processing [semsimian]: success
+[2023-07-25 04:34:07] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-25 04:34:07] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-25 04:34:07] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-25 04:34:07] INFO root fetch - main [MainThread]: Store serial: [19022480]
