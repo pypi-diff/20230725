@@ -12691,3 +12691,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:07:08] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230724.0-py3-none-any.whl.zip]
 [2023-07-25 07:07:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
 [2023-07-25 07:07:08] INFO root fetch - main [MainThread]: Store serial: [19024075]
+[2023-07-25 07:12:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024075]
+[2023-07-25 07:12:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbtex
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-theworld
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonbmp
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deploymenthub
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hserv
+[2023-07-25 07:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: greetnow
+[2023-07-25 07:12:18] INFO root fetch - processPackages [nonebot-plugin-theworld]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230725] Old Version: [0.1.1.dev20230724]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [greetnow]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [vbtex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [pythonbmp]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [hserv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [deploymenthub]: New version: [1.7] Old Version: [1.6]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230725] Old Version: [23.8.0a230724]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230725] Old Version: [23.8.0a230724]
+[2023-07-25 07:12:18] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-25 07:12:18] INFO root fetch - processPackages [nonebot-plugin-theworld]: Downloading https://files.pythonhosted.org/packages/98/99/9c557f512d2a4c944e9e38421bad66ecb81d72fe936b693b3f3b15768230/nonebot-plugin-theworld-0.1.0.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/6e/02/bd00ac0d674600dfeb5043c05ea749b48eca40d70bf56038bf7e4159dad6/vbtex-0.1.8.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/92/21/52a5729f2aa06eba442a1dc2b70432e5a34fc3815f3b3856587a49378f9f/deploymenthub-1.6.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ab/95/a9afc8692aa1159b19c5068b59fccceced7241e046c80d3bda1e9a5115f3/dask-cuda-23.8.0a230724.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ab/95/a9afc8692aa1159b19c5068b59fccceced7241e046c80d3bda1e9a5115f3/dask-cuda-23.8.0a230724.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/af/1d/60f70b14760cbc3f2eb7d3049d1d376af02d4c2c8420a461cc7757c8f239/rapid_pe-0.1.1.dev20230724.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [greetnow]: Downloading https://files.pythonhosted.org/packages/a5/0a/242d771a2af59108862caaa727a70d365aa2b39a1d5d53a7020554212d53/greetnow-1.0.0.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/0d/71/630b44cae9925924e5d878acca33b245ebde13596e1c62691c0919fe2ebd/pythonbmp-1.0.3.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/9f/97/d8511f768e13ac8ca7d84ab918e76587aab375e986729bc04db791d2367e/hserv-0.0.8.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-25 07:12:18] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/06/d7/0b44533157d4ca5f90efb4e30ed78f04191628b356b15a90b995feee6857/vbtex-0.1.9.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/41/cc/6ff47c48d05220a609bb8eab0d91c6680330a6cbd3975bb4f3a69fe58d4a/deploymenthub-1.7.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/01/04/d28abd6f4a61b22ffd974cfdee32f66e6e49349ac01f38bf945b4c026b77/dask-cuda-23.8.0a230725.tar.gz
+[2023-07-25 07:12:18] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-25 07:12:18] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230725/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [greetnow]: Downloading https://files.pythonhosted.org/packages/c1/8a/dac2e041f7b1ee097ef307fcde7b543be43fa06e63f6fa2f8343e76711bc/greetnow-1.0.1.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.8.tar.gz tmp/vbtex-0.1.9.tar.gz --markdown 20230725/v/vbtex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/01/04/d28abd6f4a61b22ffd974cfdee32f66e6e49349ac01f38bf945b4c026b77/dask-cuda-23.8.0a230725.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [deploymenthub]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [deploymenthub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymenthub-1.6.tar.gz tmp/deploymenthub-1.7.tar.gz --markdown 20230725/d/deploymenthub/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/40/96/7a6742e75966f1760f4fd0e091851c79a1c37dd40f0ba305797de4e4b040/pythonbmp-1.0.4.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/fd/e9/f9380a8cd474e7d6fceef00bcba250f63be8eb27ba9948b45b3c96457a03/rapid_pe-0.1.1.dev20230725.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/36/92/1dda30c84099f91f8d5fbb2d3235d8cee3d69d102795ec377f5975bdf659/hserv-0.0.9.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [greetnow]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [greetnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greetnow-1.0.0.tar.gz tmp/greetnow-1.0.1.tar.gz --markdown 20230725/g/greetnow/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230724.tar.gz tmp/dask-cuda-23.8.0a230725.tar.gz --markdown 20230725/d/dask-cuda/23.8.0a230724-23.8.0a230725/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230724.tar.gz tmp/dask-cuda-23.8.0a230725.tar.gz --markdown 20230725/d/dask-cuda/23.8.0a230724-23.8.0a230725/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [pythonbmp]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [pythonbmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonbmp-1.0.3.tar.gz tmp/pythonbmp-1.0.4.tar.gz --markdown 20230725/p/pythonbmp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.8.tar.gz tmp/hserv-0.0.9.tar.gz --markdown 20230725/h/hserv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230724.tar.gz tmp/rapid_pe-0.1.1.dev20230725.tar.gz --markdown 20230725/r/rapid-pe/0.1.1.dev20230724-0.1.1.dev20230725/diff.md --exclude *.pyd
+[2023-07-25 07:12:19] INFO root fetch - processPackages [nonebot-plugin-theworld]: Downloading https://files.pythonhosted.org/packages/16/c1/36ee965079cd9e7176912c383a898875787be38a312e937f17ad55c98ea1/nonebot-plugin-theworld-0.1.1.tar.gz
+[2023-07-25 07:12:19] INFO root fetch - processPackages [nonebot-plugin-theworld]: executing diffoscope
+[2023-07-25 07:12:19] INFO root fetch - processPackages [nonebot-plugin-theworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-theworld-0.1.0.tar.gz tmp/nonebot-plugin-theworld-0.1.1.tar.gz --markdown 20230725/n/nonebot-plugin-theworld/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 07:12:20] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [documentdataextraction]: Start processing: nb-cli-plugin-littlepaimon
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: New version: [1.0.1] Old Version: [1.0.0rc3]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-1.6.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-1.7.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [deploymenthub]: Start processing: boris-package
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [deploymenthub]: success
+[2023-07-25 07:12:20] WARNING root fetch - processPackages [boris-package]: Skipping, unable to determine old version
+[2023-07-25 07:12:20] INFO root fetch - processPackages [boris-package]: Start processing: chromadb-client
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [boris-package] error
+[2023-07-25 07:12:20] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.8.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.9.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [greetnow]: Remove: archive file [/home/abi/fetcher/tmp/greetnow-1.0.0.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [greetnow]: Remove: archive file [/home/abi/fetcher/tmp/greetnow-1.0.1.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [greetnow]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: Downloading https://files.pythonhosted.org/packages/69/94/5d1ea8444bd4a41c4ecfa8cf0fd77db02cfeca627967a591f03ed61c45ba/nb_cli_plugin_littlepaimon-1.0.0rc3.tar.gz
+[2023-07-25 07:12:20] INFO root fetch - processPackages [chromadb-client]: New version: [0.4.4.dev0] Old Version: [0.4.3.dev0]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.8.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.9.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/ed/54/c141364b25382e508d3b16a2da8d1f43fa1479df79b90acc70143fa9f8fd/chromadb-client-0.4.3.dev0.tar.gz
+[2023-07-25 07:12:20] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230724.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230725.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: Downloading https://files.pythonhosted.org/packages/f5/cd/024f1162b939e49e3c668649a77d6cbde676a904a7ad36a9c4b5d8c451d6/nb_cli_plugin_littlepaimon-1.0.1.tar.gz
+[2023-07-25 07:12:20] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230724.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230725.tar.gz]
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-25 07:12:20] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-25 07:12:20] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: executing diffoscope
+[2023-07-25 07:12:20] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_cli_plugin_littlepaimon-1.0.0rc3.tar.gz tmp/nb_cli_plugin_littlepaimon-1.0.1.tar.gz --markdown 20230725/n/nb-cli-plugin-littlepaimon/1.0.0rc3-1.0.1/diff.md --exclude *.pyd
+[2023-07-25 07:12:21] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.3.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.4.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - main [MainThread]: End processing [pythonbmp]: success
+[2023-07-25 07:12:21] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/1c/ed/4503d8fbd80d6fdbc8e2a73fc6426fef99cb904d2151c57eb1fc94e5c07a/chromadb-client-0.4.4.dev0.tar.gz
+[2023-07-25 07:12:21] INFO root fetch - processPackages [nonebot-plugin-theworld]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-theworld-0.1.0.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - processPackages [nonebot-plugin-theworld]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-theworld-0.1.1.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-theworld]: success
+[2023-07-25 07:12:21] INFO root fetch - processPackages [chromadb-client]: executing diffoscope
+[2023-07-25 07:12:21] INFO root fetch - processPackages [chromadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-client-0.4.3.dev0.tar.gz tmp/chromadb-client-0.4.4.dev0.tar.gz --markdown 20230725/c/chromadb-client/0.4.3.dev0-0.4.4.dev0/diff.md --exclude *.pyd
+[2023-07-25 07:12:21] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: Remove: archive file [/home/abi/fetcher/tmp/nb_cli_plugin_littlepaimon-1.0.0rc3.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - processPackages [nb-cli-plugin-littlepaimon]: Remove: archive file [/home/abi/fetcher/tmp/nb_cli_plugin_littlepaimon-1.0.1.tar.gz]
+[2023-07-25 07:12:21] INFO root fetch - main [MainThread]: End processing [nb-cli-plugin-littlepaimon]: success
+[2023-07-25 07:12:22] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.3.dev0.tar.gz]
+[2023-07-25 07:12:22] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.4.dev0.tar.gz]
+[2023-07-25 07:12:22] INFO root fetch - main [MainThread]: End processing [chromadb-client]: success
+[2023-07-25 07:12:22] INFO root fetch - main [MainThread]: Store serial: [19024115]
