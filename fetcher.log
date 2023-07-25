@@ -1968,3 +1968,196 @@
 [2023-07-25 02:07:02] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230724.post436.tar.gz]
 [2023-07-25 02:07:02] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-25 02:07:02] INFO root fetch - main [MainThread]: Store serial: [19020305]
+[2023-07-25 02:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020305]
+[2023-07-25 02:12:11] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-image
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoengine
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-app
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiki-utils-api
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-compiler-opt
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-lightning
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightning
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-fabric
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grapes-graph
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heaserver-files-aws-s3
+[2023-07-25 02:12:11] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [lightning-fabric]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [lightning]: New version: [2022.9.8] Old Version: [2022.9.22]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307250007] Old Version: [0.0.1.dev202307240007]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [grapes-graph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [kiki-utils-api]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [pytorch-lightning]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [lightning-app]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-07-25 02:12:11] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-25 02:12:11] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-07-25 02:12:11] INFO root fetch - processPackages [heaserver-files-aws-s3]: Start processing: cdk8s-operator
+[2023-07-25 02:12:11] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-07-25 02:12:11] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/98/b6/6a664c50ad6b2c9a02426eae26e2f97c692d19b3bc0c89f69c84a139e5e5/kiki_utils_api-1.4.9-py3-none-any.whl
+[2023-07-25 02:12:11] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/e4/7f/a1be236a99170414c57885b01021479025ad9e34c89bf05b13a76904e82a/ml-compiler-opt-0.0.1.dev202307240007.tar.gz
+[2023-07-25 02:12:11] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/42/51/1039eac4f982d07d2db039f2e1a994bffe8f34f465474efff371c30e0fe6/grapes-graph-0.0.1.tar.gz
+[2023-07-25 02:12:11] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-07-25 02:12:11] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-25 02:12:11] INFO root fetch - processPackages [lightning-fabric]: Downloading https://files.pythonhosted.org/packages/79/f7/dcb8ca51b6e48ddf9d2cb154da48d214657fcb9c4a95cc343fc691fdedb4/lightning-fabric-2.0.5.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning]: Downloading https://files.pythonhosted.org/packages/b0/20/8ba38805ce5f2451f5996a28a0b516c0e3c150d92c6941aae3d6c87b6f91/lightning-2022.9.22.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-app]: Downloading https://files.pythonhosted.org/packages/56/b4/4c23e54c665d9fa6189a12ea55a3c7f7fa5cc6c69eec969efce91f1bf631/lightning-app-2.0.5.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [pytorch-lightning]: Downloading https://files.pythonhosted.org/packages/35/18/2a656aa5b3b36446e44f6c8a3539cb0963e4a2598b40de5842e37f282d40/pytorch-lightning-2.0.5.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/09/49/46dc0627b25eadbdd885778fe37556ae08a6176db2abc413c271384a4c28/kiki_utils_api-1.5.0-py3-none-any.whl
+[2023-07-25 02:12:12] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/5d/94/29d875f2f6e7ec92663c2eec44f5d83734aa66bfd1a710f31c5b57e19f28/grapes-graph-0.0.2.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/1d/fa/abe5347b343d1e70f6a89baf95e948c39e139f5e760a7bc348fa73f1f60b/ml-compiler-opt-0.0.1.dev202307250007.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230725/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-fabric]: Downloading https://files.pythonhosted.org/packages/15/ca/f8d1bf4127e0cb68628c1fd8f21590948b021fc77d22f02fc61b0ac40e75/lightning-fabric-2.0.6.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning]: Downloading https://files.pythonhosted.org/packages/73/85/71525399d25554a41114a01c8dfe03de36acee3a05d0e9e956234203439c/lightning-2022.9.8.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-app]: Downloading https://files.pythonhosted.org/packages/d2/ff/ad93098cd2710148513edceeab120757f9458f003aecfe20a60063e9c38c/lightning-app-2.0.6.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-25 02:12:12] INFO root fetch - processPackages [kiki-utils-api]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [kiki-utils-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiki_utils_api-1.4.9-py3-none-any.whl.zip tmp/kiki_utils_api-1.5.0-py3-none-any.whl.zip --markdown 20230725/k/kiki-utils-api/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [grapes-graph]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [grapes-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapes-graph-0.0.1.tar.gz tmp/grapes-graph-0.0.2.tar.gz --markdown 20230725/g/grapes-graph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230725/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-2022.9.22.tar.gz tmp/lightning-2022.9.8.tar.gz --markdown 20230725/l/lightning/2022.9.22-2022.9.8/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307240007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307250007.tar.gz --markdown 20230725/m/ml-compiler-opt/0.0.1.dev202307240007-0.0.1.dev202307250007/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-fabric]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-fabric-2.0.5.tar.gz tmp/lightning-fabric-2.0.6.tar.gz --markdown 20230725/l/lightning-fabric/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230725/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-app]: executing diffoscope
+[2023-07-25 02:12:12] INFO root fetch - processPackages [lightning-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-app-2.0.5.tar.gz tmp/lightning-app-2.0.6.tar.gz --markdown 20230725/l/lightning-app/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-25 02:12:12] INFO root fetch - processPackages [pytorch-lightning]: Downloading https://files.pythonhosted.org/packages/d4/f2/5b49735e00668f8e01ec8d8e127f77f8a5754ab27e006e953566321d3950/pytorch-lightning-2.0.6.tar.gz
+[2023-07-25 02:12:13] INFO root fetch - processPackages [pytorch-lightning]: executing diffoscope
+[2023-07-25 02:12:13] INFO root fetch - processPackages [pytorch-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-lightning-2.0.5.tar.gz tmp/pytorch-lightning-2.0.6.tar.gz --markdown 20230725/p/pytorch-lightning/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-25 02:12:13] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-07-25 02:12:13] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-07-25 02:12:13] INFO root fetch - processPackages [cdk8s-image]: Start processing: pepperize.cdk-github
+[2023-07-25 02:12:13] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-07-25 02:12:13] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.4.9-py3-none-any.whl.zip]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.5.0-py3-none-any.whl.zip]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [kiki-utils-api]: Start processing: deployv
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [kiki-utils-api]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.1.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.2.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [grapes-graph]: Start processing: torchlayers-nightly
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [grapes-graph]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [deployv]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690157288] Old Version: [1690070877]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [cdk8s-operator]: Start processing: cdk-common
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7e/c6/b5a84b563e9131e5b63a3be72188ca69336693ac5a5e5633f1a6a87b5c5f/torchlayers-nightly-1690070877.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [deployv]: Downloading https://files.pythonhosted.org/packages/32/41/9068a748840c7345a778eca4228955172e18c491e8dbca1e09079cb8f187/deployv-0.9.98.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ecoengine]: Start processing: bento-sts
+[2023-07-25 02:12:14] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230725/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:14] INFO root fetch - processPackages [bento-sts]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/b8/95/aad49565da16846c073dbf116d06c0a4add58685769ddc808253d8adef50/bento_sts-0.1.4.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/88/62/1ed9dfa47c68b94b199cf6ae8a6afb97aee2cc6e8910e56be53a7d8ff726/torchlayers-nightly-1690157288.tar.gz
+[2023-07-25 02:12:14] INFO root fetch - processPackages [lightning-fabric]: Remove: archive file [/home/abi/fetcher/tmp/lightning-fabric-2.0.5.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [lightning-fabric]: Remove: archive file [/home/abi/fetcher/tmp/lightning-fabric-2.0.6.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [lightning-fabric]: Start processing: retake
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [lightning-fabric]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [retake]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307240007.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307250007.tar.gz]
+[2023-07-25 02:12:14] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: cdk-aws-discord-notifiers
+[2023-07-25 02:12:14] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-25 02:12:14] INFO root fetch - processPackages [deployv]: Downloading https://files.pythonhosted.org/packages/b5/0e/ad1bda81ab2de1e235e440f1f0bd5bfdbf4f40923d9310ea2deecd2f17e8/deployv-0.9.99.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 02:12:15] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-25 02:12:15] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690070877.tar.gz tmp/torchlayers-nightly-1690157288.tar.gz --markdown 20230725/t/torchlayers-nightly/1690070877-1690157288/diff.md --exclude *.pyd
+[2023-07-25 02:12:15] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/9b/cd/aa3eb1c6ac1019c82a5833fa87c8129ffe1774a86f237423a46a9c589340/bento_sts-0.1.5.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/e4/c8/8c3b5cc24c4ebad5d6bd7611a81e3e3605dc04adcb9dccf416f89903f91d/retake-0.1.8.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [deployv]: executing diffoscope
+[2023-07-25 02:12:15] INFO root fetch - processPackages [deployv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployv-0.9.98.tar.gz tmp/deployv-0.9.99.tar.gz --markdown 20230725/d/deployv/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:15] INFO root fetch - processPackages [bento-sts]: executing diffoscope
+[2023-07-25 02:12:15] INFO root fetch - processPackages [bento-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bento_sts-0.1.4.tar.gz tmp/bento_sts-0.1.5.tar.gz --markdown 20230725/b/bento-sts/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 02:12:15] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/f5/1b/1362f3f7e2253eb302594ed47f704ce05f9a857f6deabc3a6f41d111e6ca/retake-0.1.9.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-25 02:12:15] INFO root fetch - processPackages [retake]: executing diffoscope
+[2023-07-25 02:12:15] INFO root fetch - processPackages [retake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retake-0.1.8.tar.gz tmp/retake-0.1.9.tar.gz --markdown 20230725/r/retake/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 02:12:15] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-25 02:12:15] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-25 02:12:15] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: cdk8s-grafana
+[2023-07-25 02:12:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-25 02:12:15] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-25 02:12:15] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-25 02:12:16] INFO root fetch - processPackages [lightning-app]: Remove: archive file [/home/abi/fetcher/tmp/lightning-app-2.0.5.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [lightning-app]: Remove: archive file [/home/abi/fetcher/tmp/lightning-app-2.0.6.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [lightning-app]: Start processing: cdk-iot-core-certificates
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [lightning-app]: success
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230725/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:16] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690070877.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690157288.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: openbb-nightly
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230725/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:16] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230724] Old Version: [3.1.0.dev20230723]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-07-25 02:12:16] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a6/1c/682229a54a2c1ad20e32e595458b4d21785d279187b8be8e0229d43fa445/openbb_nightly-3.1.0.dev20230723.tar.gz
+[2023-07-25 02:12:16] INFO root fetch - processPackages [deployv]: Remove: archive file [/home/abi/fetcher/tmp/deployv-0.9.98.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [deployv]: Remove: archive file [/home/abi/fetcher/tmp/deployv-0.9.99.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [deployv]: Start processing: mct-quantizers-nightly
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [deployv]: success
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230725/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-25 02:12:16] INFO root fetch - processPackages [pytorch-lightning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lightning-2.0.5.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [pytorch-lightning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lightning-2.0.6.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [pytorch-lightning]: success
+[2023-07-25 02:12:16] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.4.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.5.tar.gz]
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [bento-sts]: success
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-07-25 02:12:16] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20873634>=10485760
+[2023-07-25 02:12:16] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-25 02:12:16] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230724.post1149] Old Version: [1.2.0.20230723.post1150]
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-07-25 02:12:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230725/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 02:12:16] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/25/a0/17bd54a4094a4cc5277a88c0259a0ca126123e9bae86b9dc5f1a9cd6d331/mct-quantizers-nightly-1.2.0.20230723.post1150.tar.gz
+[2023-07-25 02:12:17] INFO root fetch - processPackages [lightning]: Remove: archive file [/home/abi/fetcher/tmp/lightning-2022.9.22.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - processPackages [lightning]: Remove: archive file [/home/abi/fetcher/tmp/lightning-2022.9.8.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - main [MainThread]: End processing [lightning]: success
+[2023-07-25 02:12:17] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.8.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.9.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - main [MainThread]: End processing [retake]: success
+[2023-07-25 02:12:17] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/e4/d9/a4e971bc0274470abf3efd8181e56c8657e222faaa125e460225de99096d/mct-quantizers-nightly-1.2.0.20230724.post1149.tar.gz
+[2023-07-25 02:12:17] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-25 02:12:17] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230723.post1150.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230724.post1149.tar.gz --markdown 20230725/m/mct-quantizers-nightly/1.2.0.20230723.post1150-1.2.0.20230724.post1149/diff.md --exclude *.pyd
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-07-25 02:12:17] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-07-25 02:12:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-25 02:12:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-25 02:12:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-25 02:12:18] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230723.post1150.tar.gz]
+[2023-07-25 02:12:18] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230724.post1149.tar.gz]
+[2023-07-25 02:12:18] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-25 02:12:18] INFO root fetch - main [MainThread]: Store serial: [19020370]
