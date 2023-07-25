@@ -21194,3 +21194,155 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:16:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-07-25 12:16:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-07-25 12:16:26] INFO root fetch - main [MainThread]: Store serial: [19027236]
+[2023-07-25 12:21:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027236]
+[2023-07-25 12:21:35] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu117
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quarchpy
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdfat
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-twc
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cubetools
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morphic-util
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proctracer
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acapy-wallet-groups-plugin
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelwhaleutils
+[2023-07-25 12:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydiscovergy
+[2023-07-25 12:21:35] INFO root fetch - processPackages [proctracer]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-25 12:21:35] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-25 12:21:35] INFO root fetch - processPackages [cubetools]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [pydiscovergy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [morphic-util]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.2.3] Old Version: [0.5.2.0]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-25 12:21:36] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/e0/db/eed900992e360b3e8b508129cf1ee05382139243661f23ba286aff74515c/proctracer-0.0.13.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [pydiscovergy]: Downloading https://files.pythonhosted.org/packages/30/c4/6728856ff33ef26cf7b162a73e5d87058919d3d605380f863c380fce9ef0/pydiscovergy-2.0.0.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/b6/28/f365c31984f33128dcdd2dc8af951cf6d3171b8fda30c08d8a73d8c0d192/cubetools-0.4.7.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:21:36] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: Downloading https://files.pythonhosted.org/packages/b4/34/546a934430c54fa6647b5b8e1d684dd7c359577acf817038288c9a647a87/acapy_wallet_groups_plugin-0.3.0.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [morphic-util]: Downloading https://files.pythonhosted.org/packages/ad/e0/aaa9ae89f9bfc0fe1797f8101c69a3c32a78eac6a25c0b871e480b2d3ac8/morphic-util-0.0.7.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/33/f8/f4a124dd86577b83c2ee68471603dc871af5ec6a4d4eea2c5420b6565333/modelwhaleutils-0.5.2.0.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-07-25 12:21:36] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/9b/16/9da87bfbb728b914f952a8d5f8353e789f2838147d0c2bdc12a16b917947/proctracer-0.0.14.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [pydiscovergy]: Downloading https://files.pythonhosted.org/packages/2b/73/85a8063ca8936b460eb82b7bfd7dd9e31dc2bba4e5b281ceaf8a8cafa626/pydiscovergy-2.0.1.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 12:21:36] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 12:21:36] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/24/1c/6cf2dc5ce11a47568038607f7bfcb236e35aab8387b2605bfea5d44aea3c/cubetools-0.4.8.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: Downloading https://files.pythonhosted.org/packages/76/d1/a00d3360652d2a783e000d1254b251ed34feb171b0fcb8d03dadd2c15b32/acapy_wallet_groups_plugin-0.4.0.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [morphic-util]: Downloading https://files.pythonhosted.org/packages/9d/36/0c77d8a25baf7b27c9cf9e2ce41c12309ec33a90e548cc525f98e8a03d9e/morphic-util-0.0.8.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-07-25 12:21:36] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.4.7.tar.gz tmp/cubetools-0.4.8.tar.gz --markdown 20230725/c/cubetools/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-25 12:21:36] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/66/a9/7b61fe77417edc3ed5887814371df652e526e9de93ed843175fb86653f48/modelwhaleutils-0.5.2.3.tar.gz
+[2023-07-25 12:21:36] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-25 12:21:36] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.13.tar.gz tmp/proctracer-0.0.14.tar.gz --markdown 20230725/p/proctracer/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [pydiscovergy]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [pydiscovergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiscovergy-2.0.0.tar.gz tmp/pydiscovergy-2.0.1.tar.gz --markdown 20230725/p/pydiscovergy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-25 12:21:37] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acapy_wallet_groups_plugin-0.3.0.tar.gz tmp/acapy_wallet_groups_plugin-0.4.0.tar.gz --markdown 20230725/a/acapy-wallet-groups-plugin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [morphic-util]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [morphic-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphic-util-0.0.7.tar.gz tmp/morphic-util-0.0.8.tar.gz --markdown 20230725/m/morphic-util/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-07-25 12:21:37] INFO root fetch - processPackages [quarchpy]: Start processing: hugie
+[2023-07-25 12:21:37] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-07-25 12:21:37] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230725/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [hugie]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-25 12:21:37] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.2.0.tar.gz tmp/modelwhaleutils-0.5.2.3.tar.gz --markdown 20230725/m/modelwhaleutils/0.5.2.0-0.5.2.3/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 12:21:37] INFO root fetch - processPackages [hugie]: Downloading https://files.pythonhosted.org/packages/cd/10/dd8565737feaa35e8e674ba53ca4acdede6f52a39ee9ffac353e6356a055/hugie-0.3.1.tar.gz
+[2023-07-25 12:21:37] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-25 12:21:37] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230725/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-25 12:21:37] INFO root fetch - processPackages [hugie]: Downloading https://files.pythonhosted.org/packages/d7/8e/aa2c10c2c5c785a1bd551fcf549a248c34de15e2a50c60b393c650b11334/hugie-0.3.2.tar.gz
+[2023-07-25 12:21:38] INFO root fetch - processPackages [hugie]: executing diffoscope
+[2023-07-25 12:21:38] INFO root fetch - processPackages [hugie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugie-0.3.1.tar.gz tmp/hugie-0.3.2.tar.gz --markdown 20230725/h/hugie/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-25 12:21:38] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [fdfat]: Start processing: global-kmeans-pp
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 12:21:38] WARNING root fetch - processPackages [global-kmeans-pp]: Skipping, unable to determine old version
+[2023-07-25 12:21:38] INFO root fetch - processPackages [global-kmeans-pp]: Start processing: phidata
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [global-kmeans-pp] error
+[2023-07-25 12:21:38] INFO root fetch - processPackages [phidata]: New version: [2.0.0.dev8] Old Version: [2.0.0.dev7]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/d6/95/085c3b708d1a19602aff9fff3355c9b11908fb89294a74ad785743aefdde/phidata-2.0.0.dev7.tar.gz
+[2023-07-25 12:21:38] INFO root fetch - processPackages [pydiscovergy]: Remove: archive file [/home/abi/fetcher/tmp/pydiscovergy-2.0.0.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [pydiscovergy]: Remove: archive file [/home/abi/fetcher/tmp/pydiscovergy-2.0.1.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [pydiscovergy]: Start processing: tinybird-cli
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [pydiscovergy]: success
+[2023-07-25 12:21:38] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.3.0.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.4.0.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [acapy-wallet-groups-plugin]: Start processing: cognito-scanner
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [acapy-wallet-groups-plugin]: success
+[2023-07-25 12:21:38] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.7.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.8.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [cubetools]: Start processing: alibabacloud-alb20200616
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-07-25 12:21:38] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.13.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.14.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [proctracer]: Start processing: odin-cyble
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-25 12:21:38] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-25 12:21:38] WARNING root fetch - processPackages [cognito-scanner]: Skipping, unable to determine old version
+[2023-07-25 12:21:38] INFO root fetch - processPackages [cognito-scanner]: Start processing: quao
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [cognito-scanner] error
+[2023-07-25 12:21:38] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-25 12:21:38] INFO root fetch - processPackages [alibabacloud-alb20200616]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.0.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.3.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [modelwhaleutils]: Start processing: netbox-powerdns-sync
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2023-07-25 12:21:38] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [morphic-util]: Remove: archive file [/home/abi/fetcher/tmp/morphic-util-0.0.7.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - processPackages [morphic-util]: Remove: archive file [/home/abi/fetcher/tmp/morphic-util-0.0.8.tar.gz]
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [morphic-util]: success
+[2023-07-25 12:21:38] WARNING root fetch - processPackages [odin-cyble]: Skipping, unable to determine old version
+[2023-07-25 12:21:38] INFO root fetch - main [MainThread]: End processing [odin-cyble] error
+[2023-07-25 12:21:38] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 12:21:38] INFO root fetch - processPackages [netbox-powerdns-sync]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 12:21:39] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [netbox-powerdns-sync]: Downloading https://files.pythonhosted.org/packages/67/06/bde3c3c3b81f9a48a3e360f1ad34d028aeb7f2c9a3da04bdd68c5c2d0ca9/netbox_powerdns_sync-0.0.4.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [alibabacloud-alb20200616]: Downloading https://files.pythonhosted.org/packages/f6/bb/7ba4e1ae42d4d32345f11a0015e6e8b0b18e30193840c6e30890fcaf7e58/alibabacloud_alb20200616-1.0.8.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/8c/3d/2f460825b41eb8d8a35ed768e9861c38efb8e7ec039e6f22d2a60932a5b5/phidata-2.0.0.dev8.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-25 12:21:39] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230725/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-25 12:21:39] INFO root fetch - processPackages [hugie]: Remove: archive file [/home/abi/fetcher/tmp/hugie-0.3.1.tar.gz]
+[2023-07-25 12:21:39] INFO root fetch - processPackages [hugie]: Remove: archive file [/home/abi/fetcher/tmp/hugie-0.3.2.tar.gz]
+[2023-07-25 12:21:39] INFO root fetch - main [MainThread]: End processing [hugie]: success
+[2023-07-25 12:21:39] INFO root fetch - processPackages [netbox-powerdns-sync]: Downloading https://files.pythonhosted.org/packages/28/c2/f88a8d926fcd19c23aed29d8257916c10276b9e919e63d4325b346bcaaf4/netbox_powerdns_sync-0.0.5.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 12:21:39] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 12:21:39] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-07-25 12:21:39] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.0.0.dev7.tar.gz tmp/phidata-2.0.0.dev8.tar.gz --markdown 20230725/p/phidata/2.0.0.dev7-2.0.0.dev8/diff.md --exclude *.pyd
+[2023-07-25 12:21:39] INFO root fetch - processPackages [netbox-powerdns-sync]: executing diffoscope
+[2023-07-25 12:21:39] INFO root fetch - processPackages [netbox-powerdns-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_powerdns_sync-0.0.4.tar.gz tmp/netbox_powerdns_sync-0.0.5.tar.gz --markdown 20230725/n/netbox-powerdns-sync/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 12:21:39] INFO root fetch - processPackages [alibabacloud-alb20200616]: Downloading https://files.pythonhosted.org/packages/e6/5f/5c2de865670b3e784d224cb9b77dbc696bb952be5d3ad5fa4b26294b7344/alibabacloud_alb20200616-1.0.9.tar.gz
+[2023-07-25 12:21:39] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-25 12:21:39] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-25 12:21:39] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-25 12:21:39] INFO root fetch - processPackages [alibabacloud-alb20200616]: executing diffoscope
+[2023-07-25 12:21:39] INFO root fetch - processPackages [alibabacloud-alb20200616]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alb20200616-1.0.8.tar.gz tmp/alibabacloud_alb20200616-1.0.9.tar.gz --markdown 20230725/a/alibabacloud-alb20200616/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:21:39] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:21:39] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-25 12:21:39] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-25 12:21:40] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-25 12:21:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 12:21:40] INFO root fetch - processPackages [alibabacloud-alb20200616]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alb20200616-1.0.8.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - processPackages [alibabacloud-alb20200616]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alb20200616-1.0.9.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-alb20200616]: success
+[2023-07-25 12:21:40] INFO root fetch - processPackages [netbox-powerdns-sync]: Remove: archive file [/home/abi/fetcher/tmp/netbox_powerdns_sync-0.0.4.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - processPackages [netbox-powerdns-sync]: Remove: archive file [/home/abi/fetcher/tmp/netbox_powerdns_sync-0.0.5.tar.gz]
+[2023-07-25 12:21:40] INFO root fetch - main [MainThread]: End processing [netbox-powerdns-sync]: success
+[2023-07-25 12:21:42] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev7.tar.gz]
+[2023-07-25 12:21:42] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev8.tar.gz]
+[2023-07-25 12:21:42] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-07-25 12:21:42] INFO root fetch - main [MainThread]: Store serial: [19027307]
