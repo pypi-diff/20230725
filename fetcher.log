@@ -3318,3 +3318,75 @@
 [2023-07-25 03:19:07] INFO root fetch - processPackages [askbot]: Remove: archive file [/home/abi/fetcher/tmp/askbot-0.9.4.tar.gz]
 [2023-07-25 03:19:07] INFO root fetch - main [MainThread]: End processing [askbot]: success
 [2023-07-25 03:19:07] INFO root fetch - main [MainThread]: Store serial: [19020788]
+[2023-07-25 03:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020788]
+[2023-07-25 03:24:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-poe-client
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordcel
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytdl-sub
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-gatools
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shootpandora-ChatGPT
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AiBot.py
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmt-cli
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sops-secrets
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multimcts
+[2023-07-25 03:24:18] WARNING root fetch - processPackages [wordcel]: Skipping, unable to determine old version
+[2023-07-25 03:24:18] INFO root fetch - main [MainThread]: End processing [wordcel] error
+[2023-07-25 03:24:18] INFO root fetch - processPackages [python-gatools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 03:24:18] WARNING root fetch - processPackages [shootpandora-ChatGPT]: Skipping, unable to determine old version
+[2023-07-25 03:24:18] INFO root fetch - main [MainThread]: End processing [shootpandora-ChatGPT] error
+[2023-07-25 03:24:18] INFO root fetch - processPackages [multimcts]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [AiBot.py]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.7.25.post1] Old Version: [2023.7.25]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-25 03:24:18] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2023-07-25 03:24:18] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-25 03:24:18] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/cc/d8/604340d29fafea934750802da6618deb6d1a6d90fca0b5b4a80f2ada8afc/async_poe_client-0.1.8.tar.gz
+[2023-07-25 03:24:18] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/eb/959b9b3e30fbc0da278c4b43612cd0da210fcd1758092ef53911d77c9eaf/ytdl-sub-2023.7.25.tar.gz
+[2023-07-25 03:24:18] INFO root fetch - processPackages [python-gatools]: Downloading https://files.pythonhosted.org/packages/94/5b/71e71b9d7df2f01372dfd57aae75b9cf4e6266dcd32c387e4934d47a32bd/python_gatools-0.1.4-py3-none-any.whl
+[2023-07-25 03:24:18] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/53/cb/40038b8e4fdb2f867c06489d9d272cf3036fa445be38d5c5610e6d95220f/AiBot.py-1.2.6.tar.gz
+[2023-07-25 03:24:18] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/8b/96/bcb18c1f0525dea62ae6e288cf684fa71998ba6b0a6be5a942c567d2a2d7/multimcts-0.2.2.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/9b/06/70438f5fd6f0535a0724bc3b96833c2580c7a798b3eb983c007f941c4c16/async_poe_client-0.1.9.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [python-gatools]: Downloading https://files.pythonhosted.org/packages/b7/10/6b87888c5e578412d1c752f1f07bfc0dc21e18554b9114fb0a6cf91853c1/python_gatools-0.1.5-py3-none-any.whl
+[2023-07-25 03:24:19] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/53/36/306da38bf8846e93f612262166700c82ac8948088e664b7c8960f5b55092/AiBot.py-1.2.7.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/8b/58/1e72d0ca6a483583d41309e1ddddc01cbabe1ef0b9a0db4463fa40a79770/ytdl-sub-2023.7.25.post1.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.8.tar.gz tmp/async_poe_client-0.1.9.tar.gz --markdown 20230725/a/async-poe-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 03:24:19] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/0e/df/112667fb85a1f9495355c338a19a7a32da31e39754b125dbc05831d61b79/multimcts-0.2.3.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20230725/l/lmt-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 03:24:19] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-25 03:24:19] INFO root fetch - processPackages [python-gatools]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [python-gatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gatools-0.1.4-py3-none-any.whl.zip tmp/python_gatools-0.1.5-py3-none-any.whl.zip --markdown 20230725/p/python-gatools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 03:24:19] INFO root fetch - processPackages [AiBot.py]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [AiBot.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AiBot.py-1.2.6.tar.gz tmp/AiBot.py-1.2.7.tar.gz --markdown 20230725/A/AiBot.py/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-25 03:24:19] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.7.25.tar.gz tmp/ytdl-sub-2023.7.25.post1.tar.gz --markdown 20230725/y/ytdl-sub/2023.7.25-2023.7.25.post1/diff.md --exclude *.pyd
+[2023-07-25 03:24:19] INFO root fetch - processPackages [multimcts]: executing diffoscope
+[2023-07-25 03:24:19] INFO root fetch - processPackages [multimcts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimcts-0.2.2.tar.gz tmp/multimcts-0.2.3.tar.gz --markdown 20230725/m/multimcts/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-25 03:24:20] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-25 03:24:20] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230725/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-25 03:24:20] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.8.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.9.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-25 03:24:20] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2023-07-25 03:24:20] INFO root fetch - processPackages [python-gatools]: Remove: archive file [/home/abi/fetcher/tmp/python_gatools-0.1.4-py3-none-any.whl.zip]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [python-gatools]: Remove: archive file [/home/abi/fetcher/tmp/python_gatools-0.1.5-py3-none-any.whl.zip]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [python-gatools]: success
+[2023-07-25 03:24:20] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.6.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.7.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [AiBot.py]: success
+[2023-07-25 03:24:20] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.2.2.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.2.3.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [multimcts]: success
+[2023-07-25 03:24:20] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.25.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.25.post1.tar.gz]
+[2023-07-25 03:24:20] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-07-25 03:24:21] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-25 03:24:21] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-25 03:24:21] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-25 03:24:21] INFO root fetch - main [MainThread]: Store serial: [19020818]
