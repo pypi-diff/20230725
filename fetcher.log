@@ -17945,3 +17945,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:12:55] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.9.tar.gz]
 [2023-07-25 10:12:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-memcache]: success
 [2023-07-25 10:12:55] INFO root fetch - main [MainThread]: Store serial: [19025950]
+[2023-07-25 10:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025950]
+[2023-07-25 10:18:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scmrepo
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proctracer
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-actiontrail
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gogo-cli
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idbadapter
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hydrodataset
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj-maintenance
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-asm
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-foas
+[2023-07-25 10:18:04] WARNING root fetch - processPackages [dj-maintenance]: Skipping, unable to determine old version
+[2023-07-25 10:18:04] INFO root fetch - processPackages [dj-maintenance]: Start processing: nicescad
+[2023-07-25 10:18:04] INFO root fetch - main [MainThread]: End processing [dj-maintenance] error
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ros-cdk-asm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ros-cdk-foas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [ros-cdk-actiontrail]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [hydrodataset]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [idbadapter]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [gogo-cli]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-25 10:18:04] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-25 10:18:04] INFO root fetch - processPackages [proctracer]: Start processing: losscape
+[2023-07-25 10:18:04] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-25 10:18:04] INFO root fetch - processPackages [scmrepo]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [nicescad]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [losscape]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230725] Old Version: [2.14.0.dev20230724]
+[2023-07-25 10:18:04] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/5b/70/82c3c7a6e3a9dc24849e7353e911c5bfff790b3b0f4618c0bff793301ebf/gogo_cli-0.0.7.tar.gz
+[2023-07-25 10:18:04] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/f1/96/f40a272638a204c9b95a99e2017b4a246765431a277c4e3958afaa7bed99/nicescad-0.0.5.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-foas]: Downloading https://files.pythonhosted.org/packages/b8/e1/989059c1864ec5f1e58e12d7bf8dae409109e8253a654d29c827caf921b2/ros-cdk-foas-1.0.8.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/14/e7/5878fa168e4b5e5076d02feb289d0cc0c7abe835224fac5756c88c7c455e/ros-cdk-asm-1.0.8.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/31/ef/acff9e5466d3bbbdaab1344055ef12d68c03e301c52727054460cd46790e/losscape-1.5.6.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/7e/cf/015e2bcbec0ecc29571642decc372cd8869367604ad773c5b4ef69e07801/scmrepo-1.0.4.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/02/ed/177bfcd7ae69479e6819eca8a53e86f66ab57ef884211fa085effed29d89/idbadapter-1.9.5.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/30/82/7724d3535d7d25e8b39331ab68b4e484209347d6ac664637a045b1391b1e/ros-cdk-actiontrail-1.0.8.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/3d/57/0768aa89b74d884c90f7ae9b78d1fac2ff516f45e83f6ec4e76ba74f8ec1/hydrodataset-0.0.8.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e9/b8/2ad9b9b310a2f933c96297f14a5641cd05630b79787fe71a8ef80cfb7129/tf_nightly-2.14.0.dev20230724-cp39-cp39-win_amd64.whl
+[2023-07-25 10:18:05] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/64/fe/afd93a91c57048c748f2b7253a27ff9c5e9b966c64151b5ca2b128934874/gogo_cli-0.0.8.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/f3/e3/ee227ec9ce7a24104036e015459a9e38b40e35af048f11c7df1fde0c4011/nicescad-0.0.6.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/7a/cf/c8bad24ecbf5b8a2eea02a15d31bf58c5c1a4395fd94e708eedd392869fa/losscape-1.5.7.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/1c/7e/9e1fc53bf9923f2b3b5a93d3debae7d70edd871152c272ef02dececc39b6/idbadapter-1.9.6.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-foas]: Downloading https://files.pythonhosted.org/packages/c6/50/4566dd1e811e0a3002608281c71f9610ca18261b2344d01f265f35a26ff0/ros-cdk-foas-1.0.9.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/f6/42/28207efc05943bcdc9e443b4322aec6229a62135dded37aac68824f0f69a/hydrodataset-0.1.0.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/f7/ca/14f435bf82cfa2f72761fdd4c072d9c6e9452e34e241142190a1c0b009bd/scmrepo-1.1.0.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f4/34/09ef84579be4c21f3b6deb21c96976116ee6a7e5b5a9f0fc574b1add9416/tf_nightly-2.14.0.dev20230725-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/77/2e/0382bd98bdddc0b3148f6a38a5267e292d026a858707240b6bf76e705961/ros-cdk-asm-1.0.9.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.7.tar.gz tmp/gogo_cli-0.0.8.tar.gz --markdown 20230725/g/gogo-cli/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/7e/65/286642c9eca0d5b22011c7c250c23dbc6a507221717c0f7d80bc4081ce37/ros-cdk-actiontrail-1.0.9.tar.gz
+[2023-07-25 10:18:05] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.9.5.tar.gz tmp/idbadapter-1.9.6.tar.gz --markdown 20230725/i/idbadapter/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.6.tar.gz tmp/losscape-1.5.7.tar.gz --markdown 20230725/l/losscape/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-foas]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-foas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-foas-1.0.8.tar.gz tmp/ros-cdk-foas-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-foas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [hydrodataset]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [hydrodataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrodataset-0.0.8.tar.gz tmp/hydrodataset-0.1.0.tar.gz --markdown 20230725/h/hydrodataset/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.5.tar.gz tmp/nicescad-0.0.6.tar.gz --markdown 20230725/n/nicescad/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-1.0.4.tar.gz tmp/scmrepo-1.1.0.tar.gz --markdown 20230725/s/scmrepo/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486286409>=10485760
+[2023-07-25 10:18:05] INFO root fetch - processPackages [tf-nightly]: Start processing: ros-cdk-threatdetection
+[2023-07-25 10:18:05] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-asm]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-asm-1.0.8.tar.gz tmp/ros-cdk-asm-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-asm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-actiontrail]: executing diffoscope
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-actiontrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-actiontrail-1.0.8.tar.gz tmp/ros-cdk-actiontrail-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-actiontrail/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:18:05] INFO root fetch - processPackages [ros-cdk-threatdetection]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 10:18:06] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/bf/05/e6c61c0ff82626be1fed91cde10a70fff2c5cfa15e56f111bf2c11e2faa4/ros-cdk-threatdetection-1.0.16.tar.gz
+[2023-07-25 10:18:06] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/37/b8/167508e1c6b13b80b1b00ab84f67f6a1ccef96f168caa385a8c3d7330da3/ros-cdk-threatdetection-1.0.17.tar.gz
+[2023-07-25 10:18:06] INFO root fetch - processPackages [ros-cdk-threatdetection]: executing diffoscope
+[2023-07-25 10:18:06] INFO root fetch - processPackages [ros-cdk-threatdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-threatdetection-1.0.16.tar.gz tmp/ros-cdk-threatdetection-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-threatdetection/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 10:18:07] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.5.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.6.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [idbadapter]: Start processing: GScrew
+[2023-07-25 10:18:07] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-07-25 10:18:07] WARNING root fetch - processPackages [GScrew]: Skipping, unable to determine old version
+[2023-07-25 10:18:07] INFO root fetch - processPackages [GScrew]: Start processing: je-api-testka-dev
+[2023-07-25 10:18:07] INFO root fetch - main [MainThread]: End processing [GScrew] error
+[2023-07-25 10:18:07] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.7.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.8.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-25 10:18:07] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.6.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.7.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-25 10:18:07] INFO root fetch - processPackages [ros-cdk-foas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-foas-1.0.8.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - processPackages [ros-cdk-foas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-foas-1.0.9.tar.gz]
+[2023-07-25 10:18:07] INFO root fetch - main [MainThread]: End processing [ros-cdk-foas]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/92/49/f38d1276f6eeea1d06806088abcb16743a3b113216899600e65561d41420/je_api_testka_dev-0.0.98.tar.gz
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.8.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.9.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-actiontrail]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.8.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.9.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-asm]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.0.8.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.1.0.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [hydrodataset]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.5.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.6.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/2c/1d/fcd4ebf844f853e6ba33ca71dd156f408545707c8e66109c284040bd08b1/je_api_testka_dev-0.0.99.tar.gz
+[2023-07-25 10:18:08] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-1.0.4.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-1.1.0.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.16.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.17.tar.gz]
+[2023-07-25 10:18:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-threatdetection]: success
+[2023-07-25 10:18:08] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-07-25 10:18:08] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.98.tar.gz tmp/je_api_testka_dev-0.0.99.tar.gz --markdown 20230725/j/je-api-testka-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 10:18:09] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.98.tar.gz]
+[2023-07-25 10:18:09] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.99.tar.gz]
+[2023-07-25 10:18:09] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-07-25 10:18:09] INFO root fetch - main [MainThread]: Store serial: [19026041]
