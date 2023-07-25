@@ -21346,3 +21346,147 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:21:42] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev8.tar.gz]
 [2023-07-25 12:21:42] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-07-25 12:21:42] INFO root fetch - main [MainThread]: Store serial: [19027307]
+[2023-07-25 12:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027307]
+[2023-07-25 12:26:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-network
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dummy-url-wrapper
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelwhaleutils
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camrcs
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weaverbird
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quao
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcai-datasets-nightly
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-sendmsg-by-bots
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubicweb-workcase
+[2023-07-25 12:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-apitree
+[2023-07-25 12:26:51] INFO root fetch - processPackages [azure-mgmt-network]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [sphinx-apitree]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [cubicweb-workcase]: New version: [1.0.0] Old Version: [0.8.0]
+[2023-07-25 12:26:51] WARNING root fetch - processPackages [camrcs]: Skipping, unable to determine old version
+[2023-07-25 12:26:51] WARNING root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Skipping, unable to determine old version
+[2023-07-25 12:26:51] INFO root fetch - processPackages [camrcs]: Start processing: vrt-lss-account
+[2023-07-25 12:26:51] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Start processing: vrt-lss-agro
+[2023-07-25 12:26:51] INFO root fetch - main [MainThread]: End processing [camrcs] error
+[2023-07-25 12:26:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sendmsg-by-bots] error
+[2023-07-25 12:26:51] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.2.4] Old Version: [0.5.2.3]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-25 12:26:51] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-07-25 12:26:52] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/66/a9/7b61fe77417edc3ed5887814371df652e526e9de93ed843175fb86653f48/modelwhaleutils-0.5.2.3.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/97/28/6cb33ab8c36044241c708815e56b398171df214336064449abe946b22569/azure-mgmt-network-8.0.0.zip
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-agro]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-account]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:52] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/81/5c/84a8bd576aebccd660e9e0721b2b805ee15dae20a9c2ddc38e74d4f8cf5e/dummy_url_wrapper-0.0.8.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [cubicweb-workcase]: Downloading https://files.pythonhosted.org/packages/15/77/05d328e266b826816d86451d23331c0b224e215aabf5527eb768a1a9e7b6/cubicweb-workcase-0.8.0.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/80/70/57dcdd6f60e20763a47b4549b1f92782cbb7b58eaf3131ad4cdcf5e8670f/sphinx_apitree-1.3.1.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/fa/97/95725cf4296d9c4adebe0ed735c9f53e84ac517f1ab32406aecdc1482635/vrt_lss_account-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/a8/c5/057d5516ee662066649fb68edaa8f207fa902255f75e4bb399a32a05ac48/vrt_lss_agro-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:52] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/37/02/f854300aa82cecd03524fd40754e4cfb6a8b80fef8c48e99e8cdaff6dc98/modelwhaleutils-0.5.2.4.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 12:26:52] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 12:26:52] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2023-07-25 12:26:52] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.2.3.tar.gz tmp/modelwhaleutils-0.5.2.4.tar.gz --markdown 20230725/m/modelwhaleutils/0.5.2.3-0.5.2.4/diff.md --exclude *.pyd
+[2023-07-25 12:26:52] INFO root fetch - processPackages [cubicweb-workcase]: Downloading https://files.pythonhosted.org/packages/fd/b7/3fc1ec8c8b180d38e07186dd2fc2d623a4321dedddb6ab92d5cb9ffac27a/cubicweb-workcase-1.0.0.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/c2/25/c830a1b472c0e71e86a42ce9ce208b74f0c65c4a5a707fc1ca78b0739fc1/sphinx_apitree-1.4.0.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/8a/2b/d0e5a3eb38c8db957442176fd4a229531f674ecfb07a9eecb8374e4c3eee/dummy_url_wrapper-0.0.9.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [cubicweb-workcase]: executing diffoscope
+[2023-07-25 12:26:52] INFO root fetch - processPackages [cubicweb-workcase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-workcase-0.8.0.tar.gz tmp/cubicweb-workcase-1.0.0.tar.gz --markdown 20230725/c/cubicweb-workcase/0.8.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-25 12:26:52] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/83/48/60a656969798171da456d0912953dc22a43718847a9f06ff924f048a67f3/vrt_lss_agro-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:52] INFO root fetch - processPackages [sphinx-apitree]: executing diffoscope
+[2023-07-25 12:26:52] INFO root fetch - processPackages [sphinx-apitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_apitree-1.3.1.tar.gz tmp/sphinx_apitree-1.4.0.tar.gz --markdown 20230725/s/sphinx-apitree/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-25 12:26:52] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-25 12:26:52] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.8.tar.gz tmp/dummy_url_wrapper-0.0.9.tar.gz --markdown 20230725/d/dummy-url-wrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:26:52] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/d1/21/631213f354ade20c6ee695087abbb183adced90d9c1c0111e1f37095feef/vrt_lss_account-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:53] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2023-07-25 12:26:53] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20230725/w/weaverbird/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 12:26:53] INFO root fetch - processPackages [vrt-lss-account]: executing diffoscope
+[2023-07-25 12:26:53] INFO root fetch - processPackages [vrt-lss-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_account-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_account-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-account/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:53] INFO root fetch - processPackages [vrt-lss-agro]: executing diffoscope
+[2023-07-25 12:26:53] INFO root fetch - processPackages [vrt-lss-agro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_agro-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_agro-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-agro/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:53] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-07-25 12:26:54] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.3.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.4.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [modelwhaleutils]: Start processing: lesscode-utils
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-07-25 12:26:54] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230725/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-07-25 12:26:54] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [quao]: Start processing: vrt-lss-packer
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.8.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.9.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [dummy-url-wrapper]: Start processing: vrt-lss-routing
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-packer]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [cubicweb-workcase]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-workcase-0.8.0.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [cubicweb-workcase]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-workcase-1.0.0.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [cubicweb-workcase]: Start processing: vrt-lss-studio
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [cubicweb-workcase]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/7d/60/6489ea0383738856353ed803e78e13779f738e6448a2765b7e91e586f768/lesscode_utils-0.0.2.tar.gz
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-routing]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.3.1.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.4.0.tar.gz]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [sphinx-apitree]: Start processing: vrt-lss-universal
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [sphinx-apitree]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/00/0e/72811d64515c8d20a8d85c244f6fe3240fe7d478e41d72b1a00cc0af7433/vrt_lss_packer-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-studio]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-universal]: New version: [6.9.2071] Old Version: [6.8.2055]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/44/e7/700fc045e69afd654874ab4b7ccb07d2df6284785eb9d28381dede0eb775/azure-mgmt-network-9.0.0.zip
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/bb/75/67f6a5b4189af9aa57c4da5a0c1c7fb6f4d0f46b44f405c0f445378b74fc/vrt_lss_routing-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:54] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/e8/2b/a28df0f40b50a4b6e9051a716c97b377c74935303fe2279bd860127b6c79/lesscode_utils-0.0.3.tar.gz
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/b9/91/69242047ccadcf79a1c4f131738070e9de5ef6f3166f83e96051c36a86c6/vrt_lss_studio-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/65/93/d2190a058296bd30193e071d84c1672d66f518516a18028b239b16386b74/vrt_lss_universal-6.8.2055-py3-none-any.whl
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/82/07/8c94c2fd857c6988662830756ebe7873079ca0668499a0435c4f9db6e477/vrt_lss_packer-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-account]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_account-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:54] INFO root fetch - processPackages [vrt-lss-account]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_account-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:54] INFO root fetch - main [MainThread]: End processing [vrt-lss-account]: success
+[2023-07-25 12:26:54] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-25 12:26:54] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.2.tar.gz tmp/lesscode_utils-0.0.3.tar.gz --markdown 20230725/l/lesscode-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 12:26:55] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2023-07-25 12:26:55] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2023-07-25 12:26:55] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-packer]: executing diffoscope
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_packer-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_packer-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-packer/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/d2/32/4ab6ce83e7abe6d565bc71ec31f5262897a08689ab1d44aafd73b4a25050/vrt_lss_routing-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/a4/f1/6d1eb3f220a7f8424c61089dc1904da92eff664f116d14996c83bb683075/vrt_lss_studio-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-agro]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_agro-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-agro]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_agro-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:55] INFO root fetch - main [MainThread]: End processing [vrt-lss-agro]: success
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/a3/d0/42843f9294682bdf6278a0a15734abf2462a4984704a11db8269a2328af5/vrt_lss_universal-6.9.2071-py3-none-any.whl
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-routing]: executing diffoscope
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_routing-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_routing-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-routing/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-universal]: executing diffoscope
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-universal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_universal-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_universal-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-universal/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-studio]: executing diffoscope
+[2023-07-25 12:26:55] INFO root fetch - processPackages [vrt-lss-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_studio-6.8.2055-py3-none-any.whl.zip tmp/vrt_lss_studio-6.9.2071-py3-none-any.whl.zip --markdown 20230725/v/vrt-lss-studio/6.8.2055-6.9.2071/diff.md --exclude *.pyd
+[2023-07-25 12:26:55] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-07-25 12:26:55] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-07-25 12:26:55] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-07-25 12:26:56] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.2.tar.gz]
+[2023-07-25 12:26:56] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.3.tar.gz]
+[2023-07-25 12:26:56] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-25 12:26:56] INFO root fetch - processPackages [vrt-lss-packer]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_packer-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:56] INFO root fetch - processPackages [vrt-lss-packer]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_packer-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:56] INFO root fetch - main [MainThread]: End processing [vrt-lss-packer]: success
+[2023-07-25 12:26:56] INFO root fetch - processPackages [vrt-lss-routing]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_routing-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:56] INFO root fetch - processPackages [vrt-lss-routing]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_routing-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:56] INFO root fetch - main [MainThread]: End processing [vrt-lss-routing]: success
+[2023-07-25 12:26:56] INFO root fetch - processPackages [azure-mgmt-network]: executing diffoscope
+[2023-07-25 12:26:56] INFO root fetch - processPackages [azure-mgmt-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-network-8.0.0.zip tmp/azure-mgmt-network-9.0.0.zip --markdown 20230725/a/azure-mgmt-network/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-25 12:26:57] INFO root fetch - processPackages [vrt-lss-universal]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_universal-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:57] INFO root fetch - processPackages [vrt-lss-universal]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_universal-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:57] INFO root fetch - main [MainThread]: End processing [vrt-lss-universal]: success
+[2023-07-25 12:26:58] INFO root fetch - processPackages [vrt-lss-studio]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_studio-6.8.2055-py3-none-any.whl.zip]
+[2023-07-25 12:26:58] INFO root fetch - processPackages [vrt-lss-studio]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_studio-6.9.2071-py3-none-any.whl.zip]
+[2023-07-25 12:26:58] INFO root fetch - main [MainThread]: End processing [vrt-lss-studio]: success
+[2023-07-25 12:27:10] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-8.0.0.zip]
+[2023-07-25 12:27:10] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-9.0.0.zip]
+[2023-07-25 12:27:10] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
+[2023-07-25 12:27:10] INFO root fetch - main [MainThread]: Store serial: [19027361]
