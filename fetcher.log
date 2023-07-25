@@ -14455,3 +14455,156 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:21:02] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.26.0.tar.gz]
 [2023-07-25 08:21:02] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2023-07-25 08:21:02] INFO root fetch - main [MainThread]: Store serial: [19024731]
+[2023-07-25 08:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024731]
+[2023-07-25 08:26:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmsdna-lakeapi
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rabbitmq
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emeralds
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdr-utils
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-holidays-public-city
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-holidays-public
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmcloud
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphractal
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: our1314
+[2023-07-25 08:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-opnsense
+[2023-07-25 08:26:15] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.76] Old Version: [0.0.74]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pdr-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-25 08:26:15] WARNING root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Skipping, unable to determine old version
+[2023-07-25 08:26:15] INFO root fetch - processPackages [odoo-addon-hr-holidays-public-city]: Start processing: pulumi-random
+[2023-07-25 08:26:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-public-city] error
+[2023-07-25 08:26:15] INFO root fetch - processPackages [our1314]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.2]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [emeralds]: New version: [0.0.4b0] Old Version: [0.0.4]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1690264329] Old Version: [3.4.0a1689314904]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-07-25 08:26:15] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/c7/be/f3d86399f5815f1a8082b88f0aadfcec138d0d7425f2d9dcee21844151dd/our1314-0.1.6.tar.gz
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/68/95/a693400e96f6cb1c77b6d97ff34ffca58b2443c0da620e93da6472152270/pdr-utils-0.0.6.tar.gz
+[2023-07-25 08:26:15] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-25 08:26:15] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2023-07-25 08:26:15] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/30/ff/b42459779162872567fc32c8e0b624e96d4dd56fb1b20eea8c4f9a9ccc03/pulumi_opnsense-0.0.74.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/95/8b/09e26eda3a79ab90a7fbc3576605ce9c5115f82e75469700e1efe6faae75/emeralds-0.0.4.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: Downloading https://files.pythonhosted.org/packages/e7/ed/045226fdf3e07df9f324d9ce387cc21abaaad35101149d2f2bd60afb69a5/odoo_addon_hr_holidays_public-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/6a/54/ec68b37e60fb07e07b3955fef82dd63bfe02f4aa0afaff5661a2b692e1e8/pulumi_rabbitmq-3.4.0a1689314904.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/0b/b0/1143c86ed1dd25d1f6078747ca36d825465c6fee9c4977553bb77c7d0017/our1314-0.1.7.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pdr-utils]: Downloading https://files.pythonhosted.org/packages/f7/f5/2ad1b071b7c683c021c2452426de572897f3c804721ce7c2ad10c45fa52c/pdr-utils-0.0.7.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/85/e6/74af01b14a3802ce41e99be39f139e28e6fc7be89ce833596f3b568ee112/pulumi_opnsense-0.0.76.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/b8/93/37c53a35a4d491f7a27dc3cdde1f639479461d569b666a3e9bca23d64017/emeralds-0.0.4b0.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/d8/4b/d3aaebf1a76cf32cead764e79e304cbebca9915c656fc41dda55ca73998d/pulumi_rabbitmq-3.4.0a1690264329.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.6.tar.gz tmp/our1314-0.1.7.tar.gz --markdown 20230725/o/our1314/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.74.tar.gz tmp/pulumi_opnsense-0.0.76.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.74-0.0.76/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: Downloading https://files.pythonhosted.org/packages/c8/38/99617246f6e258b6d03d72643db4996f670ca92101966f64bd53372ea384/odoo_addon_hr_holidays_public-16.0.1.1.0-py3-none-any.whl
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pdr-utils]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pdr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdr-utils-0.0.6.tar.gz tmp/pdr-utils-0.0.7.tar.gz --markdown 20230725/p/pdr-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230725/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20230725/b/bmsdna-lakeapi/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.4.tar.gz tmp/emeralds-0.0.4b0.tar.gz --markdown 20230725/e/emeralds/0.0.4-0.0.4b0/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230725/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-07-25 08:26:16] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_holidays_public-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_holidays_public-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-hr-holidays-public/16.0.1.0.0.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-07-25 08:26:16] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1689314904.tar.gz tmp/pulumi_rabbitmq-3.4.0a1690264329.tar.gz --markdown 20230725/p/pulumi-rabbitmq/3.4.0a1689314904-3.4.0a1690264329/diff.md --exclude *.pyd
+[2023-07-25 08:26:17] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-07-25 08:26:17] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230725/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-07-25 08:26:18] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4b0.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [emeralds]: Start processing: pulumi-slack
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.6.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pdr-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdr-utils-0.0.7.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pdr-utils]: Start processing: nonebot-plugin-bili-push
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [pdr-utils]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1690264522] Old Version: [0.4.3a1689315244]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.6.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.7.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [our1314]: Start processing: odoo12-addon-stock-move-manual-lot
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [lmcloud]: Start processing: pulumi-postgresql
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: New version: [12.0.1.1.0.99.dev7] Old Version: [12.0.1.0.0.99.dev3]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.74.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.76.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: pulumi-signalfx
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/03/46/9268511f044fcc92d37baebd79686530c5b67991b9bc129c1a0e3f26db81/pulumi_slack-0.4.3a1689315244.tar.gz
+[2023-07-25 08:26:18] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [sphractal]: Start processing: packageN
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: readDataFile
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-25 08:26:18] WARNING root fetch - processPackages [packageN]: Skipping, unable to determine old version
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [packageN] error
+[2023-07-25 08:26:18] INFO root fetch - processPackages [readDataFile]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: Downloading https://files.pythonhosted.org/packages/ee/65/d3a3e1c9b801566734e923e29e08a2f82b5e43613d40f9f62167efb926a8/odoo12_addon_stock_move_manual_lot-12.0.1.0.0.99.dev3-py3-none-any.whl
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1689314904.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1690264329.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_public-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [odoo-addon-hr-holidays-public]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_public-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-public]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2023-07-25 08:26:18] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2023-07-25 08:26:18] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/b7/06/5293f85170aecd124da60ab7421302bfefccea323ad12b5d6ca474c725bf/readDataFile-0.0.3.tar.gz
+[2023-07-25 08:26:18] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/9a/2a/e49a87841c85055ee8c87dd309240b98743fa4da60ec7e5863ef5055e0ae/pulumi_slack-0.4.3a1690264522.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: Downloading https://files.pythonhosted.org/packages/34/d1/936003a926ef1ff6921f192c49e013c840f09538029e8c2b33c891b36950/odoo12_addon_stock_move_manual_lot-12.0.1.1.0.99.dev7-py3-none-any.whl
+[2023-07-25 08:26:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230725/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 08:26:19] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/68/78/388d553b4a7507641cd4619f1f3ac69fafbd8cc039966f66e9d3dde88df7/readDataFile-0.0.4.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1689315244.tar.gz tmp/pulumi_slack-0.4.3a1690264522.tar.gz --markdown 20230725/p/pulumi-slack/0.4.3a1689315244-0.4.3a1690264522/diff.md --exclude *.pyd
+[2023-07-25 08:26:19] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_move_manual_lot-12.0.1.0.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_stock_move_manual_lot-12.0.1.1.0.99.dev7-py3-none-any.whl.zip --markdown 20230725/o/odoo12-addon-stock-move-manual-lot/12.0.1.0.0.99.dev3-12.0.1.1.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20230725/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/diff.md --exclude *.pyd
+[2023-07-25 08:26:19] INFO root fetch - processPackages [readDataFile]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [readDataFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readDataFile-0.0.3.tar.gz tmp/readDataFile-0.0.4.tar.gz --markdown 20230725/r/readDataFile/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-07-25 08:26:19] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230725/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-07-25 08:26:20] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-25 08:26:20] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1689315244.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1690264522.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-07-25 08:26:20] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.3.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.4.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - main [MainThread]: End processing [readDataFile]: success
+[2023-07-25 08:26:20] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_move_manual_lot-12.0.1.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-07-25 08:26:20] INFO root fetch - processPackages [odoo12-addon-stock-move-manual-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_move_manual_lot-12.0.1.1.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-25 08:26:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-move-manual-lot]: success
+[2023-07-25 08:26:20] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2023-07-25 08:26:20] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-07-25 08:26:21] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-07-25 08:26:21] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-07-25 08:26:21] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-07-25 08:26:21] INFO root fetch - main [MainThread]: Store serial: [19024796]
