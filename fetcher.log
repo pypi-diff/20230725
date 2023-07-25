@@ -7246,3 +7246,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 03:56:58] INFO root fetch - processPackages [code-data-science]: Remove: archive file [/home/abi/fetcher/tmp/code_data_science-1.0.1.1.tar.gz]
 [2023-07-25 03:56:58] INFO root fetch - main [MainThread]: End processing [code-data-science]: success
 [2023-07-25 03:56:58] INFO root fetch - main [MainThread]: Store serial: [19022207]
+[2023-07-25 04:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022207]
+[2023-07-25 04:02:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyTermGUI
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weathon
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-runtime
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet-embed
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htt
+[2023-07-25 04:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-pyodide
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1621] Old Version: [0.9.0.dev1620]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [PyTermGUI]: New version: [7.5.0] Old Version: [7.4.0]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [htt]: New version: [0.3] Old Version: [0.2]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [weathon]: New version: [0.0.0.19] Old Version: [0.0.0.18]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:02:07] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/ac/31/7a09c2cf613683552314abdb828654c28b90262a3184c62f9d8dca055291/htt-0.2.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [PyTermGUI]: Downloading https://files.pythonhosted.org/packages/66/de/579d4e6ebf2330ee2243dc8ba6a60e7573b06e7fc23c3b7e4dcd923ff823/pytermgui-7.4.0.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/22/c2/27e6c64f21ab451251ee6d4cf22c9222ce4797a667a0597743badcc3c8d9/flet_pyodide-0.9.0.dev1620.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/4d/e9/5e13b73cda4c209c3054b818ee754ca5c119462af4cafb86e2a29bebaf49/flet_embed-0.9.0.dev1621.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/64/7b/391fd2c66ad0444a6e94f869dc58016cdce6eac51ad5a85ec951b955abad/weathon-0.0.0.18.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/17/0b/86bf96dd2a5d8e23c6bb0e8c937c11b117d1740583bd834a4a496d728d91/flet_runtime-0.9.0.dev1621.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ca/0d/18af0cd72e9bdb33ab15796b1a68f15014807754d0f9f503c6c8225c4a31/flet-0.9.0.dev1621.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/d3/c5/8c92779e6bf903753ecd59a71184437c447e801c7d9bf1a97d3c39c7212a/flet_core-0.9.0.dev1621.tar.gz
+[2023-07-25 04:02:07] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/de/68/99e523d38d9a9c38f2d6901a8cf53370a7b62e1eaae6ca5c95477742776a/htt-0.3.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230725/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [PyTermGUI]: Downloading https://files.pythonhosted.org/packages/56/00/5ec53e8d6ee09b27f6431f7741105c85163d8129a2fee2e6b98d16b78d1c/pytermgui-7.5.0.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [htt]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.2.tar.gz tmp/htt-0.3.tar.gz --markdown 20230725/h/htt/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f4/ff/e38b962d1ab8b325828feb0d77b067ff422b770fbfe511a7424e743c38d2/flet_pyodide-0.9.0.dev1621.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/84/6f/68c468ff3d581aadf57372bf0ebe36c0783a8b86bdf75a8f93721e8db740/weathon-0.0.0.19.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/ef/1e/8227a69ce4e8689e86b7c17322e97a922209419931cbdb235d38566a7cde/flet_runtime-0.9.0.dev1623.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/cd/c1/a69b0ba7ad9f2d315d28f767025afbd495214ecdbb4e66b62fdb57dfa662/flet_embed-0.9.0.dev1623.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/a9/7f/becf94dc58f6b930f51f8fbd29e3a2f217a1c88b2b2dfe885d13ab666d2e/flet-0.9.0.dev1623.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [PyTermGUI]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [PyTermGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytermgui-7.4.0.tar.gz tmp/pytermgui-7.5.0.tar.gz --markdown 20230725/P/PyTermGUI/7.4.0-7.5.0/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/76/a4/070a22e68eb352c3d8b122b24ba8701b7604d9c2efa8775d75c7dc91902d/flet_core-0.9.0.dev1623.tar.gz
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1620.tar.gz tmp/flet_pyodide-0.9.0.dev1621.tar.gz --markdown 20230725/f/flet-pyodide/0.9.0.dev1620-0.9.0.dev1621/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [weathon]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [weathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathon-0.0.0.18.tar.gz tmp/weathon-0.0.0.19.tar.gz --markdown 20230725/w/weathon/0.0.0.18-0.0.0.19/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1621.tar.gz tmp/flet_embed-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-embed/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1621.tar.gz tmp/flet_runtime-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-runtime/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-25 04:02:08] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1621.tar.gz tmp/flet_core-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-core/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1621.tar.gz tmp/flet-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:02:09] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.2.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.3.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2023-07-25 04:02:09] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1620.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:02:09] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-25 04:02:10] INFO root fetch - processPackages [PyTermGUI]: Remove: archive file [/home/abi/fetcher/tmp/pytermgui-7.4.0.tar.gz]
+[2023-07-25 04:02:10] INFO root fetch - processPackages [PyTermGUI]: Remove: archive file [/home/abi/fetcher/tmp/pytermgui-7.5.0.tar.gz]
+[2023-07-25 04:02:10] INFO root fetch - main [MainThread]: End processing [PyTermGUI]: success
+[2023-07-25 04:02:10] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:02:10] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:02:10] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-25 04:02:11] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:02:11] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:02:11] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-25 04:02:12] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.18.tar.gz]
+[2023-07-25 04:02:12] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.19.tar.gz]
+[2023-07-25 04:02:12] INFO root fetch - main [MainThread]: End processing [weathon]: success
+[2023-07-25 04:02:12] INFO root fetch - main [MainThread]: Store serial: [19022251]
