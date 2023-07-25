@@ -18909,3 +18909,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:49:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.5.tar.gz]
 [2023-07-25 10:49:52] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
 [2023-07-25 10:49:52] INFO root fetch - main [MainThread]: Store serial: [19026352]
+[2023-07-25 10:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026352]
+[2023-07-25 10:55:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-imagedetection
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-check2-recon
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pixel-font-builder
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molgenis-emx2-pyclient
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: document-merge-service
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cval-lib
+[2023-07-25 10:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: megatechai
+[2023-07-25 10:55:01] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.209.0] Old Version: [8.208.1]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-25 10:55:01] WARNING root fetch - processPackages [robotframework-imagedetection]: Skipping, unable to determine old version
+[2023-07-25 10:55:01] INFO root fetch - processPackages [robotframework-imagedetection]: Start processing: visionai-data-format
+[2023-07-25 10:55:01] INFO root fetch - main [MainThread]: End processing [robotframework-imagedetection] error
+[2023-07-25 10:55:01] INFO root fetch - processPackages [document-merge-service]: New version: [6.3.0] Old Version: [6.2.2]
+[2023-07-25 10:55:01] WARNING root fetch - processPackages [megatechai]: Skipping, unable to determine old version
+[2023-07-25 10:55:01] INFO root fetch - processPackages [megatechai]: Start processing: comun-va
+[2023-07-25 10:55:01] INFO root fetch - main [MainThread]: End processing [megatechai] error
+[2023-07-25 10:55:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202307250853] Old Version: [99.0.202307250639]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [comun-va]: New version: [0.7] Old Version: [0.6]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.6a0] Old Version: [1.0.6]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/91/ad/b0620c2cfd1ca538b4cdb2677b98243a251ec8947129cdfcedcb0b4c9c71/molgenis_emx2_pyclient-8.208.1.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/e5/ee/d3d89d4fa72766c99b7b35c5ad6a4611066e6ad8d98a0d0fc9e515526dc0/document_merge_service-6.2.2.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-25 10:55:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/81/23/425c400974356bde7e67b857c445982881a6d21b831807cbc53e053516ad/kcli-99.0.202307250639-py3-none-any.whl
+[2023-07-25 10:55:01] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/dc/98/dd4dc4d15c472a9b77ef801942b55471cff670345a869cef542d7d08c5b4/comun_va-0.6.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/c0/31/818c91dffc7fea16ccaeebcb9f07bf490ae43c562ca9ccdbf6dd11d96217/visionai-data-format-1.0.6.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/6c/31/dd688d11ba4cf460c7e2b3948793786ab2162bf3735c12f5d110c26ab3c6/pixel-font-builder-0.0.4.tar.gz
+[2023-07-25 10:55:01] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-25 10:55:02] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/53/df/e645b612846321ec8c7c15cd2b80dbd19b744010442df73004272f7b7ae1/molgenis_emx2_pyclient-8.209.0.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/17/a4/3d9983dc93d31f64556b80a2c34282a7bef2651008d8d853504987a0dfa3/document_merge_service-6.3.0.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/59/ad/e703ff81cb23c08c4459af53b6742ecabb0df5c68f081f5de1545d3f90fa/pixel-font-builder-0.0.5.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/10/39/eeeff5d21737850a53562181e5afc7d56a9ff864a68808ee6dea2b72f82e/visionai-data-format-1.0.6a0.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/82/aa/f5a0c09a07b9ec6b5cad23d1c90c085e4ec3a1ce8d0c7f5542bc4a61f304/kcli-99.0.202307250853-py3-none-any.whl
+[2023-07-25 10:55:02] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230725/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.208.1.tar.gz tmp/molgenis_emx2_pyclient-8.209.0.tar.gz --markdown 20230725/m/molgenis-emx2-pyclient/8.208.1-8.209.0/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.4.tar.gz tmp/pixel-font-builder-0.0.5.tar.gz --markdown 20230725/p/pixel-font-builder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/2f/8d/6dfa341f3d8c73bd7a1fc6ae4007911083282f5f4f342fd02c5491a346be/comun_va-0.7.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.6.tar.gz tmp/visionai-data-format-1.0.6a0.tar.gz --markdown 20230725/v/visionai-data-format/1.0.6-1.0.6a0/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-07-25 10:55:02] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230725/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.2.2.tar.gz tmp/document_merge_service-6.3.0.tar.gz --markdown 20230725/d/document-merge-service/6.2.2-6.3.0/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230725/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.6.tar.gz tmp/comun_va-0.7.tar.gz --markdown 20230725/c/comun-va/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-25 10:55:02] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-25 10:55:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 10:55:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307250639-py3-none-any.whl.zip tmp/kcli-99.0.202307250853-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307250639-99.0.202307250853/diff.md --exclude *.pyd
+[2023-07-25 10:55:03] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-25 10:55:03] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230725/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-25 10:55:04] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.208.1.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.209.0.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: spatialdata-plot
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.4.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.5.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.6.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.7.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [spatialdata-plot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.6.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.6a0.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [spatialdata-plot]: Downloading https://files.pythonhosted.org/packages/aa/5f/34c74bf2fd869b43cca56229709dd9f07fa26dacdbcd9f9e33f61c00a2bb/spatialdata_plot-0.0.2.tar.gz
+[2023-07-25 10:55:04] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.2.2.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.3.0.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-07-25 10:55:04] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-25 10:55:04] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-25 10:55:05] INFO root fetch - processPackages [spatialdata-plot]: Downloading https://files.pythonhosted.org/packages/25/fb/060c59d19749230efcfdc110098b678dce3b8eff8da28aee4d0c193c2f18/spatialdata_plot-0.0.3.tar.gz
+[2023-07-25 10:55:06] INFO root fetch - processPackages [spatialdata-plot]: executing diffoscope
+[2023-07-25 10:55:06] INFO root fetch - processPackages [spatialdata-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_plot-0.0.2.tar.gz tmp/spatialdata_plot-0.0.3.tar.gz --markdown 20230725/s/spatialdata-plot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 10:55:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250639-py3-none-any.whl.zip]
+[2023-07-25 10:55:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250853-py3-none-any.whl.zip]
+[2023-07-25 10:55:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 10:55:07] INFO root fetch - processPackages [spatialdata-plot]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_plot-0.0.2.tar.gz]
+[2023-07-25 10:55:07] INFO root fetch - processPackages [spatialdata-plot]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_plot-0.0.3.tar.gz]
+[2023-07-25 10:55:07] INFO root fetch - main [MainThread]: End processing [spatialdata-plot]: success
+[2023-07-25 10:55:09] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-25 10:55:09] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-25 10:55:09] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-25 10:55:09] INFO root fetch - main [MainThread]: Store serial: [19026392]
