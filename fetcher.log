@@ -7602,3 +7602,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-25 04:23:23] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
 [2023-07-25 04:23:23] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-07-25 04:23:23] INFO root fetch - main [MainThread]: Store serial: [19022357]
+[2023-07-25 04:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022357]
+[2023-07-25 04:28:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crepex-pyutil
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: our1314
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-core
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-runtime
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-embed
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stdflow
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-pyodide
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rest-zerocap-client
+[2023-07-25 04:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zwjhello
+[2023-07-25 04:28:33] INFO root fetch - processPackages [stdflow]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 04:28:33] WARNING root fetch - processPackages [rest-zerocap-client]: Skipping, unable to determine old version
+[2023-07-25 04:28:33] INFO root fetch - processPackages [rest-zerocap-client]: Start processing: Nuitka-winsvc
+[2023-07-25 04:28:33] INFO root fetch - main [MainThread]: End processing [rest-zerocap-client] error
+[2023-07-25 04:28:33] INFO root fetch - processPackages [our1314]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [crepex-pyutil]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:28:33] WARNING root fetch - processPackages [zwjhello]: Skipping, unable to determine old version
+[2023-07-25 04:28:33] INFO root fetch - processPackages [zwjhello]: Start processing: volcengine-python-sdk
+[2023-07-25 04:28:33] INFO root fetch - main [MainThread]: End processing [zwjhello] error
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1623] Old Version: [0.9.0.dev1621]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/4d/e9/5e13b73cda4c209c3054b818ee754ca5c119462af4cafb86e2a29bebaf49/flet_embed-0.9.0.dev1621.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/07/d4/9b0f872710fcd7d7c5c8c21456cb56a330d45038cc57cdbd3271f0c9b0ae/stdflow-0.0.1.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/d3/c5/8c92779e6bf903753ecd59a71184437c447e801c7d9bf1a97d3c39c7212a/flet_core-0.9.0.dev1621.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/17/0b/86bf96dd2a5d8e23c6bb0e8c937c11b117d1740583bd834a4a496d728d91/flet_runtime-0.9.0.dev1621.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ca/0d/18af0cd72e9bdb33ab15796b1a68f15014807754d0f9f503c6c8225c4a31/flet-0.9.0.dev1621.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f4/ff/e38b962d1ab8b325828feb0d77b067ff422b770fbfe511a7424e743c38d2/flet_pyodide-0.9.0.dev1621.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/a1/fa/36f6e62f6e39f42ef5ed423252d9a90d06f7204c962143b4e7d5aa50f502/crepex_pyutil-0.6.0.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/5a/66/1ef5237df9dbe7f250003a9bd6ea9c785e3fa4ee85d11005d15f2b365704/our1314-0.0.8.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/b0/a2/e2368ca368eb8f9d65b71be8c02bf0bc7217731a1d1d481fffb5b064d5ac/Nuitka-winsvc-1.7.5.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/cd/c1/a69b0ba7ad9f2d315d28f767025afbd495214ecdbb4e66b62fdb57dfa662/flet_embed-0.9.0.dev1623.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/ef/1e/8227a69ce4e8689e86b7c17322e97a922209419931cbdb235d38566a7cde/flet_runtime-0.9.0.dev1623.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/76/a4/070a22e68eb352c3d8b122b24ba8701b7604d9c2efa8775d75c7dc91902d/flet_core-0.9.0.dev1623.tar.gz
+[2023-07-25 04:28:33] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/6a/f5/7c13fc5305beee64f5c2fd21710d859237026e97c138943bee459e7c8379/stdflow-0.0.2.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/29/0f/d01add27fa75ff04bcba5d91c6e97fb2c1a337d0cbd22d0a38309d35d224/flet_pyodide-0.9.0.dev1623.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/57/35/5980b9ba740a9ba697295ab7742552503b17dbe4c0f6eba2f3af9f3fda87/crepex_pyutil-0.7.0.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/a9/7f/becf94dc58f6b930f51f8fbd29e3a2f217a1c88b2b2dfe885d13ab666d2e/flet-0.9.0.dev1623.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1621.tar.gz tmp/flet_runtime-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-runtime/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1621.tar.gz tmp/flet_embed-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-embed/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1621.tar.gz tmp/flet_core-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-core/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1621.tar.gz tmp/flet_pyodide-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet-pyodide/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.1.tar.gz tmp/stdflow-0.0.2.tar.gz --markdown 20230725/s/stdflow/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/f5/09/518973c3a1c6ffa24ba8120073c078015994971af6193fa643c17e7355f3/our1314-0.0.9.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230725/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [crepex-pyutil]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [crepex-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepex_pyutil-0.6.0.tar.gz tmp/crepex_pyutil-0.7.0.tar.gz --markdown 20230725/c/crepex-pyutil/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/fd/98/1b0dc9bca15fba12da508cf5c4e50c41ea5ef1bd4c190f009c0e971c99d4/Nuitka-winsvc-1.7.6.tar.gz
+[2023-07-25 04:28:34] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.0.8.tar.gz tmp/our1314-0.0.9.tar.gz --markdown 20230725/o/our1314/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-25 04:28:34] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1621.tar.gz tmp/flet-0.9.0.dev1623.tar.gz --markdown 20230725/f/flet/0.9.0.dev1621-0.9.0.dev1623/diff.md --exclude *.pyd
+[2023-07-25 04:28:35] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-07-25 04:28:35] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.7.5.tar.gz tmp/Nuitka-winsvc-1.7.6.tar.gz --markdown 20230725/N/Nuitka-winsvc/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-25 04:28:35] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.1.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.2.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-25 04:28:35] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.8.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.0.9.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 04:28:35] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.6.0.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.7.0.tar.gz]
+[2023-07-25 04:28:35] INFO root fetch - main [MainThread]: End processing [crepex-pyutil]: success
+[2023-07-25 04:28:36] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:28:36] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:28:36] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-25 04:28:36] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1621.tar.gz]
+[2023-07-25 04:28:36] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1623.tar.gz]
+[2023-07-25 04:28:36] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-25 04:28:45] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-25 04:28:45] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-25 04:28:45] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-25 04:28:47] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.5.tar.gz]
+[2023-07-25 04:28:47] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.6.tar.gz]
+[2023-07-25 04:28:47] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-07-25 04:28:47] INFO root fetch - main [MainThread]: Store serial: [19022408]
