@@ -17630,3 +17630,174 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:02:18] INFO root fetch - processPackages [tft-artemis]: Remove: archive file [/home/abi/fetcher/tmp/tft-artemis-0.0.9.tar.gz]
 [2023-07-25 10:02:18] INFO root fetch - main [MainThread]: End processing [tft-artemis]: success
 [2023-07-25 10:02:18] INFO root fetch - main [MainThread]: Store serial: [19025847]
+[2023-07-25 10:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025847]
+[2023-07-25 10:07:28] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-Zameerkbk17
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-amqp
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-searchengine
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: en-aesops-advert
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccs-digitalmarketplace-test-utils
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capellambse
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AZMusicAPI
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-cen
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-cas
+[2023-07-25 10:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vulcan-sql
+[2023-07-25 10:07:29] WARNING root fetch - processPackages [en-aesops-advert]: Skipping, unable to determine old version
+[2023-07-25 10:07:29] INFO root fetch - processPackages [en-aesops-advert]: Start processing: dstack
+[2023-07-25 10:07:29] INFO root fetch - main [MainThread]: End processing [en-aesops-advert] error
+[2023-07-25 10:07:29] WARNING root fetch - processPackages [example-package-Zameerkbk17]: Skipping, unable to determine old version
+[2023-07-25 10:07:29] INFO root fetch - processPackages [example-package-Zameerkbk17]: Start processing: ros-cdk-bastionhost
+[2023-07-25 10:07:29] INFO root fetch - main [MainThread]: End processing [example-package-Zameerkbk17] error
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-searchengine]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-amqp]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-cen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: New version: [4.0.0] Old Version: [3.0.6]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [vulcan-sql]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-cas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [AZMusicAPI]: New version: [1.2.8] Old Version: [1.0.2]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-bastionhost]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 10:07:29] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/3d/27/d4c00a7611fa17bbb2ab7c34db9aafed97522efb3978690dd2684b794515/vulcan-sql-0.6.0.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/ef/67/42b204a089b19c6c9349a9cdc4aec03abf1f4ee607ee8f2938794594bc6a/ros-cdk-amqp-1.0.17.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/e2/b6/f5b5ec3a2ad0d586bcfaf2ce60b5fa89bafc05c9223bdea639619eda7ca9/AZMusicAPI-1.0.2.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/bf/3b/30c5eaff9b36fce6cdba9745b74eee3c770da09e85aab9d379276650b4a3/ros-cdk-searchengine-1.0.8.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/ba/6f/38927a57d410763aced4f26a9bc5a528269218a062c2acfa862d071b5f76/ccs-digitalmarketplace-test-utils-3.0.6.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/20/ed/e9e6a8ac49239cd3dfa897f837903d53f56293eabcf7cea3a9a9e0ba89b2/ros-cdk-cas-1.0.8.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/c2/a6/354cf5e7e10cf9486494d95a873eaff07466cfdb317564a490f5a4815da5/ros-cdk-bastionhost-1.0.16.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/c6/1a/44dc78838de5568cfea2978afc02f9ea03693d8fb6e5742e1fc9de316693/ros-cdk-cen-1.0.8.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/ff/e0/4ec47c6474ec66fa5c924fa3269c61e59193756319f7894efcc3a0c21809/vulcan-sql-0.7.0.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/d7/ad/61d03bd408d928f74b9f6c370de5b6f4e36e5a47277670769bdd04a65ea8/ros-cdk-amqp-1.0.9.tar.gz
+[2023-07-25 10:07:29] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/d7/8c/ecb0dafc1ee846c2a4c9137da25f37491fad02ad8d06c061e05b1088cc3c/AZMusicAPI-1.2.8.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/53/a1/ccc2299aa7b3155ee05855b3778dd5f6d93fc3ee7fa0420079f1c4e46f3a/ccs-digitalmarketplace-test-utils-4.0.0.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [vulcan-sql]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [vulcan-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-sql-0.6.0.tar.gz tmp/vulcan-sql-0.7.0.tar.gz --markdown 20230725/v/vulcan-sql/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/e2/9e/a6cfd33bb3d00e36bf216514e31cd054a8f1530ebfb460860da76c52b98a/ros-cdk-searchengine-1.0.9.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/23/a1/caa1f5b1c57ffd7307bc68233df9d94412ec84cb1d0e2795141dfeaac144/ros-cdk-bastionhost-1.0.17.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [AZMusicAPI]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [AZMusicAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AZMusicAPI-1.0.2.tar.gz tmp/AZMusicAPI-1.2.8.tar.gz --markdown 20230725/A/AZMusicAPI/1.0.2-1.2.8/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/0e/9e/1200a10d1e5e9ccb1920137341bb78547eda2b7c8de7bf5ef2d3af667e66/ros-cdk-cas-1.0.9.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-test-utils-3.0.6.tar.gz tmp/ccs-digitalmarketplace-test-utils-4.0.0.tar.gz --markdown 20230725/c/ccs-digitalmarketplace-test-utils/3.0.6-4.0.0/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/86/5b/bae43ed1278bcdbc996a7b6e198266f6009b65943be76f375c3a452f49b4/ros-cdk-cen-1.0.9.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-searchengine]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-searchengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-searchengine-1.0.8.tar.gz tmp/ros-cdk-searchengine-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-searchengine/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-bastionhost]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-bastionhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bastionhost-1.0.16.tar.gz tmp/ros-cdk-bastionhost-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-bastionhost/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cas]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cas-1.0.8.tar.gz tmp/ros-cdk-cas-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230725/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-amqp]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-amqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-amqp-1.0.17.tar.gz tmp/ros-cdk-amqp-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-amqp/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cen]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [ros-cdk-cen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cen-1.0.8.tar.gz tmp/ros-cdk-cen-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:30] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-07-25 10:07:30] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230725/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-07-25 10:07:31] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.6.0.tar.gz]
+[2023-07-25 10:07:31] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.0.tar.gz]
+[2023-07-25 10:07:31] INFO root fetch - processPackages [vulcan-sql]: Start processing: zhousf-lib
+[2023-07-25 10:07:31] INFO root fetch - main [MainThread]: End processing [vulcan-sql]: success
+[2023-07-25 10:07:31] INFO root fetch - processPackages [zhousf-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/f8/01/5212e789e0db0b469a6731957e54bbea8b55529d93881ebf9fc7c49016be/zhousf-lib-0.9.1.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-1.0.2.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-1.2.8.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [AZMusicAPI]: Start processing: fdfat
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [AZMusicAPI]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.8.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.9.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-searchengine]: Start processing: invenio-rdm-records
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-searchengine]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.8.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.9.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cas]: Start processing: Clone-ChatGPT
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-cas]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.16.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.17.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-bastionhost]: Start processing: ros-cdk-sag
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-bastionhost]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ce/ab/826859734598e49b21844b01e531302cf6f3a051f935d4f8bce2b8ac6e22/invenio-rdm-records-4.9.0.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-3.0.6.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-4.0.0.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Start processing: ros-cdk-ram
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-test-utils]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.3.0] Old Version: [1.2.9.3]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-sag]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.17.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.9.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-amqp]: Start processing: bilibili-api-python
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-amqp]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-ram]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/a4/cf/1f2f8df6724976c41029e16f8ad223e35d1d77ad6d91af18b3836483b763/ros-cdk-sag-1.0.8.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9c/b3/6bc12c0bb177342dc8997f3e77b01b6d7aa130f9be63f1d9a6845edc48b9/Clone-ChatGPT-1.2.9.3.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [bilibili-api-python]: New version: [9.3.1] Old Version: [9.3.0]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/14/1e/f25f956ea54a3714ce63a14f1a00ec311a7b9e1898ecde31074216056941/zhousf-lib-0.9.2.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.8.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.9.tar.gz]
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-cen]: Start processing: pyglove
+[2023-07-25 10:07:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-cen]: success
+[2023-07-25 10:07:32] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/72/1c/1dd143ca0b5dbde3c0227f0effa0e20ec8e19e4d87115a3c00dd4fff8639/ros-cdk-ram-1.0.8.tar.gz
+[2023-07-25 10:07:32] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 10:07:32] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:33] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/9b/6f/75134e680907dfeb54d18a424acea23668915105b48d0818cd2ea3a871c4/bilibili-api-python-9.3.0.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230725] Old Version: [0.4.1.dev20230724]
+[2023-07-25 10:07:33] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/82/e5/3c45a15a51348a920f83e59756c9ee9ac61a198ba3d3049f60ab32494968/invenio-rdm-records-4.9.1.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/f1/a2/17222b86429962a14aa6fa255dd53af222cd467cb5733dc5b29058ef12e0/ros-cdk-sag-1.0.9.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/01/77/29a2ece550d18a242fa77432a9ade1af180f7a002d1dd1548235638e66b7/ros-cdk-ram-1.0.9.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.9.0.tar.gz tmp/invenio-rdm-records-4.9.1.tar.gz --markdown 20230725/i/invenio-rdm-records/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-sag]: executing diffoscope
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-sag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sag-1.0.8.tar.gz tmp/ros-cdk-sag-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-sag/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/a2/8a5b5b929eacf804d86cb454940924f2ec67e351ee1e2e565adc6cbb5028/pyglove-0.4.1.dev20230724.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-ram]: executing diffoscope
+[2023-07-25 10:07:33] INFO root fetch - processPackages [ros-cdk-ram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ram-1.0.8.tar.gz tmp/ros-cdk-ram-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ram/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:07:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-07-25 10:07:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-07-25 10:07:33] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-07-25 10:07:33] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/c9/ba/3e1814432f41b91218ffa09dd53a9b11fe3b45ec9d73686e6a008e0526cf/Clone-ChatGPT-1.3.0.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/f7/75/9cefa953040943e97416ee886cdcf25f91aaf4cd46c2beb8648b84e60415/bilibili-api-python-9.3.1.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/48/0f/0435c827b9a99841d3cadc0d073ef6cf5b489a5fffeecd1cfe682f860463/pyglove-0.4.1.dev20230725.tar.gz
+[2023-07-25 10:07:33] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-07-25 10:07:33] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.9.3.tar.gz tmp/Clone-ChatGPT-1.3.0.tar.gz --markdown 20230725/C/Clone-ChatGPT/1.2.9.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-25 10:07:33] INFO root fetch - processPackages [bilibili-api-python]: executing diffoscope
+[2023-07-25 10:07:33] INFO root fetch - processPackages [bilibili-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-api-python-9.3.0.tar.gz tmp/bilibili-api-python-9.3.1.tar.gz --markdown 20230725/b/bilibili-api-python/9.3.0-9.3.1/diff.md --exclude *.pyd
+[2023-07-25 10:07:34] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-25 10:07:34] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230724.tar.gz tmp/pyglove-0.4.1.dev20230725.tar.gz --markdown 20230725/p/pyglove/0.4.1.dev20230724-0.4.1.dev20230725/diff.md --exclude *.pyd
+[2023-07-25 10:07:34] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 10:07:34] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 10:07:34] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 10:07:34] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-25 10:07:34] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.9.1.tar.gz tmp/zhousf-lib-0.9.2.tar.gz --markdown 20230725/z/zhousf-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 10:07:35] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.8.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
+[2023-07-25 10:07:35] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.8.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.9.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - main [MainThread]: End processing [ros-cdk-sag]: success
+[2023-07-25 10:07:35] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.0.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.1.tar.gz]
+[2023-07-25 10:07:35] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
+[2023-07-25 10:07:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230724.tar.gz]
+[2023-07-25 10:07:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230725.tar.gz]
+[2023-07-25 10:07:36] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-25 10:07:37] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.1.tar.gz]
+[2023-07-25 10:07:37] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.2.tar.gz]
+[2023-07-25 10:07:37] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-25 10:07:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.3.tar.gz]
+[2023-07-25 10:07:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.3.0.tar.gz]
+[2023-07-25 10:07:39] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-07-25 10:07:39] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.0.tar.gz]
+[2023-07-25 10:07:39] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.1.tar.gz]
+[2023-07-25 10:07:39] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-25 10:07:40] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-07-25 10:07:40] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-07-25 10:07:40] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-07-25 10:07:40] INFO root fetch - main [MainThread]: Store serial: [19025904]
