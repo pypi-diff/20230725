@@ -14219,3 +14219,125 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2023-07-25 08:10:27] INFO root fetch - main [MainThread]: Store serial: [19024546]
+[2023-07-25 08:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024546]
+[2023-07-25 08:15:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webpty
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opsgenie
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-mysql
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-docker
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mongodbatlas
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-minio
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ns1
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alanapy
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emeralds
+[2023-07-25 08:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartchart
+[2023-07-25 08:15:38] INFO root fetch - processPackages [webpty]: New version: [3.8] Old Version: [3.7]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1690263584] Old Version: [3.2.0a1689313722]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [smartchart]: New version: [6.6.8.2] Old Version: [6.6.8.1]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1690263767] Old Version: [3.1.0a1689314249]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1690263963] Old Version: [1.3.0a1689370468]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.13]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [emeralds]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-docker]: New version: [4.4.0a1690263145] Old Version: [4.4.0a1689313194]
+[2023-07-25 08:15:38] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/96/d3/34939e761ce86e557407a07ec53b2b6fb95e6fe9125d3bddc839f4154e72/smartchart-6.6.8.1.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/43/6c/b46b37cadea4a4fd534b8fcc6d0ad9d4ef705610b7a83ffc53e33ae1def1/emeralds-0.0.3.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/f4/93/ddf0c004978a5058f5885ddf8874624e74aef2d3619d826b828df2512556/alanapy-0.13.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/24/df/0c7ba65757f5cca611961697e636a65ab894d32a986fc4b239917ee9c06f/pulumi_mysql-3.2.0a1689313722.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [webpty]: Downloading https://files.pythonhosted.org/packages/b3/1e/5705a22364e0c606a16b990f7932f9b64ed7d418ce468fa94bc3b0be248c/webpty-3.7.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/95/65/b0683d5b9f944bd9ca725dbc5596a4e0d60eff4e9dd710a7bee6c9b67a02/pulumi_opsgenie-1.3.0a1689370468.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/83/2c/f34a52fd425c38744a8f027da5e155a866ff33428c393ffbaaaddb2267f7/pulumi_docker-4.4.0a1689313194.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/f5/38/7e14e76b7539437babfdba52cf0409bcdb7cf37b0652f4f1f2b481bcc78a/pulumi_ns1-3.1.0a1689314249.tar.gz
+[2023-07-25 08:15:38] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/95/8b/09e26eda3a79ab90a7fbc3576605ce9c5115f82e75469700e1efe6faae75/emeralds-0.0.4.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/1a/27/37b22e58924cf55c8646a7674704e46465ced22ff5a28869c4b3acd5260a/pulumi_mysql-3.2.0a1690263584.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.3.tar.gz tmp/emeralds-0.0.4.tar.gz --markdown 20230725/e/emeralds/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [webpty]: Downloading https://files.pythonhosted.org/packages/6a/33/fc20aa1692212642e89380f5512e95a568dc861483e6cac580722b6d9160/webpty-3.8.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/b1/71/7fc710b10f71f92f557e5782c21119a072c7bb85b80be0f18706ba5eb6f1/smartchart-6.6.8.2.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/e7/a5/afe1d664e94d5b6888026780f1c68cfbfad4f713e5d87007ef9d34120d9e/pulumi_docker-4.4.0a1690263145.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.13.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230725/a/alanapy/0.13-0.9/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [webpty]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [webpty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webpty-3.7.tar.gz tmp/webpty-3.8.tar.gz --markdown 20230725/w/webpty/3.7-3.8/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/26/4f/36c6d000e9971743183c92aa2565f2a63801d399508de9d1b04c60133595/pulumi_ns1-3.1.0a1690263767.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1689313722.tar.gz tmp/pulumi_mysql-3.2.0a1690263584.tar.gz --markdown 20230725/p/pulumi-mysql/3.2.0a1689313722-3.2.0a1690263584/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.8.1.tar.gz tmp/smartchart-6.6.8.2.tar.gz --markdown 20230725/s/smartchart/6.6.8.1-6.6.8.2/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20230725/p/pulumi-mongodbatlas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.4.0a1689313194.tar.gz tmp/pulumi_docker-4.4.0a1690263145.tar.gz --markdown 20230725/p/pulumi-docker/4.4.0a1689313194-4.4.0a1690263145/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1689314249.tar.gz tmp/pulumi_ns1-3.1.0a1690263767.tar.gz --markdown 20230725/p/pulumi-ns1/3.1.0a1689314249-3.1.0a1690263767/diff.md --exclude *.pyd
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-07-25 08:15:39] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230725/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-07-25 08:15:40] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/8a/64/04f02a22b3049bff9ffe1803430d7955db0471f9b0ec33341e75e956b66f/pulumi_opsgenie-1.3.0a1690263963.tar.gz
+[2023-07-25 08:15:40] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-07-25 08:15:40] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1689370468.tar.gz tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz --markdown 20230725/p/pulumi-opsgenie/1.3.0a1689370468-1.3.0a1690263963/diff.md --exclude *.pyd
+[2023-07-25 08:15:41] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.3.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [emeralds]: Start processing: pyg-nightly
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230724] Old Version: [2.4.0.dev20230723]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.13.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [alanapy]: Start processing: pulumi-onelogin
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1690263759] Old Version: [0.6.1a1689314478]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bb/c623c6c4b4b8749d7b793dcfc0b17595c79d554fa439ce7f6bc4ffe066b3/pyg_nightly-2.4.0.dev20230723.tar.gz
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1689313722.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1690263584.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-mysql]: Start processing: pulumi-linode
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-linode]: New version: [4.5.0a1690263346] Old Version: [4.5.0a1689801050]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/d7/44/5043da6f5cce20b0f7dcdbaff9f2ef6f2fdbd3c3991c0c0b6585888c1045/pulumi_onelogin-0.6.1a1689314478.tar.gz
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1689314249.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1690263767.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-ns1]: Start processing: manik-django-sql-explorer-test
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-07-25 08:15:41] WARNING root fetch - processPackages [manik-django-sql-explorer-test]: Skipping, unable to determine old version
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [manik-django-sql-explorer-test] error
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.4.0a1689313194.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.4.0a1690263145.tar.gz]
+[2023-07-25 08:15:41] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a3/0c/e5deea9d578b6e31222daaa4739a14bbfec8355ffe15b2a40f87396ba26c/pyg_nightly-2.4.0.dev20230724.tar.gz
+[2023-07-25 08:15:41] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/08/ea/dd72b966e79b2bb4998e95c929f2788007f47e9827abba3bd84ac3fe2dd7/pulumi_linode-4.5.0a1690263346.tar.gz
+[2023-07-25 08:15:42] INFO root fetch - processPackages [webpty]: Remove: archive file [/home/abi/fetcher/tmp/webpty-3.7.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - processPackages [webpty]: Remove: archive file [/home/abi/fetcher/tmp/webpty-3.8.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - main [MainThread]: End processing [webpty]: success
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/4d/8c/05d23721832a7f5ca6d11c0f3072bd9f24587b5449cceb20f1325d788811/pulumi_onelogin-0.6.1a1690263759.tar.gz
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1689370468.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1690263963.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.5.0a1689801050.tar.gz tmp/pulumi_linode-4.5.0a1690263346.tar.gz --markdown 20230725/p/pulumi-linode/4.5.0a1689801050-4.5.0a1690263346/diff.md --exclude *.pyd
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230723.tar.gz tmp/pyg_nightly-2.4.0.dev20230724.tar.gz --markdown 20230725/p/pyg-nightly/2.4.0.dev20230723-2.4.0.dev20230724/diff.md --exclude *.pyd
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1689314478.tar.gz tmp/pulumi_onelogin-0.6.1a1690263759.tar.gz --markdown 20230725/p/pulumi-onelogin/0.6.1a1689314478-0.6.1a1690263759/diff.md --exclude *.pyd
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2023-07-25 08:15:42] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-07-25 08:15:43] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.5.0a1689801050.tar.gz]
+[2023-07-25 08:15:43] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.5.0a1690263346.tar.gz]
+[2023-07-25 08:15:43] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-07-25 08:15:43] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1689314478.tar.gz]
+[2023-07-25 08:15:43] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1690263759.tar.gz]
+[2023-07-25 08:15:43] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-07-25 08:15:44] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.1.tar.gz]
+[2023-07-25 08:15:44] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.2.tar.gz]
+[2023-07-25 08:15:44] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-07-25 08:15:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230723.tar.gz]
+[2023-07-25 08:15:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230724.tar.gz]
+[2023-07-25 08:15:45] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-25 08:15:45] INFO root fetch - main [MainThread]: Store serial: [19024579]
