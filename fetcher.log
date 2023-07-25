@@ -2809,3 +2809,60 @@
 [2023-07-25 02:41:55] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.37.tar.gz]
 [2023-07-25 02:41:55] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-07-25 02:41:55] INFO root fetch - main [MainThread]: Store serial: [19020605]
+[2023-07-25 02:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19020605]
+[2023-07-25 02:47:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws-native
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openpibo-models
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-07-25 02:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrall
+[2023-07-25 02:47:04] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [openpibo-models]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307240045] Old Version: [4.9.2.dev202307230044]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-25 02:47:04] INFO root fetch - processPackages [openpibo-models]: Downloading https://files.pythonhosted.org/packages/85/fd/32f43ab09bebf61a442a36398d3ce7b519279715faec0c4773f1ae372b6d/openpibo_models-0.4.6-py3-none-any.whl
+[2023-07-25 02:47:04] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c1/d8/253b3b01c7526a210365c55715587fa2344d8fa523f94c000465d92be21b/tfds-nightly-4.9.2.dev202307230044.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [openpibo-models]: Downloading https://files.pythonhosted.org/packages/32/8e/5999645fdd141fe99ef33fd51656f2c51ab036b550f36a57e2c2667b6406/openpibo_models-0.4.7-py3-none-any.whl
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230725/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-25 02:47:04] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-25 02:47:04] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230725/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-25 02:47:04] INFO root fetch - processPackages [openpibo-models]: executing diffoscope
+[2023-07-25 02:47:04] INFO root fetch - processPackages [openpibo-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpibo_models-0.4.6-py3-none-any.whl.zip tmp/openpibo_models-0.4.7-py3-none-any.whl.zip --markdown 20230725/o/openpibo-models/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-25 02:47:04] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-25 02:47:04] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230725/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-25 02:47:04] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230725/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-25 02:47:05] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/24/39/650f80bd2961563fe7e669a42ac57452480f9e5150862dfdaa287b3ca39c/tfds-nightly-4.9.2.dev202307240045.tar.gz
+[2023-07-25 02:47:05] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-25 02:47:05] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307230044.tar.gz tmp/tfds-nightly-4.9.2.dev202307240045.tar.gz --markdown 20230725/t/tfds-nightly/4.9.2.dev202307230044-4.9.2.dev202307240045/diff.md --exclude *.pyd
+[2023-07-25 02:47:05] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-25 02:47:05] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-25 02:47:05] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-25 02:47:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-25 02:47:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-25 02:47:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-25 02:47:06] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-25 02:47:06] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-25 02:47:06] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-25 02:47:06] INFO root fetch - processPackages [openpibo-models]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_models-0.4.6-py3-none-any.whl.zip]
+[2023-07-25 02:47:06] INFO root fetch - processPackages [openpibo-models]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_models-0.4.7-py3-none-any.whl.zip]
+[2023-07-25 02:47:06] INFO root fetch - main [MainThread]: End processing [openpibo-models]: success
+[2023-07-25 02:47:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307230044.tar.gz]
+[2023-07-25 02:47:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307240045.tar.gz]
+[2023-07-25 02:47:11] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-25 02:47:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-25 02:47:15] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-25 02:47:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-25 02:47:15] INFO root fetch - main [MainThread]: Store serial: [19020620]
