@@ -13247,3 +13247,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:22:54] INFO root fetch - processPackages [odoo14-addon-mail-optional-follower-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_optional_follower_notification-14.0.1.0.1.dev6-py3-none-any.whl.zip]
 [2023-07-25 07:22:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-optional-follower-notification]: success
 [2023-07-25 07:22:54] INFO root fetch - main [MainThread]: Store serial: [19024261]
+[2023-07-25 07:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024261]
+[2023-07-25 07:28:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readDataFile
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jennifer-python
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: badi-users
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uagents-twilio
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-sdk
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: min-max-heap
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmcloud
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipen-board
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easybio
+[2023-07-25 07:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jinaai
+[2023-07-25 07:28:04] INFO root fetch - processPackages [uagents-twilio]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-25 07:28:04] WARNING root fetch - processPackages [readDataFile]: Skipping, unable to determine old version
+[2023-07-25 07:28:04] INFO root fetch - processPackages [readDataFile]: Start processing: hbshare
+[2023-07-25 07:28:04] INFO root fetch - main [MainThread]: End processing [readDataFile] error
+[2023-07-25 07:28:04] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [badi-users]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [easybio]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-07-25 07:28:04] WARNING root fetch - processPackages [min-max-heap]: Skipping, unable to determine old version
+[2023-07-25 07:28:04] INFO root fetch - main [MainThread]: End processing [min-max-heap] error
+[2023-07-25 07:28:04] INFO root fetch - processPackages [pipen-board]: New version: [0.8.0] Old Version: [0.7.8]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [jinaai]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/2e/db/c39ab38d69f7432484a3d844e0792df7d88bcbbe9aff84fd7c93d6a6dba7/uagents_twilio-1.0.4.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-07-25 07:28:04] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/65/34/8b2049cfec002c7f5e58d193e3bdbfb901304c269bd40611d0e9318c2116/jinaai-0.2.1.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/53/cb/3e2940122b6c2da6082d133b207489aa0efb708accc59e4f34e5902e892f/badi_users-1.1.3.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-07-25 07:28:04] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/8a/08/0440cc38efa0a24b5c5405dae458582931def178e74abd67a6d61f249bbd/easybio-0.4.3.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/0c/76/c53725c659aa03a767b8ff713b95cf255ccea55ebd15f66de0aa7866224c/pipen_board-0.7.8.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/5d/b4/a4d42ba49a514ef98fe81e2745cb0fd51a63580e17bc83d5c280a5d683d6/uagents_twilio-1.0.5.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/db/d0/ec3958249a141e824151e5a9484bc450fb2286e8ab8f23939f48e0bd37bb/jinaai-0.2.3.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/09/b0/b1a17b9507457439538fb191e603a4267a7b2d01a39fc7f7a78af2157488/easybio-0.5.0.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-25 07:28:04] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230725/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 07:28:04] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-07-25 07:28:04] INFO root fetch - processPackages [uagents-twilio]: executing diffoscope
+[2023-07-25 07:28:04] INFO root fetch - processPackages [uagents-twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_twilio-1.0.4.tar.gz tmp/uagents_twilio-1.0.5.tar.gz --markdown 20230725/u/uagents-twilio/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-25 07:28:04] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/2f/b0/f14f2bfb598d65addf39ae7ad4c0777344e5e462a0a80648cedcd5b2abe7/pipen_board-0.8.0.tar.gz
+[2023-07-25 07:28:05] INFO root fetch - processPackages [jinaai]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [jinaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai-0.2.1.tar.gz tmp/jinaai-0.2.3.tar.gz --markdown 20230725/j/jinaai/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-25 07:28:05] INFO root fetch - processPackages [easybio]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [easybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybio-0.4.3.tar.gz tmp/easybio-0.5.0.tar.gz --markdown 20230725/e/easybio/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-25 07:28:05] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/6b/8b/950aa6e5c325a75a9b64c4c8c3d1e6b976f4f1d0b0d2db455a3574c0e6cf/badi_users-1.1.4.tar.gz
+[2023-07-25 07:28:05] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230725/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-25 07:28:05] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.7.8.tar.gz tmp/pipen_board-0.8.0.tar.gz --markdown 20230725/p/pipen-board/0.7.8-0.8.0/diff.md --exclude *.pyd
+[2023-07-25 07:28:05] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-07-25 07:28:05] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.1.3.tar.gz tmp/badi_users-1.1.4.tar.gz --markdown 20230725/b/badi-users/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-25 07:28:05] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-07-25 07:28:05] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230725/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-07-25 07:28:06] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-25 07:28:06] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.0.4.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.0.5.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - main [MainThread]: End processing [uagents-twilio]: success
+[2023-07-25 07:28:06] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.1.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.3.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - main [MainThread]: End processing [jinaai]: success
+[2023-07-25 07:28:06] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.4.3.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.5.0.tar.gz]
+[2023-07-25 07:28:06] INFO root fetch - main [MainThread]: End processing [easybio]: success
+[2023-07-25 07:28:06] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-07-25 07:28:07] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-07-25 07:28:07] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.3.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.4.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-07-25 07:28:07] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-07-25 07:28:07] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230725/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-07-25 07:28:07] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.8.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.9.tar.gz]
+[2023-07-25 07:28:07] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-07-25 07:28:15] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.8.tar.gz]
+[2023-07-25 07:28:15] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.0.tar.gz]
+[2023-07-25 07:28:15] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-07-25 07:28:28] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip]
+[2023-07-25 07:28:28] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
+[2023-07-25 07:28:28] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-07-25 07:28:28] INFO root fetch - main [MainThread]: Store serial: [19024293]
