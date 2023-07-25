@@ -14791,3 +14791,151 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:32:01] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-25 08:32:01] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-07-25 08:32:01] INFO root fetch - main [MainThread]: Store serial: [19024856]
+[2023-07-25 08:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024856]
+[2023-07-25 08:37:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EnergyCapSdk
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-splunk
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DDesignerAPI
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rondsspark
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-aligenieip-1-0
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maxsmart
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: actnova-yolo
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: readDataFile
+[2023-07-25 08:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: htag
+[2023-07-25 08:37:14] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.3.3] Old Version: [0.0.3.2]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [readDataFile]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4682] Old Version: [8.2304.4675]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-25 08:37:14] WARNING root fetch - processPackages [actnova-yolo]: Skipping, unable to determine old version
+[2023-07-25 08:37:14] INFO root fetch - processPackages [actnova-yolo]: Start processing: AZMusicAPI
+[2023-07-25 08:37:14] INFO root fetch - main [MainThread]: End processing [actnova-yolo] error
+[2023-07-25 08:37:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [maxsmart]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1690264914] Old Version: [1.3.0a1689315869]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [htag]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [AZMusicAPI]: New version: [1.0.2] Old Version: [0.9.8]
+[2023-07-25 08:37:14] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/68/78/388d553b4a7507641cd4619f1f3ac69fafbd8cc039966f66e9d3dde88df7/readDataFile-0.0.4.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/6a/96/96324951bc69b4716d2f759438b6e2e37603b9c4151662f9b44776e14e84/AZMusicAPI-0.9.8.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/9a/74/619d3d8264c7ab64f1c277f5f0dc0e0233ed92cdab25527613ea7cf4e245/DDesignerAPI-0.0.3.2-py3-none-any.whl
+[2023-07-25 08:37:14] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/93/af/099fb5e45642aca7400836993c257c12b29d0521e09708998c7962f6e95f/EnergyCapSdk-8.2304.4675.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [maxsmart]: Downloading https://files.pythonhosted.org/packages/ba/be/3dae3640b0b82b14d408fb5b0db06bda4e8bed268219918e8b97b00a387a/maxsmart-0.1.7.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/d6/0b/81f4095f57ce788d1fdd77a8b6f8439414be7ee27f19e6ffbf7ccecdce56/alibabacloud_aligenieip_1_0-2.0.0.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/c7/25/533d10537eda6b016b1b057a3a0e4476e32f44aecd0a627a0974677b0082/pulumi_splunk-1.3.0a1689315869.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/1f/49/7ef7457fe0739f49ce1e45659e55602cad7f94e43d3e24f73938ef4de585/htag-0.9.8.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [readDataFile]: Downloading https://files.pythonhosted.org/packages/47/d4/27b281cb4aab431844a3cabac7ad852c042830bde4bfb1efc6ce33b6186f/readDataFile-0.0.5.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/e2/b6/f5b5ec3a2ad0d586bcfaf2ce60b5fa89bafc05c9223bdea639619eda7ca9/AZMusicAPI-1.0.2.tar.gz
+[2023-07-25 08:37:14] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/19/bb/af4e400191ecab5b7939847193bafd33164e86f391f2681998a1ca4606c6/DDesignerAPI-0.0.3.3-py3-none-any.whl
+[2023-07-25 08:37:14] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-25 08:37:14] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230725/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [maxsmart]: Downloading https://files.pythonhosted.org/packages/60/8f/34b21c315d99fc9641a2328b455a0d2c2131c103512eff60b3d018b54162/maxsmart-0.1.8.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/91/a6/651040bb028b2fd972781c4415b3f7c766cb2cda5e52c60487e121abcee8/alibabacloud_aligenieip_1_0-2.1.0.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/ea/20/7b04b399d4119654eb5f98d40a1467b2cc85eb84c38e0cf844bd1a4faf85/EnergyCapSdk-8.2304.4682.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [readDataFile]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [readDataFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readDataFile-0.0.4.tar.gz tmp/readDataFile-0.0.5.tar.gz --markdown 20230725/r/readDataFile/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.3.2-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.3.3-py3-none-any.whl.zip --markdown 20230725/D/DDesignerAPI/0.0.3.2-0.0.3.3/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [maxsmart]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [maxsmart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxsmart-0.1.7.tar.gz tmp/maxsmart-0.1.8.tar.gz --markdown 20230725/m/maxsmart/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/3c/57/e3ec31c7a4370e0398973fdc16d97c10b517a8a8c8ab59f3221b4e86189e/htag-0.9.9.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [AZMusicAPI]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [AZMusicAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AZMusicAPI-0.9.8.tar.gz tmp/AZMusicAPI-1.0.2.tar.gz --markdown 20230725/A/AZMusicAPI/0.9.8-1.0.2/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/e1/73/19c1c8b19a762ac38b2765879f23e4d7fce0410891912583ac522693dc28/pulumi_splunk-1.3.0a1690264914.tar.gz
+[2023-07-25 08:37:15] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-2.0.0.tar.gz tmp/alibabacloud_aligenieip_1_0-2.1.0.tar.gz --markdown 20230725/a/alibabacloud-aligenieip-1-0/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230725/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [htag]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.9.8.tar.gz tmp/htag-0.9.9.tar.gz --markdown 20230725/h/htag/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4675.tar.gz tmp/EnergyCapSdk-8.2304.4682.tar.gz --markdown 20230725/E/EnergyCapSdk/8.2304.4675-8.2304.4682/diff.md --exclude *.pyd
+[2023-07-25 08:37:15] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-07-25 08:37:15] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1689315869.tar.gz tmp/pulumi_splunk-1.3.0a1690264914.tar.gz --markdown 20230725/p/pulumi-splunk/1.3.0a1689315869-1.3.0a1690264914/diff.md --exclude *.pyd
+[2023-07-25 08:37:16] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.4.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [readDataFile]: Remove: archive file [/home/abi/fetcher/tmp/readDataFile-0.0.5.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [readDataFile]: Start processing: chromedriver-binary
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [readDataFile]: success
+[2023-07-25 08:37:16] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [rondsspark]: Start processing: guify
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-25 08:37:16] INFO root fetch - processPackages [guify]: New version: [0.3.2a1] Old Version: [0.3.2a0]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-0.9.8.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-1.0.2.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [AZMusicAPI]: Start processing: topgrade
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [AZMusicAPI]: success
+[2023-07-25 08:37:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [always-updates]: Start processing: emeralds
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-25 08:37:16] INFO root fetch - processPackages [maxsmart]: Remove: archive file [/home/abi/fetcher/tmp/maxsmart-0.1.7.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [maxsmart]: Remove: archive file [/home/abi/fetcher/tmp/maxsmart-0.1.8.tar.gz]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [maxsmart]: Start processing: pulumi-vsphere
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [maxsmart]: success
+[2023-07-25 08:37:16] INFO root fetch - processPackages [emeralds]: New version: [0.0.4rc0] Old Version: [0.0.4b0]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-25 08:37:16] INFO root fetch - processPackages [topgrade]: New version: [12.0.2] Old Version: [12.0.1]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.2-py3-none-any.whl.zip]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.3-py3-none-any.whl.zip]
+[2023-07-25 08:37:16] INFO root fetch - processPackages [DDesignerAPI]: Start processing: gitopenlib
+[2023-07-25 08:37:16] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-07-25 08:37:17] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/b8/93/37c53a35a4d491f7a27dc3cdde1f639479461d569b666a3e9bca23d64017/emeralds-0.0.4b0.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.8.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.9.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2023-07-25 08:37:17] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1690265425] Old Version: [4.6.0a1689317257]
+[2023-07-25 08:37:17] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/c5/45/0d8fa06582db3f549806457e30bdc46a75287d47caec5532a75571abfde4/guify-0.3.2a0.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/fe/62/4861a134752cbf1cfb22c36b6e6e1f40b7d7b085cc386ea4f6415975eaa4/topgrade-12.0.1.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-25 08:37:17] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/72/24/72a179d343bb1aabacf1a01bf869573fe21b5cd3d476461931882323dd5d/emeralds-0.0.4rc0.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-25 08:37:17] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230725/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-25 08:37:17] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1689315869.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1690264914.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-07-25 08:37:17] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/30/87/3186a391cbf688372749e9a5471e3516057abf316b7503a285ce470788b2/pulumi_vsphere-4.6.0a1689317257.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 08:37:17] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.0.0.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.4b0.tar.gz tmp/emeralds-0.0.4rc0.tar.gz --markdown 20230725/e/emeralds/0.0.4b0-0.0.4rc0/diff.md --exclude *.pyd
+[2023-07-25 08:37:17] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.1.0.tar.gz]
+[2023-07-25 08:37:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-07-25 08:37:17] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/f3/19/a9d89bb22f295fd82b4e8bce62546f5bfcfa7f55f3b0412370039086ea4f/topgrade-12.0.2.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/33/42/c0b06009300ce52229ca3d694047a2bc9e8b620494b26a5fe45ccb9291ae/guify-0.3.2a1.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-25 08:37:17] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230725/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-25 08:37:17] INFO root fetch - processPackages [topgrade]: executing diffoscope
+[2023-07-25 08:37:17] INFO root fetch - processPackages [topgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topgrade-12.0.1.tar.gz tmp/topgrade-12.0.2.tar.gz --markdown 20230725/t/topgrade/12.0.1-12.0.2/diff.md --exclude *.pyd
+[2023-07-25 08:37:17] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/3e/df/2d9929c81abff9a039a65cdc2852257665d6a4e0a7cef22ee59415b6f2f4/pulumi_vsphere-4.6.0a1690265425.tar.gz
+[2023-07-25 08:37:17] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-25 08:37:17] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.3.2a0.tar.gz tmp/guify-0.3.2a1.tar.gz --markdown 20230725/g/guify/0.3.2a0-0.3.2a1/diff.md --exclude *.pyd
+[2023-07-25 08:37:18] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-07-25 08:37:18] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1689317257.tar.gz tmp/pulumi_vsphere-4.6.0a1690265425.tar.gz --markdown 20230725/p/pulumi-vsphere/4.6.0a1689317257-4.6.0a1690265425/diff.md --exclude *.pyd
+[2023-07-25 08:37:18] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-25 08:37:18] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4b0.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.4rc0.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 08:37:18] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-25 08:37:18] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-25 08:37:19] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.2a0.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.2a1.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-25 08:37:19] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-12.0.1.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-12.0.2.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - main [MainThread]: End processing [topgrade]: success
+[2023-07-25 08:37:19] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1689317257.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1690265425.tar.gz]
+[2023-07-25 08:37:19] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-07-25 08:37:29] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4675.tar.gz]
+[2023-07-25 08:37:29] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4682.tar.gz]
+[2023-07-25 08:37:29] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-25 08:37:29] INFO root fetch - main [MainThread]: Store serial: [19024909]
