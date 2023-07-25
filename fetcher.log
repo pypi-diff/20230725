@@ -18062,3 +18062,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:18:09] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.99.tar.gz]
 [2023-07-25 10:18:09] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
 [2023-07-25 10:18:09] INFO root fetch - main [MainThread]: Store serial: [19026041]
+[2023-07-25 10:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026041]
+[2023-07-25 10:23:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-api-testka-dev
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gogo-cli
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapreader
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: actnova-yolo
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lava-dnf
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lm-datahandler
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comun-va
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: losscape
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proctracer
+[2023-07-25 10:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idoctorai
+[2023-07-25 10:23:19] WARNING root fetch - processPackages [actnova-yolo]: Skipping, unable to determine old version
+[2023-07-25 10:23:19] INFO root fetch - processPackages [actnova-yolo]: Start processing: invenio-app-rdm
+[2023-07-25 10:23:19] INFO root fetch - main [MainThread]: End processing [actnova-yolo] error
+[2023-07-25 10:23:19] INFO root fetch - processPackages [mapreader]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-25 10:23:19] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-25 10:23:19] INFO root fetch - processPackages [proctracer]: Start processing: gogo-cli
+[2023-07-25 10:23:19] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-25 10:23:19] INFO root fetch - processPackages [losscape]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-25 10:23:19] INFO root fetch - processPackages [comun-va]: New version: [0.6] Old Version: [0.5]
+[2023-07-25 10:23:19] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 10:23:19] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-07-25 10:23:19] INFO root fetch - processPackages [idoctorai]: New version: [0.7.9] Old Version: [0.7.7]
+[2023-07-25 10:23:19] WARNING root fetch - processPackages [lava-dnf]: Skipping, unable to determine old version
+[2023-07-25 10:23:19] INFO root fetch - processPackages [lava-dnf]: Start processing: vnstock
+[2023-07-25 10:23:19] INFO root fetch - main [MainThread]: End processing [lava-dnf] error
+[2023-07-25 10:23:19] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-25 10:23:20] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/9e/8c/7d48bcc8c50d6bf45e0c16addb70c3c9574fbe6c79429220d26844137604/comun_va-0.5.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/92/49/f38d1276f6eeea1d06806088abcb16743a3b113216899600e65561d41420/je_api_testka_dev-0.0.98.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/31/ef/acff9e5466d3bbbdaab1344055ef12d68c03e301c52727054460cd46790e/losscape-1.5.6.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [mapreader]: Downloading https://files.pythonhosted.org/packages/52/57/395a3870b483c4f44fb127af806bc31d9702d58b27465ee71388f48aac4c/mapreader-1.0.3.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [vnstock]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 10:23:20] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/76/68/4f0d5da4de01af9744c856805dafe866bfda44b076ef540804e585bd929c/idoctorai-0.7.7.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/91/01/9c0e154ab32b71cf97987ef532fc9a246fb37cda3a32f0b1837862e85cdd/gogo_cli-0.0.9.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/91/01/9c0e154ab32b71cf97987ef532fc9a246fb37cda3a32f0b1837862e85cdd/gogo_cli-0.0.9.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/dc/98/dd4dc4d15c472a9b77ef801942b55471cff670345a869cef542d7d08c5b4/comun_va-0.6.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/7a/cf/c8bad24ecbf5b8a2eea02a15d31bf58c5c1a4395fd94e708eedd392869fa/losscape-1.5.7.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/2c/1d/fcd4ebf844f853e6ba33ca71dd156f408545707c8e66109c284040bd08b1/je_api_testka_dev-0.0.99.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/7d/8f/d6a237702d3551ada5c34b6b1fdacd4cb649534eb5d6fecaf42d67ae7070/idoctorai-0.7.9.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.5.tar.gz tmp/comun_va-0.6.tar.gz --markdown 20230725/c/comun-va/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [mapreader]: Downloading https://files.pythonhosted.org/packages/bb/03/dfae193d7d200d41ecabe2b8da439f3ef2cdbb141579c3f0413a000f9051/mapreader-1.0.4.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/6c/3d/a395f6bd6e028b0dbcba9e915c45c17768e409da5249aefaf4ff14f6bc3b/vnstock-0.1.8.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.6.tar.gz tmp/losscape-1.5.7.tar.gz --markdown 20230725/l/losscape/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/3a/a1/789304b7968f8478b583526de9aaf9b540eefe651c44630c044ebfaca8e7/gogo_cli-0.1.0.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/3a/a1/789304b7968f8478b583526de9aaf9b540eefe651c44630c044ebfaca8e7/gogo_cli-0.1.0.tar.gz
+[2023-07-25 10:23:20] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.98.tar.gz tmp/je_api_testka_dev-0.0.99.tar.gz --markdown 20230725/j/je-api-testka-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230725/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.7.7.tar.gz tmp/idoctorai-0.7.9.tar.gz --markdown 20230725/i/idoctorai/0.7.7-0.7.9/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [mapreader]: executing diffoscope
+[2023-07-25 10:23:20] INFO root fetch - processPackages [mapreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapreader-1.0.3.tar.gz tmp/mapreader-1.0.4.tar.gz --markdown 20230725/m/mapreader/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-25 10:23:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-07-25 10:23:21] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-25 10:23:21] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.9.tar.gz tmp/gogo_cli-0.1.0.tar.gz --markdown 20230725/g/gogo-cli/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-25 10:23:21] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-25 10:23:21] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.9.tar.gz tmp/gogo_cli-0.1.0.tar.gz --markdown 20230725/g/gogo-cli/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-25 10:23:21] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-07-25 10:23:21] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230725/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 10:23:21] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/f2/40/f76d1bb03625d62f3a640a53e1b01c9c44b2f46c7a0fb644a45bb56a6484/vnstock-0.1.9.tar.gz
+[2023-07-25 10:23:21] INFO root fetch - processPackages [vnstock]: executing diffoscope
+[2023-07-25 10:23:21] INFO root fetch - processPackages [vnstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnstock-0.1.8.tar.gz tmp/vnstock-0.1.9.tar.gz --markdown 20230725/v/vnstock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 10:23:22] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.5.tar.gz]
+[2023-07-25 10:23:22] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.6.tar.gz]
+[2023-07-25 10:23:22] INFO root fetch - processPackages [comun-va]: Start processing: bagbag
+[2023-07-25 10:23:22] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-07-25 10:23:22] INFO root fetch - processPackages [bagbag]: New version: [0.61.7] Old Version: [0.61.6]
+[2023-07-25 10:23:22] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.6.tar.gz]
+[2023-07-25 10:23:22] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.7.tar.gz]
+[2023-07-25 10:23:22] INFO root fetch - processPackages [losscape]: Start processing: je-api-testka-dev
+[2023-07-25 10:23:22] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-25 10:23:22] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/40/9a/ff95ced358074e9a982297110bc834bd0d5cfa3dbe7949a8fc7f8071c25c/bagbag-0.61.6.tar.gz
+[2023-07-25 10:23:22] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-07-25 10:23:23] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.98.tar.gz tmp/je_api_testka_dev-0.0.99.tar.gz --markdown 20230725/j/je-api-testka-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 10:23:23] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/8b/d986feba3ad0a9e7ef0b79e995f5add3ba2694853a73da5afcb45440e413/bagbag-0.61.7.tar.gz
+[2023-07-25 10:23:23] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.9.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.1.0.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [gogo-cli]: Start processing: wiserep-api
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-25 10:23:23] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-25 10:23:23] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.6.tar.gz tmp/bagbag-0.61.7.tar.gz --markdown 20230725/b/bagbag/0.61.6-0.61.7/diff.md --exclude *.pyd
+[2023-07-25 10:23:23] INFO root fetch - processPackages [wiserep-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.7.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.9.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-25 10:23:23] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.98.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.99.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-07-25 10:23:23] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/02/9f/1561701b57f21d89f70f25696ace5e19f22b31d471187c50d42d0790756a/wiserep_api-0.1.5.tar.gz
+[2023-07-25 10:23:23] INFO root fetch - processPackages [mapreader]: Remove: archive file [/home/abi/fetcher/tmp/mapreader-1.0.3.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [mapreader]: Remove: archive file [/home/abi/fetcher/tmp/mapreader-1.0.4.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [mapreader]: success
+[2023-07-25 10:23:23] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-07-25 10:23:23] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.8.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.9.tar.gz]
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [vnstock]: success
+[2023-07-25 10:23:23] ERROR root fetch - processPackages [je-api-testka-dev]: Diffoscope failed: time="2023-07-25T10:23:23+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/je_api_testka_dev-0.0.98.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/je_api_testka_dev-0.0.99.tar.gz: No such file or directory
+
+[2023-07-25 10:23:23] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev] error
+[2023-07-25 10:23:24] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/17/d2/0d8ef2513ef7a1250c5243359e881816e6c953cc4af76e4cc14e4b7c3da1/wiserep_api-0.1.6.tar.gz
+[2023-07-25 10:23:24] INFO root fetch - processPackages [wiserep-api]: executing diffoscope
+[2023-07-25 10:23:24] INFO root fetch - processPackages [wiserep-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiserep_api-0.1.5.tar.gz tmp/wiserep_api-0.1.6.tar.gz --markdown 20230725/w/wiserep-api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-25 10:23:24] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2023-07-25 10:23:24] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2023-07-25 10:23:24] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-07-25 10:23:25] INFO root fetch - processPackages [wiserep-api]: Remove: archive file [/home/abi/fetcher/tmp/wiserep_api-0.1.5.tar.gz]
+[2023-07-25 10:23:25] INFO root fetch - processPackages [wiserep-api]: Remove: archive file [/home/abi/fetcher/tmp/wiserep_api-0.1.6.tar.gz]
+[2023-07-25 10:23:25] INFO root fetch - main [MainThread]: End processing [wiserep-api]: success
+[2023-07-25 10:23:25] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.6.tar.gz]
+[2023-07-25 10:23:25] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.7.tar.gz]
+[2023-07-25 10:23:25] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-25 10:23:25] INFO root fetch - main [MainThread]: Store serial: [19026092]
