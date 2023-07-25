@@ -14123,3 +14123,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 08:05:14] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1690263396.tar.gz]
 [2023-07-25 08:05:14] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
 [2023-07-25 08:05:14] INFO root fetch - main [MainThread]: Store serial: [19024509]
+[2023-07-25 08:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024509]
+[2023-07-25 08:10:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ec
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dashio
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-nomad
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-webstack
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparglim
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: our1314
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsagon
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-digitalocean
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: requestsbankrko
+[2023-07-25 08:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyimgbb
+[2023-07-25 08:10:23] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [our1314]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-07-25 08:10:23] WARNING root fetch - processPackages [pyimgbb]: Skipping, unable to determine old version
+[2023-07-25 08:10:23] INFO root fetch - processPackages [pyimgbb]: Start processing: pulumi-opnsense
+[2023-07-25 08:10:23] INFO root fetch - main [MainThread]: End processing [pyimgbb] error
+[2023-07-25 08:10:23] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1690263342] Old Version: [0.4.2a1689314054]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1690262979] Old Version: [0.5.2a1689313015]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [django-webstack]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [parsagon]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [dashio]: New version: [3.3.9] Old Version: [3.3.7]
+[2023-07-25 08:10:23] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-07-25 08:10:24] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/62/34/6d9516f3406f9c188375605886f60cfa1359072e5bbb9d2b25d481261ab6/sparglim-0.1.0rc0.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dc/79/625bee0a1dc26666bf1cd51f47883a18494be306904a79d276e223caa431/our1314-0.1.4.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/20/1e/4cffd5f653b802c29d38f17358e78262d0d666926c511cddd19e2298ab33/pulumi_ec-0.5.2a1689313015.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/6f/b0/6e2b944651cc924eaf213bdf0d97e0b92d625c71950e3f6a7f5eb7790e5d/parsagon-0.8.0.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/14/24/6eb03b296719d6e3fe9d48fe2b667508dc292f18b26327945af288f39037/django-webstack-1.2.2.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/0a/01/495691bc63c06aaae16e688c93616155ced6f7bb7594c8956fbc5fae4134/pulumi_opnsense-0.0.71.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/40/dd/9a6af8b5b2d478f33144ab7ebe61866b0a4cd5e629fc276c31e355cd99c2/requestsbankrko-0.2.5.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/8c/6a/927e16a444d19ba53da418f0bab73acbc0cc504d1071928391f8e838447d/dashio-3.3.7.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/0c/2f/c3bb01b44abc7cd2110d749b0142c9d7c655d3b5d4c8cadc5a767ff3b747/pulumi_nomad-0.4.2a1689314054.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/ce/06/905a1dd32f469c1381e052a9aae5dab8db0bfd9aeaac441ef67426fec6ef/pulumi_ec-0.5.2a1690262979.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/55/86/ce21cc680096dbc69f453c2cfcbed097ecbb725077386d6f8f4298d82f19/sparglim-0.1.0rc1.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/bf/ef/f2368dbe25a666a58458a91188b8944759a5294b945793a9895810329e10/our1314-0.1.5.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ad/31/f2c8ad917c067b960fb6b4685da004609a7c0dfca66b5f6a064447426eec/pulumi_opnsense-0.0.72.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/b1/4c/339e5bdbbe064d82ca9068895548e217a6b1c2ce01ffeb82e733f0299a87/parsagon-0.8.1.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/e7/af/d361cef7648cef6c7e05b0a584fd334059e40e190c69dd5d0917611e14b2/requestsbankrko-0.2.6.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1689313015.tar.gz tmp/pulumi_ec-0.5.2a1690262979.tar.gz --markdown 20230725/p/pulumi-ec/0.5.2a1689313015-0.5.2a1690262979/diff.md --exclude *.pyd
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/70/df/4dadcf2cb34f8c8e4c69041c30cdf9c8fc9405fad68db14d7f5244cee7ec/dashio-3.3.9.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 08:10:24] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.4.tar.gz tmp/our1314-0.1.5.tar.gz --markdown 20230725/o/our1314/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.71.tar.gz tmp/pulumi_opnsense-0.0.72.tar.gz --markdown 20230725/p/pulumi-opnsense/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-07-25 08:10:24] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/7b/54/2bf445f02466c02a06021bd4b83c07205e12e8a1016786defe20404ad498/pulumi_nomad-0.4.2a1690263342.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/f5/65/bb59c5fa94dde18d07f282b90c02e6fbbc13e1bec357c0535462773144b9/django-webstack-1.3.1.tar.gz
+[2023-07-25 08:10:24] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-25 08:10:24] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.1.0rc0.tar.gz tmp/sparglim-0.1.0rc1.tar.gz --markdown 20230725/s/sparglim/0.1.0rc0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-25 08:10:24] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-07-25 08:10:24] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.8.0.tar.gz tmp/parsagon-0.8.1.tar.gz --markdown 20230725/p/parsagon/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-25 08:10:25] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-25 08:10:25] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.5.tar.gz tmp/requestsbankrko-0.2.6.tar.gz --markdown 20230725/r/requestsbankrko/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-25 08:10:25] INFO root fetch - processPackages [dashio]: executing diffoscope
+[2023-07-25 08:10:25] INFO root fetch - processPackages [dashio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashio-3.3.7.tar.gz tmp/dashio-3.3.9.tar.gz --markdown 20230725/d/dashio/3.3.7-3.3.9/diff.md --exclude *.pyd
+[2023-07-25 08:10:25] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-07-25 08:10:25] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230725/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-07-25 08:10:25] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-07-25 08:10:25] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1689314054.tar.gz tmp/pulumi_nomad-0.4.2a1690263342.tar.gz --markdown 20230725/p/pulumi-nomad/0.4.2a1689314054-0.4.2a1690263342/diff.md --exclude *.pyd
+[2023-07-25 08:10:25] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-25 08:10:25] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.2.2.tar.gz tmp/django-webstack-1.3.1.tar.gz --markdown 20230725/d/django-webstack/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-07-25 08:10:26] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.4.tar.gz]
+[2023-07-25 08:10:26] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.5.tar.gz]
+[2023-07-25 08:10:26] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.71.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.72.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1689313015.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1690262979.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.5.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.6.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc0.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc1.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.8.0.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.8.1.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1689314054.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1690263342.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.2.2.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.3.1.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [dashio]: Remove: archive file [/home/abi/fetcher/tmp/dashio-3.3.7.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [dashio]: Remove: archive file [/home/abi/fetcher/tmp/dashio-3.3.9.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [dashio]: success
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-07-25 08:10:27] INFO root fetch - main [MainThread]: Store serial: [19024546]
