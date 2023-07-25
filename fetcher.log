@@ -22082,3 +22082,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:49:29] INFO root fetch - processPackages [ganymede-aux]: Remove: archive file [/home/abi/fetcher/tmp/ganymede_aux-0.4.1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-25 12:49:29] INFO root fetch - main [MainThread]: End processing [ganymede-aux]: success
 [2023-07-25 12:49:29] INFO root fetch - main [MainThread]: Store serial: [19027592]
+[2023-07-25 12:54:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027592]
+[2023-07-25 12:54:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-netsuite-api
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-wrapper
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SiPMai
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odin-cyble
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtaf
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dgpost
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anndata
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openworld-sdk-python-core
+[2023-07-25 12:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kiba-core
+[2023-07-25 12:54:38] INFO root fetch - processPackages [openworld-sdk-python-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [openai-wrapper]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [odin-cyble]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev5] Old Version: [0.5.2.dev4]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [SiPMai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [dgpost]: New version: [2.0rc1] Old Version: [2.0a4]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [anndata]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [qtaf]: New version: [5.6.8] Old Version: [5.6.7]
+[2023-07-25 12:54:38] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/f5/56/688199121d11305227bddb939e23952b363bbf50521fe6da5d40a02d881a/openai_wrapper-0.6.1.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/7d/06/40c02a2aec7e41df0e0863edbc22af2def7f30378f3d2082e896e762ccb2/kiba_core-0.5.2.dev4-py3-none-any.whl
+[2023-07-25 12:54:39] INFO root fetch - processPackages [SiPMai]: Downloading https://files.pythonhosted.org/packages/fb/d6/b3b58ec63fa53199efe260adca0b36e6e4edbca5b4fa83ef5a3d6374da15/SiPMai-0.0.8.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/78/bc/bd2fe9146959012cbe508582780765bd22c19b7b16b60becc89e1d680fb8/gs-netsuite-api-1.2.3.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/a8/0b/8f77c4964773fad34b6275587df5e7f2f8f90a566b10979c97a2a1546ddd/openworld-sdk-python-core-0.8.0.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/35/70/0f99186c6c22a898b251338bbd13a8d547b74576c1a2ff95d7b9985a90c3/odin_cyble-0.0.1.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [anndata]: Downloading https://files.pythonhosted.org/packages/c6/c1/d06804ea281ffc877a43e7a5e38a685ca3be772df5e11e043089e75575d4/anndata-0.9.1.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/85/a9/a604a5d60a5ce9c3d1e55680e6b813ddab6cd6cbef3a059d6c11c43b0ae0/qtaf-5.6.7.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [dgpost]: Downloading https://files.pythonhosted.org/packages/83/39/8c23883b40c5713c30fa8e8b47448831f8209032b7863cc6fa7acadc1883/dgpost-2.0a4.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/cf/e6/c374b7c5ce930e26388e971a2af29a8e5f99474c540b3ccaf490aa59aad3/kiba_core-0.5.2.dev5-py3-none-any.whl
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openai-wrapper]: Downloading https://files.pythonhosted.org/packages/63/8c/13e8a2a6513d5f0eb62d8981ed66741eeae1f00742990c2ce4733a0edcea/openai_wrapper-0.6.2.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev4-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev5-py3-none-any.whl.zip --markdown 20230725/k/kiba-core/0.5.2.dev4-0.5.2.dev5/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/f2/2c/71003451acc222ac61f803af85fa740dc483bdd5a9b80ed1cbc70dce8c71/gs-netsuite-api-1.2.4.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/b8/f4/80eeb70bcb052539bb861848fd313bac261d4e70d56e293032f9a4fcf77d/openworld-sdk-python-core-0.9.0.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/0e/28/c85c7517f79bf67dca5201e78b05f065edb4a52fcf17d87ea9e2d6962e44/odin_cyble-0.0.2.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openai-wrapper]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openai-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_wrapper-0.6.1.tar.gz tmp/openai_wrapper-0.6.2.tar.gz --markdown 20230725/o/openai-wrapper/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/6a/a8/899ca2f7f280a50e29fad2e24ef77307c7f64e9b39e667c4afb872d3be08/qtaf-5.6.8.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.2.3.tar.gz tmp/gs-netsuite-api-1.2.4.tar.gz --markdown 20230725/g/gs-netsuite-api/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [anndata]: Downloading https://files.pythonhosted.org/packages/c0/e2/537dfed354d98cd1cd907bd97c05f052589abba000de7bdebc44ae4a527f/anndata-0.9.2.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openworld-sdk-python-core]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [openworld-sdk-python-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-core-0.8.0.tar.gz tmp/openworld-sdk-python-core-0.9.0.tar.gz --markdown 20230725/o/openworld-sdk-python-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-25 12:54:39] INFO root fetch - processPackages [odin-cyble]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [odin-cyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_cyble-0.0.1.tar.gz tmp/odin_cyble-0.0.2.tar.gz --markdown 20230725/o/odin-cyble/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [qtaf]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [qtaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtaf-5.6.7.tar.gz tmp/qtaf-5.6.8.tar.gz --markdown 20230725/q/qtaf/5.6.7-5.6.8/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [anndata]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [anndata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anndata-0.9.1.tar.gz tmp/anndata-0.9.2.tar.gz --markdown 20230725/a/anndata/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-25 12:54:39] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230725/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-25 12:54:39] INFO root fetch - processPackages [dgpost]: Downloading https://files.pythonhosted.org/packages/ec/fc/f8f0b7cd98044cffbdea1f452a9c6679ed2168017bc5b83819dfdbd14f04/dgpost-2.0rc1.tar.gz
+[2023-07-25 12:54:40] INFO root fetch - processPackages [dgpost]: executing diffoscope
+[2023-07-25 12:54:40] INFO root fetch - processPackages [dgpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgpost-2.0a4.tar.gz tmp/dgpost-2.0rc1.tar.gz --markdown 20230725/d/dgpost/2.0a4-2.0rc1/diff.md --exclude *.pyd
+[2023-07-25 12:54:40] INFO root fetch - processPackages [SiPMai]: Downloading https://files.pythonhosted.org/packages/5c/c2/0c441a0877577fe6f897d99428f9f23fadee498beefa3c9f2ba50d95890f/SiPMai-0.0.9.tar.gz
+[2023-07-25 12:54:40] INFO root fetch - processPackages [SiPMai]: executing diffoscope
+[2023-07-25 12:54:40] INFO root fetch - processPackages [SiPMai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiPMai-0.0.8.tar.gz tmp/SiPMai-0.0.9.tar.gz --markdown 20230725/S/SiPMai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 12:54:41] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.1.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [openai-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openai_wrapper-0.6.2.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [openai-wrapper]: Start processing: onoffmonitordevice
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [openai-wrapper]: success
+[2023-07-25 12:54:41] INFO root fetch - processPackages [onoffmonitordevice]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [onoffmonitordevice]: Downloading https://files.pythonhosted.org/packages/56/0d/f4b7a00d4206c6dd9357346b835e739d0cf661e7bb617149191dc5ad1e7c/onoffmonitordevice-0.0.1-py3-none-any.whl
+[2023-07-25 12:54:41] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev4-py3-none-any.whl.zip]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev5-py3-none-any.whl.zip]
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2023-07-25 12:54:41] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.1.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.2.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [odin-cyble]: success
+[2023-07-25 12:54:41] INFO root fetch - processPackages [onoffmonitordevice]: Downloading https://files.pythonhosted.org/packages/68/0c/293f1d384d6be63608c5201f5c54f8e9ba052267fc6aac0ad69eece8df7e/onoffmonitordevice-0.1.0-py3-none-any.whl
+[2023-07-25 12:54:41] INFO root fetch - processPackages [openworld-sdk-python-core]: Remove: archive file [/home/abi/fetcher/tmp/openworld-sdk-python-core-0.8.0.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [openworld-sdk-python-core]: Remove: archive file [/home/abi/fetcher/tmp/openworld-sdk-python-core-0.9.0.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-core]: success
+[2023-07-25 12:54:41] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [onoffmonitordevice]: executing diffoscope
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-25 12:54:41] INFO root fetch - processPackages [onoffmonitordevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onoffmonitordevice-0.0.1-py3-none-any.whl.zip tmp/onoffmonitordevice-0.1.0-py3-none-any.whl.zip --markdown 20230725/o/onoffmonitordevice/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-25 12:54:41] INFO root fetch - processPackages [anndata]: Remove: archive file [/home/abi/fetcher/tmp/anndata-0.9.1.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - processPackages [anndata]: Remove: archive file [/home/abi/fetcher/tmp/anndata-0.9.2.tar.gz]
+[2023-07-25 12:54:41] INFO root fetch - main [MainThread]: End processing [anndata]: success
+[2023-07-25 12:54:42] INFO root fetch - processPackages [dgpost]: Remove: archive file [/home/abi/fetcher/tmp/dgpost-2.0a4.tar.gz]
+[2023-07-25 12:54:42] INFO root fetch - processPackages [dgpost]: Remove: archive file [/home/abi/fetcher/tmp/dgpost-2.0rc1.tar.gz]
+[2023-07-25 12:54:42] INFO root fetch - main [MainThread]: End processing [dgpost]: success
+[2023-07-25 12:54:42] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.7.tar.gz]
+[2023-07-25 12:54:42] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.8.tar.gz]
+[2023-07-25 12:54:42] INFO root fetch - main [MainThread]: End processing [qtaf]: success
+[2023-07-25 12:54:42] INFO root fetch - processPackages [onoffmonitordevice]: Remove: archive file [/home/abi/fetcher/tmp/onoffmonitordevice-0.0.1-py3-none-any.whl.zip]
+[2023-07-25 12:54:42] INFO root fetch - processPackages [onoffmonitordevice]: Remove: archive file [/home/abi/fetcher/tmp/onoffmonitordevice-0.1.0-py3-none-any.whl.zip]
+[2023-07-25 12:54:42] INFO root fetch - main [MainThread]: End processing [onoffmonitordevice]: success
+[2023-07-25 12:54:43] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.3.tar.gz]
+[2023-07-25 12:54:43] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.4.tar.gz]
+[2023-07-25 12:54:43] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-07-25 12:54:44] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.8.tar.gz]
+[2023-07-25 12:54:44] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.9.tar.gz]
+[2023-07-25 12:54:44] INFO root fetch - main [MainThread]: End processing [SiPMai]: success
+[2023-07-25 12:54:44] INFO root fetch - main [MainThread]: Store serial: [19027623]
