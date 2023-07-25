@@ -20627,3 +20627,128 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 11:50:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.2.0.tar.gz]
 [2023-07-25 11:50:09] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-25 11:50:09] INFO root fetch - main [MainThread]: Store serial: [19027005]
+[2023-07-25 11:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027005]
+[2023-07-25 11:55:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cval-lib
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openedx-xblock-image-modal
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartdoor
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablemap
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: l10n
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serious-scaffold
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proctracer
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eagerx-franka
+[2023-07-25 11:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RobertCommonBasic
+[2023-07-25 11:55:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202307250950] Old Version: [99.0.202307250906]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [l10n]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [smartdoor]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev2]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [eagerx-franka]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [tablemap]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [proctracer]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [serious-scaffold]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [openedx-xblock-image-modal]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-25 11:55:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/51/eb/54822bde0ef7156f5f29f765bb2d94ced348c03e8dd5a8716698fbb0442b/kcli-99.0.202307250906-py3-none-any.whl
+[2023-07-25 11:55:19] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/28/a8/a08ac5ea3df10013f674378db1b366c07d6c1e73ee0ac8405be6eae76dbc/l10n-0.1.3.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/0d/ce/d7d023db095140558dcfb5d112d12d7d6556e2b0a351fbd0662ee05931a9/smartdoor-2.0.0.dev2.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/38/bc/9a42200959d93fe6c20eb6a7c25982daf5ccfbc12cbde9c207c279d236d2/proctracer-0.0.12.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/20/82/5c65fb452a1ddc0ab4940e1680155fbbc76b01befc0256f060b824d5bf07/tablemap-0.3.4.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [eagerx-franka]: Downloading https://files.pythonhosted.org/packages/70/28/815aef3e93b9e3255916829de6d435e684a8dafdbaf927d54193223a442e/eagerx_franka-0.0.3.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/6c/61/eed63a663cebc7335d2c043b1d2209314a6d6263e97e9a385a65b4176c9a/RobertCommonBasic-0.1.42.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/32/3c/e6484de31530bf7bb33e95077503fb7ea842aa301478cb4c472fadef987f/serious-scaffold-0.0.8.tar.gz
+[2023-07-25 11:55:19] INFO root fetch - processPackages [openedx-xblock-image-modal]: Downloading https://files.pythonhosted.org/packages/2b/e3/bb6c84244d13ead4c528eb247cab9f87c03d14964700e14de2269d6ab0f3/openedx-xblock-image-modal-3.0.0.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [l10n]: Downloading https://files.pythonhosted.org/packages/a9/cc/94a8526a3810bbfa7d24f88334e4a61db51648e27228776fb6d87f599474/l10n-0.1.4.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/e0/db/eed900992e360b3e8b508129cf1ee05382139243661f23ba286aff74515c/proctracer-0.0.13.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/72/58/4bf57a5b43266f6043d50f79e84697b9e2e0f871382d2cc1ee49b4fd62a7/smartdoor-2.0.0.dev3.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/b5/a5/1b24db435bd59a5e8dfe90e7d3444d07591df5510ce0211e71470bcbed65/tablemap-0.3.5.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/af/e8/11501b2b072e9f70f791c6ce0050bc84f338d1bed730ff8e4af5127ff3be/kcli-99.0.202307250950-py3-none-any.whl
+[2023-07-25 11:55:20] INFO root fetch - processPackages [openedx-xblock-image-modal]: Downloading https://files.pythonhosted.org/packages/11/b5/7581b2cea5ee056ce481e5423dfd94732968d16387ca2d14d7dbd393a271/openedx-xblock-image-modal-3.1.0.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [smartdoor]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [smartdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdoor-2.0.0.dev2.tar.gz tmp/smartdoor-2.0.0.dev3.tar.gz --markdown 20230725/s/smartdoor/2.0.0.dev2-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/47/5c/925f49833e99bb8aba7111a47ca5d1ded5df5dcaac7041e5a7ad09835637/RobertCommonBasic-0.1.43.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [l10n]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [l10n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l10n-0.1.3.tar.gz tmp/l10n-0.1.4.tar.gz --markdown 20230725/l/l10n/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [tablemap]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [tablemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemap-0.3.4.tar.gz tmp/tablemap-0.3.5.tar.gz --markdown 20230725/t/tablemap/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.12.tar.gz tmp/proctracer-0.0.13.tar.gz --markdown 20230725/p/proctracer/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [openedx-xblock-image-modal]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [openedx-xblock-image-modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-xblock-image-modal-3.0.0.tar.gz tmp/openedx-xblock-image-modal-3.1.0.tar.gz --markdown 20230725/o/openedx-xblock-image-modal/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230725/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.42.tar.gz tmp/RobertCommonBasic-0.1.43.tar.gz --markdown 20230725/R/RobertCommonBasic/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307250906-py3-none-any.whl.zip tmp/kcli-99.0.202307250950-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307250906-99.0.202307250950/diff.md --exclude *.pyd
+[2023-07-25 11:55:20] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/28/1d/90200135e74525af4f58a5c732e1a7ff8c5603e519f5e35d6968fe6e1e76/serious-scaffold-0.0.9.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [eagerx-franka]: Downloading https://files.pythonhosted.org/packages/a5/2f/e328ec56be41d21293f5f59e2c9a3034ad55ade8bc3ab19f48b97eb576a0/eagerx_franka-0.0.4.tar.gz
+[2023-07-25 11:55:20] INFO root fetch - processPackages [serious-scaffold]: executing diffoscope
+[2023-07-25 11:55:20] INFO root fetch - processPackages [serious-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serious-scaffold-0.0.8.tar.gz tmp/serious-scaffold-0.0.9.tar.gz --markdown 20230725/s/serious-scaffold/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 11:55:21] INFO root fetch - processPackages [eagerx-franka]: executing diffoscope
+[2023-07-25 11:55:21] INFO root fetch - processPackages [eagerx-franka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx_franka-0.0.3.tar.gz tmp/eagerx_franka-0.0.4.tar.gz --markdown 20230725/e/eagerx-franka/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 11:55:22] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.12.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.13.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [proctracer]: Start processing: odoo-addon-project-timeline
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.4.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.5.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [tablemap]: Start processing: kfish
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [tablemap]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev2.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev3.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [smartdoor]: Start processing: ieeh-power-system-data-model
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [smartdoor]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [odoo-addon-project-timeline]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.4]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.3.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [l10n]: Remove: archive file [/home/abi/fetcher/tmp/l10n-0.1.4.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [l10n]: Start processing: KiMoPack
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [l10n]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [kfish]: New version: [99.0.202307250909] Old Version: [99.0.202307250906]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [ieeh-power-system-data-model]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [openedx-xblock-image-modal]: Remove: archive file [/home/abi/fetcher/tmp/openedx-xblock-image-modal-3.0.0.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [openedx-xblock-image-modal]: Remove: archive file [/home/abi/fetcher/tmp/openedx-xblock-image-modal-3.1.0.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [openedx-xblock-image-modal]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b4/d4/ba361dd58d7c7f3ddc89cb9ae0ed61942a19d0270a914835dfa70f092a5b/kfish-99.0.202307250906-py3-none-any.whl
+[2023-07-25 11:55:22] INFO root fetch - processPackages [KiMoPack]: New version: [7.1.0] Old Version: [7.0.9]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/47/33/d759a26dd648a164acd192eaeabe06ee467e0ea5ff0519977c5599fe7cbd/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-25 11:55:22] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [ieeh-power-system-data-model]: Downloading https://files.pythonhosted.org/packages/08/fc/0544f603c4a561a898abba37f7c5e35b205972b76d1248ea75bfd760436e/ieeh-power-system-data-model-1.5.0.tar.gz
+[2023-07-25 11:55:22] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.42.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [RobertCommonBasic]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonBasic-0.1.43.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.8.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.9.tar.gz]
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [serious-scaffold]: success
+[2023-07-25 11:55:22] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/55/6e/43e5176d643be94031776538b571078b93000f5f9c9fbe9ea63005499aa0/KiMoPack-7.0.9.tar.gz
+[2023-07-25 11:55:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bd/47/07dce5c74836984cdb1d3fab484c892edcdc57d8dbaf51fa16e2e2d2ebf6/kfish-99.0.202307250909-py3-none-any.whl
+[2023-07-25 11:55:22] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 55231119>=10485760
+[2023-07-25 11:55:22] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-07-25 11:55:22] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/42/f2/02e4ef58fb522abfebdcb4344341166e6efa3d67a8599f59e290444191cc/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl
+[2023-07-25 11:55:22] INFO root fetch - processPackages [odoo-addon-project-timeline]: executing diffoscope
+[2023-07-25 11:55:22] INFO root fetch - processPackages [odoo-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230725/o/odoo-addon-project-timeline/16.0.1.0.0.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-25 11:55:22] INFO root fetch - processPackages [ieeh-power-system-data-model]: Downloading https://files.pythonhosted.org/packages/db/6b/02e95d232932b3316ad8be3d77de876a187f913c3789179923412b8a2769/ieeh-power-system-data-model-1.5.1.tar.gz
+[2023-07-25 11:55:22] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 11:55:22] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307250906-py3-none-any.whl.zip tmp/kfish-99.0.202307250909-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307250906-99.0.202307250909/diff.md --exclude *.pyd
+[2023-07-25 11:55:23] INFO root fetch - processPackages [ieeh-power-system-data-model]: executing diffoscope
+[2023-07-25 11:55:23] INFO root fetch - processPackages [ieeh-power-system-data-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ieeh-power-system-data-model-1.5.0.tar.gz tmp/ieeh-power-system-data-model-1.5.1.tar.gz --markdown 20230725/i/ieeh-power-system-data-model/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-25 11:55:23] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250906-py3-none-any.whl.zip]
+[2023-07-25 11:55:23] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307250909-py3-none-any.whl.zip]
+[2023-07-25 11:55:23] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 11:55:23] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-25 11:55:23] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-25 11:55:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
+[2023-07-25 11:55:24] INFO root fetch - processPackages [ieeh-power-system-data-model]: Remove: archive file [/home/abi/fetcher/tmp/ieeh-power-system-data-model-1.5.0.tar.gz]
+[2023-07-25 11:55:24] INFO root fetch - processPackages [ieeh-power-system-data-model]: Remove: archive file [/home/abi/fetcher/tmp/ieeh-power-system-data-model-1.5.1.tar.gz]
+[2023-07-25 11:55:24] INFO root fetch - main [MainThread]: End processing [ieeh-power-system-data-model]: success
+[2023-07-25 11:55:24] INFO root fetch - processPackages [eagerx-franka]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_franka-0.0.3.tar.gz]
+[2023-07-25 11:55:24] INFO root fetch - processPackages [eagerx-franka]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_franka-0.0.4.tar.gz]
+[2023-07-25 11:55:24] INFO root fetch - main [MainThread]: End processing [eagerx-franka]: success
+[2023-07-25 11:55:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250906-py3-none-any.whl.zip]
+[2023-07-25 11:55:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307250950-py3-none-any.whl.zip]
+[2023-07-25 11:55:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 11:55:25] INFO root fetch - main [MainThread]: Store serial: [19027045]
