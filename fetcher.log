@@ -13543,3 +13543,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:39:04] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
 [2023-07-25 07:39:04] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
 [2023-07-25 07:39:04] INFO root fetch - main [MainThread]: Store serial: [19024357]
+[2023-07-25 07:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024357]
+[2023-07-25 07:44:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDuotecno
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawler-studio
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pqlistener
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ForeTiS
+[2023-07-25 07:44:13] INFO root fetch - processPackages [pqlistener]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ForeTiS]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-25 07:44:13] INFO root fetch - processPackages [pyDuotecno]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-25 07:44:13] INFO root fetch - processPackages [crawler-studio]: New version: [1.5.4] Old Version: [1.5.2]
+[2023-07-25 07:44:13] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/44/70/a76c0eb02cedb74ccbb21cec3baf33968e592cfc09851a343ae776c81432/pyDuotecno-2023.7.1.tar.gz
+[2023-07-25 07:44:13] INFO root fetch - processPackages [pqlistener]: Downloading https://files.pythonhosted.org/packages/68/bc/c8dbbb1a65959a9fd1606a578afccec4f6fff860f9fc23973a81eb53bf56/pqlistener-0.1.0.tar.gz
+[2023-07-25 07:44:13] INFO root fetch - processPackages [ForeTiS]: Downloading https://files.pythonhosted.org/packages/99/7e/df620beb3c1e41a5c565b804fff6ba73fbc9adccdb440da5d35f333187ec/ForeTiS-0.0.1.tar.gz
+[2023-07-25 07:44:13] WARNING root fetch - processPackages [pqlistener]: Skipping package: exceeds size limit 13456459>=10485760
+[2023-07-25 07:44:13] INFO root fetch - main [MainThread]: End processing [pqlistener] error
+[2023-07-25 07:44:14] INFO root fetch - processPackages [crawler-studio]: Downloading https://files.pythonhosted.org/packages/e8/f0/d43b56ce24634a91f33fef35932a0f93ec10fcbdfed19ef1604845bf77a4/crawler_studio-1.5.4.tar.gz
+[2023-07-25 07:44:14] INFO root fetch - processPackages [ForeTiS]: Downloading https://files.pythonhosted.org/packages/e7/4f/9e5d5eaed4a3cf53960ceba5c1cad9f4d137cc498dd0ebbe3602a3732202/ForeTiS-0.0.1.1-py3-none-any.whl
+[2023-07-25 07:44:14] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/44/96/3d821af3b6f46783e061223ff842929b0bad1e12d33a0911da35702395dc/pyDuotecno-2023.7.2.tar.gz
+[2023-07-25 07:44:14] INFO root fetch - processPackages [crawler-studio]: executing diffoscope
+[2023-07-25 07:44:14] INFO root fetch - processPackages [crawler-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_studio-1.5.2.tar.gz tmp/crawler_studio-1.5.4.tar.gz --markdown 20230725/c/crawler-studio/1.5.2-1.5.4/diff.md --exclude *.pyd
+[2023-07-25 07:44:14] INFO root fetch - processPackages [ForeTiS]: executing diffoscope
+[2023-07-25 07:44:14] INFO root fetch - processPackages [ForeTiS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ForeTiS-0.0.1.tar.gz tmp/ForeTiS-0.0.1.1-py3-none-any.whl.zip --markdown 20230725/F/ForeTiS/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-25 07:44:14] INFO root fetch - processPackages [pyDuotecno]: executing diffoscope
+[2023-07-25 07:44:14] INFO root fetch - processPackages [pyDuotecno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDuotecno-2023.7.1.tar.gz tmp/pyDuotecno-2023.7.2.tar.gz --markdown 20230725/p/pyDuotecno/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-25 07:44:15] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.7.1.tar.gz]
+[2023-07-25 07:44:15] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.7.2.tar.gz]
+[2023-07-25 07:44:15] INFO root fetch - main [MainThread]: End processing [pyDuotecno]: success
+[2023-07-25 07:44:15] INFO root fetch - processPackages [ForeTiS]: Remove: archive file [/home/abi/fetcher/tmp/ForeTiS-0.0.1.tar.gz]
+[2023-07-25 07:44:15] INFO root fetch - processPackages [ForeTiS]: Remove: archive file [/home/abi/fetcher/tmp/ForeTiS-0.0.1.1-py3-none-any.whl.zip]
+[2023-07-25 07:44:15] INFO root fetch - main [MainThread]: End processing [ForeTiS]: success
+[2023-07-25 07:44:16] ERROR root fetch - processPackages [crawler-studio]: Diffoscope failed: time="2023-07-25T07:44:14+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-07-25 07:44:16] INFO root fetch - main [MainThread]: End processing [crawler-studio] error
+[2023-07-25 07:44:16] INFO root fetch - main [MainThread]: Store serial: [19024366]
