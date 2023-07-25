@@ -21490,3 +21490,141 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:27:10] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-9.0.0.zip]
 [2023-07-25 12:27:10] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
 [2023-07-25 12:27:10] INFO root fetch - main [MainThread]: Store serial: [19027361]
+[2023-07-25 12:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027361]
+[2023-07-25 12:32:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wideo
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zdatabase
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connect-extension-runner
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modi-flows
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tesla-ce-provider
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlfluff-templater-dbt
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlfluff
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-07-25 12:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickstart-vdk
+[2023-07-25 12:32:20] INFO root fetch - processPackages [wideo]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [zdatabase]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-25 12:32:20] WARNING root fetch - processPackages [modi-flows]: Skipping, unable to determine old version
+[2023-07-25 12:32:20] INFO root fetch - processPackages [modi-flows]: Start processing: open-aea-cosmpy
+[2023-07-25 12:32:20] INFO root fetch - main [MainThread]: End processing [modi-flows] error
+[2023-07-25 12:32:20] INFO root fetch - processPackages [tesla-ce-provider]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [sqlfluff-templater-dbt]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.944573153.dev12436] Old Version: [0.2.944393829.dev12432]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202307251029] Old Version: [99.0.202307251010]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [sqlfluff]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [connect-extension-runner]: New version: [28.6] Old Version: [28.5]
+[2023-07-25 12:32:20] WARNING root fetch - processPackages [open-aea-cosmpy]: Skipping, unable to determine old version
+[2023-07-25 12:32:20] INFO root fetch - processPackages [open-aea-cosmpy]: Start processing: acs-axiom
+[2023-07-25 12:32:20] INFO root fetch - main [MainThread]: End processing [open-aea-cosmpy] error
+[2023-07-25 12:32:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202307251026] Old Version: [99.0.202307251007]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/cb/ce/ade80400cf2bd8027c80b2cce4b2daabf78f1d5b2bb73af3031edb8f92e7/zdatabase-0.5.8.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [acs-axiom]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-25 12:32:20] INFO root fetch - processPackages [tesla-ce-provider]: Downloading https://files.pythonhosted.org/packages/b3/21/80e7e6a932012393e279ddf1d9c9d691d665e61a05add2e1f4b872d1f378/tesla-ce-provider-0.0.7.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/19/1f/9840a020bf51edac0fc813170d9011aa49bd7a73c8838f262df30aae95a5/quickstart-vdk-0.2.944393829.dev12432.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/66/3b/7e82ccbe4bc5f310bf724a49a102e69830da74879d5b6881bffcde874e4f/kfish-99.0.202307251010-py3-none-any.whl
+[2023-07-25 12:32:20] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/90/4d/c863bf33d9a9f88143a0340b04cbde48fe64222f1eccac31a6468577b35d/sqlfluff-templater-dbt-2.1.3.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [wideo]: Downloading https://files.pythonhosted.org/packages/a9/59/e798aa66136d6bed0ed101c06bd5dc90eaf914c2dfe105f85838ddf13b12/wideo-0.2.2.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/36/87e229a2ba8f2caf71b17f2c6cbb4be4d29c8bb210c859143da325b21a7c/kcli-99.0.202307251007-py3-none-any.whl
+[2023-07-25 12:32:20] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/45/a6/412d5d90f0491ef9f27901b3cbc692db9232e97dff1880073735b59cf6ac/sqlfluff-2.1.3.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/47/b6/a20c493a7c4180e17d4ece695bc052fcb8b4895c3093da64b10ea7a7b2fb/connect_extension_runner-28.5.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [acs-axiom]: Downloading https://files.pythonhosted.org/packages/82/f3/022e6a353a6cfe426eac9a88fdf8c449cf67593452e3e6c618877318bd38/acs-axiom-0.1.4.tar.gz
+[2023-07-25 12:32:20] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/05/65/0ad9c155463cd41287a14a1951663311eb952ea26e16ea043b872c1661f1/zdatabase-0.5.9.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/93/ab/0c5422622ad5173fa389f9cf1e310421dc80282e8b3db773785cf5209df9/quickstart-vdk-0.2.944573153.dev12436.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [tesla-ce-provider]: Downloading https://files.pythonhosted.org/packages/39/f7/1b2c28a33fce1b1a502e62c27e5322458d38c24e4ce1e0282194b3232f18/tesla-ce-provider-0.0.8.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0b/a8/f87f210e370bb2c5110ca42c3c0d4c3b69cf31cda1a7cb018d77411a47a0/kfish-99.0.202307251029-py3-none-any.whl
+[2023-07-25 12:32:21] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.8.tar.gz tmp/zdatabase-0.5.9.tar.gz --markdown 20230725/z/zdatabase/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [tesla-ce-provider]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [tesla-ce-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla-ce-provider-0.0.7.tar.gz tmp/tesla-ce-provider-0.0.8.tar.gz --markdown 20230725/t/tesla-ce-provider/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/bd/4a/44373b9fbef62f36dafa3b823d1cdb8944f7d3767567fed3770db65144e4/sqlfluff-templater-dbt-2.1.4.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307251010-py3-none-any.whl.zip tmp/kfish-99.0.202307251029-py3-none-any.whl.zip --markdown 20230725/k/kfish/99.0.202307251010-99.0.202307251029/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [wideo]: Downloading https://files.pythonhosted.org/packages/43/3c/ac59582c43ca1bd0f063e7fefc6e55b785506e5780793d96e86dc4e92220/wideo-0.3.0.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/23/f6/bb8f97f93f67069b29ca8aa7e300d3dc5565a7fdd3afe599d450d1a7fbbd/connect_extension_runner-28.6.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz tmp/quickstart-vdk-0.2.944573153.dev12436.tar.gz --markdown 20230725/q/quickstart-vdk/0.2.944393829.dev12432-0.2.944573153.dev12436/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff-templater-dbt]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff-templater-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-templater-dbt-2.1.3.tar.gz tmp/sqlfluff-templater-dbt-2.1.4.tar.gz --markdown 20230725/s/sqlfluff-templater-dbt/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c7/2f/e4ff1378cb2ec0b7e91275ce6e5db8fb4ab8c958f1648aeaf3f51b9b3e16/kcli-99.0.202307251026-py3-none-any.whl
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/a8/ba/2dda5c081d2bef7c21e2bd915df9437b2ef3fcd608988c847907118bf4e4/sqlfluff-2.1.4.tar.gz
+[2023-07-25 12:32:21] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-28.5.tar.gz tmp/connect_extension_runner-28.6.tar.gz --markdown 20230725/c/connect-extension-runner/28.5-28.6/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [wideo]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [wideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wideo-0.2.2.tar.gz tmp/wideo-0.3.0.tar.gz --markdown 20230725/w/wideo/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [sqlfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-2.1.3.tar.gz tmp/sqlfluff-2.1.4.tar.gz --markdown 20230725/s/sqlfluff/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-25 12:32:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307251007-py3-none-any.whl.zip tmp/kcli-99.0.202307251026-py3-none-any.whl.zip --markdown 20230725/k/kcli/99.0.202307251007-99.0.202307251026/diff.md --exclude *.pyd
+[2023-07-25 12:32:22] INFO root fetch - processPackages [acs-axiom]: Downloading https://files.pythonhosted.org/packages/99/35/c7ad5e3ddfaf20a4c993c2d59c0dfe4f3314d86a8a0dddf0f16e546ff968/acs-axiom-0.1.5.tar.gz
+[2023-07-25 12:32:22] INFO root fetch - processPackages [acs-axiom]: executing diffoscope
+[2023-07-25 12:32:22] INFO root fetch - processPackages [acs-axiom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acs-axiom-0.1.4.tar.gz tmp/acs-axiom-0.1.5.tar.gz --markdown 20230725/a/acs-axiom/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-25 12:32:22] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.8.tar.gz]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.9.tar.gz]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [zdatabase]: Start processing: pulumi-aws
+[2023-07-25 12:32:22] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-25 12:32:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307251010-py3-none-any.whl.zip]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307251029-py3-none-any.whl.zip]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [kfish]: Start processing: passPkg
+[2023-07-25 12:32:22] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-25 12:32:22] WARNING root fetch - processPackages [passPkg]: Skipping, unable to determine old version
+[2023-07-25 12:32:22] INFO root fetch - processPackages [passPkg]: Start processing: hcai-datasets
+[2023-07-25 12:32:22] INFO root fetch - main [MainThread]: End processing [passPkg] error
+[2023-07-25 12:32:22] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a5] Old Version: [6.0.0a4]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [hcai-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.944393829.dev12432.tar.gz]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.944573153.dev12436.tar.gz]
+[2023-07-25 12:32:22] INFO root fetch - processPackages [quickstart-vdk]: Start processing: routingfilter
+[2023-07-25 12:32:22] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-25 12:32:23] INFO root fetch - processPackages [routingfilter]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [tesla-ce-provider]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-provider-0.0.7.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [tesla-ce-provider]: Remove: archive file [/home/abi/fetcher/tmp/tesla-ce-provider-0.0.8.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [tesla-ce-provider]: Start processing: yadg
+[2023-07-25 12:32:23] INFO root fetch - main [MainThread]: End processing [tesla-ce-provider]: success
+[2023-07-25 12:32:23] INFO root fetch - processPackages [hcai-datasets]: Downloading https://files.pythonhosted.org/packages/97/9e/86aff134e80cefe5281896e6dc3bc3bf9e1ba571ee124e0658b77e44fc57/hcai-datasets-0.1.8.tar.gz
+[2023-07-25 12:32:23] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/99/1c/5b86cb53f01282a3d56eef3ed401837d2731404001a648a6d6efbeae2c87/pulumi_aws-6.0.0a4.tar.gz
+[2023-07-25 12:32:23] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-templater-dbt-2.1.3.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-templater-dbt-2.1.4.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - main [MainThread]: End processing [sqlfluff-templater-dbt]: success
+[2023-07-25 12:32:23] INFO root fetch - processPackages [wideo]: Remove: archive file [/home/abi/fetcher/tmp/wideo-0.2.2.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [wideo]: Remove: archive file [/home/abi/fetcher/tmp/wideo-0.3.0.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - main [MainThread]: End processing [wideo]: success
+[2023-07-25 12:32:23] INFO root fetch - processPackages [yadg]: New version: [4.2rc3] Old Version: [4.2rc2]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/c7/7d/34e1a8bacbb685d542a1d648c29f04e1fdf8f34e86b6f059d06cf1fbd9f1/routingfilter-1.6.2.tar.gz
+[2023-07-25 12:32:23] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.5.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.6.tar.gz]
+[2023-07-25 12:32:23] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-07-25 12:32:23] INFO root fetch - processPackages [yadg]: Downloading https://files.pythonhosted.org/packages/c2/e3/0871dab0459f1bfae4b1ac5e5a05895de4912b6be0e73af87da3b1f5bf05/yadg-4.2rc2.tar.gz
+[2023-07-25 12:32:23] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/c6/8f/4ab548924ed34a505cd66a3f86717c5319f3fe0e816e36bb172fd3bd3a42/routingfilter-1.6.3.tar.gz
+[2023-07-25 12:32:23] INFO root fetch - processPackages [routingfilter]: executing diffoscope
+[2023-07-25 12:32:23] INFO root fetch - processPackages [routingfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingfilter-1.6.2.tar.gz tmp/routingfilter-1.6.3.tar.gz --markdown 20230725/r/routingfilter/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-25 12:32:24] INFO root fetch - processPackages [yadg]: Downloading https://files.pythonhosted.org/packages/5d/27/4b2d00ce42a1c32845d6e12739e97cdb7de31648e87845126775ef7df4c1/yadg-4.2rc3.tar.gz
+[2023-07-25 12:32:24] INFO root fetch - processPackages [hcai-datasets]: Downloading https://files.pythonhosted.org/packages/26/b7/fa25bbbf6ebefdc2e2d02b5a5f0e99f47f685533eff43005c65fb68e90c9/hcai-datasets-0.1.9.tar.gz
+[2023-07-25 12:32:24] INFO root fetch - processPackages [yadg]: executing diffoscope
+[2023-07-25 12:32:24] INFO root fetch - processPackages [yadg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yadg-4.2rc2.tar.gz tmp/yadg-4.2rc3.tar.gz --markdown 20230725/y/yadg/4.2rc2-4.2rc3/diff.md --exclude *.pyd
+[2023-07-25 12:32:24] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/78/16/cbcfe00953e87338e58e1993a629d68edb5fc1bdffbeb486b1b55095c6ca/pulumi_aws-6.0.0a5.tar.gz
+[2023-07-25 12:32:24] INFO root fetch - processPackages [routingfilter]: Remove: archive file [/home/abi/fetcher/tmp/routingfilter-1.6.2.tar.gz]
+[2023-07-25 12:32:24] INFO root fetch - processPackages [routingfilter]: Remove: archive file [/home/abi/fetcher/tmp/routingfilter-1.6.3.tar.gz]
+[2023-07-25 12:32:24] INFO root fetch - main [MainThread]: End processing [routingfilter]: success
+[2023-07-25 12:32:24] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-2.1.3.tar.gz]
+[2023-07-25 12:32:24] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-2.1.4.tar.gz]
+[2023-07-25 12:32:24] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
+[2023-07-25 12:32:24] INFO root fetch - processPackages [hcai-datasets]: executing diffoscope
+[2023-07-25 12:32:24] INFO root fetch - processPackages [hcai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-0.1.8.tar.gz tmp/hcai-datasets-0.1.9.tar.gz --markdown 20230725/h/hcai-datasets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 12:32:25] INFO root fetch - processPackages [yadg]: Remove: archive file [/home/abi/fetcher/tmp/yadg-4.2rc2.tar.gz]
+[2023-07-25 12:32:25] INFO root fetch - processPackages [yadg]: Remove: archive file [/home/abi/fetcher/tmp/yadg-4.2rc3.tar.gz]
+[2023-07-25 12:32:25] INFO root fetch - main [MainThread]: End processing [yadg]: success
+[2023-07-25 12:32:25] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-07-25 12:32:25] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a4.tar.gz tmp/pulumi_aws-6.0.0a5.tar.gz --markdown 20230725/p/pulumi-aws/6.0.0a4-6.0.0a5/diff.md --exclude *.pyd
+[2023-07-25 12:32:26] INFO root fetch - processPackages [hcai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-0.1.8.tar.gz]
+[2023-07-25 12:32:26] INFO root fetch - processPackages [hcai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-0.1.9.tar.gz]
+[2023-07-25 12:32:26] INFO root fetch - main [MainThread]: End processing [hcai-datasets]: success
+[2023-07-25 12:32:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307251007-py3-none-any.whl.zip]
+[2023-07-25 12:32:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307251026-py3-none-any.whl.zip]
+[2023-07-25 12:32:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-25 12:32:26] INFO root fetch - processPackages [acs-axiom]: Remove: archive file [/home/abi/fetcher/tmp/acs-axiom-0.1.4.tar.gz]
+[2023-07-25 12:32:26] INFO root fetch - processPackages [acs-axiom]: Remove: archive file [/home/abi/fetcher/tmp/acs-axiom-0.1.5.tar.gz]
+[2023-07-25 12:32:26] INFO root fetch - main [MainThread]: End processing [acs-axiom]: success
+[2023-07-25 12:33:02] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a4.tar.gz]
+[2023-07-25 12:33:02] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a5.tar.gz]
+[2023-07-25 12:33:02] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-07-25 12:33:02] INFO root fetch - main [MainThread]: Store serial: [19027418]
