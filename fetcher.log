@@ -8304,3 +8304,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 05:05:44] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.2.0.tar.gz]
 [2023-07-25 05:05:44] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
 [2023-07-25 05:05:44] INFO root fetch - main [MainThread]: Store serial: [19022664]
+[2023-07-25 05:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022664]
+[2023-07-25 05:10:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pictorus
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-newsletter-email-template-qweb
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-newsletter
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-btripopen20220520
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyimagenet
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai2-kit
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xclass-sdk
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clientele
+[2023-07-25 05:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: our1314
+[2023-07-25 05:10:54] INFO root fetch - processPackages [pictorus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: New version: [8.0.1.0.0.99.dev3] Old Version: [8.0.1.0.0.99.dev2]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [tinyimagenet]: New version: [0.7] Old Version: [0.6]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [clientele]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [our1314]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [odoo8-addon-newsletter]: New version: [8.0.2.0.0.99.dev45] Old Version: [8.0.2.0.0.99.dev44]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [xclass-sdk]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [ai2-kit]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-25 05:10:54] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/f1/85/e0f0d89112330287fe8ec94512deaa01577892586f7bbe110ce11ae575c1/clientele-0.2.0.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/e3/92/12423a2b242939a99070c93e0d2e65acefa0ff24ed4bdeebdd630f349425/our1314-0.1.2.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [odoo8-addon-newsletter]: Downloading https://files.pythonhosted.org/packages/90/c8/85f415c501cab84d360d1a291a30c42d8c6e9bb4c613506bacb21041e82f/odoo8_addon_newsletter-8.0.2.0.0.99.dev44-py2-none-any.whl
+[2023-07-25 05:10:54] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: Downloading https://files.pythonhosted.org/packages/47/a6/1c59bcc610cd8265ca6fd2e821ac49ae3a838afef5ff0a52487c3166e13f/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev2-py2-none-any.whl
+[2023-07-25 05:10:54] INFO root fetch - processPackages [pictorus]: Downloading https://files.pythonhosted.org/packages/e2/90/1b3687dfd8acf8644156fabed457214192bc1e2ac65a5a9e943c801b4f53/pictorus-0.0.8.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/df/71/00351343d592685a94483cb1c062b57f0935ed2beb95d26351c73065530b/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [tinyimagenet]: Downloading https://files.pythonhosted.org/packages/b7/1f/8ed6ad99112b93b773c9b4f56668ea5098adbce10beafa64e37e89993935/tinyimagenet-0.6.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/24/92/e34537d5ec75cd4d172f859baf38cf8e794389e777a780cc5bdd65464232/ai2_kit-0.5.2.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [xclass-sdk]: Downloading https://files.pythonhosted.org/packages/83/ce/be891874e50fcd479b9df26acfc0b3a9f2142a1a6fbd695855989331f21f/xclass_sdk-1.5.0.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/de/98/73d05a28563088141efbde506f59660d05d8ff2d2909b19659857aeae99b/alibabacloud_btripopen20220520-1.1.8.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/b0/d9/16d4a47d33a96232a95f954aa6bf099a9a21478a37da131396ef1590f2d0/our1314-0.1.3.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/90/97/bb4849db961fefede99a73b5741d7f458aa4cf192f41b88b0bdb206604e0/clientele-0.3.0.tar.gz
+[2023-07-25 05:10:54] INFO root fetch - processPackages [odoo8-addon-newsletter]: Downloading https://files.pythonhosted.org/packages/ed/70/7ee96f24a3895fe45f2730cba9efcdf7ff11ae6a0da8e54e2de5c4e2e97c/odoo8_addon_newsletter-8.0.2.0.0.99.dev45-py2-none-any.whl
+[2023-07-25 05:10:55] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: Downloading https://files.pythonhosted.org/packages/f0/2d/ccfcc17c18d7f27f5d76f920456ac8ed6bf794e41199fc69649777aabab8/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev3-py2-none-any.whl
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/17/2f/b1114b5515489315daea25d9c2eaf4226b72feaf0ab33a369c0f381ce001/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [xclass-sdk]: Downloading https://files.pythonhosted.org/packages/89/62/2c5ff27bbb375ab2ff6e8f0eb36d084020b42f4079a6a65c934c72d15fd2/xclass_sdk-1.6.0.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [tinyimagenet]: Downloading https://files.pythonhosted.org/packages/a1/16/3ec7f0727891181ca2eb63b7453afd6c72d0839b8fad682db1cbf6b18b06/tinyimagenet-0.7.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [pictorus]: Downloading https://files.pythonhosted.org/packages/a7/39/e02ee45d895313016a49c05cc3d91ae60d406fd9799c4c4af8b04ffb50eb/pictorus-0.0.9.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/e4/a5/5f34662d6f15f1ca7f39fc36c71d324d4bc4e8b7f73100781520bb71875c/ai2_kit-0.5.3.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [odoo8-addon-newsletter]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [odoo8-addon-newsletter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_newsletter-8.0.2.0.0.99.dev44-py2-none-any.whl.zip tmp/odoo8_addon_newsletter-8.0.2.0.0.99.dev45-py2-none-any.whl.zip --markdown 20230725/o/odoo8-addon-newsletter/8.0.2.0.0.99.dev44-8.0.2.0.0.99.dev45/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [clientele]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [clientele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientele-0.2.0.tar.gz tmp/clientele-0.3.0.tar.gz --markdown 20230725/c/clientele/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.2.tar.gz tmp/our1314-0.1.3.tar.gz --markdown 20230725/o/our1314/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev2-py2-none-any.whl.zip tmp/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev3-py2-none-any.whl.zip --markdown 20230725/o/odoo8-addon-newsletter-email-template-qweb/8.0.1.0.0.99.dev2-8.0.1.0.0.99.dev3/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz --markdown 20230725/a/alibabacloud-btripopen20220520-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [tinyimagenet]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [tinyimagenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyimagenet-0.6.tar.gz tmp/tinyimagenet-0.7.tar.gz --markdown 20230725/t/tinyimagenet/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [pictorus]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [pictorus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pictorus-0.0.8.tar.gz tmp/pictorus-0.0.9.tar.gz --markdown 20230725/p/pictorus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.5.2.tar.gz tmp/ai2_kit-0.5.3.tar.gz --markdown 20230725/a/ai2-kit/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [xclass-sdk]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [xclass-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xclass_sdk-1.5.0.tar.gz tmp/xclass_sdk-1.6.0.tar.gz --markdown 20230725/x/xclass-sdk/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/45/bb/bde80949695da61ededa0597d7ddadb0ec652b26252e61e97727130da792/alibabacloud_btripopen20220520-1.1.9.tar.gz
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-07-25 05:10:55] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz --markdown 20230725/a/alibabacloud-btripopen20220520/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-25 05:10:56] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.2.0.tar.gz]
+[2023-07-25 05:10:56] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.3.0.tar.gz]
+[2023-07-25 05:10:56] INFO root fetch - processPackages [clientele]: Start processing: quao
+[2023-07-25 05:10:56] INFO root fetch - main [MainThread]: End processing [clientele]: success
+[2023-07-25 05:10:56] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.2.tar.gz]
+[2023-07-25 05:10:56] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.3.tar.gz]
+[2023-07-25 05:10:56] INFO root fetch - processPackages [our1314]: Start processing: validmind
+[2023-07-25 05:10:56] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [xclass-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xclass_sdk-1.5.0.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [xclass-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xclass_sdk-1.6.0.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [xclass-sdk]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [pictorus]: Remove: archive file [/home/abi/fetcher/tmp/pictorus-0.0.8.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [pictorus]: Remove: archive file [/home/abi/fetcher/tmp/pictorus-0.0.9.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [pictorus]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev2-py2-none-any.whl.zip]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [odoo8-addon-newsletter-email-template-qweb]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_newsletter_email_template_qweb-8.0.1.0.0.99.dev3-py2-none-any.whl.zip]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-newsletter-email-template-qweb]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [tinyimagenet]: Remove: archive file [/home/abi/fetcher/tmp/tinyimagenet-0.6.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [tinyimagenet]: Remove: archive file [/home/abi/fetcher/tmp/tinyimagenet-0.7.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [tinyimagenet]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [odoo8-addon-newsletter]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_newsletter-8.0.2.0.0.99.dev44-py2-none-any.whl.zip]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [odoo8-addon-newsletter]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_newsletter-8.0.2.0.0.99.dev45-py2-none-any.whl.zip]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-newsletter]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-25 05:10:57] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.5.2.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.5.3.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ed/ce/adf7f62f3d547ced88429192d1a2292e2b1bf09bac7213e98aaa83dbafff/validmind-1.9.6.tar.gz
+[2023-07-25 05:10:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-25 05:10:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz]
+[2023-07-25 05:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-07-25 05:10:57] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-25 05:10:57] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230725/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-25 05:10:58] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/0a/05/25046b967e5dc51dd5ae20bd6ba3dffd981fbc355bbcbfb62d98c651d5b6/validmind-1.9.7.tar.gz
+[2023-07-25 05:10:58] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-25 05:10:58] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-25 05:10:58] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-25 05:10:58] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-07-25 05:10:58] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230725/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-25 05:10:59] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.6.tar.gz]
+[2023-07-25 05:10:59] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.7.tar.gz]
+[2023-07-25 05:10:59] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-07-25 05:10:59] INFO root fetch - main [MainThread]: Store serial: [19022699]
