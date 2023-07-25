@@ -13337,3 +13337,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-25 07:28:28] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
 [2023-07-25 07:28:28] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-07-25 07:28:28] INFO root fetch - main [MainThread]: Store serial: [19024293]
+[2023-07-25 07:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19024293]
+[2023-07-25 07:33:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbshare
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-reserve-rule
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emeralds
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygwalker
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dc3client
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onqlave-python-sdk-pilot
+[2023-07-25 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-config20200907
+[2023-07-25 07:33:45] INFO root fetch - processPackages [dc3client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [alibabacloud-config20200907]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: New version: [14.0.1.2.1.dev4] Old Version: [14.0.1.2.1.dev3]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [emeralds]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [pygwalker]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2023-07-25 07:33:45] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-25 07:33:46] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/4d/96/40f2d3c58689edb35875035a09694ab1a92bcab0d13fe7db54f8d7230468/emeralds-0.0.2.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [dc3client]: Downloading https://files.pythonhosted.org/packages/92/f8/45b2ef5375bfebd5fdeadf0e3a584eeedaf6a9e5f0bcddd8d11b399d9b62/dc3client-0.0.1.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [alibabacloud-config20200907]: Downloading https://files.pythonhosted.org/packages/11/d8/3e1351bf5a27648da7124aa5f463c27638814a9c4da4ee10597e8182a3d5/alibabacloud_config20200907-2.2.8.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/e0/85/a1f620884d7b87045ba6e3b8fb85aec42e8dc757799e3c27d4d67bda6728/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/94/02/dab0efdab416020b6bdeb9b65267e7aebd0877df01b3f3eccff4b426663d/pygwalker-0.2.0a5.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [emeralds]: Downloading https://files.pythonhosted.org/packages/43/6c/b46b37cadea4a4fd534b8fcc6d0ad9d4ef705610b7a83ffc53e33ae1def1/emeralds-0.0.3.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-25 07:33:46] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230725/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-25 07:33:46] INFO root fetch - processPackages [dc3client]: Downloading https://files.pythonhosted.org/packages/24/37/13384a23cb1e6e70e8bbf1e0f679a8d0e2fdda83a5c6e50228b60bf979df/dc3client-0.0.2.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-25 07:33:46] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230725/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 07:33:46] INFO root fetch - processPackages [alibabacloud-config20200907]: Downloading https://files.pythonhosted.org/packages/ef/f0/d389fd704af3b5675abb5e42892f014bdb5a5281da963d78912fb78e9dc0/alibabacloud_config20200907-2.2.9.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [emeralds]: executing diffoscope
+[2023-07-25 07:33:46] INFO root fetch - processPackages [emeralds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeralds-0.0.2.tar.gz tmp/emeralds-0.0.3.tar.gz --markdown 20230725/e/emeralds/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-25 07:33:46] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/21/01/5235db9270446e10f2e8ae7e3cf81104f4eb876a23be53c1bd452afe73b5/pygwalker-0.2.0a6.tar.gz
+[2023-07-25 07:33:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [dc3client]: executing diffoscope
+[2023-07-25 07:33:46] INFO root fetch - processPackages [dc3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dc3client-0.0.1.tar.gz tmp/dc3client-0.0.2.tar.gz --markdown 20230725/d/dc3client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 07:33:46] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/89/48/c4282025db32b7f23bdac3521de8e6afd7daa1e4f903302cdf942c57a81a/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev4-py3-none-any.whl
+[2023-07-25 07:33:46] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-07-25 07:33:46] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230725/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-07-25 07:33:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 07:33:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 07:33:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 07:33:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 07:33:47] INFO root fetch - processPackages [alibabacloud-config20200907]: executing diffoscope
+[2023-07-25 07:33:47] INFO root fetch - processPackages [alibabacloud-config20200907]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_config20200907-2.2.8.tar.gz tmp/alibabacloud_config20200907-2.2.9.tar.gz --markdown 20230725/a/alibabacloud-config20200907/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-25 07:33:47] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: executing diffoscope
+[2023-07-25 07:33:47] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev4-py3-none-any.whl.zip --markdown 20230725/o/odoo14-addon-stock-reserve-rule/14.0.1.2.1.dev3-14.0.1.2.1.dev4/diff.md --exclude *.pyd
+[2023-07-25 07:33:47] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-07-25 07:33:47] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.2.0a5.tar.gz tmp/pygwalker-0.2.0a6.tar.gz --markdown 20230725/p/pygwalker/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2023-07-25 07:33:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [crazy-thursday]: Start processing: tf-nightly-macos
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230723] Old Version: [2.14.0.dev20230722]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.2.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [emeralds]: Remove: archive file [/home/abi/fetcher/tmp/emeralds-0.0.3.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [emeralds]: Start processing: uswarm
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [emeralds]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [uswarm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Start processing: boris-package
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-25 07:33:48] WARNING root fetch - processPackages [boris-package]: Skipping, unable to determine old version
+[2023-07-25 07:33:48] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [boris-package]: Start processing: django-passkeys
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [boris-package] error
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/2d/4a/bc6b3b9ebbff76a5afead45169fc2be61e7eff2091337e0758e3ac9f45db/tf_nightly_macos-2.14.0.dev20230722-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-25 07:33:48] INFO root fetch - processPackages [django-passkeys]: New version: [1.2.5b1] Old Version: [1.2.5]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [dc3client]: Remove: archive file [/home/abi/fetcher/tmp/dc3client-0.0.1.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [dc3client]: Remove: archive file [/home/abi/fetcher/tmp/dc3client-0.0.2.tar.gz]
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [dc3client]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [uswarm]: Downloading https://files.pythonhosted.org/packages/66/6e/9dbed1caa62ce0bfd5b9053cbf435bb8087ae71fccec70a350dcd79f04af/uswarm-0.1.0.tar.gz
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 07:33:48] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199136364>=10485760
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-25 07:33:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-25 07:33:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev4-py3-none-any.whl.zip]
+[2023-07-25 07:33:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reserve-rule]: success
+[2023-07-25 07:33:48] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/4d/63/424087f2b77f300132b5a894fb76d07cfe513647afb8ca36e32b90b47980/django-passkeys-1.2.5.tar.gz
+[2023-07-25 07:33:48] INFO root fetch - processPackages [uswarm]: Downloading https://files.pythonhosted.org/packages/6c/f0/e85715fdcf3d5759a9a3a19324ed15a8fedf9b34dbe3286d36efda9af4e3/uswarm-0.1.1-py2.py3-none-any.whl
+[2023-07-25 07:33:49] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a5.tar.gz]
+[2023-07-25 07:33:49] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a6.tar.gz]
+[2023-07-25 07:33:49] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-07-25 07:33:49] INFO root fetch - processPackages [uswarm]: executing diffoscope
+[2023-07-25 07:33:49] INFO root fetch - processPackages [uswarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uswarm-0.1.0.tar.gz tmp/uswarm-0.1.1-py2.py3-none-any.whl.zip --markdown 20230725/u/uswarm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 07:33:49] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/6b/d7/47bf2582dfb085aef4c0aaccef719e21ec109dac580913f99ee88cde2bdd/django-passkeys-1.2.5b1.tar.gz
+[2023-07-25 07:33:49] INFO root fetch - processPackages [django-passkeys]: executing diffoscope
+[2023-07-25 07:33:49] INFO root fetch - processPackages [django-passkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-passkeys-1.2.5.tar.gz tmp/django-passkeys-1.2.5b1.tar.gz --markdown 20230725/d/django-passkeys/1.2.5-1.2.5b1/diff.md --exclude *.pyd
+[2023-07-25 07:33:49] INFO root fetch - processPackages [alibabacloud-config20200907]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_config20200907-2.2.8.tar.gz]
+[2023-07-25 07:33:49] INFO root fetch - processPackages [alibabacloud-config20200907]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_config20200907-2.2.9.tar.gz]
+[2023-07-25 07:33:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-config20200907]: success
+[2023-07-25 07:33:49] INFO root fetch - processPackages [uswarm]: Remove: archive file [/home/abi/fetcher/tmp/uswarm-0.1.0.tar.gz]
+[2023-07-25 07:33:49] INFO root fetch - processPackages [uswarm]: Remove: archive file [/home/abi/fetcher/tmp/uswarm-0.1.1-py2.py3-none-any.whl.zip]
+[2023-07-25 07:33:49] INFO root fetch - main [MainThread]: End processing [uswarm]: success
+[2023-07-25 07:33:50] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.5.tar.gz]
+[2023-07-25 07:33:50] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.5b1.tar.gz]
+[2023-07-25 07:33:50] INFO root fetch - main [MainThread]: End processing [django-passkeys]: success
+[2023-07-25 07:33:50] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.8.tar.gz]
+[2023-07-25 07:33:50] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.9.tar.gz]
+[2023-07-25 07:33:50] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-07-25 07:33:50] INFO root fetch - main [MainThread]: Store serial: [19024329]
