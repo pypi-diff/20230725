@@ -9298,3 +9298,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 06:03:16] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-07-25 06:03:16] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-07-25 06:03:16] INFO root fetch - main [MainThread]: Store serial: [19022996]
+[2023-07-25 06:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19022996]
+[2023-07-25 06:08:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-l10n-ch-invoice-reports
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: periflow-client
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yapx
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydelorean
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mareep
+[2023-07-25 06:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: garak
+[2023-07-25 06:08:25] INFO root fetch - processPackages [mareep]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: New version: [13.0.2.0.1.dev2] Old Version: [13.0.2.0.1.dev1]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [yapx]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [pydelorean]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [periflow-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-07-25 06:08:25] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-25 06:08:25] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/2d/38/83cb209cb935c00345f66bc2fadffd980aa641bdc699d2990c385d4c7318/mareep-0.0.3.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/73/c2/cbc930db919cb0a002e963673e4f85427cdb1187e3e5eeffb2cc4bf43540/pydelorean-1.5.0.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: Downloading https://files.pythonhosted.org/packages/6b/11/ff68a4f14b57a308fc310b47285ca9631356f6a11ed90bca949672e7ce69/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev1-py3-none-any.whl
+[2023-07-25 06:08:25] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/7b/99/172eac5d43808adc764563a37a86d839e8ae1b4247cc494c582ae7dbad6b/periflow_client-0.1.0.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/49/6d/44202abedf030f7f3aacfb269138eabb0a7ab61d1db2508f19d73fef674e/yapx-0.2.0.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/7a/81/953cc4785705a06c398ee43e967d02c05d3aaaf09bd263f8f420304368a0/cdktf-cdktf-provider-google_beta-8.0.5.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2023-07-25 06:08:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-25 06:08:26] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230725/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20230725/g/garak/0.9.post2-0.9.post3/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/ec/7f/42fd00aa009c9f81f4b225b83de7411fc31ae6098e856df732782c12f003/mareep-0.0.4.tar.gz
+[2023-07-25 06:08:26] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/96/2f/78c3ae23989a91611ce5d35934bf9b02391d56622826e9cff9800b0237c2/pydelorean-1.5.1.tar.gz
+[2023-07-25 06:08:26] INFO root fetch - processPackages [mareep]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [mareep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mareep-0.0.3.tar.gz tmp/mareep-0.0.4.tar.gz --markdown 20230725/m/mareep/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/d8/8c/72a8487ef5b3b681e88489ee312b22bfcc0d1b62fbfca73f46b9fded8e17/periflow_client-0.1.1.tar.gz
+[2023-07-25 06:08:26] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: Downloading https://files.pythonhosted.org/packages/ef/7c/e8446e225b7bdd15a1d32b7cc13bb6936e33e6fea0b1aab984ecc2df9755/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev2-py3-none-any.whl
+[2023-07-25 06:08:26] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.5.0.tar.gz tmp/pydelorean-1.5.1.tar.gz --markdown 20230725/p/pydelorean/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 23345209>=10485760
+[2023-07-25 06:08:26] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-07-25 06:08:26] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/37/df/2bc286d10da7fcd033918f157be289b83d48456ef1e7958ae6fa8584257b/yapx-0.2.1.tar.gz
+[2023-07-25 06:08:26] INFO root fetch - processPackages [periflow-client]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [periflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow_client-0.1.0.tar.gz tmp/periflow_client-0.1.1.tar.gz --markdown 20230725/p/periflow-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] INFO root fetch - processPackages [yapx]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [yapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapx-0.2.0.tar.gz tmp/yapx-0.2.1.tar.gz --markdown 20230725/y/yapx/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-25 06:08:26] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: executing diffoscope
+[2023-07-25 06:08:26] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev2-py3-none-any.whl.zip --markdown 20230725/o/odoo13-addon-l10n-ch-invoice-reports/13.0.2.0.1.dev1-13.0.2.0.1.dev2/diff.md --exclude *.pyd
+[2023-07-25 06:08:27] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.3.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.4.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [mareep]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.0.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.5.1.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.0.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.1.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [yapx]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.0.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.1.tar.gz]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [periflow-client]: success
+[2023-07-25 06:08:27] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-25 06:08:27] INFO root fetch - processPackages [odoo13-addon-l10n-ch-invoice-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_ch_invoice_reports-13.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-ch-invoice-reports]: success
+[2023-07-25 06:08:27] INFO root fetch - main [MainThread]: Store serial: [19023028]
