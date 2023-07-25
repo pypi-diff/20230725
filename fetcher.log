@@ -22184,3 +22184,97 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 12:54:44] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.9.tar.gz]
 [2023-07-25 12:54:44] INFO root fetch - main [MainThread]: End processing [SiPMai]: success
 [2023-07-25 12:54:44] INFO root fetch - main [MainThread]: Store serial: [19027623]
+[2023-07-25 12:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19027623]
+[2023-07-25 12:59:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bastion-integration
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cm2py
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apify-shared
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odin-cyble
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: passw
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eea.dexterity.indicators
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odin-cyble
+[2023-07-25 12:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyload
+[2023-07-25 12:59:53] WARNING root fetch - processPackages [passw]: Skipping, unable to determine old version
+[2023-07-25 12:59:53] INFO root fetch - processPackages [passw]: Start processing: nwebclient
+[2023-07-25 12:59:53] INFO root fetch - main [MainThread]: End processing [passw] error
+[2023-07-25 12:59:53] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.504.0] Old Version: [0.503.0]
+[2023-07-25 12:59:53] WARNING root fetch - processPackages [apify-shared]: Skipping, unable to determine old version
+[2023-07-25 12:59:53] INFO root fetch - processPackages [apify-shared]: Start processing: fdfat
+[2023-07-25 12:59:53] INFO root fetch - main [MainThread]: End processing [apify-shared] error
+[2023-07-25 12:59:53] INFO root fetch - processPackages [odin-cyble]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [eea.dexterity.indicators]: New version: [7.0] Old Version: [6.2]
+[2023-07-25 12:59:53] WARNING root fetch - processPackages [bastion-integration]: Skipping, unable to determine old version
+[2023-07-25 12:59:53] INFO root fetch - processPackages [bastion-integration]: Start processing: pretalx-plugin-build
+[2023-07-25 12:59:53] INFO root fetch - main [MainThread]: End processing [bastion-integration] error
+[2023-07-25 12:59:53] INFO root fetch - processPackages [odin-cyble]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [cm2py]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [hyload]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [stigg-api-client]: New version: [0.504.0] Old Version: [0.503.0]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 12:59:53] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/aa/55/a8bfed68f7ddc4024d4558c01e2c594f1cec722e3bfb4d23563742ebf77c/stigg_api_client_v2-0.503.0.tar.gz
+[2023-07-25 12:59:53] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/40/08/6ca28124d434d42f253693a5246b06e85080fa29218490dd636334a35003/odin_cyble-0.0.3.tar.gz
+[2023-07-25 12:59:53] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/40/08/6ca28124d434d42f253693a5246b06e85080fa29218490dd636334a35003/odin_cyble-0.0.3.tar.gz
+[2023-07-25 12:59:53] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/50/fc/98c8b669db9498dc1c70cf5cb78d4ee0027c15493362ae51da38c9e35823/stigg_api_client-0.503.0.tar.gz
+[2023-07-25 12:59:53] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-25 12:59:53] WARNING root fetch - processPackages [pretalx-plugin-build]: Skipping, unable to determine old version
+[2023-07-25 12:59:53] INFO root fetch - main [MainThread]: End processing [pretalx-plugin-build] error
+[2023-07-25 12:59:53] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-25 12:59:53] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/48/47/0f96f4e25f1dc91ef8c4959fd93d8a19722dd36a99da0d5c3a4c1e76e345/hyload-0.2.4-py3-none-any.whl
+[2023-07-25 12:59:53] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/f0/91/b17c8c94a39a838a4fa28242220ad755e647c7602f1bf60ef66d886ad5bd/eea.dexterity.indicators-6.2.zip
+[2023-07-25 12:59:53] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/b0/a2/f5094f061728bcb57c240d8f1bd931e06d94c78ff8ae0d87afea03504e59/cm2py-0.2.6.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/9b/60/347c5db3448357c484772ff88da92a53d3f719a2339b3a9518c755cf5061/odin_cyble-0.0.4.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/72/00/a141c4bf88c32706934ac00377394aeceb440930defc8c4da1853582d4da/stigg_api_client_v2-0.504.0.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/d1/c4/56fc5d2390d6f9224af3c9343fa375069ec54a4c32016fd6b25e8ce82e72/stigg_api_client-0.504.0.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/1c/ff/5ca3641184af945a6e8f33302443833ee20f3a4f793c03878fbb9fc6ec25/hyload-0.2.6-py3-none-any.whl
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: Downloading https://files.pythonhosted.org/packages/9b/60/347c5db3448357c484772ff88da92a53d3f719a2339b3a9518c755cf5061/odin_cyble-0.0.4.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230725/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/15/f8/a72931200dc0cb63eb5803d13d7894ca8f4a935fa1a5aa1feef55bc6c5f6/eea.dexterity.indicators-7.0.zip
+[2023-07-25 12:59:54] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230725/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_cyble-0.0.3.tar.gz tmp/odin_cyble-0.0.4.tar.gz --markdown 20230725/o/odin-cyble/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/16/48/f33bfc55a5a84c78a2599ed5ef59036e6a887d20bd7d16377c59cebfe570/cm2py-0.2.7.tar.gz
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.503.0.tar.gz tmp/stigg_api_client_v2-0.504.0.tar.gz --markdown 20230725/s/stigg-api-client-v2/0.503.0-0.504.0/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [odin-cyble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_cyble-0.0.3.tar.gz tmp/odin_cyble-0.0.4.tar.gz --markdown 20230725/o/odin-cyble/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.503.0.tar.gz tmp/stigg_api_client-0.504.0.tar.gz --markdown 20230725/s/stigg-api-client/0.503.0-0.504.0/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [eea.dexterity.indicators]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [eea.dexterity.indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.dexterity.indicators-6.2.zip tmp/eea.dexterity.indicators-7.0.zip --markdown 20230725/e/eea.dexterity.indicators/6.2-7.0/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.2.4-py3-none-any.whl.zip tmp/hyload-0.2.6-py3-none-any.whl.zip --markdown 20230725/h/hyload/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-07-25 12:59:54] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-07-25 12:59:54] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.6.tar.gz tmp/cm2py-0.2.7.tar.gz --markdown 20230725/c/cm2py/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-25 12:59:55] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.3.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - processPackages [odin-cyble]: Remove: archive file [/home/abi/fetcher/tmp/odin_cyble-0.0.4.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - main [MainThread]: End processing [odin-cyble]: success
+[2023-07-25 12:59:55] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-25 12:59:55] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-25 12:59:55] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-25 12:59:55] INFO root fetch - main [MainThread]: End processing [odin-cyble]: success
+[2023-07-25 12:59:56] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.4-py3-none-any.whl.zip]
+[2023-07-25 12:59:56] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.6-py3-none-any.whl.zip]
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2023-07-25 12:59:56] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.6.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.7.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-07-25 12:59:56] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.503.0.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.504.0.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-25 12:59:56] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.503.0.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.504.0.tar.gz]
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-25 12:59:56] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-6.2.zip]
+[2023-07-25 12:59:56] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.0.zip]
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
+[2023-07-25 12:59:56] INFO root fetch - main [MainThread]: Store serial: [19027673]
