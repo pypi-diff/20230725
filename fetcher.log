@@ -18761,3 +18761,151 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 10:44:36] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.3.tar.gz]
 [2023-07-25 10:44:36] INFO root fetch - main [MainThread]: End processing [pysndlib]: success
 [2023-07-25 10:44:36] INFO root fetch - main [MainThread]: Store serial: [19026297]
+[2023-07-25 10:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19026297]
+[2023-07-25 10:49:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcsd-battleship-mp
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyyardian
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotguy
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tickit-devices
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edx-django-release-util
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swh.journal
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devcontainer-manager
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubicweb-blog
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metldata
+[2023-07-25 10:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coder-retriever
+[2023-07-25 10:49:46] INFO root fetch - processPackages [pyyardian]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [kcsd-battleship-mp]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [plotguy]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [edx-django-release-util]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [coder-retriever]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [tickit-devices]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [cubicweb-blog]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [devcontainer-manager]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [metldata]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [swh.journal]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-25 10:49:46] INFO root fetch - processPackages [tickit-devices]: Downloading https://files.pythonhosted.org/packages/c5/2a/ddce3fad318c42cc09efcacae47e81f1cfd461570dcab4d1d4af18f5fe92/tickit-devices-0.1.0.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/63/9d/feb1682a50942134b02630637b8e81bfe723920dc5b38bce33ea7226bac7/pyyardian-0.0.1.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [kcsd-battleship-mp]: Downloading https://files.pythonhosted.org/packages/2e/8b/fe0b8e8e5082d406d7b4b6731c1abd052c9da7d8ad2d6459cc16bf4e611e/kcsd-battleship-mp-1.0.0.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/1d/0c/25b44fb9f3d4dab21444f9ff3210bc31a74477885cce7d15f08988350e69/plotguy-1.2.4.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [edx-django-release-util]: Downloading https://files.pythonhosted.org/packages/78/c3/a20d2ee4c16119917805538cc02875963362919fde6e4042c8aaafcd4e22/edx-django-release-util-1.2.0.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/4e/c7/af3b265cc100fd9bd62607cc693916995b57d0701c0f56f9ad542b176bac/swh.journal-1.3.4.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [cubicweb-blog]: Downloading https://files.pythonhosted.org/packages/c3/e9/51b8fd2d4954c6b42c98104948525188825cf1ad8fa368bebdf5953a161a/cubicweb-blog-2.2.0.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/d7/66/f22404bcf910261b8c1715dac0f6c0bc2d5b96d7248b68be20d3a6d81984/metldata-0.3.6.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/d3/22/fc2dcbe4a68fe3684242033b983536f0f984e242986ffd3c8b2ada487fd8/coder_retriever-0.1.0.tar.gz
+[2023-07-25 10:49:46] INFO root fetch - processPackages [devcontainer-manager]: Downloading https://files.pythonhosted.org/packages/da/85/431c2064637a0ffba1460d904aa92e835e16199fe6cb84cc6d7b74ceab97/devcontainer_manager-1.4.0.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/b8/be/0bfede62cfdd24f8b447b8a9f9c6925c19d8f66ae4092d5a8ff8b4c8791f/pyyardian-0.0.2.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [tickit-devices]: Downloading https://files.pythonhosted.org/packages/6f/27/0d00a92f4237761a7a4232c2ef219a157212468e019029696f1fb68ee468/tickit-devices-0.2.0.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [kcsd-battleship-mp]: Downloading https://files.pythonhosted.org/packages/65/06/946720bbaa784131589d484508d7074042cfa1c7a78d4ebf9b0c3e5cb71b/kcsd-battleship-mp-1.1.0.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [pyyardian]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [pyyardian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyardian-0.0.1.tar.gz tmp/pyyardian-0.0.2.tar.gz --markdown 20230725/p/pyyardian/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/f4/86/bf24af594aa376a7ab1f215b0455566765eb5a27ce2bc37ab1b9590aef09/plotguy-1.2.5.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/6b/50/58c0f72fbd081a1c6c6d3dafad4f0ae8e7ca245120cfacf0337cf4d8b05b/swh.journal-1.3.5.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [cubicweb-blog]: Downloading https://files.pythonhosted.org/packages/b2/93/6242d3d085d4e33b8f45bab28bb991ab1181dcd1a303633ec80f67b27338/cubicweb-blog-3.0.0.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [devcontainer-manager]: Downloading https://files.pythonhosted.org/packages/61/8c/cd6edaec9c0c53fb28ff4a3a49039cd0e9091e850801aeab3cf92dc84fab/devcontainer_manager-1.4.1.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [tickit-devices]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [tickit-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickit-devices-0.1.0.tar.gz tmp/tickit-devices-0.2.0.tar.gz --markdown 20230725/t/tickit-devices/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [edx-django-release-util]: Downloading https://files.pythonhosted.org/packages/a8/b6/3b1994404900736094f56e313a67a02871a848cd652023bdb97c3fdc7712/edx-django-release-util-1.3.0.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [kcsd-battleship-mp]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [kcsd-battleship-mp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcsd-battleship-mp-1.0.0.tar.gz tmp/kcsd-battleship-mp-1.1.0.tar.gz --markdown 20230725/k/kcsd-battleship-mp/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/36/96/5bdc5fd610f1b40530cc01de9b2951bf50a719e88caaeb8e8456355ca6b1/metldata-0.3.7.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/91/cf/e89a1cd07e094762e5752abe8b9d12c57b1168c900a11aae559c8bf540e6/coder_retriever-0.1.1.tar.gz
+[2023-07-25 10:49:47] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.2.4.tar.gz tmp/plotguy-1.2.5.tar.gz --markdown 20230725/p/plotguy/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [swh.journal]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [swh.journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.journal-1.3.4.tar.gz tmp/swh.journal-1.3.5.tar.gz --markdown 20230725/s/swh.journal/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [devcontainer-manager]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [devcontainer-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcontainer_manager-1.4.0.tar.gz tmp/devcontainer_manager-1.4.1.tar.gz --markdown 20230725/d/devcontainer-manager/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [cubicweb-blog]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [cubicweb-blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-blog-2.2.0.tar.gz tmp/cubicweb-blog-3.0.0.tar.gz --markdown 20230725/c/cubicweb-blog/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [coder-retriever]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [coder-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coder_retriever-0.1.0.tar.gz tmp/coder_retriever-0.1.1.tar.gz --markdown 20230725/c/coder-retriever/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [edx-django-release-util]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [edx-django-release-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-django-release-util-1.2.0.tar.gz tmp/edx-django-release-util-1.3.0.tar.gz --markdown 20230725/e/edx-django-release-util/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-25 10:49:47] INFO root fetch - processPackages [metldata]: executing diffoscope
+[2023-07-25 10:49:47] INFO root fetch - processPackages [metldata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metldata-0.3.6.tar.gz tmp/metldata-0.3.7.tar.gz --markdown 20230725/m/metldata/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-25 10:49:49] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-0.0.1.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-0.0.2.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [pyyardian]: Start processing: ipymafs
+[2023-07-25 10:49:49] INFO root fetch - main [MainThread]: End processing [pyyardian]: success
+[2023-07-25 10:49:49] INFO root fetch - processPackages [ipymafs]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/fd/38/45ccf88317c6cfa609cf014977156ae8d49cb29f93d1bec77fcae6c20d4a/ipymafs-0.0.8.tar.gz
+[2023-07-25 10:49:49] WARNING root fetch - processPackages [ipymafs]: Skipping package: exceeds size limit 38993511>=10485760
+[2023-07-25 10:49:49] INFO root fetch - processPackages [ipymafs]: Start processing: chatgpt-tui
+[2023-07-25 10:49:49] INFO root fetch - main [MainThread]: End processing [ipymafs] error
+[2023-07-25 10:49:49] INFO root fetch - processPackages [kcsd-battleship-mp]: Remove: archive file [/home/abi/fetcher/tmp/kcsd-battleship-mp-1.0.0.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [kcsd-battleship-mp]: Remove: archive file [/home/abi/fetcher/tmp/kcsd-battleship-mp-1.1.0.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [kcsd-battleship-mp]: Start processing: actnova-yolo
+[2023-07-25 10:49:49] INFO root fetch - main [MainThread]: End processing [kcsd-battleship-mp]: success
+[2023-07-25 10:49:49] INFO root fetch - processPackages [chatgpt-tui]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [actnova-yolo]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.4.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.5.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [plotguy]: Start processing: microcat
+[2023-07-25 10:49:49] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-07-25 10:49:49] INFO root fetch - processPackages [microcat]: New version: [0.2.6b0] Old Version: [0.2.5rc0]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.0.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.1.tar.gz]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [coder-retriever]: Start processing: libtimed
+[2023-07-25 10:49:49] INFO root fetch - main [MainThread]: End processing [coder-retriever]: success
+[2023-07-25 10:49:49] INFO root fetch - processPackages [chatgpt-tui]: Downloading https://files.pythonhosted.org/packages/53/d7/4eb72220fec9111cdb8d112e3262f97bb9aad88b77794679e1ddfc3e4a74/chatgpt_tui-0.6.0.tar.gz
+[2023-07-25 10:49:49] INFO root fetch - processPackages [libtimed]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-25 10:49:49] INFO root fetch - processPackages [actnova-yolo]: Downloading https://files.pythonhosted.org/packages/db/89/3ca6c6a01aaf93dd32037a9a8602792d1e0bfe6a1cf42791731caddfeb44/actnova-yolo-1.0.5.tar.gz
+[2023-07-25 10:49:49] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/a0/cb/0ae0fda64b8f360facc9d8ccb7d90092ff71e4243551c89dcf851e4abe02/libtimed-0.4.2.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/dc/96/1b5c585103bdc0d11464e37bab93851eb4145be6a68d533f66d1fe145fcc/microcat-0.2.5rc0.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [actnova-yolo]: executing diffoscope
+[2023-07-25 10:49:50] INFO root fetch - processPackages [actnova-yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actnova-yolo-1.0.4.tar.gz tmp/actnova-yolo-1.0.5.tar.gz --markdown 20230725/a/actnova-yolo/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-25 10:49:50] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.3.4.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.3.5.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [swh.journal]: Start processing: retro-bip-utils
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
+[2023-07-25 10:49:50] INFO root fetch - processPackages [cubicweb-blog]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-blog-2.2.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [cubicweb-blog]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-blog-3.0.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [cubicweb-blog]: Start processing: coder-retriever
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [cubicweb-blog]: success
+[2023-07-25 10:49:50] INFO root fetch - processPackages [edx-django-release-util]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-release-util-1.2.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [edx-django-release-util]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-release-util-1.3.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [edx-django-release-util]: Start processing: tns-api
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [edx-django-release-util]: success
+[2023-07-25 10:49:50] INFO root fetch - processPackages [tickit-devices]: Remove: archive file [/home/abi/fetcher/tmp/tickit-devices-0.1.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [tickit-devices]: Remove: archive file [/home/abi/fetcher/tmp/tickit-devices-0.2.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [tickit-devices]: success
+[2023-07-25 10:49:50] INFO root fetch - processPackages [chatgpt-tui]: Downloading https://files.pythonhosted.org/packages/c1/54/6f291ed172f28086930bbb2f1ace89a780be3ddbc86eb1de9fbd5bd69cc4/chatgpt_tui-0.7.0.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [coder-retriever]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/71/fd/9be531fc794bbbd064f7c2b9280dc9f1bf665676f92856e0baa2a41f1c71/libtimed-0.4.3.tar.gz
+[2023-07-25 10:49:50] WARNING root fetch - processPackages [retro-bip-utils]: Skipping, unable to determine old version
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [retro-bip-utils] error
+[2023-07-25 10:49:50] INFO root fetch - processPackages [chatgpt-tui]: executing diffoscope
+[2023-07-25 10:49:50] INFO root fetch - processPackages [chatgpt-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_tui-0.6.0.tar.gz tmp/chatgpt_tui-0.7.0.tar.gz --markdown 20230725/c/chatgpt-tui/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-25 10:49:50] WARNING root fetch - processPackages [tns-api]: Skipping, unable to determine old version
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [tns-api] error
+[2023-07-25 10:49:50] INFO root fetch - processPackages [libtimed]: executing diffoscope
+[2023-07-25 10:49:50] INFO root fetch - processPackages [libtimed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtimed-0.4.2.tar.gz tmp/libtimed-0.4.3.tar.gz --markdown 20230725/l/libtimed/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-25 10:49:50] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/91/cf/e89a1cd07e094762e5752abe8b9d12c57b1168c900a11aae559c8bf540e6/coder_retriever-0.1.1.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [devcontainer-manager]: Remove: archive file [/home/abi/fetcher/tmp/devcontainer_manager-1.4.0.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [devcontainer-manager]: Remove: archive file [/home/abi/fetcher/tmp/devcontainer_manager-1.4.1.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [devcontainer-manager]: success
+[2023-07-25 10:49:50] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/1e/74/5b914745d993880ec0882cc940440bd7e7995c8d165bdb1cdc8d8aace4d3/microcat-0.2.6b0.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-07-25 10:49:50] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.2.5rc0.tar.gz tmp/microcat-0.2.6b0.tar.gz --markdown 20230725/m/microcat/0.2.5rc0-0.2.6b0/diff.md --exclude *.pyd
+[2023-07-25 10:49:50] INFO root fetch - processPackages [coder-retriever]: Downloading https://files.pythonhosted.org/packages/7d/c8/d78b2f27e80db8b996152a1521dcf29057f64e8a20cb35f5d6304c476b0f/coder_retriever-0.1.2.tar.gz
+[2023-07-25 10:49:50] INFO root fetch - processPackages [coder-retriever]: executing diffoscope
+[2023-07-25 10:49:50] INFO root fetch - processPackages [coder-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coder_retriever-0.1.1.tar.gz tmp/coder_retriever-0.1.2.tar.gz --markdown 20230725/c/coder-retriever/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-25 10:49:50] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.6.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.7.tar.gz]
+[2023-07-25 10:49:50] INFO root fetch - main [MainThread]: End processing [metldata]: success
+[2023-07-25 10:49:51] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.4.2.tar.gz]
+[2023-07-25 10:49:51] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.4.3.tar.gz]
+[2023-07-25 10:49:51] INFO root fetch - main [MainThread]: End processing [libtimed]: success
+[2023-07-25 10:49:51] INFO root fetch - processPackages [chatgpt-tui]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_tui-0.6.0.tar.gz]
+[2023-07-25 10:49:51] INFO root fetch - processPackages [chatgpt-tui]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_tui-0.7.0.tar.gz]
+[2023-07-25 10:49:51] INFO root fetch - main [MainThread]: End processing [chatgpt-tui]: success
+[2023-07-25 10:49:52] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.1.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - processPackages [coder-retriever]: Remove: archive file [/home/abi/fetcher/tmp/coder_retriever-0.1.2.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - main [MainThread]: End processing [coder-retriever]: success
+[2023-07-25 10:49:52] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.5rc0.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.6b0.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-07-25 10:49:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.4.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - processPackages [actnova-yolo]: Remove: archive file [/home/abi/fetcher/tmp/actnova-yolo-1.0.5.tar.gz]
+[2023-07-25 10:49:52] INFO root fetch - main [MainThread]: End processing [actnova-yolo]: success
+[2023-07-25 10:49:52] INFO root fetch - main [MainThread]: Store serial: [19026352]
