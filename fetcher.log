@@ -17088,3 +17088,153 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:46:28] INFO root fetch - processPackages [cosmotech-api]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-api-2.4.7.tar.gz]
 [2023-07-25 09:46:28] INFO root fetch - main [MainThread]: End processing [cosmotech-api]: success
 [2023-07-25 09:46:28] INFO root fetch - main [MainThread]: Store serial: [19025656]
+[2023-07-25 09:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025656]
+[2023-07-25 09:51:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyliftover
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xmindruntestcase
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cdn
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-brainindustrial
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytrend
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-fnf
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-nightly
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vbtex
+[2023-07-25 09:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kodexa-cli
+[2023-07-25 09:51:39] INFO root fetch - processPackages [easyliftover]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-brainindustrial]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-cdn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-fnf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [vbtex]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-25 09:51:39] WARNING root fetch - processPackages [xmindruntestcase]: Skipping, unable to determine old version
+[2023-07-25 09:51:39] INFO root fetch - processPackages [xmindruntestcase]: Start processing: ros-cdk-waf
+[2023-07-25 09:51:39] INFO root fetch - main [MainThread]: End processing [xmindruntestcase] error
+[2023-07-25 09:51:39] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35654057955] Old Version: [6.3.35649614802]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-waf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:39] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/b6/9c/1d90aa501f825c95b3e8743e914d6e79c6320f0936c989adce4a23bab842/easyliftover-0.0.6.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-25 09:51:39] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/6e/02/bd00ac0d674600dfeb5043c05ea749b48eca40d70bf56038bf7e4159dad6/vbtex-0.1.8.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/75/8a/4c0915519cd54a8f6ff7c027146ee58512c68a78509bf3bf3c2d4d996b82/ros-cdk-cdn-1.0.8.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/65/03/ecd0732c593154140f3e769ab3949da3814347736662852089ae19f1a420/kodexa_cli-6.3.35649614802.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/f1/af/0962ab35b81d02279de2c615f7a67ed87ca5fc8093792b3b119ade8ac5fd/ros-cdk-fnf-1.0.8.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/e5/ac/6bdcb1299b742100ab745573c20a22517f4ec6e3faecf7af95ae3b0da54b/ros-cdk-brainindustrial-1.0.8.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/a9/70/b12853a89bbcbb70d17ad4e181706e68e07950df8d46ede35d4033b38e82/ros-cdk-waf-1.0.8.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/06/d7/0b44533157d4ca5f90efb4e30ed78f04191628b356b15a90b995feee6857/vbtex-0.1.9.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/6d/64/7c067785bc1b6019ea4179d4ec56b5ecc31c1fe04b59c4056cd1c600eb6a/easyliftover-0.0.7.tar.gz
+[2023-07-25 09:51:39] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-25 09:51:39] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230725/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.8.tar.gz tmp/vbtex-0.1.9.tar.gz --markdown 20230725/v/vbtex/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/02/9b/9180dd4f5bb8d70cad58e1954218be77776bce87367bc613d3757833cec6/ros-cdk-cdn-1.0.9.tar.gz
+[2023-07-25 09:51:40] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/71/c9/882e19573ed6ce5afb75a2374a3f26bf2ef4988bb5afb57ab6797bb410fe/kodexa_cli-6.3.35654057955.tar.gz
+[2023-07-25 09:51:40] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230725/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [easyliftover]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [easyliftover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyliftover-0.0.6.tar.gz tmp/easyliftover-0.0.7.tar.gz --markdown 20230725/e/easyliftover/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35649614802.tar.gz tmp/kodexa_cli-6.3.35654057955.tar.gz --markdown 20230725/k/kodexa-cli/6.3.35649614802-6.3.35654057955/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/95/21/460091449d5b6bada34e96a3c1f8544e133d38716ff9491e715842c08448/ros-cdk-brainindustrial-1.0.9.tar.gz
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/50/4b/86db9ca259d7bfef95fb333226033ce4d276df87301e9784639da81572aa/ros-cdk-waf-1.0.9.tar.gz
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-brainindustrial]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-brainindustrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-brainindustrial-1.0.8.tar.gz tmp/ros-cdk-brainindustrial-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-brainindustrial/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/9c/8c/3cbf8686f54137fb4b7b7bd2a816b3b4e1b8720b3fcf5a9e628ac2224fea/ros-cdk-fnf-1.0.9.tar.gz
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-waf]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf-1.0.8.tar.gz tmp/ros-cdk-waf-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-waf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-fnf]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-fnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fnf-1.0.8.tar.gz tmp/ros-cdk-fnf-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-fnf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-cdn]: executing diffoscope
+[2023-07-25 09:51:40] INFO root fetch - processPackages [ros-cdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cdn-1.0.8.tar.gz tmp/ros-cdk-cdn-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cdn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:41] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [talkytrend]: Start processing: ros-cdk-privatelink
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.8.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.9.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [vbtex]: Start processing: emoji
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-privatelink]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [emoji]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/f1/cc/2c082bbb93cb9856c65637cbe2361b71bc21a1bceef61319c59c79800795/ros-cdk-privatelink-1.0.8.tar.gz
+[2023-07-25 09:51:41] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/de/e6/4a7eb9de0d78022cb759994c8cf517d19eb3fd12720cdf8ec4d92773c91e/emoji-2.6.0.tar.gz
+[2023-07-25 09:51:41] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-25 09:51:41] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230725/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-25 09:51:41] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35649614802.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35654057955.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [kodexa-cli]: Start processing: ros-cdk-mns
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-mns]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.6.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.7.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [easyliftover]: Start processing: ros-cdk-cr
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [easyliftover]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.8.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.9.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Start processing: tf-nightly-cpu
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [ros-cdk-brainindustrial]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-cr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/97/15/97a951a9befc0f17fb24685f06bdf17487a2d922593d8fe12934612523a6/emoji-2.7.0.tar.gz
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/d2/74/5f0b9dfdf8f29683f485682ed3cf1414974936e669f394a649d975714e0e/ros-cdk-privatelink-1.0.9.tar.gz
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.8.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.9.tar.gz]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-waf]: Start processing: climify-api
+[2023-07-25 09:51:41] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf]: success
+[2023-07-25 09:51:41] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230725] Old Version: [2.14.0.dev20230724]
+[2023-07-25 09:51:41] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/38/f2/be11cad7338dc4cb326f6dfc85145c5d975783a07a94859ad8bbb7dc2350/ros-cdk-mns-1.0.8.tar.gz
+[2023-07-25 09:51:41] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.8.tar.gz]
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.9.tar.gz]
+[2023-07-25 09:51:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-fnf]: success
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/7d/c4/755e652b18955bdee20092f2424fc5ceda0b439c35beb45fac063923e6d8/ros-cdk-cr-1.0.8.tar.gz
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-privatelink]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-privatelink-1.0.8.tar.gz tmp/ros-cdk-privatelink-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-privatelink/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:42] INFO root fetch - processPackages [emoji]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji-2.6.0.tar.gz tmp/emoji-2.7.0.tar.gz --markdown 20230725/e/emoji/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.8.tar.gz]
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
+[2023-07-25 09:51:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
+[2023-07-25 09:51:42] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/c7/85/2ca933d1ce9859ffbf64c7a1f1bd2fc15c6ff2b6ad5ab32de8cb8a0ac381/climify_api-1.0.8.tar.gz
+[2023-07-25 09:51:42] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/62/30/262925fb701f2a75712dc2fc2a9e84a4e83f4961e706e7fc072ef345c7e4/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl
+[2023-07-25 09:51:42] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/33/f9/a6ddc4ec479e3d0a39fc4f48dc23b14962dd59195960aa64469e4ddfe041/climify_api-1.0.9.tar.gz
+[2023-07-25 09:51:42] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230725/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/f1/89/ed3994e879a5ece35a169f8c88de185d989c2b09116444296b5701f6c571/ros-cdk-mns-1.0.9.tar.gz
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/fb/d3/b158f6f997c5806b15bec9baef9080f722987971552408b7790d0a1efa8a/ros-cdk-cr-1.0.9.tar.gz
+[2023-07-25 09:51:42] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b7/03/0e1dca5469c8e994f179909afb43a1b21e8ae7dad5f86095d105280e110f/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-mns]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-mns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mns-1.0.8.tar.gz tmp/ros-cdk-mns-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-mns/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cr]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [ros-cdk-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cr-1.0.8.tar.gz tmp/ros-cdk-cr-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-cr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 09:51:42] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-25 09:51:42] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl.zip --markdown 20230725/t/tf-nightly-cpu/2.14.0.dev20230724-2.14.0.dev20230725/diff.md --exclude *.pyd
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.8.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.9.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-privatelink]: success
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.8.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.9.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-mns]: success
+[2023-07-25 09:51:43] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.8.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.9.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.8.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.9.tar.gz]
+[2023-07-25 09:51:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-cr]: success
+[2023-07-25 09:51:44] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.6.0.tar.gz]
+[2023-07-25 09:51:44] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.7.0.tar.gz]
+[2023-07-25 09:51:44] INFO root fetch - main [MainThread]: End processing [emoji]: success
+[2023-07-25 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230725-cp39-cp39-win_amd64.whl.zip]
+[2023-07-25 09:51:44] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-25 09:51:44] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-25 09:51:44] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-25 09:51:44] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-25 09:51:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-25 09:51:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-25 09:51:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-25 09:51:45] INFO root fetch - main [MainThread]: Store serial: [19025704]
