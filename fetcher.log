@@ -11822,3 +11822,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 06:35:25] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.1.tar.gz]
 [2023-07-25 06:35:25] INFO root fetch - main [MainThread]: End processing [pysndlib]: success
 [2023-07-25 06:35:25] INFO root fetch - main [MainThread]: Store serial: [19023844]
+[2023-07-25 06:40:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19023844]
+[2023-07-25 06:40:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emeralds
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crepex-pyutil
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartdoor
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafri
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyDSAlgo
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coconut-develop
+[2023-07-25 06:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: switbuilder-core
+[2023-07-25 06:40:35] WARNING root fetch - processPackages [PyDSAlgo]: Skipping, unable to determine old version
+[2023-07-25 06:40:35] INFO root fetch - main [MainThread]: End processing [PyDSAlgo] error
+[2023-07-25 06:40:35] INFO root fetch - processPackages [crepex-pyutil]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-25 06:40:35] WARNING root fetch - processPackages [emeralds]: Skipping, unable to determine old version
+[2023-07-25 06:40:35] INFO root fetch - main [MainThread]: End processing [emeralds] error
+[2023-07-25 06:40:35] INFO root fetch - processPackages [smartdoor]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-07-25 06:40:35] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 06:40:35] INFO root fetch - processPackages [adafri]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-07-25 06:40:35] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-25 06:40:35] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/57/35/5980b9ba740a9ba697295ab7742552503b17dbe4c0f6eba2f3af9f3fda87/crepex_pyutil-0.7.0.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/51/1a/9b6b87b98cd40598c940ff750522ca1ceb049f27d3c1bdae8d1380c1f26d/adafri-0.0.52.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/01/b6/73ffb7f5e57d91c1b5d7e4869f90784d967512a77a4fe66cef4740b2e7df/smartdoor-2.0.0.dev1.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/fc/a5/5f4e8fdaad9c5c76fdd8cd3f2a118a56e2da4215261f9e51e4b0f3f1171a/crepex_pyutil-0.8.0.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-25 06:40:36] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230725/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 06:40:36] INFO root fetch - processPackages [crepex-pyutil]: executing diffoscope
+[2023-07-25 06:40:36] INFO root fetch - processPackages [crepex-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepex_pyutil-0.7.0.tar.gz tmp/crepex_pyutil-0.8.0.tar.gz --markdown 20230725/c/crepex-pyutil/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-25 06:40:36] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/55/25/e66746606e4b9ed0f1be3b07c88726e30fd945c8142338d5f8e6ce52396c/adafri-0.0.53.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-25 06:40:36] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.52.tar.gz tmp/adafri-0.0.53.tar.gz --markdown 20230725/a/adafri/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-07-25 06:40:36] INFO root fetch - processPackages [smartdoor]: Downloading https://files.pythonhosted.org/packages/0d/ce/d7d023db095140558dcfb5d112d12d7d6556e2b0a351fbd0662ee05931a9/smartdoor-2.0.0.dev2.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-25 06:40:36] INFO root fetch - processPackages [smartdoor]: executing diffoscope
+[2023-07-25 06:40:36] INFO root fetch - processPackages [smartdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdoor-2.0.0.dev1.tar.gz tmp/smartdoor-2.0.0.dev2.tar.gz --markdown 20230725/s/smartdoor/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-07-25 06:40:36] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-25 06:40:36] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230725/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-25 06:40:37] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.7.0.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.8.0.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - main [MainThread]: End processing [crepex-pyutil]: success
+[2023-07-25 06:40:37] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-25 06:40:37] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.52.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.53.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-25 06:40:37] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev1.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev2.tar.gz]
+[2023-07-25 06:40:37] INFO root fetch - main [MainThread]: End processing [smartdoor]: success
+[2023-07-25 06:40:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-25 06:40:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-25 06:40:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-25 06:40:38] INFO root fetch - main [MainThread]: Store serial: [19023869]
