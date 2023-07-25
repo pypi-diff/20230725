@@ -17469,3 +17469,164 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-25 09:57:02] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.1.tar.gz]
 [2023-07-25 09:57:02] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2023-07-25 09:57:02] INFO root fetch - main [MainThread]: Store serial: [19025789]
+[2023-07-25 10:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19025789]
+[2023-07-25 10:02:13] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: game-lib-pool
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ga
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-nas
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faasmctl
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inigo-py
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vulcan-sql
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fosslight-yocto
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-pai
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: akwlkata
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-nas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [faasmctl]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [akwlkata]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-pai]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [fosslight-yocto]: New version: [3.1.22] Old Version: [3.1.21]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [inigo-py]: New version: [0.27.0] Old Version: [0.26.1]
+[2023-07-25 10:02:13] WARNING root fetch - processPackages [game-lib-pool]: Skipping, unable to determine old version
+[2023-07-25 10:02:13] INFO root fetch - processPackages [game-lib-pool]: Start processing: fosslight-source
+[2023-07-25 10:02:13] INFO root fetch - main [MainThread]: End processing [game-lib-pool] error
+[2023-07-25 10:02:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5654117983]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [vulcan-sql]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [fosslight-source]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/82/0f/51e12fdd559235a6d01da0cf5466cb8c2c894633b792f408fd6c107b5b7b/ros-cdk-nas-1.0.8.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/34/21/d9112bc69215e118cbbabfbe2822c08ea7e41819938a806ea6d7c5782008/faasmctl-0.8.2.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/ee/81/9d5938e4f4b84f30990232b1c32ac6d1f0a4b51b609e7d7fef02cca1c97b/fosslight_source-1.6.8.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/af/e5/c6dd44a9454f8084fedff90cff862c7270a3243207e93f79c5d0acde02b3/akwlkata-1.0.0.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/de/8a/b574a3e4b382ab9e42bec4ec6b5c1f5c60b6bdc9f6df8bcaa9b13c35dd53/fosslight_yocto-3.1.21.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/63/34/0794037ac3fc2e12c914e10f29527ee05b48c77a1431e8fb8e550044b8bc/ros-cdk-ga-1.0.8.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [ros-cdk-pai]: Downloading https://files.pythonhosted.org/packages/07/a5/f9d5929f349372ed6fa912ebd58dc1c112c3796cd8c96692a1dda335efe1/ros-cdk-pai-1.0.16.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/24/d8/0f5af2319cf6c34cc6f618bea9ad8c3c62fafbaacade6a9e03369952969c/th2_grpc_lw_data_provider-2.0.0.dev5654117983.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [inigo-py]: Downloading https://files.pythonhosted.org/packages/38/64/80af360a98bbb0ccde86190976e9ca5ff2fd3a4e9ce25f409073cf25a0bd/inigo_py-0.26.1.tar.gz
+[2023-07-25 10:02:13] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/1a/e4/f22e37f7e00974b9c8804605dfde14a3f661da112658dd2968dedf059aed/vulcan-sql-0.5.3.tar.gz
+[2023-07-25 10:02:14] WARNING root fetch - processPackages [inigo-py]: Skipping package: exceeds size limit 69276346>=10485760
+[2023-07-25 10:02:14] INFO root fetch - processPackages [inigo-py]: Start processing: ros-cdk-mse
+[2023-07-25 10:02:14] INFO root fetch - main [MainThread]: End processing [inigo-py] error
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-mse]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/9d/81/a3d8e1dafb41eb63278bfb32976a9fc72dcca248bd42ca726c302c026a86/fosslight_source-1.6.9.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [akwlkata]: Downloading https://files.pythonhosted.org/packages/e9/71/f1279341adffad467fd5736e0d07dcdb4be72fc85f44eebe829d89759519/akwlkata-1.0.1.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/9e/26/ef481871edc58d7acec2885f3b62779bbbecae92d7de97c12af7f1bca97c/faasmctl-0.8.3.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/0b/8f/09482de7fe870445acf5cef9914ad803ae6dc907fc1fd58636997774769e/fosslight_yocto-3.1.22.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.6.8.tar.gz tmp/fosslight_source-1.6.9.tar.gz --markdown 20230725/f/fosslight-source/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/df/65/0baa91d3551d59c6ac463425f293aaad4c7f1067a94d70014c2056f5b5a8/ros-cdk-nas-1.0.9.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/28/43/2ddcf58171b93a8942c1bccabf97b30dd841ca999dc1494ca45d2b26b90d/ros-cdk-ga-1.0.9.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/3d/27/d4c00a7611fa17bbb2ab7c34db9aafed97522efb3978690dd2684b794515/vulcan-sql-0.6.0.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-pai]: Downloading https://files.pythonhosted.org/packages/3f/0d/0c60cde14a8620e75cd96313ff928e72c9c3fe6171e8eca60fcf91c2dcf1/ros-cdk-pai-1.0.17.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [akwlkata]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [akwlkata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akwlkata-1.0.0.tar.gz tmp/akwlkata-1.0.1.tar.gz --markdown 20230725/a/akwlkata/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-mse]: Downloading https://files.pythonhosted.org/packages/c1/4b/cf360e06ea5005610e3acf9f90d7a80be731b73a5ae284b4ff8c66890a1a/ros-cdk-mse-1.0.8.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-25 10:02:14] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.8.2.tar.gz tmp/faasmctl-0.8.3.tar.gz --markdown 20230725/f/faasmctl/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-yocto]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [fosslight-yocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_yocto-3.1.21.tar.gz tmp/fosslight_yocto-3.1.22.tar.gz --markdown 20230725/f/fosslight-yocto/3.1.21-3.1.22/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [vulcan-sql]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [vulcan-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-sql-0.5.3.tar.gz tmp/vulcan-sql-0.6.0.tar.gz --markdown 20230725/v/vulcan-sql/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-nas]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-nas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nas-1.0.8.tar.gz tmp/ros-cdk-nas-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-nas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-ga]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ga-1.0.8.tar.gz tmp/ros-cdk-ga-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ga/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-pai]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [ros-cdk-pai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-pai-1.0.16.tar.gz tmp/ros-cdk-pai-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-pai/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 10:02:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-25 10:02:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5654117983.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230725/t/th2-grpc-lw-data-provider/2.0.0.dev5654117983-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-25 10:02:15] INFO root fetch - processPackages [ros-cdk-mse]: Downloading https://files.pythonhosted.org/packages/3a/c6/36a24d60fc5dbe8785e2a4dcce4836c50848e388727933b88edf3aba4014/ros-cdk-mse-1.0.9.tar.gz
+[2023-07-25 10:02:15] INFO root fetch - processPackages [ros-cdk-mse]: executing diffoscope
+[2023-07-25 10:02:15] INFO root fetch - processPackages [ros-cdk-mse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mse-1.0.8.tar.gz tmp/ros-cdk-mse-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-mse/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:15] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.0.tar.gz]
+[2023-07-25 10:02:15] INFO root fetch - processPackages [akwlkata]: Remove: archive file [/home/abi/fetcher/tmp/akwlkata-1.0.1.tar.gz]
+[2023-07-25 10:02:15] INFO root fetch - processPackages [akwlkata]: Start processing: boris-utilities
+[2023-07-25 10:02:15] INFO root fetch - main [MainThread]: End processing [akwlkata]: success
+[2023-07-25 10:02:15] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.8.tar.gz]
+[2023-07-25 10:02:15] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.6.9.tar.gz]
+[2023-07-25 10:02:15] INFO root fetch - processPackages [fosslight-source]: Start processing: tft-artemis
+[2023-07-25 10:02:15] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2023-07-25 10:02:16] WARNING root fetch - processPackages [boris-utilities]: Skipping, unable to determine old version
+[2023-07-25 10:02:16] INFO root fetch - processPackages [boris-utilities]: Start processing: avirtech-spraying-jiyi-lib
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [boris-utilities] error
+[2023-07-25 10:02:16] INFO root fetch - processPackages [tft-artemis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-25 10:02:16] WARNING root fetch - processPackages [avirtech-spraying-jiyi-lib]: Skipping, unable to determine old version
+[2023-07-25 10:02:16] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: Start processing: ros-cdk-ens
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [avirtech-spraying-jiyi-lib] error
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-ens]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.5.3.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.6.0.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [vulcan-sql]: Start processing: losscape
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [vulcan-sql]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [losscape]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [tft-artemis]: Downloading https://files.pythonhosted.org/packages/8e/aa/07d9138e917d9e989f06fbc73899bdf7bbf1530dc3b0f5a2cadb3ca7611e/tft-artemis-0.0.8.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.2.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.3.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [faasmctl]: Start processing: ros-cdk-dlf
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.21.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.22.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [fosslight-yocto]: Start processing: ros-cdk-tsdb
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [fosslight-yocto]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/90/c6/b89ab084dfcbb99109e8c96c367489ee480a2948bc7a1b5c517681fe230c/losscape-1.5.5.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/a9/49/0388e72a92545a76da89ef73fc54bdb328d78c72976eaa4260901b947033/ros-cdk-ens-1.0.8.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-pai]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pai-1.0.16.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-pai]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pai-1.0.17.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-pai]: Start processing: mwj-apitest
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-pai]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [mwj-apitest]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-dlf]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-tsdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.8.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.9.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-ga]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.8.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.9.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-nas]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5654117983.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/4b/e8/1ef35050ff9594260663ad8df120394df9a756dd807ca2747273cef053fb/mwj-apitest-1.2.1.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-mse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mse-1.0.8.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-mse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mse-1.0.9.tar.gz]
+[2023-07-25 10:02:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-mse]: success
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/90/b7/4daa2bd488379e99a3f36f3a5cc3c65ca8e9b9efb6909c264abc910d84c1/ros-cdk-dlf-1.0.16.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/31/ef/acff9e5466d3bbbdaab1344055ef12d68c03e301c52727054460cd46790e/losscape-1.5.6.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/eb/c2/34f6dfd8efae18144240c9dac84855f301b5e0608d47c9e22a28dbae9952/ros-cdk-tsdb-1.0.8.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/5a/37/b4a276ef59e8daea622821fecede5ed3297cf1c11d49f66f873e77bfefaa/mwj-apitest-1.2.2.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-25 10:02:16] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.5.tar.gz tmp/losscape-1.5.6.tar.gz --markdown 20230725/l/losscape/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-25 10:02:16] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/43/fc/efd68838d06b21d7a3bc760aa32b8c78e27681eb8f472ebb66139331c44c/ros-cdk-ens-1.0.9.tar.gz
+[2023-07-25 10:02:16] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-25 10:02:16] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.2.1.tar.gz tmp/mwj-apitest-1.2.2.tar.gz --markdown 20230725/m/mwj-apitest/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/5c/d3/55df957da69094a59232503129edaf1cc414ac298d2ef192e700c55e2872/ros-cdk-dlf-1.0.17.tar.gz
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-ens]: executing diffoscope
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ens-1.0.8.tar.gz tmp/ros-cdk-ens-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-ens/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-dlf]: executing diffoscope
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-dlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dlf-1.0.16.tar.gz tmp/ros-cdk-dlf-1.0.17.tar.gz --markdown 20230725/r/ros-cdk-dlf/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/43/c9/d7659fe9753705a1bf3500dcd487bfed127a8f2eac71ce04b2e70a503a66/ros-cdk-tsdb-1.0.9.tar.gz
+[2023-07-25 10:02:17] INFO root fetch - processPackages [tft-artemis]: Downloading https://files.pythonhosted.org/packages/74/a0/c92ad6c1d0464cd8fb3847f3ce5225a15c2e1955ba17fe9c3265bb7fced0/tft-artemis-0.0.9.tar.gz
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-tsdb]: executing diffoscope
+[2023-07-25 10:02:17] INFO root fetch - processPackages [ros-cdk-tsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-tsdb-1.0.8.tar.gz tmp/ros-cdk-tsdb-1.0.9.tar.gz --markdown 20230725/r/ros-cdk-tsdb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:17] INFO root fetch - processPackages [tft-artemis]: executing diffoscope
+[2023-07-25 10:02:17] INFO root fetch - processPackages [tft-artemis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230725:/home/abi/fetcher/20230725:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tft-artemis-0.0.8.tar.gz tmp/tft-artemis-0.0.9.tar.gz --markdown 20230725/t/tft-artemis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-25 10:02:17] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.5.tar.gz]
+[2023-07-25 10:02:17] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.6.tar.gz]
+[2023-07-25 10:02:17] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-25 10:02:17] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.1.tar.gz]
+[2023-07-25 10:02:17] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.2.2.tar.gz]
+[2023-07-25 10:02:17] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.8.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.9.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-ens]: success
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.16.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.17.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-dlf]: success
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.8.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.9.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-tsdb]: success
+[2023-07-25 10:02:18] INFO root fetch - processPackages [tft-artemis]: Remove: archive file [/home/abi/fetcher/tmp/tft-artemis-0.0.8.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - processPackages [tft-artemis]: Remove: archive file [/home/abi/fetcher/tmp/tft-artemis-0.0.9.tar.gz]
+[2023-07-25 10:02:18] INFO root fetch - main [MainThread]: End processing [tft-artemis]: success
+[2023-07-25 10:02:18] INFO root fetch - main [MainThread]: Store serial: [19025847]
